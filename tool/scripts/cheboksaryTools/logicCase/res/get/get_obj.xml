@@ -1,0 +1,3 @@
+<obj __type="spr" _name="spr_##zrm##_##name##" event_mdown="##homgrm##_##rm##.get_##name##();" event_menter="ld.SetCursor( CURSOR_GET );" event_mleave="ld.SetCursor( CURSOR_DEFAULT );" pos_x="100" pos_y="100" pos_z="31" res="">
+    <obj __type="partsys_gm" _name="gfx_##zrm##_##name##" pos_z="32" res="assets/levels/common/fx/sparkle_effect" input="0"/>
+</obj>

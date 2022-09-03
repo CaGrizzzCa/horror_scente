@@ -1,0 +1,10 @@
+<module name="rm_##rm##" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__rm_##rm##_rootobj">
+            <obj __type="obj" _name="rm_##rm##">
+                <obj __type="spr" _name="spr_##rm##_back" input="0" pos_x="512" pos_y="384" pos_z="-999" res="assets/levels/##lvl##/rm_##rm##/back"/>
+                <obj __type="partsys_pm" _name="pfx_##rm##_dust" input="0" playing="1" pos_z="99" res="assets/levels/common/fx/stock/rm_dust"/>
+            </obj>
+        </obj>
+    </objs>
+</module>

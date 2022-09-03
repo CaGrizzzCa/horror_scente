@@ -1,0 +1,10 @@
+        <trig name="prg_use_##inv##">
+            <code>
+local room = GetCurrentRoom();
+local obj = ne_params.sender
+if (room == "##rm_rm##" or room == "##zrm_zrm##") and ng_global.progress["std"]["use_##inv##_##zrm##"].done ~= 1 then
+  TrgExecute("prg_use_##inv##_##zrm##("..obj..")")
+else
+  ld.WrongApply();
+end;</code>
+        </trig>

@@ -1,0 +1,5 @@
+<obj __type="obj" _name="grm_##rm##_##brm##" active="1" alp="1" ang="0" attachtype="0" blendmode="0" color_b="1" color_g="1" color_r="1" croprect_init="0" drag="0" drawoff_x="0" drawoff_y="0" event_drag="" event_dragdrop="" event_mdown="common_impl.Gate_MDown( ne_params.sender )" event_menter="common_impl.Gate_MEnter( ne_params.sender, CURSOR_DOWN )" event_menter_drag="" event_mleave="common_impl.Gate_MLeave( ne_params.sender )" event_mleave_drag="" event_mup="" event_startdrag="" input="1" inputrect_h="152" inputrect_init="1" inputrect_w="1024" inputrect_x="-512" inputrect_y="-152" pos_x="512" pos_y="768" pos_z="70" realdrag="0" res="" scale_x="1" scale_y="1" visible="1">
+    <obj __type="spr" _name="grm_##rm##_##brm##_focus" alp="0" blendmode="2" drawoff_y="-75" input="0" res="assets/levels/common/grm_back_focus" scale_x="2" scale_y="2">
+		<obj __type="partsys_pm" _name="pfx_##rm##_##brm##_focus" attachtype="2" input="0" res="assets/levels/common/panel_lite"/>
+	</obj>
+</obj>

@@ -1,0 +1,216 @@
+rm_entrypoint	clk	intro	ВИД_Интро
+rm_entrypoint	dlg	mothercat1	ДГ_Мама Кошка1
+rm_entrypoint	get	airplane	Бумажный самолетик_1/2
+zz_kitchen	get	saucepan	Кастрюлька
+zz_faketoys	get	airplane	Бумажный самолетик_2/2
+zz_faketoys	use	saucepan	Кастрюлька
+zz_faketoys	get	snow	Снег
+ho_toys	get	soldier	ИП_Ледяной солдатик
+zz_gate	get	postbag	ИП_Почтовая сумка
+inv_postbag	use	airplane	Бумажный самолетик_2/2
+inv_postbag	clk	postbagdoc	клик записка (документы кошки Джулс-почтальона)
+inv_postbag	get	mark	Марка
+inv_postbag	get	button	Кнопка
+zz_kitchen	use	button	Кнопка
+zz_kitchen	use	snow	Снег
+zz_kitchen	get	hotwater	Горячая вода
+zz_gate	use	hotwater	Горячая вода
+rm_square	clk	santarun	ВИД_Санта убегает
+zz_fountain	get	paw1	Лапка_1
+zz_fountain	get	winterhandle	Снежная ручка
+zz_kitchen	use	winterhandle	Снежная ручка
+zz_kitchen	get	glass	Стакан
+zz_bag	get	santadiary	ИП_Дневник Санты
+zz_bag	get	mailflag	Флажок конверт
+zz_postoffice	use	mailflag	Флажок конверт,
+zz_postoffice	use	mark	Марка
+zz_postoffice	get	nine	Цифра_9
+zz_postoffice	get	valve	Вентиль
+zz_fountain	use	valve	Вентиль
+zz_fountain	use	glass	Стакан
+zz_fountain	get	milk	Молоко
+rm_entrypoint	use	milk	Молоко
+rm_entrypoint	dlg	mothercat2	ДГ_Мама кошка2
+rm_entrypoint	get	toyrail	Игрушечная рельса
+rm_entrypoint	get	shako	Маленький кивер
+zz_postoffice	use	toyrail	Игрушечная рельса
+zz_postoffice	win	postoffice	миниХО_посылка
+zz_postoffice	get	catamulet	Амулет кошка
+zz_calendar	use	nine	Цифра_9
+zz_calendar	clk	calendarcard	клик - поздравительная записка
+zz_calendar	get	clewamulet	Амулет клубок
+zz_calendar	get	paw2	Лапка_2
+inv_santadiary	use	paw1	Лапка_1
+inv_santadiary	use	paw2	Лапка_2
+inv_santadiary	win	santadiary	ММГ_В дневнике
+inv_santadiary	get	musket	Маленький мушкет
+inv_santadiary	get	star	Звездочка_1/3
+zz_toforest	use	clewamulet	Амулет клубок
+zz_toforest	use	catamulet	Амулет кошка
+rm_square	clk	catsleep	ВИД_Спящий кот
+zz_keeper	get	medal	Маленький Орден
+zz_keeper	get	star	Звездочка_2/3
+inv_soldier	use	musket	Маленький мушкет
+inv_soldier	use	shako	Маленький кивер
+inv_soldier	use	medal	Маленький орден
+inv_soldier	get	alivesoldier	Оживший солдатик
+rm_entrypoint	use	alivesoldier	Оживший солдатик
+rm_entrypoint	dlg	mothercat3	ДГ_Мама кошка3
+rm_entrypoint	get	cure	Лекарство
+zz_keeper	use	cure	Лекарство
+mg_dialog	get	goblin1	Гоблин_1
+zz_witchhousedoor	get	strongmanhand	Рука силача
+zz_bag	use	strongmanhand	Рука силача
+zz_bag	get	star	Звездочка_3/3
+zz_christmasdeer	use	star	Звездочка_3/3
+zz_christmasdeer	get	cookie	Мраморное печенье
+zz_fountain	use	cookie	Мраморное печенье
+zz_fountain	get	ladle	Половник
+zz_boxes	get	equipment	ИП_Снаряжение путника
+zz_boxes	use	ladle	Половник
+zz_boxes	get	santacat	Фигурка Котосанта
+zz_calendar	use	santacat	Фигурка Котосанта
+zz_calendar	get	bow	Бант
+zz_bag	use	bow	Бант
+zz_bag	get	goblin2	Гоблин_2
+zz_bag	get	lantern	Фонарь
+zz_witchhousedoor	use	goblin1	Гоблин_1
+zz_witchhousedoor	use	goblin2	Гоблин_2
+rm_witchhouse	dlg	gryla1	ДГ_Грила1
+rm_witchhouse	get	lever	Рычаг
+rm_witchhouse	get	snowmanamulet	Амулет снеговик_1/3
+zz_sewing	get	scissors	Детские ножницы
+zz_sewing	get	key	Ключик
+zz_presents	get	stand	Подставка
+zz_presents	get	grylalist	ИП_Список Грилы
+zz_presents	use	key	Ключик
+zz_presents	win	presents	миниХО_в подарке
+zz_presents	get	tourmaline	Турмалин
+mg_chest	get	thread	Нить
+mg_chest	use	tourmaline	Турмалин
+mg_chest	clk	chestdiary	клик - дневник
+mg_chest	get	nuts	Горсть орехов
+mg_chest	get	snowmanamulet	Амулет снеговик_2/3
+zz_sewing	use	lever	Рычаг
+zz_sewing	use	thread	Нить
+zz_sewing	get	mat	Коврик
+zz_presents	use	nuts	Горсть орехов
+zz_presents	get	peelednuts	Очищенные орехи
+zz_christmasdeer	use	peelednuts	Очищенные орехи
+zz_christmasdeer	use	scissors	Детские ножницы
+zz_christmasdeer	get	ribbon	Лента
+ho_animal	win	snowmanamulet	Амулет снеговик_3/3
+rm_forestedge	clk	deerout	АНИМ_Олень выходит из загона
+inv_grylalist	use	snowmanamulet	Амулет снеговик_3/3
+inv_grylalist	get	offendedlist	Список обиженных Грилой
+inv_grylalist	get	mouseboot1	Мышиный сапог_1
+rm_witchhouse	use	offendedlist	Список обиженных Грилой
+rm_witchhouse	dlg	gryla2	ДГ_Грила2
+rm_witchhouse	get	compass	Компас
+rm_witchhouse	get	fang	Кошачий клык
+inv_equipment	use	mat	Коврик
+inv_equipment	use	ribbon	Лента
+inv_equipment	use	compass	Компас
+inv_equipment	use	lantern	Фонарь
+inv_equipment	get	travelerkit	Комплект путника
+rm_forestedge	use	travelerkit	Комплект путника
+rm_forestedge	use	stand	Подставка
+rm_forestedge	clk	vidgallop	ВИД_Скачем
+rm_mouseville	clk	mousevillefirst	системный зум на ЗЗ Дверь в мышиный дом
+zz_shipyard	get	cookhatamulet	Амулет колпак повара
+zz_shipyard	get	cheesefigure	ИП_Сырная фигурка
+zz_cheeseshop	get	tailhandle	Ручка хвост
+zz_cheeseshop	use	cookhatamulet	Амулет колпак повара
+zz_cheeseshop	get	bottle	ИП_Бутылка
+zz_cheeseshop	get	mayo	Майонез
+zz_sewing	use	tailhandle	Ручка хвост
+zz_sewing	get	spoke	Спица
+zz_sewing	get	tiegreen	Галстук зелень
+zz_scene	get	propeller	Конструктор
+zz_boxes	use	propeller	Конструктор
+mg_box	get	paprika	Паприка
+inv_cheesefigure	use	paprika	Паприка
+inv_cheesefigure	use	mayo	Майонез
+inv_cheesefigure	use	tiegreen	Галстук зелень
+inv_cheesefigure	get	singer	Мышь певец
+zz_scene	use	singer	Мышь певец
+zz_scene	win	scene	миниХО_певцы
+zz_scene	get	mouseboot2	Мышиный сапог_2
+zz_mousedoor	use	mouseboot1	Мышиный сапог_1
+zz_mousedoor	use	mouseboot2	Мышиный сапог_2
+rm_mousehouse	clk	anmshake	АНИМ_Тряска
+zz_mousewheel	get	shipparts	ИП_Части корабля
+zz_mousewheel	get	nippers	Кусачки
+zz_musiccorner	get	pipebutton	Кнопка от трубы
+zz_musiccorner	get	plank	Доска_1/2
+zz_cheeseshop	use	nippers	Кусачки
+zz_cheeseshop	get	cheeserope	Веревка сыр
+zz_table	get	squirellcook	Мышиная голова
+zz_table	get	candle	Электросвеча
+zz_table	use	pipebutton	Кнопка от трубы
+zz_table	clk	tablenote	клик - записка
+zz_table	get	medal	Медаль
+zz_mousewheel	use	medal	Медаль
+zz_mousewheel	get	gear	Шестеренка_1/3
+zz_mousewheel	get	flute	Флейта
+zz_scene	use	squirellcook	Мышиная голова
+zz_scene	get	sail	Парус
+zz_scene	get	mask	Маска
+zz_cache	use	mask	Маска
+rm_mousehouse	clk	thingsfall	АНИМ_Вещи упали
+zz_cache	use	candle	Электросвеча
+zz_cache	get	gear	Шестеренка_2/3
+zz_cache	get	plank	Доска_2/2
+zz_cache	get	emptyballoon	Сдутый шарик
+rm_mousehouse	use	spoke	Спица
+ho_things	get	raftwheel	Руль
+zz_musiccorner	use	emptyballoon	Сдутый шарик
+zz_musiccorner	win	musiccorner	активируется интерактив
+zz_musiccorner	use	cheeserope	Веревка сыр
+zz_musiccorner	get	balloon	Шарик
+inv_shipparts	use	raftwheel	Руль
+inv_shipparts	use	flute	Флейта
+inv_shipparts	use	sail	Парус
+inv_shipparts	use	plank	Доска_2/2
+inv_shipparts	use	balloon	Шарик
+inv_shipparts	get	improvements	Улучшения корабля
+zz_shipyard	use	improvements	Улучшения корабля
+rm_mouseville	clk	vidsail	ВИД_Плывем по реке
+zz_lift	get	brush	Щетка
+zz_stone	use	brush	Щетка
+zz_stone	get	roller	Ролик
+zz_stone	get	gear	Шестеренка_3/3
+rm_nearriver	use	roller	Ролик
+rm_nearriver	get	net	Сеть
+zz_raft	use	net	Сеть
+ho_river	get	chain	Цепь
+zz_lift	use	gear	Шестеренка_3/3
+zz_lift	use	chain	Цепь
+rm_nearriver	clk	vidlift	ВИД_Поднимаемся
+rm_riversource	clk	anmcelebrate	АНИМ_Празднуют
+zz_hiddengifts	get	sword	Игрушечная шпага
+zz_plan	get	lockpick	Отмычка
+zz_plan	use	sword	Игрушечная шпага
+zz_plan	get	nozzle	Пульверизатор
+zz_hut	get	pillow	ИП_Подушка
+zz_hut	get	corkscrew	Штопор
+inv_bottle	use	corkscrew	Штопор
+inv_bottle	use	nozzle	Пульверизатор
+inv_bottle	get	spray	Распылитель
+zz_hut	use	lockpick	Отмычка
+zz_hut	get	petard	Петарда
+zz_hut	get	bear	Медвежонок
+zz_hiddengifts	use	bear	Медвежонок
+zz_hiddengifts	get	tar	Смола
+rm_riversource	use	petard	Петарда
+rm_riversource	get	belt	Ремень
+inv_pillow	use	belt	Ремень
+inv_pillow	use	tar	Смола
+inv_pillow	get	pillowshield	Щит-подушка
+rm_riversource	use	pillowshield	Щит-подушка
+rm_riversource	use	spray	Распылитель
+rm_riversource	dlg	santacat1	ДГ_Санта-Кот1
+rm_riversource	get	mustache	Фенечки из усиков
+rm_riversource	use	mustache	Фенечки из усиков
+rm_riversource	use	fang	Кошачий клык
+rm_riversource	clk	outro	АУТРО_Бонус

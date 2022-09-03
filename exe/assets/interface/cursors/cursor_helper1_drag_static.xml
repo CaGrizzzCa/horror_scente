@@ -1,0 +1,5 @@
+<animation type="frame" frame_texture="cursor_helper1_drag_t">
+  <function name="DoAnim" frametime="42" loop="1" alpha="0">
+    <frame idx="0" />
+  </function>
+</animation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="LevelEditor" title="LevelEditor" version="2.10.2.80" />
+    <project_data name="level_1" ext=".lev" project_path="E:\Work\RD3\src\doc\level_1.lev" content_format="Xml" date="2015-07-03 12:28:31" guid="42240101-d610-4c0d-9f7c-3de642ef67db" />
+  </service_data>
+  <work_data>
+    <scheme>
+      <size width="2709" height="1551" />
+      <scale value="1" />
+##telo##
+	  <start_inventory />
+    </scheme>
+  </work_data>
+</elephant_games>

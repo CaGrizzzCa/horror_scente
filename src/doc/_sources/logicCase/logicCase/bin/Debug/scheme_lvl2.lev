@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="LevelEditor" title="Редактор уровней" />
+    <project_data name="lev" ext=".lev" project_path="D:\Work\c#\LC\logicCase\logicCase\bin\Debug\lev.lev" content_format="Xml" date="2013-12-02 18:24:14" guid="3014111b-42a2-4158-b6b8-dfdf86b78d04" />
+  </service_data>
+  <work_data>
+    <scheme>
+      <size width="3084" height="1594" />
+      <startroom id="0" />
+      <scale value="1" />
+      <links>
+        <link id="0" source_x="1094" source_y="245" destination_x="551" destination_y="251" source_block="0" destination_block="1" type="0" />
+        <link id="1" source_x="456" source_y="251" destination_x="337" destination_y="132" source_block="1" destination_block="2" type="0" />
+        <link id="2" source_x="551" source_y="251" destination_x="579" destination_y="123" source_block="1" destination_block="3" type="0" />
+        <link id="3" source_x="456" source_y="279" destination_x="426" destination_y="262" source_block="1" destination_block="4" type="0" />
+        <link id="4" source_x="1094" source_y="195" destination_x="1014" destination_y="126" source_block="0" destination_block="5" type="0" />
+        <link id="5" source_x="1399" source_y="231" destination_x="1279" destination_y="220" source_block="6" destination_block="0" type="0" />
+        <link id="6" source_x="1358" source_y="495" destination_x="1459" destination_y="256" source_block="7" destination_block="6" type="0" />
+        <link id="7" source_x="958" source_y="565" destination_x="1222" destination_y="545" source_block="8" destination_block="7" type="0" />
+        <link id="8" source_x="817" source_y="565" destination_x="721" destination_y="477" source_block="8" destination_block="9" type="0" />
+        <link id="9" source_x="443" source_y="597" destination_x="817" destination_y="590" source_block="10" destination_block="8" type="0" />
+        <link id="10" source_x="464" source_y="752" destination_x="288" destination_y="622" source_block="11" destination_block="10" type="0" />
+        <link id="11" source_x="620" source_y="802" destination_x="651" destination_y="808" source_block="11" destination_block="12" type="0" />
+        <link id="12" source_x="962" source_y="808" destination_x="1263" destination_y="812" source_block="12" destination_block="13" type="0" />
+        <link id="13" source_x="1323" source_y="787" destination_x="1403" destination_y="729" source_block="13" destination_block="14" type="0" />
+        <link id="14" source_x="464" source_y="802" destination_x="324" destination_y="869" source_block="11" destination_block="15" type="0" />
+        <link id="15" source_x="962" source_y="808" destination_x="1001" destination_y="801" source_block="12" destination_block="16" type="0" />
+        <link id="16" source_x="807" source_y="783" destination_x="848" destination_y="690" source_block="12" destination_block="17" type="0" />
+        <link id="17" source_x="807" source_y="783" destination_x="807" destination_y="761" source_block="12" destination_block="18" type="0" />
+        <link id="18" source_x="308" source_y="802" destination_x="273" destination_y="820" source_block="11" destination_block="19" type="0" />
+        <link id="19" source_x="464" source_y="752" destination_x="297" destination_y="713" source_block="11" destination_block="20" type="0" />
+        <link id="20" source_x="288" source_y="572" destination_x="306" destination_y="411" source_block="10" destination_block="21" type="0" />
+        <link id="21" source_x="1358" source_y="545" destination_x="1380" destination_y="571" source_block="7" destination_block="22" type="0" />
+        <link id="22" source_x="1384" source_y="837" destination_x="1397" destination_y="872" source_block="13" destination_block="24" type="0" />
+        <link id="23" source_x="962" source_y="833" destination_x="981" destination_y="873" source_block="12" destination_block="25" type="0" />
+        <link id="24" source_x="1358" source_y="495" destination_x="1293" destination_y="337" source_block="7" destination_block="26" type="0" />
+        <link id="25" source_x="1358" source_y="495" destination_x="1194" destination_y="458" source_block="7" destination_block="27" type="0" />
+        <link id="26" source_x="456" source_y="251" destination_x="347" destination_y="218" source_block="1" destination_block="28" type="0" />
+        <link id="27" source_x="288" source_y="572" destination_x="254" destination_y="541" source_block="10" destination_block="29" type="0" />
+        <link id="28" source_x="847" source_y="262" destination_x="908" destination_y="245" source_block="30" destination_block="0" type="0" />
+        <link id="29" source_x="847" source_y="312" destination_x="864" destination_y="356" source_block="30" destination_block="31" type="0" />
+        <link id="30" source_x="748" source_y="312" destination_x="658" destination_y="353" source_block="30" destination_block="32" type="0" />
+        <link id="31" source_x="501" source_y="658" destination_x="464" destination_y="752" source_block="23" destination_block="11" type="0" />
+        <link id="32" source_x="1222" source_y="520" destination_x="1155" destination_y="518" source_block="7" destination_block="33" type="0" />
+        <link id="33" source_x="1459" source_y="206" destination_x="1419" destination_y="135" source_block="6" destination_block="34" type="0" />
+      </links>
+      <blocks>
+        <block id="0" pos_x="908" pos_y="195" width="371" height="50" type="0" objname="mound" header="Курган" text="mound">
+          <action id="10" id_local="!" type="0" text="Ледяная статуя" name="icelady" />
+          <action id="20" id_local="A" type="0" text="Огненый кинжал" name="dagger" />
+          <action id="30" id_local="A" type="1" text="Огненый меч" name="firesword" />
+          <action id="35" id_local="B" type="0" text="Огненый меч" name="firesword" />
+          <action id="37" id_local="CB" type="0" text="щипцы" name="tongs" />
+          <action id="38" id_local="C" type="1" text="обломок огненого меча" name="fireswordchip" />
+          <action id="160" id_local="D" type="0" text="гоблин" name="goblin" />
+        </block>
+        <block id="1" pos_x="456" pos_y="251" width="190" height="55" type="0" objname="botree" header="Священное дерево" text="botree&#xA;ММГ рунные камни" />
+        <block id="2" pos_x="127" pos_y="82" width="210" height="50" type="3" objname="cave" header="Пещера" text="cave">
+          <action id="50" id_local="" type="1" text="Кирка кладоискателей" name="kirk" />
+        </block>
+        <block id="3" pos_x="381" pos_y="73" width="396" height="50" type="0" objname="sarcophagus" header="Хрустальный соркофаг" text="sarcophagus">
+          <action id="60" id_local="A" type="2" text="Диалог" name="dlg" />
+          <action id="70" id_local="A" type="1" text="Стеклянный глаз" name="glasseye" />
+          <action id="80" id_local="A" type="1" text="большой железный ключ" name="bigironkey" />
+          <action id="90" id_local="B" type="2" text="3 клика по паутине" name="clk" />
+          <action id="100" id_local="B" type="1" text="магическая свеча" name="magiccandle" />
+          <action id="340" id_local="С" type="0" text="алмазная роза" name="dimondrose" />
+          <action id="350" id_local="С" type="0" text="золотая роза" name="goldrose" />
+          <action id="360" id_local="С" type="0" text="рубиновая роза" name="rubyrose" />
+          <action id="370" id_local="DC" type="2" text="ММГ украшения" name="clk" />
+        </block>
+        <block id="4" pos_x="133" pos_y="237" width="293" height="50" type="1" objname="goblinstatue" header="статуя гоблина" text="goblinstatue">
+          <action id="110" id_local="A" type="0" text="Книга" name="book" />
+          <action id="120" id_local="B" type="0" text="стеклянный глаз" name="glasseye" />
+          <action id="130" id_local="B" type="0" text="кирка кладоискателей" name="kirk" />
+          <action id="140" id_local="B" type="0" text="магическая свеча" name="magiccandle" />
+          <action id="150" id_local="B" type="1" text="гоблин" name="goblin" />
+        </block>
+        <block id="5" pos_x="842" pos_y="76" width="343" height="50" type="1" objname="moudstash" header="тайник кургана" text="moudstash">
+          <action id="320" id_local="A" type="0" text="алмазный стеклорез" name="glasscuter" />
+          <action id="330" id_local="A" type="1" text="рубиновая роза" name="rubyrose" />
+          <action id="970" id_local="B" type="0" text="3 перстня" name="fingerring" />
+          <action id="980" id_local="B" type="1" text="мертвая рука" name="deadhand" />
+          <action id="1080" id_local="C" type="0" text="кисть" name="brush" />
+          <action id="1090" id_local="C" type="1" text="золотая краска" name="goldpaint" />
+          <action id="1170" id_local="B" type="1" text="свисток" name="whistle" />
+        </block>
+        <block id="6" pos_x="1399" pos_y="206" width="119" height="50" type="0" objname="steps" header="ступеньки" text="steps" />
+        <block id="7" pos_x="1222" pos_y="495" width="273" height="50" type="0" objname="herohall" header="зал героев" text="herohall">
+          <action id="650" id_local="!" type="1" text="скрижаль 5" name="tablet" />
+          <action id="870" id_local="A" type="0" text="эльфийский лук" name="elvenbow" />
+        </block>
+        <block id="8" pos_x="817" pos_y="565" width="141" height="50" type="0" objname="palacegates" header="ворота замка" text="palacegates">
+          <action id="640" id_local="!" type="1" text="скрижаль 4" name="tablet" />
+        </block>
+        <block id="9" pos_x="512" pos_y="427" width="418" height="50" type="1" objname="runeskeleton" header="Рунный скелет" text="runeskeleton">
+          <action id="170" id_local="!" type="1" text="печать нетопыря 1" name="batprint1" />
+          <action id="220" id_local="A" type="0" text="синяя кнопка" name="bluebutton" />
+          <action id="230" id_local="BA" type="2" text="нажимаем на 3 кнопки ммг?" name="clk" />
+          <action id="240" id_local="B" type="1" text="огниво" name="flint" />
+          <action id="300" id_local="С" type="0" text="алмазный сткелорез" name="glasscuter" />
+          <action id="310" id_local="C" type="1" text="золотая роза" name="goldrose" />
+          <action id="760" id_local="D" type="0" text="скрижаль" name="tablet" />
+          <action id="770" id_local="ED" type="0" text="изумрудный глаз" name="emeraldeye" />
+          <action id="780" id_local="E" type="1" text="костяное колесо" name="bonewheel" />
+        </block>
+        <block id="10" pos_x="132" pos_y="572" width="311" height="50" type="0" objname="tearslake" header="озеро слез" text="tearslake">
+          <action id="520" id_local="A" type="0" text="каменный кубок" name="stonecup" />
+          <action id="530" id_local="A" type="1" text="огненное масло" name="fireoil" />
+          <action id="610" id_local="B" type="0" text="охотничий рог" name="huntinghorn" />
+        </block>
+        <block id="11" pos_x="308" pos_y="752" width="312" height="50" type="0" objname="alley" header="аллея фонарей" text="alley">
+          <action id="180" id_local="A" type="0" text="гоблин" name="goblin" />
+          <action id="250" id_local="B" type="0" text="бочонок пороха" name="gunpowderkeg" />
+          <action id="260" id_local="CB" type="0" text="огниво" name="flint" />
+          <action id="500" id_local="D" type="1" text="каменный кубок" name="stonecup" />
+        </block>
+        <block id="12" pos_x="651" pos_y="783" width="311" height="50" type="0" objname="ruins" header="руины башни" text="ruins">
+          <action id="380" id_local="A" type="2" text="диалог" name="dlg" />
+          <action id="390" id_local="A" type="1" text="ключ от башни" name="towerkey" />
+          <action id="405" id_local="B" type="0" text="ключ от башни" name="towerkey" />
+          <action id="440" id_local="C" type="0" text="веер" name="fan" />
+          <action id="480" id_local="D" type="1" text="фиолетовая руна" name="purplefleece" />
+        </block>
+        <block id="13" pos_x="1263" pos_y="787" width="121" height="50" type="0" objname="tower" header="башня" text="tower">
+          <action id="410" id_local="!" type="1" text="куропатка" name="partridge" />
+        </block>
+        <block id="14" pos_x="1215" pos_y="679" width="377" height="50" type="1" objname="toolschest" header="сундук инструментов" text="toolschest">
+          <action id="190" id_local="A" type="0" text="большой железный ключ" name="bigironkey" />
+          <action id="200" id_local="A" type="1" text="бочонок пороха" name="gunpowderkeg" />
+          <action id="205" id_local="A" type="1" text="щипцы" name="tongs" />
+          <action id="210" id_local="A" type="1" text="синяя кнопка" name="bluebutton" />
+          <action id="590" id_local="BA" type="0" text="половина рога" name="halfhorn" />
+          <action id="600" id_local="B" type="1" text="охотничий рог" name="huntinghorn" />
+          <action id="710" id_local="CA" type="0" text="драгоценная булавка" name="preciouspin" />
+          <action id="720" id_local="C" type="1" text="монета" name="coin" />
+          <action id="1070" id_local="C" type="1" text="кисть" name="brush" />
+        </block>
+        <block id="15" pos_x="154" pos_y="869" width="341" height="50" type="1" objname="alleystash" header="тайник в корнях дерева" text="alleystash">
+          <action id="270" id_local="!" type="1" text="алмазный стеклорез" name="glasscuter" />
+          <action id="290" id_local="A" type="1" text="алмазная роза" name="dimondrose" />
+          <action id="540" id_local="B" type="0" text="огненное масло" name="fireoil" />
+          <action id="550" id_local="CB" type="0" text="огниво" name="flint" />
+          <action id="560" id_local="C" type="1" text="фонарь" name="lantern" />
+        </block>
+        <block id="16" pos_x="1001" pos_y="776" width="186" height="50" type="1" objname="crackstone" header="рунный камень" text="crackstone">
+          <action id="420" id_local="A" type="0" text="куропатка" name="partridge" />
+          <action id="430" id_local="A" type="1" text="веер" name="fan" />
+        </block>
+        <block id="17" pos_x="848" pos_y="640" width="267" height="50" type="3" objname="witchtable" header="стол ведьмы" text="witchtable">
+          <action id="450" id_local="" type="1" text="мешочек с магической пылью" name="magicdust" />
+        </block>
+        <block id="18" pos_x="664" pos_y="711" width="286" height="50" type="2" objname="crystalball" header="Хрустальный шар" text="crystalball">
+          <action id="460" id_local="A" type="0" text="магическая пыль" name="magicdust" />
+          <action id="470" id_local="A" type="1" text="скрижаль 1" name="tablet" />
+        </block>
+        <block id="19" pos_x="140" pos_y="795" width="133" height="50" type="1" objname="hollow" header="дупло" text="hollow">
+          <action id="510" id_local="!" type="1" text="скрижаль 2" name="tablet" />
+        </block>
+        <block id="20" pos_x="132" pos_y="663" width="330" height="50" type="1" objname="bush" header="чащоба" text="bush">
+          <action id="570" id_local="A" type="0" text="фонарь" name="lantern" />
+          <action id="580" id_local="A" type="1" text="половина рога" name="halfhorn" />
+          <action id="810" id_local="BA" type="0" text="волшебная прялка" name="spinningwheel" />
+          <action id="820" id_local="B" type="1" text="тетива" name="bowstring" />
+        </block>
+        <block id="21" pos_x="128" pos_y="361" width="355" height="50" type="1" objname="ship" header="Корабль" text="ship">
+          <action id="620" id_local="A" type="2" text="диалог с капитаном" name="dlg" />
+          <action id="630" id_local="A" type="1" text="скрижаль 3" name="tablet" />
+          <action id="660" id_local="BA" type="0" text="скрижаль целая" name="tablet" />
+          <action id="670" id_local="CB" type="2" text="диалог" name="dlg" />
+          <action id="680" id_local="C" type="1" text="печать нетопыря 2" name="batprint2" />
+          <action id="1050" id_local="DC" type="0" text="стяг призраков" name="ghostflag" />
+        </block>
+        <block id="22" pos_x="1168" pos_y="571" width="425" height="50" type="1" objname="jewelschest" header="сундук сокровищ" text="jewelschest">
+          <action id="690" id_local="A" type="0" text="печать нетопыря 1" name="batprint1" />
+          <action id="695" id_local="A" type="0" text="печать нетопыря 2" name="batprint2" />
+          <action id="700" id_local="A" type="1" text="драгоценная булавка" name="preciouspin" />
+          <action id="830" id_local="A" type="1" text="зачарованная стрела" name="enchantedarrow" />
+          <action id="950" id_local="BA" type="0" text="обломок ледянного меча" name="iceswordchip" />
+          <action id="960" id_local="B" type="1" text="перстень 3" name="fingerring" />
+        </block>
+        <block id="23" pos_x="501" pos_y="608" width="300" height="50" type="1" objname="bonepost" header="костяной столб" text="bonepost">
+          <action id="730" id_local="A" type="0" text="книга" name="book" />
+          <action id="740" id_local="BA" type="0" text="монета" name="coin" />
+          <action id="750" id_local="B" type="1" text="изумрудный глаз" name="emeraldeye" />
+          <action id="1010" id_local="C" type="0" text="мертвая рука" name="deadhand" />
+          <action id="1020" id_local="C" type="1" text="стяг призраков 2" name="ghostflag" />
+        </block>
+        <block id="24" pos_x="1230" pos_y="872" width="334" height="50" type="1" objname="distaff" header="прялка" text="distaff">
+          <action id="790" id_local="A" type="0" text="костяное колесо" name="bonewheel" />
+          <action id="800" id_local="A" type="1" text="волшебная прялка" name="spinningwheel" />
+        </block>
+        <block id="25" pos_x="807" pos_y="873" width="348" height="50" type="1" objname="elfbust" header="бюст эльфа" text="elfbust">
+          <action id="840" id_local="A" type="0" text="зачарованная стрела" name="enchantedarrow" />
+          <action id="850" id_local="A" type="0" text="тетива" name="bowstring" />
+          <action id="860" id_local="A" type="1" text="эльфийский лук" name="elvenbow" />
+        </block>
+        <block id="26" pos_x="1081" pos_y="287" width="424" height="50" type="1" objname="phoenix" header="феникс" text="phoenix">
+          <action id="880" id_local="!" type="1" text="меховая руковица" name="furmitten" />
+          <action id="990" id_local="A" type="0" text="мертвая рука" name="deadhand" />
+          <action id="1000" id_local="A" type="1" text="стяг призраков 3" name="ghostflag" />
+          <action id="1100" id_local="B" type="0" text="золотая краска" name="goldpaint" />
+          <action id="1105" id_local="CB" type="0" text="амулет повелителя феникса" name="phoenixamulet" />
+          <action id="1110" id_local="DC" type="0" text="книга" name="book" />
+          <action id="1120" id_local="D" type="1" text="Феникс" name="alivephoenix" />
+        </block>
+        <block id="27" pos_x="1028" pos_y="408" width="333" height="50" type="2" objname="grimoire" header="гримуар" text="grimoire">
+          <action id="910" id_local="A" type="0" text="обломок ледяного меча" name="iceswordchip" />
+          <action id="915" id_local="A" type="0" text="обломок огненого меча" name="fireswordchip" />
+          <action id="920" id_local="A" type="1" text="перстень 1" name="fingerring" />
+        </block>
+        <block id="28" pos_x="138" pos_y="168" width="209" height="50" type="1" objname="roaster" header="жаровня" text="roaster">
+          <action id="930" id_local="A" type="0" text="щипцы" name="tongs" />
+          <action id="940" id_local="A" type="1" text="перстень 2" name="fingerring" />
+        </block>
+        <block id="29" pos_x="128" pos_y="491" width="252" height="50" type="3" objname="boneshipho" header="костяной корабль" text="boneshipho">
+          <action id="1060" id_local="" type="1" text="амулет повелителя феникса" name="phoenixamulet" />
+        </block>
+        <block id="30" pos_x="650" pos_y="262" width="197" height="50" type="0" objname="bastion" header="Бастион" text="bastion">
+          <action id="1130" id_local="A" type="0" text="Феникс" name="alivephoenix" />
+          <action id="1150" id_local="BA" type="0" text="Гоблин" name="goblin" />
+          <action id="1160" id_local="B" type="1" text="маска 2" name="rizmask" />
+        </block>
+        <block id="31" pos_x="864" pos_y="356" width="97" height="50" type="2" objname="masks" header="Маски" text="masks">
+          <action id="1200" id_local="A" type="0" text="маски" name="rizmask" />
+        </block>
+        <block id="32" pos_x="527" pos_y="353" width="262" height="50" type="1" objname="giantdebris" header="обломки деревянного гиганта" text="giantdebris">
+          <action id="1140" id_local="!" type="1" text="маска 1" name="rizmask" />
+        </block>
+        <block id="33" pos_x="964" pos_y="493" width="191" height="50" type="1" objname="batking" header="Король нетопырей" text="batking">
+          <action id="1180" id_local="A" type="0" text="свисток" name="whistle" />
+          <action id="1190" id_local="A" type="1" text="маска 3" name="rizmask" />
+        </block>
+        <block id="34" pos_x="1253" pos_y="85" width="332" height="50" type="1" objname="brokenangel" header="сломанный ангел" text="brokenangel">
+          <action id="890" id_local="A" type="0" text="меховая руковица" name="furmitten" />
+          <action id="900" id_local="A" type="1" text="облом лед меча" name="iceswordchip" />
+          <action id="1030" id_local="B" type="0" text="мертвая рука" name="deadhand" />
+          <action id="1040" id_local="B" type="1" text="стяг призрака 1" name="ghostflag" />
+        </block>
+      </blocks>
+      <start_inventory>
+        <element type="1" text="Ледяная статуя" name="icelady" />
+        <element type="1" text="Огненый кинжал" name="dagger" />
+        <element type="1" text="Книга" name="book" />
+        <element type="1" text="Арфа" name="harp" />
+      </start_inventory>
+    </scheme>
+  </work_data>
+</elephant_games>

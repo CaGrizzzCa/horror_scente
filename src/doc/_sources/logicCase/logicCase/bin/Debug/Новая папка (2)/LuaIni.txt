@@ -1,0 +1,9 @@
+﻿luanet.load_assembly("System.Collections");
+ListObj=luanet.import_type("System.Collections.ArrayList");
+luanet.load_assembly("logicCase");
+GameObj = luanet.import_type("logicCase.GameObj");
+useObj = luanet.import_type("logicCase.Use");
+getObj = luanet.import_type("logicCase.Get");
+clkObj = luanet.import_type("logicCase.Clk");
+ld={};
+ld.gobj={};

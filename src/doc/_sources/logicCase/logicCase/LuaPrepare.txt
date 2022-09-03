@@ -1,0 +1,138 @@
+﻿ld.obj={}
+-- Создание нового объекта
+function ld.obj.addget(gobj)
+	return
+		{
+			hint = gobj.gethint;
+			sound = gobj.getsound;
+			fly = gobj.getfly;
+			del = gobj.getdel ;
+			fbeg = gobj.getfbeg ;
+			fend = gobj.getfend;
+		}
+end;
+function ld.obj:new(gobj,name)
+	-- Созданеие параметров для действий при вызове get
+	local obj =
+	{
+		name = name;
+		rm = gobj.rm or nil;
+		inv = gobj.inv;
+		get = gobj.get or nil;
+		--{
+		--	ld.obj.addget(gobj)
+		--};
+		use = gobj.use or nil;
+		--{
+		--	{
+		--		hint = gobj.usehint;
+		--		sound = gobj.usesound;
+		--		zz = gobj.usezz;
+		--		zone = gobj.usezone;
+		--		del = gobj.usedel;
+		--		fbeg = gobj.usefbeg;
+		--		fend = gobj.usefend;
+		--		set = gobj.useset;
+		--		seton = gobj.useseton ;
+		--		setvon = gobj.usesetvon;
+		--		setoff = gobj.usesetoff ;
+		--	};
+		--};
+		clk = gobj.clk or nil;
+	}
+
+	--strstr = obj.use[1].fend;
+	setmetatable(obj, self);
+	self.__index = self;
+	return obj;
+end;
+-- перебор изначально заданного массива, перепись и обработка gobj в обработанный ld.obj
+for name,gobj in pairs(otherobj or ld.gobj) do
+	ld.obj[name]=ld.obj:new(gobj,name);
+end;
+-------------------
+----- Prepare -----
+-------------------
+names = ListObj();
+Gobj = ListObj();
+for name, obj in pairs(ld.obj) do
+	if type(obj) == "table" and name ~= "__index" then
+		value = GameObj();
+		for name, obj in pairs(obj) do
+			if name == "use" then
+				local i = 0 ;
+				for index, obj in pairs(obj) do
+					objtype = useObj();
+					value._index = i;
+					for prop, obj in pairs(obj) do
+						if type(obj)=="table" then
+							local k = ListObj();
+							for index, obj in pairs(obj) do
+								k:Add(obj);
+							end
+							objtype[prop] = k;
+						else
+							objtype[prop] = obj;
+						end
+					end
+					value["Add"..name]=objtype;
+					i = i + 1;
+				end
+			elseif name == "get" then
+				local i = 0 ;
+				for index, obj in pairs(obj) do
+					objtype = getObj();
+					value._index = i;
+					for prop, obj in pairs(obj) do
+						if type(obj)=="table" then
+							local k = ListObj();
+							for index, obj in pairs(obj) do
+								k:Add(obj);
+							end
+							objtype[prop] = k;
+						else
+							objtype[prop] = obj;
+						end
+					end
+					value["Add"..name]=objtype;
+					i = i + 1;
+				end
+			elseif name == "clk" then
+				local i = 0 ;
+				for index, obj in pairs(obj) do
+					objtype = clkObj();
+					value._index = i;
+					for prop, obj in pairs(obj) do
+						if type(obj)=="table" then
+							local k = ListObj();
+							for index, obj in pairs(obj) do
+								k:Add(obj);
+							end
+							objtype[prop] = k;
+						else
+							objtype[prop] = obj;
+						end
+					end
+					value["Add"..name]=objtype;
+					i = i + 1;
+				end
+			else
+				if type(obj) == "string" or type(obj)=="number" then
+					value[name]=obj;
+				elseif type(obj) == "table" then
+					local i = 0 ;
+					for index, obj in pairs(obj) do
+						value._index = i;
+						value["Add"..name]=obj;
+						i = i + 1;
+					end
+				end
+			end
+		end
+		Gobj:Add(value);
+		names:Add(name);
+	end
+end
+-------------------
+----End-prepare----
+-------------------

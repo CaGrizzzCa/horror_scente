@@ -1,0 +1,18 @@
+<module name="ho_{{ho_name}}" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__ho_{{ho_name}}_rootobj" pos_x="171" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="">
+            <obj __type="obj" _name="ho_{{ho_name}}" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="">
+                <obj __type="spr" _name="spr_{{ho_name}}_back" active="0" alp="1" ang="0" attachtype="0" blendmode="0" color_b="1" color_g="1" color_r="1" croprect_init="0" drag="0" drawoff_x="512" drawoff_y="384" event_drag="" event_dragdrop="" event_mdown="" event_menter="" event_menter_drag="" event_mleave="" event_mleave_drag="" event_mup="" event_startdrag="" input="0" inputrect_init="0" pos_x="0" pos_y="0" pos_z="0" realdrag="0" res="assets/levels/{{level_name}}/ho_{{ho_name}}/back" scale_x="1" scale_y="1" visible="1"/>
+				<obj __type="obj" _name="obj_{{ho_name}}_gates" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="">
+                    {{#gate_back}}
+					{{>grm_back}}
+					{{/gate_back}}
+                </obj>
+{{#gets_obj}}
+{{>get_object}}
+{{/gets_obj}}
+            </obj>
+            <obj __type="spr" _name="spr_{{ho_name}}_win" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/{{level_name}}/ho_{{ho_name}}/{{reward_name}}" />
+        </obj>
+    </objs>
+</module>

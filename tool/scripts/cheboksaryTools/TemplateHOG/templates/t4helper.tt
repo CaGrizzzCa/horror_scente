@@ -1,0 +1,12 @@
+﻿<#+
+    void NeedComment(string message, bool comments)
+    {
+        Selector(comments,message,"");#>
+<#+}
+    void Selector(bool selector, string messageTrue, string messageFalse)
+    {
+        string message = selector?messageTrue:messageFalse;
+		if (message != "") {
+#><#= message #><#+
+	}
+}#>

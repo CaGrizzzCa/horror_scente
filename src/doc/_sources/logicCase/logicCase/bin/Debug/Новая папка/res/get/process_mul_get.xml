@@ -1,0 +1,11 @@
+
+function ProcessGet##ITEM##All()
+  ObjSet("inv_##item##_all", { frame = ObjGet("inv_##item##_all").frame + 1 });
+  if ng_global.progress["##prg##"]["get_##item####id##"].done == 1
+  then 
+    --ng_global.progress["##prg##"]["use_##item##_all"].task="";
+    ObjSet("inv_##item##_all", { drag = 1, event_mdown = "" });
+  else
+    ObjSet("inv_##item##_all", { drag = 0 });
+  end
+end;

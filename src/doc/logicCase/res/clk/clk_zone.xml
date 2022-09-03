@@ -1,0 +1,2 @@
+<obj __type="partsys_gm" _name="gfx_##zrm##_clk_##name##_zone" event_mdown="##homgrm##_##rm##.##prg##()" event_menter="ld.SetCursor( CURSOR_HAND );" event_mleave="ld.SetCursor( CURSOR_DEFAULT );" input="1" inputrect_h="142" inputrect_init="1" inputrect_w="142" inputrect_x="-71" inputrect_y="-71" pos_x="0" pos_y="0" pos_z="30" res="assets/levels/common/fx/sparkle_effect" visible="1"/>
+                

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<help>
+	<tooltip name="plane_size">
+		<shortcut>Подогнать размер изображения под экран</shortcut>
+		<extended>
+Изменяет высоту и ширину рабочего полотна так, чтобы
+они соответствовали в пропорциональном соотношении
+экрану. При повторном нажатии кнопка возвращает полотно
+в исходное состояние.</extended>
+	</tooltip>
+	<tooltip name="plane_border">
+		<shortcut>Показать рамку по границе экрана</shortcut>
+		<extended>
+Этот элемент отвечает за отображение отступа, создаваемого
+между полотном и границами рабочего поля.</extended>
+	</tooltip>
+	<tooltip name="plane_settings">
+		<shortcut>Настройка экрана сцены</shortcut>
+		<extended>
+Открывает диалоговое окно, позволяющее задать свойства
+рабочего полотна.
+
+	-Высота
+	-Ширина
+	-Начальное положение
+	-Текстура фона
+	-Цвет заливки фона</extended>
+	</tooltip>
+	<tooltip name="send_data_to_parent_editor">
+		<shortcut>Применить изменения в родительском редакторе</shortcut>
+		<extended>
+Применяет изменения, сделанные в редакторе частиц, в редактор анимаций</extended>
+	</tooltip>
+	<tooltip name="play_animation">
+		<shortcut>Проиграть анимацию</shortcut>
+		<extended>
+Начать проигрывание анимации. 
+Горячая клавиша Space("Пробел")</extended>
+	</tooltip>
+	<tooltip name="pause_animation">
+		<shortcut>Установить анимацию</shortcut>
+		<extended>
+Приостановить Воспроизведение анимации. Бегунок
+остановится в момент нажатия кнопки.</extended>
+	</tooltip>
+	<tooltip name="from_start_animation">
+		<shortcut>Перейти в начало анимации</shortcut>
+		<extended>
+Останавливает воспроизведение. Переводит
+бегунок в начальное положение.</extended>
+	</tooltip>
+	<tooltip name="to_end_animation">
+		<shortcut>Перейти в конец анимации</shortcut>
+		<extended>
+Останавливает воспроизведение. Переводит бегунок
+в конечное положение.</extended>
+	</tooltip>
+	<tooltip name="stop_aimation">
+		<shortcut>Остановить анимацию</shortcut>
+		<extended>
+Останавливает воспроизведение. Переводит бегунок
+в начальное состояние.</extended>
+	</tooltip>
+	<tooltip name="extended_help">
+		<shortcut>Показать расширенную помощь</shortcut>
+		<extended>
+Этот элемент управления расширяет подсказки.
+Тем самым, открывая более полные описания элементов
+в "выпадающих" подсказках. При повторном нажатии,
+подсказки возвращаются в прежнее состояние.</extended>
+	</tooltip>
+	<tooltip name="rectify_curve">
+		<shortcut>Выпрямить кривую Безье</shortcut>
+		<extended>
+После нажатия кнопки, все искажения, полученные при помощи
+алгоритма Безье, будут возвращены в прежнее состояние.
+Иначе говоря, все опорные точки вернутся в положения
+заданных маркеров.</extended>
+	</tooltip>
+	<tooltip name="reset_curve">
+		<shortcut>Сбросить все значения кривой Безье</shortcut>
+		<extended>
+Сбрасывает все изменения прямой в значения по умолчанию.
+Все маркеры обнуляются. Обнуляется положение как самих
+маркеров, так и опорных точек.</extended>
+	</tooltip>
+	<tooltip name="emmiter_way">
+		<shortcut>Показать путь движения эмиттера</shortcut>
+		<extended>
+Происходит отображение траектории активного эмиттера.
+Путь отображается в виде линии из точек, расположенных
+в соответствии с рассчитываемыми кадрами.</extended>
+	</tooltip>
+	<tooltip name="pos_xy">
+		<shortcut></shortcut>
+		<extended>Положение активного эмиттера, Точка генерации частиц.</extended>
+	</tooltip>
+	<tooltip name="pos_x">
+		<shortcut></shortcut>
+		<extended>Положение активного эмиттера по оси X.</extended>
+	</tooltip>
+	<tooltip name="pos_y">
+		<shortcut></shortcut>
+		<extended>Положение активного эмиттера по оси Y.</extended>
+	</tooltip>
+	<tooltip name="speed_xy">
+		<shortcut></shortcut>
+		<extended>Скорость активного эмиттера.</extended>
+	</tooltip>
+	<tooltip name="speed_x">
+		<shortcut></shortcut>
+		<extended>Скорость активного эмиттера по оси X.</extended>
+	</tooltip>
+	<tooltip name="speed_y">
+		<shortcut></shortcut>
+		<extended>Скорость активного эмиттера по оси Y.</extended>
+	</tooltip>
+	<tooltip name="boost_xy">
+		<shortcut></shortcut>
+		<extended>Ускорение активного эмиттера.</extended>
+	</tooltip>
+	<tooltip name="boost_x">
+		<shortcut></shortcut>
+		<extended>Ускорение активного эмиттера по оси X.</extended>
+	</tooltip>
+	<tooltip name="boost_y">
+		<shortcut></shortcut>
+		<extended>Ускорение активного эмиттера по оси Y.</extended>
+	</tooltip>
+	<tooltip name="emitter_diretion">
+		<shortcut></shortcut>
+		<extended>Направление эмиттера, угол в градусах
+	0 - движение вдоль оси X (вправо)
+	90 - движение вдоль оси Y (вверх)
+	180 - движение вдоль оси X (влево)
+	270 - движение вдоль оси Y (вниз)</extended>
+	</tooltip>
+        <tooltip name="emitter_torsion">
+		<shortcut></shortcut>
+		<extended>Скорость с которой эмиттер меняет свое направление.</extended>
+	</tooltip>
+	<tooltip name="direction">
+		<shortcut></shortcut>
+		<extended>Направление частиц, угол в градусах
+	0 - движение вдоль оси X (вправо)
+	90 - движение вдоль оси Y (вверх)
+	180 - движение вдоль оси X (влево)
+	270 - движение вдоль оси Y (вниз)</extended>
+	</tooltip>
+	<tooltip name="spread">
+		<shortcut></shortcut>
+		<extended>Размах - отклонение от направления, измеряется в радианах, 
+то есть добавляет случайность в направление движения частиц.</extended>
+	</tooltip>
+	<tooltip name="gravity">
+		<shortcut></shortcut>
+		<extended>Ускорение свободного падения</extended>
+	</tooltip>
+	<tooltip name="scope_xy">
+		<shortcut></shortcut>
+		<extended>Масштаб эмиттера - область, откуда вылетают частицы.</extended>
+	</tooltip>
+	<tooltip name="scope_x">
+		<shortcut></shortcut>
+		<extended>Масштаб эмиттера по оси X.</extended>
+	</tooltip>
+	<tooltip name="scope_y">
+		<shortcut></shortcut>
+		<extended>Масштаб эмиттера по оси Y.</extended>
+	</tooltip>
+	<tooltip name="torsion">
+		<shortcut></shortcut>
+		<extended>Кручение эмиттера - скорость изменения 
+направления движения частиц.</extended>
+	</tooltip>
+	<tooltip name="delay">
+		<shortcut></shortcut>
+		<extended>Задержка эмиттера - время задержки появления 
+частиц (в сек). В данный момент не желательно 
+использовать данный параметр. </extended>
+	</tooltip>
+	<tooltip name="part_count">
+		<shortcut></shortcut>
+		<extended>Число частиц - количество частиц, 
+которые будут созданы эмиттером.</extended>
+	</tooltip>
+	<tooltip name="part_lifetime">
+		<shortcut></shortcut>
+		<extended>Время жизни - продолжительность жизни частицы.</extended>
+	</tooltip>
+	<tooltip name="part_speed_xy">
+		<shortcut></shortcut>
+		<extended>Скорость — векторная физическая величина, 
+характеризующая быстроту перемещения и 
+направление движения материальной точки 
+относительно выбранной системы отсчёта;</extended>
+	</tooltip>
+	<tooltip name="part_speed_x">
+		<shortcut></shortcut>
+		<extended>Скорость частицы по оси X.</extended>
+	</tooltip>
+	<tooltip name="part_speed_y">
+		<shortcut></shortcut>
+		<extended>Скорость частицы по оси Y.</extended>
+	</tooltip>
+	<tooltip name="part_boost_xy">
+		<shortcut></shortcut>
+		<extended>Ускорение — быстрота изменения скорости, 
+то есть первая производная от скорости по времени, 
+векторная величина, показывающая, на сколько 
+изменяется вектор скорости тела при его движении 
+за единицу времени;</extended>
+	</tooltip>
+	<tooltip name="part_boost_x">
+		<shortcut></shortcut>
+		<extended>Ускорение частицы по оси X.</extended>
+	</tooltip>
+	<tooltip name="part_boost_y">
+		<shortcut></shortcut>
+		<extended>Ускорение частицы по оси Y.</extended>
+	</tooltip>
+	<tooltip name="scale_xy">
+		<shortcut></shortcut>
+		<extended>Масштаб - размеры частицы 
+(1.0 - натуральная величина)</extended>
+	</tooltip>
+	<tooltip name="scale_x">
+		<shortcut></shortcut>
+		<extended>Размер частицы по X.</extended>
+	</tooltip>
+	<tooltip name="scale_y">
+		<shortcut></shortcut>
+		<extended>Размер частицы по Y.</extended>
+	</tooltip>
+	<tooltip name="angle">
+		<shortcut></shortcut>
+		<extended>Угол (поворот частицы) - поворот частицы вокруг своей оси.</extended>
+	</tooltip>
+	<tooltip name="rotate_speed">
+		<shortcut></shortcut>
+		<extended>Скорость вращения частицы вокруг своей оси.</extended>
+	</tooltip>
+	<tooltip name="rgb">
+		<shortcut></shortcut>
+		<extended>RGB - цвет частицы.</extended>
+	</tooltip>
+	<tooltip name="color_r">
+		<shortcut></shortcut>
+		<extended>Красная составляющая цвета.</extended>
+	</tooltip>
+	<tooltip name="color_g">
+		<shortcut></shortcut>
+		<extended>Зеленая составляющая.</extended>
+	</tooltip>
+	<tooltip name="color_b">
+		<shortcut></shortcut>
+		<extended>Синяя составляющая цвета.</extended>
+	</tooltip>
+	<tooltip name="alpha">
+		<shortcut></shortcut>
+		<extended>Прозрачность.</extended>
+	</tooltip>
+	<tooltip name="IsLoopedEmitter">
+		<shortcut></shortcut>
+		<extended>Зациклить анимацию эмиттера (по умолчанию не зациклена). 
+То есть эмиттер будет генерировать частицы вечно. </extended>
+	</tooltip>
+	<tooltip name="IsExported">
+		<shortcut></shortcut>
+		<extended>Экспортируемый эмиттер 
+(по умолчанию эмиттер будет экспортироваться). </extended>
+	</tooltip>
+	<tooltip name="Visible">
+		<shortcut></shortcut>
+		<extended>Видимость объекта (по умолчанию объект видимый). 
+То есть частицы эмиттера не будут показываться, 
+но анимация данного эмиттера будет проигрываться</extended>
+	</tooltip>
+	<tooltip name="PositionMode">
+		<shortcut></shortcut>
+		<extended> Режим позиционирования эмиттера 
+(true - эмиттер движется вслед за частицей, которая сгенерировала 
+эмиттер). По умолчанию false. Кнопка видима для "дочерных" 
+(прикрепленных или привязанных) эмиттеров </extended>
+	</tooltip>
+	<tooltip name="AssingEmitter">
+		<shortcut></shortcut>
+		<extended>Присоеденить эмиттер к другому эмиттеру</extended>
+	</tooltip>
+	<tooltip name="IsLoopedParam">
+		<shortcut></shortcut>
+		<extended>Зациклить анимацию параметра эмиттера 
+или частицы (по умолчанию не зациклена). </extended>
+	</tooltip>
+	<tooltip name="Delta">
+		<shortcut></shortcut>
+		<extended>Открывает окно установки значения delta 
+(отклонение или разброс значений параметра). 
+Данная кнопка видима, когда delta равно 0 </extended>
+	</tooltip>
+	<tooltip name="ActiveDelta">
+		<shortcut></shortcut>
+		<extended>Открывает окно установки значения delta 
+(отклонение или разброс значений параметра). 
+Данная кнопка видима, когда delta больше 0</extended>
+	</tooltip>
+	<tooltip name="AddFolderButton">
+		<shortcut>Добавить новую папку</shortcut>
+		<extended>Добавляет новую папку в дерево пресетов. 
+Папки могут содержать другие папки либо 
+пресеты.</extended>
+	</tooltip>
+	<tooltip name="AddNewPresetButton">
+		<shortcut>Добавить новый пресет</shortcut>
+		<extended>Добавляет новый пресет в дерево пресетов. 
+Пресеты могут быть дочерними для других пресетов - 
+в этом случае пресеты будут будут загружаться вместе
+с родительским</extended>
+	</tooltip>
+	<tooltip name="DelPresetButton">
+		<shortcut>Удалить пресет</shortcut>
+		<extended>Удаляет пресет или папку
+из дерева пресетов.</extended>
+	</tooltip>
+	<tooltip name="ApplyPresetAsNew">
+		<shortcut>Применить пресет</shortcut>
+		<extended>Создает новый проект из выделеного пресета.
+Предидущий проект будет предложен к сохранению,
+если в нем были изменения</extended>
+	</tooltip>
+	<tooltip name="ApplyPresetToActive">
+		<shortcut>Добавить в сцену</shortcut>
+		<extended>Добавляет персет в активную сцену.
+Элементы пресета будут переданы в активный проект,
+как если бы они были скопированы.</extended>
+	</tooltip>
+</help>

@@ -1,0 +1,13 @@
+
+ld.gobj[ "##obj##" ] = {
+  getfend = function()
+    --progress GET
+  end;
+  usefbeg = function()
+    --animation USE
+    ld.obj.useend();
+  end;
+  usefend = function()
+    --progress USE
+  end;
+}

@@ -1,0 +1,21 @@
+<module name="rm_outro" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__rm_outro_rootobj">
+            <obj __type="obj" _name="rm_outro">
+                <obj __type="spr" _name="spr_outro_back" input="0" pos_x="512" pos_y="384" pos_z="-1" res="assets/levels/level/rm_outro/back"/>
+                <obj __type="obj" _name="obj_outro_texts">
+                    <obj __type="spr" _name="spr_outro_demo_text" active="0" input="0" pos_x="512" pos_y="376" pos_z="12" res="assets/levels/level/rm_outro/demo_text" visible="0"/>
+                    <obj __type="spr" _name="spr_outro_survey_text" active="0" input="0" pos_x="512" pos_y="376" pos_z="12" res="assets/levels/level/rm_outro/survey_text" visible="0"/>
+                </obj>
+                <obj __type="anim" _name="anm_outro_anim_logo" animfunc="anim_logo" input="0" playing="1" pos_x="202" pos_y="-24" pos_z="5" res="assets/levels/menu/rm_menu/logo/anim_logo" scale_x="0.9" scale_y="0.9">
+                    <obj __type="spr" _name="spr_outro_logo_ce" anim_tag="ce" input="0" pos_z="2" res="assets/levels/menu/rm_menu/ce" visible="0"/>
+                </obj>
+                <obj __type="partsys_pm" _name="pfx_outro_outro_pm" input="0" playing="1" pos_z="50" res="assets/levels/common/fx/stock/rm_dust"/>
+                <obj __type="spr" _name="spr_outro_ok" inputrect_h="50" inputrect_init="1" inputrect_w="171" inputrect_x="-85" inputrect_y="-25" pos_x="512" pos_y="525" pos_z="60" res="assets/levels/common/btn">
+                    <obj __type="text" _name="txt_outro_ok" color_b="0.282" color_g="0.635" fontsize="24" input="0" pos_y="2" res="assets/fonts/dejavuserif" text="str_common_ok"/>
+                    <obj __type="spr" _name="spr_outro_ok_focus" alp="0" blendmode="2" input="0" pos_z="33" res="assets/levels/common/btn_focus"/>
+                </obj>
+            </obj>
+        </obj>
+    </objs>
+</module>

@@ -1,0 +1,8 @@
+		<trig name="prg_##get##">
+			<code>
+--SoundSfx(  );
+ng_global.progress["##prg##"]["##get##"].done = 1;
+ng_global.progress["##prg##"]["##get##"].func();
+--CloseSubRoom();
+</code>
+		</trig>

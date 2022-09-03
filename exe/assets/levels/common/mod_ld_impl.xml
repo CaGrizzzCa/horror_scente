@@ -1,0 +1,6 @@
+<module name="ld_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__ld_impl_rootobj">
+        </obj>
+    </objs>
+</module>

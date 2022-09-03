@@ -1,0 +1,11 @@
+<module name="int_lock" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_lock_rootobj">
+            <obj __type="obj" _name="int_lock">
+                <obj __type="obj" _name="obj_int_lock" event_menter="SetCursor(CURSOR_LOCK)" event_mleave="SetCursor(CURSOR_DEFAULT)" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-683" inputrect_y="-384" pos_x="512" pos_y="384"/>
+                <obj __type="obj" _name="obj_int_lock_room" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-683" inputrect_y="-384" pos_x="512" pos_y="384"/>
+                <obj __type="obj" _name="obj_int_lock_task" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-683" inputrect_y="-384" pos_x="512" pos_y="384"/>
+            </obj>
+        </obj>
+    </objs>
+</module>

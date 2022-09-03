@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ivan.ivanov\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ivan.ivanov\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_logicCase.243187387.00" t="ExcludeRecursive" />
+    <e p="D:\OLD\Work\c#\LC\logicCase" t="IncludeFlat">
+      <e p=".nuget" t="Include">
+        <e p="NuGet.Config" t="Include" />
+        <e p="NuGet.exe" t="Include" />
+        <e p="NuGet.targets" t="Include" />
+      </e>
+      <e p="logicCase" t="IncludeRecursive">
+        <e p="Action.cs" t="Include" />
+        <e p="ActionComareOwner.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Block.cs" t="Include" />
+        <e p="ClassDiagram1.cd" t="Include" />
+        <e p="FileStackClass.cs" t="Include" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="FuncString.cs" t="Include" />
+        <e p="GameFactory.cs" t="Include" />
+        <e p="GameHint.cs" t="Include" />
+        <e p="GameObj.cs" t="Include" />
+        <e p="gObjForm.cs" t="Include" />
+        <e p="gObjForm.Designer.cs" t="Include" />
+        <e p="gObjForm.resx" t="Include" />
+        <e p="icon.ico" t="Include" />
+        <e p="icon_new.ico" t="Include" />
+        <e p="invitem.cs" t="Include" />
+        <e p="Item.cs" t="Include" />
+        <e p="LineClass.cs" t="Include" />
+        <e p="Link.cs" t="Include" />
+        <e p="logicCase.csproj" t="IncludeRecursive" />
+        <e p="LuaBindings.cs" t="Include" />
+        <e p="LuaIni.txt" t="Include" />
+        <e p="luaint.cs" t="Include" />
+        <e p="LuaPrepare.txt" t="Include" />
+        <e p="MassiveClass.cs" t="Include" />
+        <e p="ModuleClass.cs" t="Include" />
+        <e p="MyControl.cs" t="Include" />
+        <e p="MyControl.Designer.cs" t="Include" />
+        <e p="MyControl.resx" t="Include" />
+        <e p="MyObjClass.cs" t="Include" />
+        <e p="MyTrigClass.cs" t="Include" />
+        <e p="NotEditorProject.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ObjAddingForm.cs" t="Include" />
+        <e p="ObjAddingForm.Designer.cs" t="Include" />
+        <e p="ObjAddingForm.resx" t="Include" />
+        <e p="PositionTXT.cs" t="Include" />
+        <e p="PositionTXTchanger.cs" t="Include" />
+        <e p="PositionTXTchanger.Designer.cs" t="Include" />
+        <e p="PositionTXTchanger.resx" t="Include" />
+        <e p="PrgClass.cs" t="Include" />
+        <e p="PrgItemClass.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="app.manifest" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Propobj.cs" t="Include" />
+        <e p="Scheme.cs" t="Include" />
+        <e p="SchemeItem.cs" t="Include" />
+        <e p="SpriteChecker.cs" t="Include" />
+      </e>
+      <e p="logicCase.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

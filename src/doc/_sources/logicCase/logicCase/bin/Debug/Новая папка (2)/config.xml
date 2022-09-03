@@ -1,0 +1,117 @@
+<project level_dir="E:\Work\RD3\exe\assets\levels\level\rm_fairentrance">
+	<control _name="inv_complex_dynamite" pos_x="660" pos_y="-207" />
+	<control _name="inv_complex_littlebag" pos_x="859" pos_y="-291" />
+	<control _name="inv_complex_toyhelmet" pos_x="662" pos_y="-288" />
+	<control _name="inv_complex_broomhandle" pos_x="859" pos_y="-187" />
+	<control _name="inv_complex_toyhang" pos_x="475" pos_y="-288" />
+	<control _name="inv_complex_jackhalf1" pos_x="476" pos_y="-213" />
+	<control _name="inv_complex_paperlist" pos_x="288" pos_y="-283" />
+	<control _name="inv_complex_goldpiece" pos_x="288" pos_y="-212" />
+	<control _name="zz_bench" pos_x="287" pos_y="-41" />
+	<control _name="zz_gate" pos_x="424" pos_y="10" />
+	<control _name="zz_statuemus" pos_x="558" pos_y="-35" />
+	<control _name="rm_fairentrance" pos_x="417" pos_y="-39" />
+	<control _name="rm_outro" pos_x="284" pos_y="-333" />
+	<control _name="mg_boardgame" pos_x="1236" pos_y="883" />
+	<control _name="zz_logjam" pos_x="273" pos_y="196" />
+	<control _name="zz_sculptortent" pos_x="254" pos_y="272" />
+	<control _name="zz_windowsill" pos_x="392" pos_y="243" />
+	<control _name="zz_doortocandystore" pos_x="558" pos_y="249" />
+	<control _name="zz_souvenirshop" pos_x="563" pos_y="358" />
+	<control _name="rm_square" pos_x="401" pos_y="202" />
+	<control _name="ho_souvenirs" pos_x="542" pos_y="193" />
+	<control _name="zz_tabletools" pos_x="415" pos_y="504" />
+	<control _name="zz_wallpicture" pos_x="426" pos_y="709" />
+	<control _name="zz_bollard" pos_x="167" pos_y="529" />
+	<control _name="zz_showcase" pos_x="167" pos_y="638" />
+	<control _name="rm_candystore" pos_x="285" pos_y="534" />
+	<control _name="zz_overgrowngate" pos_x="593" pos_y="522" />
+	<control _name="zz_doortoarchive" pos_x="869" pos_y="525" />
+	<control _name="zz_wagon" pos_x="653" pos_y="622" />
+	<control _name="zz_golemcracks" pos_x="789" pos_y="621" />
+	<control _name="rm_street" pos_x="754" pos_y="563" />
+	<control _name="mg_mechanisms" pos_x="418" pos_y="625" />
+	<control _name="ho_apartment" pos_x="748" pos_y="523" />
+	<control _name="zz_burrow" pos_x="549" pos_y="809" />
+	<control _name="zz_wallfresco" pos_x="807" pos_y="806" />
+	<control _name="zz_bookofchronicler" pos_x="790" pos_y="867" />
+	<control _name="rm_archive" pos_x="690" pos_y="856" />
+	<control _name="ho_frescho" pos_x="682" pos_y="901" />
+	<control _name="mg_chronicles" pos_x="684" pos_y="792" />
+	<control _name="zz_guardbooth" pos_x="1014" pos_y="870" />
+	<control _name="zz_statueknight" pos_x="1269" pos_y="764" />
+	<control _name="zz_towertop" pos_x="1014" pos_y="770" />
+	<control _name="rm_outskirts" pos_x="1133" pos_y="771" />
+	<ignore _name="assets\levels\levelext\mg_flyext\ace"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy1"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy2"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candy1_chrashed"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candy2_chrashed"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candy3_chrashed"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\place_fx"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\1"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\2"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\3"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\4"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\5"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\6"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\7"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\8"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block1"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block2"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block3"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block_light"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem_lot"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem_lot_light"/>
+</project>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy1"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candy2_chrashed"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+</project>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+<project level_dir="E:\Work\CS4\exe\assets\levels\levelext\rm_roomext">
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy1"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candy2_chrashed"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+</project>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+<project level_dir="E:\Work\CS4\exe\assets\levels\level\rm_room">
+	<ignore _name="assets\levels\level\rm_inizba\fx_smoke_pm"/>
+	<ignore _name="assets\levels\level\rm_inizba\fx_smoke_pm"/>
+	<ignore _name="assets\levels\level\rm_inizba\fx_smoke_pm"/>
+	<ignore _name="assets\levels\level\rm_inizba\fx_smoke_pm"/>
+	<ignore _name="assets\levels\level\rm_inizba\fx_smoke_pm"/>
+</project>
+<project level_dir="E:\Work\Chimeras2\exe\assets\levels\level\rm_citygates">
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy1"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\box_lock_candy3"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candy2_chrashed"/>
+	<ignore _name="assets\levels\levelext\mg_flyext\candybox_open_fx"/>
+</project>

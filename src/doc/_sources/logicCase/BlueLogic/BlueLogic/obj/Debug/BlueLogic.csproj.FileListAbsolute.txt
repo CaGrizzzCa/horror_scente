@@ -1,0 +1,105 @@
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.config
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\bin\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\obj\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+C:\Users\Grisha\YandexDisk\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.config
+C:\Users\Grisha\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe
+C:\Users\Grisha\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.config
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.manifest
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\BlueLogic.application
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe.manifest
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\BlueLogic.application
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.config
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.pdb
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.manifest
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\bin\Debug\BlueLogic.application
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\bin\Debug\BlueLogic.pdb
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe.manifest
+D:\Work\HL4\trunk\src\doc\LD\BlueLogic\BlueLogic\obj\Debug\BlueLogic.application
+D:\Work\HL4\trunk\src\doc\LD\logicCase\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.config
+D:\Work\HL4\trunk\src\doc\LD\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe
+D:\Work\HL4\trunk\src\doc\LD\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.config
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe.manifest
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\bin\Debug\BlueLogic.application
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\bin\Debug\BlueLogic.exe
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\bin\Debug\BlueLogic.pdb
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.exe.manifest
+C:\Users\grigory.andrianov\Desktop\BlueLogic\BlueLogic\obj\Debug\BlueLogic.application
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.config
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.manifest
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.application
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.pdb
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe.manifest
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.application
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.pdb
+C:\Users\grisha\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.config
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.manifest
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.application
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.pdb
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe.manifest
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.application
+C:\Users\grigory.andrianov\YandexDisk\Projects\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.pdb
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.config
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.manifest
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.application
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.pdb
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csprojResolveAssemblyReference.cache
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe.manifest
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.application
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe
+D:\Work\HL4_Flying_Dutchman\src\doc\LD\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.pdb
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.config
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe.manifest
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.application
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.exe
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\bin\Debug\HOPA Logic.pdb
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.editForm.resources
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.Properties.Resources.resources
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\BlueLogic.csproj.GenerateResource.Cache
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe.manifest
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.application
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.exe
+D:\Work\c#\LC\logicCase\BlueLogic\BlueLogic\obj\Debug\HOPA Logic.pdb

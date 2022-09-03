@@ -1,0 +1,15 @@
+--------------------------------------------------------------------
+local unmark_##item## = function()
+
+end;
+cmn.AddSubscriber( ho_objname, "##ho##_unmark_##item##", unmark_##item## )
+--- --- --- --- --- --- --- ---
+function game.##ho##.unmark_##item##()
+
+end;
+--- --- --- --- --- --- --- ---
+function game.##ho##._unmark_##item##_end()
+  cmn.UnmarkTask( "##ho##", "##item##" );
+  cmn.CallEventHandler( "##ho##_unmark_##item##" );
+end;
+--------------------------------------------------------------------

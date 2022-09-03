@@ -1,0 +1,8 @@
+<module name="levelext_inv" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__levelext_inv_rootobj">
+            <obj __type="obj" _name="levelext_inv_hub"/>
+            <obj __type="obj" _name="obj_inventory_complex_hub"/>
+		</obj>
+    </objs>
+</module>

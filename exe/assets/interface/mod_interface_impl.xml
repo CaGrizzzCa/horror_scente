@@ -1,0 +1,5 @@
+<module name="interface_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__interface_impl_rootobj"/>
+    </objs>
+</module>

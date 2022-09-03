@@ -1,0 +1,29 @@
+<module name="rm_intro" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__rm_intro_rootobj">
+            <obj __type="spr" _name="rm_intro" res="assets/levels/menu/rm_intro/back">
+                <obj __type="timer" _name="tmr_intro_videoend" input="0" visible="0"/>
+                <obj __type="spr" _name="spr_intro_logo" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-683" inputrect_y="-384" pos_x="512" pos_y="384" res="assets/levels/menu/rm_intro/logo_bigfish"/>
+                <obj __type="spr" _name="spr_intro_black" color_b="0" color_g="0" color_r="0" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-683" inputrect_y="-384" pos_x="512" pos_y="384" pos_z="99" res="assets/interface/resources/editor_back" scale_x="683" scale_y="384"/>
+            </obj>
+            <obj __type="obj" _name="obj_intro_video" input="0">
+                <obj __type="video" _name="vid_intro_video" pos_x="512" pos_y="384" res="assets/levels/menu/rm_intro/video"/>
+                <obj __type="anim" _name="anm_intro_logo" animfunc="anim_logo_lage" input="0" pos_x="-181" pos_y="-22" pos_z="5" res="assets/levels/menu/rm_menu/logo/anim_logo">
+                    <obj __type="spr" _name="spr_intro_logo_ce" alp="0" anim_tag="ce" input="0" pos_z="2" res="assets/levels/menu/rm_menu/ce"/>
+                </obj>
+            </obj>
+            <obj __type="obj" _name="obj_intro_logo_music_root" input="0" pos_x="512" pos_y="384">
+                <obj __type="obj" _name="obj_intro_logo_music" input="0">
+                    <obj __type="anim" _name="anm_intro_music_sheet" animfunc="sheet" endtrig="0" input="0" playing="1" res="assets/levels/menu/rm_intro/anims/anm"/>
+                    <obj __type="anim" _name="anm_intro_music_drum" animfunc="drum" endtrig="0" input="0" playing="1" res="assets/levels/menu/rm_intro/anims/anm"/>
+                    <obj __type="anim" _name="anm_intro_music_saxophone" animfunc="saxophone" endtrig="0" input="0" playing="1" res="assets/levels/menu/rm_intro/anims/anm"/>
+                    <obj __type="anim" _name="anm_intro_music_add" animfunc="add" endtrig="0" input="0" playing="1" pos_z="2" res="assets/levels/menu/rm_intro/anims/anm"/>
+                    <obj __type="video" _name="vid_intro_play_with_sound" input="0" looped="1" pos_x="512" pos_y="384" pos_z="2"/>
+                    <obj __type="anim" _name="anm_intro_music_txt" animfunc="txt" endtrig="0" input="0" pos_z="2" res="assets/levels/menu/rm_intro/anims/anm"/>
+                    <obj __type="partsys" _name="pfx_intro_logo_music_pm_music" playing="1" pos_x="-512" pos_y="-384" pos_z="40" res="assets/levels/common/fx/stock/rm_dust"/>
+                </obj>
+            </obj>
+            <obj __type="obj" _name="obj_intro_video_types_test" input="0" pos_z="10" visible="0"/>
+        </obj>
+    </objs>
+</module>

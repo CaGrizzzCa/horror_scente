@@ -1,0 +1,7 @@
+<module name="levelext" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__levelext_rootobj">
+            <obj __type="obj" _name="levelext_hub"/>
+        </obj>
+    </objs>
+</module>

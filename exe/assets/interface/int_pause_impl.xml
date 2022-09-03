@@ -1,0 +1,11 @@
+<module name="int_pause_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_pause_impl_rootobj">
+            <obj __type="obj" _name="int_pause_impl">
+                <obj __type="obj" _name="obj_int_pause_pause" active="0" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-683" inputrect_y="-384" pos_x="512" pos_y="384" visible="0">
+                    <obj __type="spr" _name="spr_int_pause_pause" active="0" input="0" res="assets/interface/resources/back_pause"/>
+                </obj>
+            </obj>
+        </obj>
+    </objs>
+</module>

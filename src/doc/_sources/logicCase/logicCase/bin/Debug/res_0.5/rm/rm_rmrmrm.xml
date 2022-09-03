@@ -1,0 +1,46 @@
+<module name="rm_##rm##">
+    <objs>
+        <obj name="rm_##rm##_root" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="">
+            <room name="rm_##rm##" pos_x="0" pos_y="0" pos_z="10" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="512" drawoff_y="384" tiling_x="1" tiling_y="1" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets\levels\##lvl##\rm_##rm##" trg_open="*ld.jumper.jump()" trg_close="*ld.jumper.jump()" trg_preopen="*ld.jumper.jump()" trg_preclose="*ld.jumper.jump()" />
+        </obj>
+    </objs>
+    <trigs>
+        <trig name="trg_##rm##_init">
+            <code>-----------------------------------------------
+ObjAttach( "rm_##rm##", "ng_rooms_hub" );
+-----------------------------------------------
+ng_global.progress[ "std" ][ "opn_##rm##" ].hint = 1
+ng_global.progress[ "std" ][ "opn_##rm##" ].func = function ()
+
+end;
+
+----------------------------JUMP----------------------
+--                                                  --
+------------------------------------------------------
+ld.jumper["rm_##rm##"] = {};
+ld.jumper["rm_##rm##"]["preopen"] = function()
+  ld.loadprg();
+end;
+ld.jumper["rm_##rm##"]["open"] = function()
+  
+  if ng_global.progress[ "std" ][ "opn_##rm##" ].done ~= 1 then
+    ng_global.progress[ "std" ][ "opn_##rm##" ].done = 1
+    ng_global.progress[ "std" ][ "opn_##rm##" ].func();
+  end
+  EvnTrack(0)
+end;
+
+
+----------------------------GET-----------------------
+--                                                  --
+------------------------------------------------------
+
+
+----------------------------USE-----------------------
+--                                                  --
+------------------------------------------------------
+
+</code>
+        </trig>
+    </trigs>
+</module>

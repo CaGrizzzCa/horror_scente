@@ -1,0 +1,40 @@
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+##<is_mg>##game.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_clk_##name##_zone", room = "rm_##mgowner##", zz = "mg_##zrm##", zz_gate = "gmg_##mgowner##_##zrm##" };##<is_mg>##
+##<is_zz>##game.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_clk_##name##_zone", room = "rm_##rm##", zz = "zz_##zrm##", zz_gate = "gzz_##rm##_##zrm##" };##<is_zz>##
+##<is_rm>##game.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_clk_##name##_zone", room = "rm_##rm##" };##<is_rm>##
+##<is_inv>##game.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_clk_##name##_zone", room = "int_deploy_inv", zz = "deploy_inv_##zrm##", zz_gate = "inv_##zrm##" };##<is_inv>##
+
+private.##prg##_logic = function()
+  
+end;
+private.##prg##_beg = function()
+  ObjDelete( "gfx_##zrm##_clk_##name##_zone" );
+end;
+private.##prg##_end = function()
+  ##<is_zz>##ld.SubRoom.Complete( "##prg##" )##<is_zz>##
+  ##<is_inv>##ld.SubRoom.Complete( "##prg##" )##<is_inv>##  
+end;
+--------------------------------------------------------------------
+cmn.AddSubscriber( nil, "##prg##", private.##prg##_logic );
+cmn.AddSubscriber(##<is_inv>## nil##<is_inv>####<is_mg>## room_objname##<is_mg>####<is_zz>## room_objname##<is_zz>####<is_rm>## room_objname##<is_rm>##, "##prg##", private.##prg##_beg );
+cmn.AddSubscriber(##<is_inv>## nil##<is_inv>####<is_mg>## room_objname##<is_mg>####<is_zz>## room_objname##<is_zz>####<is_rm>## room_objname##<is_rm>##, "##prg##", private.##prg##_end );
+cmn.AddSubscriber(##<is_inv>## nil##<is_inv>####<is_mg>## room_objname##<is_mg>####<is_zz>## room_objname##<is_zz>####<is_rm>## room_objname##<is_rm>##, "##prg##_beg", private.##prg##_beg );
+cmn.AddSubscriber(##<is_inv>## nil##<is_inv>####<is_mg>## room_objname##<is_mg>####<is_zz>## room_objname##<is_zz>####<is_rm>## room_objname##<is_rm>##, "##prg##_end", private.##prg##_end );
+cmn.AddSubscriber(##<is_inv>## nil##<is_inv>####<is_mg>## room_objname##<is_mg>####<is_zz>## room_objname##<is_zz>####<is_rm>## room_objname##<is_rm>##, "##prg##_end", private.##prg##_logic );
+--------------------------------------------------------------------
+function game.##rm##.##prg##()
+  function game.##rm##._##prg##_end()
+    cmn.SetEventDone( "##prg##" );
+    cmn.CallEventHandler( "##prg##_end" );
+    ld.Lock(0);
+##<is_zz>####<is_zz>##
+##<is_inv>####<is_inv>##
+  end;
+  cmn.CallEventHandler( "##prg##_beg" );
+  ld.Lock(1);
+  
+  game.##rm##._##prg##_end()
+  
+  SoundSfx( "##sfx##" )
+end;

@@ -1,0 +1,757 @@
+<project level_dir="E:\Work\RD4\exe\assets\levels\level\rm_entrypoint">
+	<control _name="rm_entrypoint" pos_x="719" pos_y="447" />
+	<control _name="rm_outro" pos_x="713" pos_y="356" />
+	<control _name="zz_foodstore" pos_x="681" pos_y="574" />
+	<control _name="zz_wishtree" pos_x="912" pos_y="550" />
+	<control _name="zz_logjam" pos_x="905" pos_y="457" />
+	<control _name="zz_wagon" pos_x="551" pos_y="450" />
+	<control _name="inv_complex_brokenram" pos_x="1676" pos_y="765" />
+	<control _name="rm_mansion" pos_x="347" pos_y="709" />
+	<control _name="zz_clock" pos_x="305" pos_y="841" />
+	<control _name="zz_portrait" pos_x="469" pos_y="811" />
+	<control _name="zz_shoeshelf" pos_x="205" pos_y="714" />
+	<control _name="zz_toericplace" pos_x="489" pos_y="711" />
+	<control _name="inv_complex_ericmedalion" pos_x="1677" pos_y="614" />
+	<control _name="ho_ericsecrets" pos_x="284" pos_y="659" />
+	<control _name="inv_complex_ericbag" pos_x="1480" pos_y="659" />
+	<control _name="rm_henriettahouse" pos_x="938" pos_y="775" />
+	<control _name="zz_pantry" pos_x="1082" pos_y="879" />
+	<control _name="zz_medecinechest" pos_x="910" pos_y="876" />
+	<control _name="inv_complex_suitcase" pos_x="1467" pos_y="558" />
+	<control _name="zz_onthewardrobe" pos_x="750" pos_y="767" />
+	<control _name="zz_topark" pos_x="1113" pos_y="778" />
+	<control _name="mg_clockmg" pos_x="456" pos_y="652" />
+	<control _name="rm_park" pos_x="972" pos_y="1119" />
+	<control _name="zz_toruins" pos_x="908" pos_y="1169" />
+	<control _name="zz_hemp" pos_x="1029" pos_y="1171" />
+	<control _name="zz_pool" pos_x="1085" pos_y="1013" />
+	<control _name="zz_veranda" pos_x="842" pos_y="1008" />
+	<control _name="ho_inpantry" pos_x="899" pos_y="743" />
+	<control _name="mg_medecinemg" pos_x="1047" pos_y="712" />
+	<control _name="inv_complex_brokenparrot" pos_x="1678" pos_y="513" />
+	<control _name="rm_ruins" pos_x="291" pos_y="1068" />
+	<control _name="zz_aquarium" pos_x="335" pos_y="1147" />
+	<control _name="zz_royale" pos_x="218" pos_y="1123" />
+	<control _name="zz_towatermill" pos_x="422" pos_y="1069" />
+	<control _name="zz_fireplace" pos_x="160" pos_y="1071" />
+	<control _name="ho_fireplaceho" pos_x="219" pos_y="1026" />
+	<control _name="rm_watermill" pos_x="289" pos_y="1326" />
+	<control _name="zz_millentrance" pos_x="223" pos_y="1386" />
+	<control _name="zz_kennel" pos_x="174" pos_y="1331" />
+	<control _name="mg_music" pos_x="356" pos_y="1012" />
+	<control _name="inv_complex_collapsedpaper" pos_x="1416" pos_y="425" />
+	<control _name="inv_complex_dove" pos_x="1674" pos_y="429" />
+	<control _name="rm_inmill" pos_x="910" pos_y="1465" />
+	<control _name="zz_workplace" pos_x="1033" pos_y="1468" />
+	<control _name="zz_liana" pos_x="356" pos_y="1385" />
+	<control _name="zz_woodenwheel" pos_x="406" pos_y="1323" />
+</project>
+<project level_dir="E:\Work\CS5\exe\assets\levels\levelext\rm_entrypointext">
+	<control _name="inv_complex_unloadedcrossbowext" pos_x="-1080" pos_y="700" />
+	<control _name="inv_complex_brokenshacksawext" pos_x="-765" pos_y="697" />
+	<control _name="inv_complex_maskext" pos_x="-1008" pos_y="810" />
+	<control _name="inv_complex_jarext" pos_x="-765" pos_y="803" />
+	<control _name="inv_complex_tangleext" pos_x="-762" pos_y="441" />
+	<control _name="inv_complex_cinderellabagext" pos_x="-1041" pos_y="573" />
+	<control _name="inv_complex_cinderellastaffext" pos_x="-769" pos_y="541" />
+	<control _name="inv_complex_instructionext" pos_x="-761" pos_y="922" />
+	<control _name="inv_complex_towerext" pos_x="-1021" pos_y="1002" />
+	<control _name="inv_complex_potholderext" pos_x="-989" pos_y="223" />
+	<control _name="inv_complex_sockext" pos_x="-975" pos_y="334" />
+	<control _name="inv_complex_brokenscissorsext" pos_x="-1051" pos_y="440" />
+	<control _name="inv_complex_candleext" pos_x="-767" pos_y="354" />
+	<control _name="inv_complex_snowmanpyramidext" pos_x="-771" pos_y="222" />
+	<control _name="zz_frozenext" pos_x="238" pos_y="228" />
+	<control _name="zz_mirrorext" pos_x="-119" pos_y="227" />
+	<control _name="zz_tableext" pos_x="58" pos_y="329" />
+	<control _name="zz_secondfloordoorext" pos_x="120" pos_y="157" />
+	<control _name="zz_dressext" pos_x="197" pos_y="321" />
+	<control _name="rm_entrypointext" pos_x="60" pos_y="233" />
+	<control _name="zz_wallpaintext" pos_x="-252" pos_y="738" />
+	<control _name="zz_sofaext" pos_x="-400" pos_y="636" />
+	<control _name="zz_flowerstableext" pos_x="-110" pos_y="630" />
+	<control _name="zz_dressingroomdoorext" pos_x="-281" pos_y="557" />
+	<control _name="rm_corridorext" pos_x="-240" pos_y="631" />
+	<control _name="ho_painthoext" pos_x="-236" pos_y="679" />
+	<control _name="zz_wardrobeext" pos_x="-408" pos_y="924" />
+	<control _name="zz_mannequinext" pos_x="-106" pos_y="870" />
+	<control _name="zz_ovenext" pos_x="-252" pos_y="991" />
+	<control _name="zz_bustext" pos_x="-86" pos_y="944" />
+	<control _name="rm_dressingroomext" pos_x="-260" pos_y="938" />
+	<control _name="mg_laceext" pos_x="-245" pos_y="879" />
+	<control _name="ho_portalext" pos_x="-5" pos_y="186" />
+	<control _name="zz_brokensleighext" pos_x="708" pos_y="220" />
+	<control _name="zz_icecastleext" pos_x="413" pos_y="223" />
+	<control _name="zz_shopdoorext" pos_x="553" pos_y="274" />
+	<control _name="rm_nearshopext" pos_x="551" pos_y="226" />
+	<control _name="zz_counterext" pos_x="1039" pos_y="229" />
+	<control _name="zz_pantrydoorext" pos_x="1322" pos_y="224" />
+	<control _name="zz_shoeext" pos_x="1192" pos_y="304" />
+	<control _name="rm_shopext" pos_x="1172" pos_y="223" />
+	<control _name="ho_pearlsext" pos_x="1109" pos_y="169" />
+	<control _name="mg_onboxext" pos_x="1240" pos_y="154" />
+	<control _name="zz_lucext" pos_x="223" pos_y="565" />
+	<control _name="zz_icesculptureext" pos_x="536" pos_y="557" />
+	<control _name="zz_tentext" pos_x="254" pos_y="683" />
+	<control _name="zz_guardianext" pos_x="378" pos_y="622" />
+	<control _name="rm_nearcastleext" pos_x="375" pos_y="566" />
+	<control _name="mg_yardext" pos_x="321" pos_y="512" />
+	<control _name="zz_treatstableext" pos_x="889" pos_y="503" />
+	<control _name="zz_firtreeext" pos_x="1014" pos_y="453" />
+	<control _name="zz_corridordoorext" pos_x="738" pos_y="451" />
+	<control _name="rm_hallext" pos_x="898" pos_y="450" />
+	<control _name="zz_archercatext" pos_x="1087" pos_y="686" />
+	<control _name="zz_tobalconyext" pos_x="772" pos_y="705" />
+	<control _name="rm_seconfloorext" pos_x="932" pos_y="694" />
+	<control _name="ho_prizesext" pos_x="448" pos_y="516" />
+	<control _name="mg_fightext" pos_x="950" pos_y="746" />
+</project>
+<project level_dir="E:\Work\CS5\exe\assets\levels\level\rm_entrypoint">
+	<control _name="inv_complex_childrenstruck" pos_x="607" pos_y="692" />
+	<control _name="inv_complex_ovalframe" pos_x="628" pos_y="949" />
+	<control _name="inv_complex_clockworkmouse" pos_x="600" pos_y="875" />
+	<control _name="inv_complex_bakingtray" pos_x="-555" pos_y="1680" />
+	<control _name="inv_complex_letterscasket" pos_x="609" pos_y="770" />
+	<control _name="inv_complex_pipebillet" pos_x="629" pos_y="1011" />
+	<control _name="inv_complex_umbrella" pos_x="629" pos_y="1089" />
+	<control _name="inv_complex_hatbase" pos_x="-1587" pos_y="633" />
+	<control _name="inv_complex_torneddiplom" pos_x="-1591" pos_y="516" />
+	<control _name="inv_complex_candyprize" pos_x="-1598" pos_y="431" />
+	<control _name="inv_complex_collar" pos_x="-1600" pos_y="344" />
+	<control _name="inv_complex_mousemessage" pos_x="-1591" pos_y="53" />
+	<control _name="inv_complex_panicleofeathers" pos_x="-1601" pos_y="239" />
+	<control _name="inv_complex_choppedfigure" pos_x="-1596" pos_y="146" />
+	<control _name="inv_complex_piterdiary" pos_x="-1593" pos_y="754" />
+	<control _name="inv_complex_brokenbrooch" pos_x="-1170" pos_y="83" />
+	<control _name="inv_complex_magnet" pos_x="-1180" pos_y="368" />
+	<control _name="inv_complex_shield" pos_x="-1183" pos_y="291" />
+	<control _name="inv_complex_lostwallet" pos_x="-1176" pos_y="435" />
+	<control _name="inv_complex_garland" pos_x="-1143" pos_y="629" />
+	<control _name="inv_complex_brokenbrush" pos_x="-1164" pos_y="547" />
+	<control _name="inv_complex_brokenrackets" pos_x="-1160" pos_y="853" />
+	<control _name="inv_complex_paperdove" pos_x="-1129" pos_y="735" />
+	<control _name="inv_complex_gift" pos_x="-1160" pos_y="1016" />
+	<control _name="inv_complex_balerina" pos_x="-1779" pos_y="273" />
+	<control _name="zz_snowman" pos_x="-689" pos_y="125" />
+	<control _name="zz_mailbox" pos_x="-870" pos_y="158" />
+	<control _name="zz_housedoor" pos_x="-531" pos_y="221" />
+	<control _name="zz_window" pos_x="-726" pos_y="412" />
+	<control _name="zz_case" pos_x="-544" pos_y="367" />
+	<control _name="rm_entrypoint" pos_x="-688" pos_y="255" />
+	<control _name="rm_outro" pos_x="-614" pos_y="65" />
+	<control _name="mg_casket" pos_x="-882" pos_y="315" />
+	<control _name="zz_cupboard" pos_x="-374" pos_y="71" />
+	<control _name="zz_cabinetdoor" pos_x="-107" pos_y="54" />
+	<control _name="zz_sewingmachine" pos_x="-105" pos_y="119" />
+	<control _name="zz_onthewall" pos_x="-236" pos_y="144" />
+	<control _name="rm_hall" pos_x="-233" pos_y="76" />
+	<control _name="ho_underfirtreeho" pos_x="-248" pos_y="23" />
+	<control _name="zz_fairplace" pos_x="37" pos_y="254" />
+	<control _name="zz_citymaket" pos_x="59" pos_y="346" />
+	<control _name="zz_worktable" pos_x="294" pos_y="256" />
+	<control _name="zz_photowall" pos_x="186" pos_y="349" />
+	<control _name="rm_cabinet" pos_x="157" pos_y="302" />
+	<control _name="mg_citymg" pos_x="163" pos_y="212" />
+	<control _name="zz_tree" pos_x="-566" pos_y="626" />
+	<control _name="zz_artiststuff" pos_x="-849" pos_y="684" />
+	<control _name="zz_mansiongates" pos_x="-728" pos_y="789" />
+	<control _name="rm_street" pos_x="-700" pos_y="721" />
+	<control _name="ho_sledge" pos_x="-712" pos_y="657" />
+	<control _name="zz_icecastle" pos_x="-325" pos_y="582" />
+	<control _name="zz_shopdoor" pos_x="-310" pos_y="743" />
+	<control _name="rm_nearshop" pos_x="-318" pos_y="689" />
+	<control _name="zz_showcase" pos_x="-136" pos_y="591" />
+	<control _name="zz_brokenstatue" pos_x="139" pos_y="596" />
+	<control _name="rm_shop" pos_x="-7" pos_y="646" />
+	<control _name="zz_smallwindow" pos_x="-484" pos_y="1031" />
+	<control _name="zz_burrow" pos_x="-725" pos_y="1064" />
+	<control _name="zz_knight" pos_x="-731" pos_y="981" />
+	<control _name="zz_fencehole" pos_x="-508" pos_y="1095" />
+	<control _name="rm_mansion" pos_x="-614" pos_y="1023" />
+	<control _name="ho_knightho" pos_x="-619" pos_y="966" />
+	<control _name="zz_icehole" pos_x="-146" pos_y="1004" />
+	<control _name="rm_river" pos_x="-267" pos_y="1031" />
+	<control _name="mg_seedmg" pos_x="-493" pos_y="973" />
+	<control _name="ho_elfho" pos_x="-262" pos_y="991" />
+	<control _name="mg_statuemg" pos_x="-2" pos_y="592" />
+	<control _name="zz_doortostreet" pos_x="-2144" pos_y="408" />
+	<control _name="zz_doortoup" pos_x="-2015" pos_y="408" />
+	<control _name="zz_buffet" pos_x="-1886" pos_y="408" />
+	<control _name="zz_sewingtable" pos_x="-1886" pos_y="455" />
+	<control _name="zz_piter" pos_x="-1886" pos_y="502" />
+	<control _name="rm_workshop" pos_x="-2015" pos_y="455" />
+	<control _name="zz_phonetable" pos_x="-2728" pos_y="443" />
+	<control _name="zz_doortodressroom" pos_x="-2592" pos_y="491" />
+	<control _name="zz_floorshelfs" pos_x="-2410" pos_y="438" />
+	<control _name="zz_doortobedroom" pos_x="-2632" pos_y="614" />
+	<control _name="rm_secondfloor" pos_x="-2579" pos_y="443" />
+	<control _name="zz_drawings" pos_x="-3246" pos_y="446" />
+	<control _name="zz_nearbed" pos_x="-3123" pos_y="446" />
+	<control _name="zz_mouse" pos_x="-3000" pos_y="446" />
+	<control _name="rm_bedroom" pos_x="-3123" pos_y="493" />
+	<control _name="mg_mousemg" pos_x="-3000" pos_y="540" />
+	<control _name="zz_sweettruck" pos_x="-2136" pos_y="786" />
+	<control _name="zz_doortojewelryshop" pos_x="-2006" pos_y="786" />
+	<control _name="zz_musicans" pos_x="-1876" pos_y="786" />
+	<control _name="zz_streetfirtree" pos_x="-1876" pos_y="833" />
+	<control _name="rm_citystreets" pos_x="-2006" pos_y="833" />
+	<control _name="zz_roundedshowcase" pos_x="-2186" pos_y="1179" />
+	<control _name="zz_jewelrywall" pos_x="-1978" pos_y="1137" />
+	<control _name="zz_jewelryshowcase" pos_x="-1849" pos_y="1130" />
+	<control _name="rm_jewelryshop" pos_x="-1999" pos_y="1240" />
+	<control _name="ho_musicansho" pos_x="-1876" pos_y="880" />
+	<control _name="zz_manequin" pos_x="-2726" pos_y="804" />
+	<control _name="zz_hats" pos_x="-2590" pos_y="804" />
+	<control _name="zz_wardrobewithcells" pos_x="-2454" pos_y="804" />
+	<control _name="rm_dressroom" pos_x="-2590" pos_y="851" />
+	<control _name="mg_hatsmg" pos_x="-2454" pos_y="851" />
+	<control _name="ho_jewelryho" pos_x="-1827" pos_y="1251" />
+	<control _name="zz_angels" pos_x="505" pos_y="314" />
+	<control _name="zz_lantern" pos_x="791" pos_y="313" />
+	<control _name="zz_fountain" pos_x="720" pos_y="474" />
+	<control _name="zz_newhalldoor" pos_x="591" pos_y="484" />
+	<control _name="rm_newyard" pos_x="646" pos_y="312" />
+	<control _name="zz_doortobackyard" pos_x="955" pos_y="318" />
+	<control _name="zz_balcony" pos_x="993" pos_y="253" />
+	<control _name="zz_coffeetable" pos_x="1132" pos_y="368" />
+	<control _name="zz_newfireplace" pos_x="1253" pos_y="299" />
+	<control _name="zz_cerber" pos_x="1007" pos_y="387" />
+	<control _name="rm_newhall" pos_x="1128" pos_y="321" />
+	<control _name="ho_winterbalcony" pos_x="1118" pos_y="264" />
+	<control _name="zz_chair" pos_x="1263" pos_y="862" />
+	<control _name="zz_commode" pos_x="1280" pos_y="729" />
+	<control _name="zz_bear" pos_x="1038" pos_y="730" />
+	<control _name="zz_atticdoor" pos_x="1143" pos_y="822" />
+	<control _name="rm_floor" pos_x="1147" pos_y="779" />
+	<control _name="zz_railroad" pos_x="1607" pos_y="748" />
+	<control _name="zz_angryoven" pos_x="1493" pos_y="674" />
+	<control _name="zz_boxwithtoys" pos_x="1725" pos_y="664" />
+	<control _name="rm_attic" pos_x="1614" pos_y="704" />
+	<control _name="ho_train" pos_x="1621" pos_y="665" />
+	<control _name="zz_arbourroof" pos_x="1433" pos_y="295" />
+	<control _name="zz_arbour" pos_x="1695" pos_y="287" />
+	<control _name="zz_snowpath" pos_x="1576" pos_y="331" />
+	<control _name="rm_backyard" pos_x="1577" pos_y="297" />
+	<control _name="mg_labyrinth" pos_x="1157" pos_y="686" />
+	<control _name="zz_chapelzz" pos_x="1918" pos_y="365" />
+	<control _name="rm_chapel" pos_x="1904" pos_y="307" />
+	<control _name="ho_icearbour" pos_x="1573" pos_y="251" />
+	<control _name="mg_fight" pos_x="651" pos_y="234" />
+	<ignore _name="assets\levels\level\mg_citymg\choice"/>
+</project>
+<project level_dir="E:\Work\RD3\exe\assets\levels\level\rm_fairentrance">
+	<control _name="inv_complex_spoiledparchment" pos_x="16" pos_y="198" />
+	<control _name="inv_complex_wreckedwheel" pos_x="-239" pos_y="524" />
+	<control _name="inv_complex_bentfork" pos_x="-434" pos_y="554" />
+	<control _name="inv_complex_cannedfood" pos_x="21" pos_y="80" />
+	<control _name="inv_complex_claybox" pos_x="17" pos_y="321" />
+	<control _name="inv_complex_lettertoloren" pos_x="6" pos_y="419" />
+	<control _name="inv_complex_girlsalbum" pos_x="-453" pos_y="393" />
+	<control _name="inv_complex_whistleshards" pos_x="-472" pos_y="296" />
+	<control _name="inv_complex_raft" pos_x="-417" pos_y="206" />
+	<control _name="inv_complex_erincloak" pos_x="-440" pos_y="112" />
+	<control _name="inv_complex_erindiary" pos_x="-455" pos_y="6" />
+	<control _name="inv_complex_torndoll" pos_x="-442" pos_y="-88" />
+	<control _name="inv_complex_brokenmask" pos_x="-215" pos_y="363" />
+	<control _name="inv_complex_prisonerbag" pos_x="-206" pos_y="218" />
+	<control _name="inv_complex_stickfromabyss" pos_x="-14" pos_y="-79" />
+	<control _name="inv_complex_sawhandle" pos_x="-230" pos_y="-86" />
+	<control _name="inv_complex_emptysmoker" pos_x="-207" pos_y="109" />
+	<control _name="inv_complex_burrel" pos_x="-176" pos_y="-4" />
+	<control _name="inv_complex_chain" pos_x="-15" pos_y="-4" />
+	<control _name="inv_complex_dynamite" pos_x="709" pos_y="-318" />
+	<control _name="inv_complex_littlebag" pos_x="908" pos_y="-402" />
+	<control _name="inv_complex_toyhelmet" pos_x="711" pos_y="-399" />
+	<control _name="inv_complex_broomhandle" pos_x="908" pos_y="-298" />
+	<control _name="inv_complex_toyhang" pos_x="524" pos_y="-399" />
+	<control _name="inv_complex_jackhalf1" pos_x="525" pos_y="-324" />
+	<control _name="inv_complex_paperlist" pos_x="337" pos_y="-394" />
+	<control _name="inv_complex_goldpiece" pos_x="337" pos_y="-323" />
+	<control _name="zz_bench" pos_x="336" pos_y="-152" />
+	<control _name="zz_gate" pos_x="473" pos_y="-101" />
+	<control _name="zz_statuemus" pos_x="607" pos_y="-146" />
+	<control _name="rm_fairentrance" pos_x="466" pos_y="-150" />
+	<control _name="rm_outro" pos_x="333" pos_y="-444" />
+	<control _name="mg_boardgame" pos_x="1312" pos_y="610" />
+	<control _name="mg_honeytaker" pos_x="793" pos_y="1038" />
+	<control _name="zz_logjam" pos_x="322" pos_y="85" />
+	<control _name="zz_sculptortent" pos_x="303" pos_y="161" />
+	<control _name="zz_windowsill" pos_x="441" pos_y="132" />
+	<control _name="zz_doortocandystore" pos_x="607" pos_y="138" />
+	<control _name="zz_souvenirshop" pos_x="612" pos_y="247" />
+	<control _name="rm_square" pos_x="450" pos_y="91" />
+	<control _name="ho_souvenirs" pos_x="591" pos_y="82" />
+	<control _name="zz_tabletools" pos_x="464" pos_y="393" />
+	<control _name="zz_wallpicture" pos_x="475" pos_y="598" />
+	<control _name="zz_bollard" pos_x="216" pos_y="418" />
+	<control _name="zz_showcase" pos_x="216" pos_y="527" />
+	<control _name="rm_candystore" pos_x="334" pos_y="423" />
+	<control _name="zz_overgrowngate" pos_x="642" pos_y="411" />
+	<control _name="zz_doortoarchive" pos_x="955" pos_y="388" />
+	<control _name="zz_wagon" pos_x="702" pos_y="511" />
+	<control _name="zz_golemcracks" pos_x="860" pos_y="514" />
+	<control _name="rm_street" pos_x="803" pos_y="452" />
+	<control _name="mg_mechanisms" pos_x="467" pos_y="514" />
+	<control _name="ho_apartment" pos_x="799" pos_y="403" />
+	<control _name="zz_burrow" pos_x="119" pos_y="811" />
+	<control _name="zz_wallfresco" pos_x="377" pos_y="808" />
+	<control _name="zz_bookofchronicler" pos_x="360" pos_y="869" />
+	<control _name="rm_archive" pos_x="260" pos_y="858" />
+	<control _name="ho_frescho" pos_x="252" pos_y="903" />
+	<control _name="mg_chronicles" pos_x="254" pos_y="794" />
+	<control _name="zz_covert" pos_x="1336" pos_y="398" />
+	<control _name="zz_towerruins" pos_x="1448" pos_y="394" />
+	<control _name="zz_guardbooth" pos_x="1143" pos_y="601" />
+	<control _name="zz_statueknight" pos_x="1452" pos_y="555" />
+	<control _name="zz_towertop" pos_x="1163" pos_y="508" />
+	<control _name="rm_outskirts" pos_x="1290" pos_y="501" />
+	<control _name="zz_puppetshow" pos_x="586" pos_y="894" />
+	<control _name="zz_fountain" pos_x="607" pos_y="1002" />
+	<control _name="zz_oldtree" pos_x="874" pos_y="894" />
+	<control _name="rm_fountainpark" pos_x="730" pos_y="941" />
+	<control _name="zz_bear" pos_x="1048" pos_y="769" />
+	<control _name="zz_burn" pos_x="1182" pos_y="769" />
+	<control _name="zz_tohuntercabin" pos_x="1316" pos_y="769" />
+	<control _name="rm_outerwood" pos_x="1182" pos_y="816" />
+	<control _name="ho_huntercabin" pos_x="1316" pos_y="816" />
+	<control _name="zz_abyss" pos_x="1033" pos_y="925" />
+	<control _name="zz_gryphonstatue" pos_x="1182" pos_y="925" />
+	<control _name="zz_brokenbridge" pos_x="1331" pos_y="925" />
+	<control _name="rm_aroundbridge" pos_x="1182" pos_y="972" />
+	<control _name="zz_oilbarrel" pos_x="1067" pos_y="1081" />
+	<control _name="zz_relief" pos_x="1321" pos_y="1169" />
+	<control _name="zz_castlegates" pos_x="1297" pos_y="1081" />
+	<control _name="rm_bailey" pos_x="1182" pos_y="1080" />
+	<control _name="zz_wall" pos_x="686" pos_y="1237" />
+	<control _name="zz_prisoner" pos_x="734" pos_y="1446" />
+	<control _name="zz_totreasuryho" pos_x="958" pos_y="1237" />
+	<control _name="zz_guard" pos_x="958" pos_y="1284" />
+	<control _name="rm_basements" pos_x="822" pos_y="1284" />
+	<control _name="ho_treasuryho" pos_x="958" pos_y="1331" />
+	<control _name="zz_adam" pos_x="1236" pos_y="1495" />
+	<control _name="zz_secretpassage" pos_x="1351" pos_y="1495" />
+	<control _name="zz_stovegates" pos_x="1466" pos_y="1495" />
+	<control _name="zz_castletable" pos_x="1466" pos_y="1542" />
+	<control _name="rm_castle" pos_x="1351" pos_y="1542" />
+	<control _name="ho_statuegirls" pos_x="1180" pos_y="1139" />
+	<control _name="mg_brokenbridgemg" pos_x="1331" pos_y="972" />
+	<control _name="mg_castlegatesmg" pos_x="1172" pos_y="1198" />
+	<control _name="zz_skymap" pos_x="1199" pos_y="1710" />
+	<control _name="zz_gobletoffire" pos_x="1489" pos_y="1812" />
+	<control _name="zz_oldchest" pos_x="1478" pos_y="1701" />
+	<control _name="rm_underpass" pos_x="1331" pos_y="1757" />
+	<control _name="zz_pilledpass" pos_x="1279" pos_y="1904" />
+	<control _name="zz_statueofpotter" pos_x="1251" pos_y="1959" />
+	<control _name="zz_abandonedstore" pos_x="1531" pos_y="1904" />
+	<control _name="zz_housegates" pos_x="1396" pos_y="2017" />
+	<control _name="rm_oldcity" pos_x="1398" pos_y="1953" />
+	<control _name="zz_doortohouse" pos_x="787" pos_y="1983" />
+	<control _name="zz_waters" pos_x="831" pos_y="2067" />
+	<control _name="zz_mailbox" pos_x="1101" pos_y="1983" />
+	<control _name="zz_oldflowerbed" pos_x="1101" pos_y="2030" />
+	<control _name="rm_nearerinhouse" pos_x="944" pos_y="2030" />
+	<control _name="zz_familycorner" pos_x="756" pos_y="2142" />
+	<control _name="zz_mountedcabinets" pos_x="892" pos_y="2226" />
+	<control _name="zz_doortoworkshop" pos_x="1012" pos_y="2142" />
+	<control _name="zz_cupboard" pos_x="1079" pos_y="2223" />
+	<control _name="rm_erinhouse" pos_x="884" pos_y="2189" />
+	<control _name="ho_lullaby" pos_x="904" pos_y="2141" />
+	<control _name="zz_shelfwithblanks" pos_x="877" pos_y="2488" />
+	<control _name="zz_cabinet" pos_x="1032" pos_y="2369" />
+	<control _name="zz_pottertable" pos_x="904" pos_y="2409" />
+	<control _name="rm_workshop" pos_x="902" pos_y="2370" />
+	<control _name="ho_pilledpassho" pos_x="1385" pos_y="1899" />
+	<control _name="zz_jewelerbench" pos_x="1434" pos_y="2150" />
+	<control _name="zz_museumcass" pos_x="1574" pos_y="2154" />
+	<control _name="rm_solarstones" pos_x="1498" pos_y="2116" />
+	<control _name="zz_golemshowcase" pos_x="1389" pos_y="2279" />
+	<control _name="zz_statuets" pos_x="1424" pos_y="2406" />
+	<control _name="zz_mobileladder" pos_x="1691" pos_y="2284" />
+	<control _name="rm_museum" pos_x="1564" pos_y="2326" />
+	<control _name="ho_exhibits" pos_x="1568" pos_y="2274" />
+	<control _name="mg_battle" pos_x="1372" pos_y="1594" />
+	<control _name="mg_stonewall" pos_x="1327" pos_y="1698" />
+	<ignore _name="assets\levels\level\mg_mechanisms\1"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\2"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\3"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\4"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\5"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\6"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\7"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\8"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block1"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block2"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block3"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block_light"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem_lot"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem_lot_light"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\crash_fx"/>
+	<ignore _name="assets\levels\level\mg_chronicles\bird_light"/>
+	<ignore _name="assets\levels\level\mg_chronicles\bird_light2"/>
+	<ignore _name="assets\levels\level\mg_chronicles\light_roof1"/>
+	<ignore _name="assets\levels\level\mg_chronicles\light_roof2"/>
+	<ignore _name="assets\levels\level\mg_chronicles\light_roof3"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper1"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper2"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper3"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper4"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper5"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper6"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment1_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment2_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment3_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment4_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment5_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment6_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment7_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment8_light"/>
+	<ignore _name="assets\levels\level\ho_apartment\aaa"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_ccc"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_eee"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_fx"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_ggg"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_iii"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_kkk"/>
+	<ignore _name="assets\levels\level\ho_apartment\light_on_fx"/>
+	<ignore _name="assets\levels\level\ho_apartment\scroll_fx"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\lack_op"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list2_1"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list2_2"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list_back_1"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list_back_2"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list_back_3"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list_back_4"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\list_back_tr"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\part_back"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\pert3_back_1"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\pert3_back_2"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\pert3_back_3"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\pert3_back_4"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide1tr"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide1_back_1"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide1_back_2"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide1_back_3"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide1_back_4"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide_back_1"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide_back_2"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide_back_3"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_girlsalbum\slide_back_4"/>
+	<ignore _name="assets\levels\level\mg_battle\block1"/>
+	<ignore _name="assets\levels\level\mg_battle\block1_light"/>
+	<ignore _name="assets\levels\level\mg_battle\block2"/>
+	<ignore _name="assets\levels\level\mg_battle\block2_light"/>
+	<ignore _name="assets\levels\level\mg_battle\block3"/>
+	<ignore _name="assets\levels\level\mg_battle\block3_light"/>
+	<ignore _name="assets\levels\level\mg_battle\block4"/>
+	<ignore _name="assets\levels\level\mg_battle\block4_light"/>
+	<ignore _name="assets\levels\level\mg_battle\block5"/>
+	<ignore _name="assets\levels\level\mg_battle\block5_light"/>
+	<ignore _name="assets\levels\level\mg_battle\block_1_crashed_fx"/>
+	<ignore _name="assets\levels\level\mg_battle\block_2_crashed_fx"/>
+	<ignore _name="assets\levels\level\mg_battle\block_3_crashed_fx"/>
+	<ignore _name="assets\levels\level\mg_battle\block_4_crashed_fx"/>
+	<ignore _name="assets\levels\level\mg_battle\block_5_crashed_fx"/>
+	<ignore _name="assets\levels\level\mg_battle\block_lock"/>
+	<ignore _name="assets\levels\level\mg_battle\block_lock_crashed_fx"/>
+	<ignore _name="assets\levels\level\mg_battle\fx_charge"/>
+	<ignore _name="assets\levels\level\mg_battle\fx_damage"/>
+	<ignore _name="assets\levels\level\mg_battle\fx_enemy_shoot"/>
+	<ignore _name="assets\levels\level\mg_battle\fx_fly"/>
+	<ignore _name="assets\levels\level\mg_battle\fx_shoot"/>
+	<ignore _name="assets\levels\level\mg_battle\lifebar_midle"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\1_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\1_1"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\2_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\2_1"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\2_2"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\2_3"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\3_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\4_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\4_1"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\4_2"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\5_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\5_1"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\6_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\6_1"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\6_2"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\6_3"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\7_0"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\7_1"/>
+	<ignore _name="assets\levels\level\mg_brokenbridgemg\light"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_1"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_10"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_11"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_12"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_2"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_3"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_4"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_5"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_6"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_7"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_8"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_9"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_light"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_light_red"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\1_shadow"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_1"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_10"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_11"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_12"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_2"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_3"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_4"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_5"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_6"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_7"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_8"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_9"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_light"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_light_red"/>
+	<ignore _name="assets\levels\level\mg_castlegatesmg\2_shadow"/>
+	<ignore _name="assets\levels\level\mg_honeytaker\fx_final"/>
+	<ignore _name="assets\levels\level\mg_honeytaker\green_fx"/>
+	<ignore _name="assets\levels\level\mg_honeytaker\hexo_light"/>
+	<ignore _name="assets\levels\level\mg_honeytaker\orange_fx"/>
+	<ignore _name="assets\levels\level\mg_stonewall\1"/>
+	<ignore _name="assets\levels\level\mg_stonewall\10"/>
+	<ignore _name="assets\levels\level\mg_stonewall\11"/>
+	<ignore _name="assets\levels\level\mg_stonewall\12"/>
+	<ignore _name="assets\levels\level\mg_stonewall\13"/>
+	<ignore _name="assets\levels\level\mg_stonewall\14"/>
+	<ignore _name="assets\levels\level\mg_stonewall\15"/>
+	<ignore _name="assets\levels\level\mg_stonewall\16"/>
+	<ignore _name="assets\levels\level\mg_stonewall\17"/>
+	<ignore _name="assets\levels\level\mg_stonewall\18"/>
+	<ignore _name="assets\levels\level\mg_stonewall\19"/>
+	<ignore _name="assets\levels\level\mg_stonewall\2"/>
+	<ignore _name="assets\levels\level\mg_stonewall\20"/>
+	<ignore _name="assets\levels\level\mg_stonewall\21"/>
+	<ignore _name="assets\levels\level\mg_stonewall\22"/>
+	<ignore _name="assets\levels\level\mg_stonewall\23"/>
+	<ignore _name="assets\levels\level\mg_stonewall\24"/>
+	<ignore _name="assets\levels\level\mg_stonewall\25"/>
+	<ignore _name="assets\levels\level\mg_stonewall\26"/>
+	<ignore _name="assets\levels\level\mg_stonewall\27"/>
+	<ignore _name="assets\levels\level\mg_stonewall\28"/>
+	<ignore _name="assets\levels\level\mg_stonewall\29"/>
+	<ignore _name="assets\levels\level\mg_stonewall\3"/>
+	<ignore _name="assets\levels\level\mg_stonewall\30"/>
+	<ignore _name="assets\levels\level\mg_stonewall\31"/>
+	<ignore _name="assets\levels\level\mg_stonewall\32"/>
+	<ignore _name="assets\levels\level\mg_stonewall\33"/>
+	<ignore _name="assets\levels\level\mg_stonewall\34"/>
+	<ignore _name="assets\levels\level\mg_stonewall\35"/>
+	<ignore _name="assets\levels\level\mg_stonewall\36"/>
+	<ignore _name="assets\levels\level\mg_stonewall\37"/>
+	<ignore _name="assets\levels\level\mg_stonewall\38"/>
+	<ignore _name="assets\levels\level\mg_stonewall\39"/>
+	<ignore _name="assets\levels\level\mg_stonewall\4"/>
+	<ignore _name="assets\levels\level\mg_stonewall\40"/>
+	<ignore _name="assets\levels\level\mg_stonewall\41"/>
+	<ignore _name="assets\levels\level\mg_stonewall\5"/>
+	<ignore _name="assets\levels\level\mg_stonewall\6"/>
+	<ignore _name="assets\levels\level\mg_stonewall\7"/>
+	<ignore _name="assets\levels\level\mg_stonewall\8"/>
+	<ignore _name="assets\levels\level\mg_stonewall\9"/>
+	<ignore _name="assets\levels\level\mg_stonewall\pl"/>
+	<ignore _name="assets\levels\level\mg_stonewall\pl_light"/>
+	<ignore _name="assets\levels\level\mg_stonewall\pl_light_bad"/>
+	<ignore _name="assets\levels\level\mg_stonewall\pl_on"/>
+	<ignore _name="assets\levels\level\mg_stonewall\vid_pl_beg"/>
+	<ignore _name="assets\levels\level\mg_stonewall\vid_pl_beg_on"/>
+	<ignore _name="assets\levels\level\mg_stonewall\vid_pl_end"/>
+	<ignore _name="assets\levels\level\mg_stonewall\vid_pl_end_on"/>
+	<ignore _name="assets\levels\level\rm_aroundbridge\zz_gryphonstatue\2"/>
+	<ignore _name="assets\levels\level\rm_aroundbridge\zz_gryphonstatue\3"/>
+	<ignore _name="assets\levels\level\rm_aroundbridge\zz_gryphonstatue\4"/>
+	<ignore _name="assets\levels\level\rm_aroundbridge\zz_gryphonstatue\5"/>
+	<ignore _name="assets\levels\level\rm_underpass\miniback_light"/>
+	<ignore _name="assets\levels\level\rm_bailey\zz_relief\find_fx"/>
+	<ignore _name="assets\levels\level\ho_pilledpassho\correct_fx"/>
+	<ignore _name="assets\levels\level\ho_exhibits\fly_fx"/>
+	<ignore _name="assets\levels\level\ho_apartment\fly_fx"/>
+</project>
+<project level_dir="E:\Work\RD3\exe\assets\levels\levelext\rm_tavernext">
+	<control _name="inv_complex_recipeofexplosiveext" pos_x="843" pos_y="-158" />
+	<control _name="inv_complex_cartonext" pos_x="608" pos_y="-206" />
+	<control _name="inv_complex_potext" pos_x="613" pos_y="-44" />
+	<control _name="inv_complex_scisorshalfext" pos_x="564" pos_y="55" />
+	<control _name="inv_complex_orderbookext" pos_x="844" pos_y="102" />
+	<control _name="inv_complex_unloadedgunext" pos_x="838" pos_y="-2" />
+	<control _name="inv_complex_brokenshipext" pos_x="853" pos_y="-260" />
+	<control _name="inv_complex_dropedbagext" pos_x="556" pos_y="-312" />
+	<control _name="inv_complex_glovesext" pos_x="570" pos_y="-385" />
+	<control _name="inv_complex_brokenladderext" pos_x="560" pos_y="-477" />
+	<control _name="inv_complex_tomahawkstickext" pos_x="832" pos_y="-390" />
+	<control _name="inv_complex_brokenmugext" pos_x="837" pos_y="-476" />
+	<control _name="zz_vikingext" pos_x="-560" pos_y="-591" />
+	<control _name="zz_tavernwindowext" pos_x="-571" pos_y="-457" />
+	<control _name="zz_tavernholeext" pos_x="-253" pos_y="-471" />
+	<control _name="zz_taverntableext" pos_x="-227" pos_y="-592" />
+	<control _name="rm_tavernext" pos_x="-407" pos_y="-602" />
+	<control _name="zz_tosquareext" pos_x="-383" pos_y="-220" />
+	<control _name="zz_newexhibitext" pos_x="-521" pos_y="-255" />
+	<control _name="zz_killedgolemext" pos_x="-381" pos_y="-164" />
+	<control _name="rm_streetext" pos_x="-374" pos_y="-260" />
+	<control _name="ho_golemcracksext" pos_x="-480" pos_y="-310" />
+	<control _name="zz_nestext" pos_x="-166" pos_y="24" />
+	<control _name="zz_carwithflowerext" pos_x="116" pos_y="33" />
+	<control _name="zz_doortocandystoreext" pos_x="115" pos_y="-49" />
+	<control _name="zz_overgrowngateext" pos_x="-195" pos_y="-57" />
+	<control _name="rm_squareext" pos_x="-24" pos_y="-3" />
+	<control _name="zz_bollardext" pos_x="8" pos_y="-419" />
+	<control _name="zz_showcaseext" pos_x="141" pos_y="-332" />
+	<control _name="rm_candystoreext" pos_x="142" pos_y="-419" />
+	<control _name="zz_shopshuttersext" pos_x="151" pos_y="297" />
+	<control _name="zz_firstfloorext" pos_x="-19" pos_y="401" />
+	<control _name="zz_horseext" pos_x="-9" pos_y="257" />
+	<control _name="zz_gardengateext" pos_x="-174" pos_y="345" />
+	<control _name="zz_housedoorext" pos_x="-188" pos_y="217" />
+	<control _name="rm_steelstreetext" pos_x="-5" pos_y="217" />
+	<control _name="ho_flowersext" pos_x="-25" pos_y="-55" />
+	<control _name="zz_clocksext" pos_x="-521" pos_y="220" />
+	<control _name="zz_doortocabinetext" pos_x="-679" pos_y="322" />
+	<control _name="zz_dressingtableext" pos_x="-676" pos_y="187" />
+	<control _name="rm_mansionext" pos_x="-515" pos_y="181" />
+	<control _name="mg_piratesext" pos_x="167" pos_y="215" />
+	<control _name="zz_wallphotoext" pos_x="-670" pos_y="619" />
+	<control _name="zz_shelfsext" pos_x="-338" pos_y="509" />
+	<control _name="zz_fireplaceext" pos_x="-496" pos_y="665" />
+	<control _name="zz_bookshelfext" pos_x="-664" pos_y="507" />
+	<control _name="rm_cabinetext" pos_x="-526" pos_y="505" />
+	<control _name="zz_atticext" pos_x="818" pos_y="449" />
+	<control _name="zz_fountainext" pos_x="829" pos_y="556" />
+	<control _name="zz_arborext" pos_x="475" pos_y="352" />
+	<control _name="zz_secretwayext" pos_x="808" pos_y="353" />
+	<control _name="rm_backyardext" pos_x="647" pos_y="488" />
+	<control _name="ho_fountainhoext" pos_x="656" pos_y="438" />
+	<control _name="zz_gardengnomeext" pos_x="559" pos_y="729" />
+	<control _name="zz_statuegirlsext" pos_x="854" pos_y="803" />
+	<control _name="zz_castlegatesext" pos_x="850" pos_y="728" />
+	<control _name="rm_baileyext" pos_x="735" pos_y="812" />
+	<control _name="mg_birdsext" pos_x="654" pos_y="354" />
+	<control _name="ho_magicgnomesext" pos_x="570" pos_y="804" />
+	<control _name="mg_castleext" pos_x="732" pos_y="732" />
+	<control _name="mg_shipmentext" pos_x="-29" pos_y="60" />
+	<ignore _name="assets\levels\levelext\mg_castleext\lifebar_back"/>
+	<ignore _name="assets\levels\levelext\mg_castleext\lifebar_front"/>
+	<ignore _name="assets\levels\levelext\mg_castleext\lifebar_midle"/>
+	<ignore _name="assets\levels\levelext\mg_castleext\lifebar_midle_dot"/>
+	<ignore _name="assets\levels\levelext\mg_piratesext\anm_wave"/>
+	<ignore _name="assets\levels\levelext\mg_piratesext\place_checked"/>
+	<ignore _name="assets\levels\levelext\mg_piratesext\place_pirate"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\fly_fx"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\item_bbb"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\item_ddd"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\item_fff"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\item_fx"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\item_hhh"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\item_jjj"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\light_on_fx"/>
+	<ignore _name="assets\levels\levelext\ho_magicgnomesext\scroll_fx"/>
+</project>
+<project level_dir="E:\Work\Chimeras2\exe\assets\levels\levelext\rm_squareext">
+	<control _name="inv_complex_bowext" pos_x="1101" pos_y="822" />
+	<control _name="inv_complex_diaryext" pos_x="1102" pos_y="751" />
+	<control _name="inv_complex_bagext" pos_x="1345" pos_y="583" />
+	<control _name="inv_complex_shoeext" pos_x="1353" pos_y="460" />
+	<control _name="inv_complex_citymapext" pos_x="887" pos_y="457" />
+	<control _name="inv_complex_smolderinglogext" pos_x="1345" pos_y="272" />
+	<control _name="inv_complex_pitchforkpartext" pos_x="856" pos_y="363" />
+	<control _name="inv_complex_hookext" pos_x="1090" pos_y="489" />
+	<control _name="inv_complex_clockext" pos_x="1098" pos_y="425" />
+	<control _name="inv_complex_bunchkeysext" pos_x="1090" pos_y="355" />
+	<control _name="inv_complex_shellext" pos_x="1087" pos_y="287" />
+	<control _name="inv_complex_candleext" pos_x="893" pos_y="290" />
+	<control _name="zz_archext" pos_x="597" pos_y="481" />
+	<control _name="zz_showcaseext" pos_x="243" pos_y="292" />
+	<control _name="zz_stockext" pos_x="557" pos_y="289" />
+	<control _name="rm_squareext" pos_x="398" pos_y="354" />
+	<control _name="zz_windowwagonext" pos_x="286" pos_y="629" />
+	<control _name="zz_atticext" pos_x="284" pos_y="720" />
+	<control _name="zz_doorwagonext" pos_x="556" pos_y="629" />
+	<control _name="zz_narrowext" pos_x="556" pos_y="676" />
+	<control _name="rm_nearpubext" pos_x="421" pos_y="676" />
+	<control _name="ho_fruittrolleyhoext" pos_x="391" pos_y="297" />
+	<control _name="mg_swindlerext" pos_x="421" pos_y="723" />
+	<control _name="zz_mailboxext" pos_x="-41" pos_y="813" />
+	<control _name="zz_oldgateext" pos_x="132" pos_y="813" />
+	<control _name="zz_backdoorext" pos_x="305" pos_y="813" />
+	<control _name="zz_crimesceneext" pos_x="305" pos_y="860" />
+	<control _name="zz_sewerageext" pos_x="305" pos_y="907" />
+	<control _name="rm_lemannmanorext" pos_x="132" pos_y="860" />
+	<control _name="ho_catchext" pos_x="556" pos_y="723" />
+	<control _name="zz_tableext" pos_x="426" pos_y="813" />
+	<control _name="zz_foodext" pos_x="552" pos_y="813" />
+	<control _name="zz_ironstoveext" pos_x="678" pos_y="813" />
+	<control _name="rm_wagonext" pos_x="552" pos_y="860" />
+	<control _name="zz_oldtreeext" pos_x="-7" pos_y="969" />
+	<control _name="zz_wellext" pos_x="132" pos_y="969" />
+	<control _name="zz_arableext" pos_x="271" pos_y="969" />
+	<control _name="zz_bridgeext" pos_x="271" pos_y="1016" />
+	<control _name="rm_outskirtsext" pos_x="132" pos_y="1016" />
+	<control _name="zz_balconyext" pos_x="-42" pos_y="1125" />
+	<control _name="zz_barnext" pos_x="132" pos_y="1125" />
+	<control _name="zz_windowcryptext" pos_x="306" pos_y="1125" />
+	<control _name="rm_mobiusmanorext" pos_x="132" pos_y="1172" />
+	<control _name="ho_fireplaceext" pos_x="306" pos_y="1219" />
+	<control _name="zz_familyportraitext" pos_x="-18" pos_y="1281" />
+	<control _name="zz_juliathingsext" pos_x="132" pos_y="1281" />
+	<control _name="zz_hidingplaceext" pos_x="282" pos_y="1281" />
+	<control _name="rm_bedroomsext" pos_x="132" pos_y="1328" />
+	<control _name="zz_thingsvillainext" pos_x="13" pos_y="1437" />
+	<control _name="zz_holeext" pos_x="132" pos_y="1437" />
+	<control _name="zz_stainedglassext" pos_x="251" pos_y="1437" />
+	<control _name="zz_telescopeext" pos_x="251" pos_y="1484" />
+	<control _name="rm_towerext" pos_x="132" pos_y="1484" />
+	<control _name="ho_storyext" pos_x="282" pos_y="1328" />
+	<control _name="rm_blindalleyext" pos_x="132" pos_y="1640" />
+	<control _name="mg_battleext" pos_x="-9" pos_y="1593" />
+	<control _name="mg_mechanismext" pos_x="271" pos_y="1063" />
+	<control _name="mg_stonesext" pos_x="306" pos_y="1172" />
+	<ignore _name="assets\levels\level\mg_mechanisms\1"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\2"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\3"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\4"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\5"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\6"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\7"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\8"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block1"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block2"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block3"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\block_light"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem_lot"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\golem_lot_light"/>
+	<ignore _name="assets\levels\level\mg_mechanisms\crash_fx"/>
+	<ignore _name="assets\levels\level\mg_chronicles\bird_light"/>
+	<ignore _name="assets\levels\level\mg_chronicles\bird_light2"/>
+	<ignore _name="assets\levels\level\mg_chronicles\light_roof1"/>
+	<ignore _name="assets\levels\level\mg_chronicles\light_roof2"/>
+	<ignore _name="assets\levels\level\mg_chronicles\light_roof3"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper1"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper2"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper3"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper4"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper5"/>
+	<ignore _name="assets\levels\level\mg_chronicles\paper6"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment1_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment2_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment3_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment4_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment5_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment6_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment7_light"/>
+	<ignore _name="assets\levels\level\inv_deploy\inv_complex_goldpiece\fragment8_light"/>
+	<ignore _name="assets\levels\level\ho_apartment\aaa"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_ccc"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_eee"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_fx"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_ggg"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_iii"/>
+	<ignore _name="assets\levels\level\ho_apartment\item_kkk"/>
+	<ignore _name="assets\levels\level\ho_apartment\light_on_fx"/>
+	<ignore _name="assets\levels\level\ho_apartment\scroll_fx"/>
+</project>

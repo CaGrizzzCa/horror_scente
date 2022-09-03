@@ -1,0 +1,7 @@
+<module name="common" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__common_rootobj">
+            <obj __type="timer" _name="tmr_common_fps" input="0" visible="0"/>
+        </obj>
+    </objs>
+</module>

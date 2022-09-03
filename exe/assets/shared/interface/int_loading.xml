@@ -1,0 +1,7 @@
+<module name="int_loading" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_loading_rootobj">
+            <obj __type="obj" _name="int_loading" inputrect_h="2000" inputrect_init="1" inputrect_w="2000"/>
+        </obj>
+    </objs>
+</module>

@@ -1,0 +1,11 @@
+back2.png
+p_smokefog.set,p_smokefog
+-53.0,-108.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_smokefog2.set,p_smokefog2
+-324.0,-311.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_smokefog3.set,p_smokefog3
+-187.0,-199.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_lakeshore_toxic.set,p_lakeshore_toxic
+329.0,213.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_lakeshore_toxic_smoke.set,p_lakeshore_toxic_smoke
+334.0,183.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0

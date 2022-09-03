@@ -1,0 +1,20 @@
+		<trig name="prg_use_##use##">
+			<code>
+function prg_use_##use##_end()
+  ld.Block("rm_##rm##",0);
+  ng_global.progress["##prg##"]["use_##use##"].done = 1;
+  ng_global.progress["##prg##"]["use_##use##"].func();
+end;
+
+local obj = ne_params.param_0 or ne_params.sender;
+if ApplyCheck(obj, "gfx_##rm##_##use##_zone") then
+  ObjDelete( "gfx_##rm##_##use##_zone" );
+  --SoundSfx(  )
+  ld.Block("rm_##rm##",1);
+  prg_use_##use##_end()
+  --ObjAnimate("spr_##rm##_##use##", 8, 0, 0, "*prg_use_##use##_end()", {0,0,0,0.5,0,1});
+else
+  ld.WrongApply();
+end;
+</code>
+		</trig>

@@ -1,0 +1,7 @@
+--ng_global.progress["##prg##"]["use_##use##"].task="";
+ng_global.progress["##prg##"]["use_##use##"].hint=1;
+ng_global.progress["##prg##"]["use_##use##"].func = function()
+  int.InventoryItemRemove("inv_##use##");
+  ObjDelete("gfx_##zrm##_##use##_zone");
+end;
+

@@ -1,0 +1,22 @@
+<settings>
+  <snippets>
+    <snippet>ObjAnimate("^", type, loop, relative, "trname", {time0, interptype0, value0, time1, interptype1, value1});</snippet>
+    <snippet>function ^
+		--some code here
+end</snippet>
+  </snippets>
+  <projects>
+    <project>E:\Work\programming\NotGame\src\doc\project_1.4.xml</project>
+    <project>E:\work\notGame\src\doc\project.xml</project>
+  </projects>
+  <style code_zoom="100" preferred_line_width="80" auto_indent="True" auto_complete_brackets="True" build_inline_functions="True">
+    <code>
+      <Default font_color="Black" back_color="window" font_style="Regular" />
+      <Keyword font_color="Blue" font_style="Regular" />
+      <String font_color="Brown" font_style="Regular" />
+      <Method font_color="Black" font_style="Bold" />
+      <Comment font_color="Green" font_style="Italic" />
+      <Selected back_color="LightCyan" font_style="Regular" />
+    </code>
+  </style>
+</settings>

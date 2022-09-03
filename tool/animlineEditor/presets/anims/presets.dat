@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<presets>
+	<preset name="Basics" location="" isactive="True" isbasic="True">
+		<preset name="award" location="award/award.nea3" isactive="False" isbasic="False" />
+		<preset name="blood" location="blood/blood.nea3" isactive="False" isbasic="False" />
+		<preset name="bubbles" location="bubbles/bubbles.nea3" isactive="False" isbasic="False" />
+		<preset name="consumable" location="improvement/consumable.nea3" isactive="False" isbasic="False" />
+		<preset name="drops" location="drops/drops.nea3" isactive="False" isbasic="False" />
+		<preset name="dust" location="dust/dust.nea3" isactive="False" isbasic="False" />
+		<preset name="explosion" location="explosion/explosion.nea3" isactive="False" isbasic="False" />
+		<preset name="explosion_2" location="explosion_2/explosion_2.nea3" isactive="False" isbasic="False" />
+		<preset name="fire_and_sparks" location="fire_and_sparks/fire_and_sparks.nea3" isactive="False" isbasic="False" />
+		<preset name="glowing_border" location="glowing_border/glowing_border.nea3" isactive="False" isbasic="False" />
+		<preset name="improvement" location="improvement/improvement.nea3" isactive="False" isbasic="False" />
+		<preset name="leaves" location="leaves/leaves.nea3" isactive="False" isbasic="False" />
+		<preset name="light_from_below" location="light_from_below/light_from_below.nea3" isactive="False" isbasic="False" />
+		<preset name="magic_arrow" location="magic_arrow/magic_arrow.nea3" isactive="False" isbasic="False" />
+		<preset name="mechanic_sparks" location="mechanic_sparks/mechanic_sparks.nea3" isactive="False" isbasic="False" />
+		<preset name="sparks" location="sparks/sparks.nea3" isactive="False" isbasic="False" />
+		<preset name="sparks_2" location="sparks_2/sparks_2.nea3" isactive="False" isbasic="False" />
+		<preset name="special_gem" location="special_gem/special_gem.nea3" isactive="False" isbasic="False" />
+		<preset name="stars" location="stars/stars.nea3" isactive="False" isbasic="False" />
+		<preset name="strike_of_light" location="strike_of_light/strike_of_light.nea3" isactive="False" isbasic="False" />
+		<preset name="win_screen" location="win_screen/win_screen.nea3" isactive="False" isbasic="False" />
+	</preset>
+	<preset name="User" location="" isactive="True" isbasic="False" />
+</presets>

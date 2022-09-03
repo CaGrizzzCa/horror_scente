@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="AnimlineEditor" title="Редактор анимаций" version="2.14.9.51" />
+    <project_data name="test_ps3" ext=".plsm" project_path="D:/WorkTools/Tools/animline_editor/AnimlineEditor/bin/Release/presets/test_ps3/test_ps3.plsm" content_format="Xml" date="2018-07-23 16:29:17" guid="dc3b478b-a1ee-4d28-acb7-a93b648489d2" />
+  </service_data>
+  <work_data>
+    <ps type="rnd" name="test_ps3" ver="1.3" free="1" path="">
+      <emit name="emit1023" pos_mode="0" level="0" frame_index="0" res="light0" lifetime="2" playing="1" loop="0" exported="1" preprocess_time="0" blendmode="0" visible="1">
+        <delta pos="0" scope="0" speed="0" acceleration="0" scale="0" emitter_speed="0" emitter_acceleration="0" />
+        <pos_x delta="0">
+          <p v="0" t="0" mf_v="0" mf_t="0" />
+          <p v="330.5" t="0.15" mb_v="330.5" mb_t="0.15" mf_v="330.5" mf_t="0.15" />
+          <p v="139" t="0.3" mb_v="139" mb_t="0.3" mf_v="139" mf_t="0.3" />
+          <p v="140" t="0.4" mb_v="140" mb_t="0.4" mf_v="140" mf_t="0.4" />
+          <p v="-119" t="0.5" mb_v="-119" mb_t="0.5" />
+        </pos_x>
+        <pos_y delta="0">
+          <p v="0" t="0" mf_v="0" mf_t="0" />
+          <p v="42.5" t="0.15" mb_v="42.5" mb_t="0.15" mf_v="42.5" mf_t="0.15" />
+          <p v="-3" t="0.3" mb_v="-3" mb_t="0.3" mf_v="-3" mf_t="0.3" />
+          <p v="49.5" t="0.4" mb_v="49.5" mb_t="0.4" mf_v="49.5" mf_t="0.4" />
+          <p v="-22" t="0.5" mb_v="-22" mb_t="0.5" />
+        </pos_y>
+        <emitter_speed_x delta="0">
+          <p v="0" />
+        </emitter_speed_x>
+        <emitter_speed_y delta="0">
+          <p v="0" />
+        </emitter_speed_y>
+        <emitter_acceleration_x delta="5">
+          <p v="0" t="0" mf_v="0" mf_t="0" />
+          <p v="0" t="0.3" mb_v="0" mb_t="0.3" />
+        </emitter_acceleration_x>
+        <emitter_acceleration_y delta="0">
+          <p v="0" />
+        </emitter_acceleration_y>
+        <emitter_direction delta="0">
+          <p v="0" />
+        </emitter_direction>
+        <emitter_torsion delta="0">
+          <p v="0" />
+        </emitter_torsion>
+        <scope_x delta="0">
+          <p v="0" />
+        </scope_x>
+        <scope_y delta="0">
+          <p v="0" />
+        </scope_y>
+        <direction delta="0">
+          <p v="1.5708" />
+        </direction>
+        <spread delta="0">
+          <p v="0" />
+        </spread>
+        <part_count delta="0">
+          <p v="4" t="0" mf_v="4" mf_t="0" />
+          <p v="4" t="0.3" mb_v="4" mb_t="0.3" />
+        </part_count>
+        <part_lifetime delta="0">
+          <p v="4" />
+        </part_lifetime>
+        <torsion delta="0">
+          <p v="0" />
+        </torsion>
+        <delay delta="0">
+          <p v="0" />
+        </delay>
+        <particles>
+          <speed_x delta="30">
+            <p v="50" t="0" mf_v="50" mf_t="0" />
+            <p v="50" t="0.3" mb_v="50" mb_t="0.3" mf_v="50" mf_t="0.3" />
+            <p v="50" t="0.6" mb_v="50" mb_t="0.6" mf_v="50" mf_t="0.6" />
+            <p v="50" t="0.8" mb_v="50" mb_t="0.8" mf_v="50" mf_t="0.8" />
+            <p v="50" t="1" mb_v="50" mb_t="1" />
+          </speed_x>
+          <speed_y delta="0">
+            <p v="50" />
+          </speed_y>
+          <acceleration_x delta="0">
+            <p v="0" />
+          </acceleration_x>
+          <acceleration_y delta="0">
+            <p v="0" />
+          </acceleration_y>
+          <gravity delta="0">
+            <p v="0" />
+          </gravity>
+          <scale_x delta="0">
+            <p v="1" />
+          </scale_x>
+          <scale_y delta="0">
+            <p v="1" />
+          </scale_y>
+          <angle delta="0">
+            <p v="0" />
+          </angle>
+          <rotate_speed delta="6.2832">
+            <p v="0" />
+          </rotate_speed>
+          <alpha delta="0">
+            <p v="1" t="0" mf_v="1" mf_t="0" />
+            <p v="0" t="1" mb_v="0" mb_t="1" />
+          </alpha>
+          <color_r delta="0">
+            <p v="1" />
+          </color_r>
+          <color_g delta="0">
+            <p v="1" />
+          </color_g>
+          <color_b delta="0">
+            <p v="1" />
+          </color_b>
+        </particles>
+      </emit>
+    </ps>
+  </work_data>
+</elephant_games>

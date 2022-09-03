@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="AnimlineEditor" title="" version="2.9.5.62" />
+    <project_data name="" ext=".nea3" project_path="" content_format="Xml" date="" guid="" />
+  </service_data>
+  <work_data>
+	<anim_data calc_type="1">
+	  <anim_setting>
+		<settings>
+		  <ScreenSettings>
+			<ProjectionPos x="0" y="0" z="0" />
+			<ProjectionScale x="1" y="1" z="1" />
+			<WorldPos x="0" y="0" z="0" />
+			<WorldSize x="##width##" y="##height##" />
+			<BackColor a="255" r="0" g="0" b="0" />
+			<BackFileName>##dir##/back</BackFileName>
+		  </ScreenSettings>
+		  <AnimGraphViewSettings>
+			<AxisMinScale xmin="-0.1" xmax="5" ymin="0.25" ymax="##obj_count##" />
+		  </AnimGraphViewSettings>
+		  <AnimationSettings>
+			<CurrentPlayPosition>0</CurrentPlayPosition>
+		  </AnimationSettings>
+		</settings>
+	  </anim_setting>
+	  <funcs>
+		<func name="default" is_export_allow="1" isLooped="0" visible="1" enable="1" duration="0" is_parent_object="0">
+		  <object_animlines>
+			##objects##
+		  </object_animlines>
+		</func>
+	  </funcs>
+	</anim_data>
+  </work_data>
+</elephant_games>

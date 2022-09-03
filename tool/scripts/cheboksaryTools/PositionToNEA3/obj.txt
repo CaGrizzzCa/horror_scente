@@ -1,0 +1,11 @@
+        <object_animline>
+          <obj name="##obj_name##" original_name="##obj_name##" ##parent_obj_name## type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="##res##" res_frame_index="0" pos_x="0" pos_y="0" pos_z="##beg_pos_z##" max_z="0" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="False" background_color_argb="-16777216" is_parent_function="1" />
+          <anim_line name="##obj_name##" max_time="0">
+            <anim_line_by_type type="pos_x" count="1">
+              <fr index="1" t="0" v="##pos_x##" i_type="Linear" />
+            </anim_line_by_type>
+			<anim_line_by_type type="pos_y" count="1">
+              <fr index="1" t="0" v="##pos_y##" i_type="Linear" />
+            </anim_line_by_type>
+          </anim_line>
+        </object_animline>

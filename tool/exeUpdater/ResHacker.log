@@ -1,0 +1,6 @@
+[04 сен 2022, 00:25:32]
+"F:\code\EG\horror_scente\tool\exeUpdater\ResHacker.exe" -addoverwrite F:/code/EG/horror_scente/exe/Horror_Scente_Editor.exe, F:/code/EG/horror_scente/exe/Horror_Scente_Editor.exe, F:/code/EG/horror_scente/exe/assets/icon/icon.ico, Icon, 102,
+Warning: Icon images cannot be manipulated directly, assumes IconGroup.
+  Modified: ICONGROUP,102,0
+
+Commands completed

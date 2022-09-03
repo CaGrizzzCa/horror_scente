@@ -1,0 +1,37 @@
+<project exe="Horror_Scente_Editor" >
+  <group name="common" >
+    <mod path="assets/shared/mod_common" />
+    <mod path="assets/levels/common/mod_common_impl" />
+    <mod path="assets/levels/common/mod_ld_impl" />
+    <mod path="assets/shared/mod_room" />
+    <mod path="assets/levels/common/mod_room_impl" />
+    <mod path="assets/shared/mod_subroom" />
+    <mod path="assets/levels/common/mod_subroom_impl" />
+  </group>
+  <group name="menu" >
+    <mod path="assets/levels/menu/rm_intro/mod_intro" />
+    <mod path="assets/levels/menu/rm_menu/mod_menu" />
+    <mod path="assets/levels/menu/mod_menu" />
+  </group>
+  <group name="level_std" >
+    <mod path="assets/levels/level/mod_level" />
+    <mod path="assets/levels/level/mod_level_inv" />
+    <mod path="assets/levels/level/rm_entrypoint/mod_entrypoint" />
+    <mod path="assets/levels/level/rm_outro/mod_outro" />
+  </group>
+  <group name="interface" >
+    <mod path="assets/shared/interface/mod_interface" />
+    <mod path="assets/shared/interface/int_dialog_video" />
+    <mod path="assets/shared/interface/int_loading" />
+    <mod path="assets/shared/interface/int_panel_notification" />
+    <mod path="assets/shared/interface/int_pause" />
+    <mod path="assets/shared/interface/int_window" />
+  </group>
+  <group name="interface_impl" >
+    <mod path="assets/interface/int_dialog_video_impl" />
+    <mod path="assets/interface/int_loading_impl" />
+    <mod path="assets/interface/int_lock" />
+    <mod path="assets/interface/int_panel_notification_impl" />
+    <mod path="assets/interface/int_pause_impl" />
+  </group>
+</project>

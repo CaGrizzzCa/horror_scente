@@ -1,0 +1,13 @@
+<module name="mg_##rm##" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__mg_##rm##_rootobj">
+            <obj __type="obj" _name="mg_##rm##">
+                <obj __type="spr" _name="spr_##rm##_back" input="0" pos_x="512" pos_y="384" pos_z="-999" res="assets/levels/##lvl##/mg_##rm##/back"/>
+				<obj __type="obj" _name="obj_##rm##_clk_win" event_mdown="mg_##rm##.Skip()" inputrect_h="300" inputrect_init="1" inputrect_w="300" inputrect_x="-150" inputrect_y="-150" pos_x="512" pos_y="384">
+                    <obj __type="text" _name="txt_##rm##_clk_win" res="assets/shared/cheater/arial" text="Clk to win"/>
+				</obj>
+				<obj __type="partsys_pm" _name="pfx_##rm##_dust" input="0" playing="1" pos_z="99" res="assets/levels/common/fx/stock/rm_dust"/>				
+            </obj>
+		</obj>
+    </objs>
+</module>

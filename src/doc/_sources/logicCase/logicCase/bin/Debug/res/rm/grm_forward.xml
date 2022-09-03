@@ -1,0 +1,3 @@
+<obj __type="obj" _name="grm_##rm##_##trm##" event_mdown="common_impl.Gate_MDown( ne_params.sender )" event_menter="common_impl.Gate_MEnter( ne_params.sender )" event_mleave="common_impl.Gate_MLeave( ne_params.sender )" inputrect_h="150" inputrect_init="1" inputrect_w="150" inputrect_x="-75" inputrect_y="-75" pos_z="60">
+    <obj __type="spr" _name="grm_##rm##_##trm##_focus" blendmode="2" input="0" alp = "0" res="assets/levels/##lvl##/rm_##rm##/layers/grm_rm_##trm##"/>
+</obj>

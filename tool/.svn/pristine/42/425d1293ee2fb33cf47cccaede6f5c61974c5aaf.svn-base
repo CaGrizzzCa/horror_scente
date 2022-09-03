@@ -1,0 +1,11 @@
+			<obj __type="spr" _name="zz_{{zz_name}}" pos_x="512" pos_y="384" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" croprect_x="0" croprect_y="0" croprect_w="0" croprect_h="0" drawoff_x="0" drawoff_y="0" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/{{level_name}}/rm_{{room_name}}/zz_{{zz_name}}/back" start_x="0" start_y="0" end_x="0" end_y="0">
+{{#uses_obj}}
+{{>use_object}}
+{{/uses_obj}}
+{{#gets_obj}}
+{{>get_object}}
+{{/gets_obj}}
+{{#clicks_obj}}
+{{>click_object}}
+{{/clicks_obj}}
+			</obj>

@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="AnimlineEditor" title="Редактор анимаций" version="2.11.2.97" />
+    <project_data name="drops" ext=".nea3" project_path="D:/wizards/rep/src/tex/anim/fx/presets/drops/drops.nea3" content_format="Xml" date="2015-02-16 12:21:35" guid="7a7a9768-2002-4ad7-903e-a5d49358a2e2" />
+  </service_data>
+  <work_data>
+    <anim_data calc_type="1" ver="1.2" frame_tex_res_name="">
+      <anim_setting>
+        <settings>
+          <ScreenSettings>
+            <ProjectionPos x="-589" y="-93" z="0" />
+            <ProjectionScale x="1" y="1" z="1" />
+            <WorldPos x="0" y="0" z="0" />
+            <WorldSize w="1366" h="768" />
+            <BackColor a="255" r="0" g="0" b="0" />
+            <BackFileName />
+          </ScreenSettings>
+          <FunctionViewSettings>
+            <SelectedFunctionName>anim</SelectedFunctionName>
+          </FunctionViewSettings>
+          <TimeLineViewSettings>
+            <SelectedObjectName>obj_1048</SelectedObjectName>
+          </TimeLineViewSettings>
+          <AnimGraphViewSettings>
+            <AxisMinScale xmin="-0.3052" xmax="3.6621" ymin="-5.8388" ymax="3.5" />
+          </AnimGraphViewSettings>
+          <AnimationSettings>
+            <CurrentPlayPosition>0</CurrentPlayPosition>
+          </AnimationSettings>
+        </settings>
+      </anim_setting>
+      <funcs>
+        <func name="anim" description="" is_export_allow="1" isLooped="1" visible="1" enable="1" duration="1.9966" is_parent_object="0">
+          <object_animlines>
+            <object_animline>
+              <obj name="obj_8392" anim_tag="" original_name="obj_8392" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="" res_frame_index="0" pos_x="0" pos_y="0" pos_z="2" max_z="0" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="True" background_color_argb="-16777216" fictive_res="False" is_parent_function="1">
+                <depend_params pos_x="0" pos_y="0" scale_x="0" scale_y="0" angle="0" color_r="0" color_g="0" color_b="0" alpha="0" blend_mode="0" offset_x="0" offset_y="0" />
+                <ps path="D:/wizards/rep/src/tex/anim/fx/presets/drops" back="" type="rnd" name="drops" ver="1.1" free="1">
+                  <emit name="emit5493" pos_mode="0" level="0" frame_index="0" res="slime" lifetime="3" playing="1" loop="0" preprocess_time="2.958333" blendmode="0" visible="1">
+                    <delta pos="0" scope="0" speed="0" acceleration="0" scale="0.5" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="50" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="20" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="-1.5708" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="10" />
+                    </part_count>
+                    <part_lifetime delta="0">
+                      <p v="1.4" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="0">
+                        <p v="50" t="0" mf_v="50" mf_t="0" />
+                        <p v="50.7828" t="0.5417" mb_v="50.478" mb_t="0.5353" mf_v="51.0875" mf_t="0.5481" />
+                        <p v="250" t="0.5833" mb_v="250" mb_t="0.5833" mf_v="250" mf_t="0.5833" />
+                        <p v="250" t="1" mb_v="250" mb_t="1" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="50" t="0" mf_v="50" mf_t="0" />
+                        <p v="50.7828" t="0.5417" mb_v="50.478" mb_t="0.5353" mf_v="51.0875" mf_t="0.5481" />
+                        <p v="250" t="0.5833" mb_v="250" mb_t="0.5833" mf_v="250" mf_t="0.5833" />
+                        <p v="250" t="1" mb_v="250" mb_t="1" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0.2">
+                        <p v="1.5" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="0.3" t="0" mf_v="0.3" mf_t="0" />
+                        <p v="1.5" t="0.4583" mb_v="1.5" mb_t="0.4583" mf_v="1.5" mf_t="0.4583" />
+                        <p v="1.5" t="1" mb_v="1.5" mb_t="1" />
+                      </scale_y>
+                      <angle delta="0">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="0" mf_t="0" />
+                        <p v="1" t="0.1667" mb_v="1" mb_t="0.1667" mf_v="1" mf_t="0.1667" />
+                        <p v="1" t="1" mb_v="1" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0">
+                        <p v="1" />
+                      </color_r>
+                      <color_g delta="0">
+                        <p v="1" />
+                      </color_g>
+                      <color_b delta="0">
+                        <p v="1" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                  <emit name="emit5494" pos_mode="0" level="0" frame_index="0" res="slime" lifetime="3" playing="1" loop="1" preprocess_time="0" blendmode="0" visible="1">
+                    <delta pos="0" scope="0" speed="0" acceleration="0" scale="0.5" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="50" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="20" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="-1.5708" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="10" />
+                    </part_count>
+                    <part_lifetime delta="0">
+                      <p v="1.4" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <emit_link name="emit5361" startup_mode="1" fraction="1" start_time="0.6071" period_time="0.6566" />
+                      <speed_x delta="0">
+                        <p v="50" t="0" mf_v="50" mf_t="0" />
+                        <p v="50.7828" t="0.5417" mb_v="50.478" mb_t="0.5353" mf_v="51.0875" mf_t="0.5481" />
+                        <p v="250" t="0.5833" mb_v="250" mb_t="0.5833" mf_v="250" mf_t="0.5833" />
+                        <p v="250" t="1" mb_v="250" mb_t="1" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="50" t="0" mf_v="50" mf_t="0" />
+                        <p v="50.7828" t="0.5417" mb_v="50.478" mb_t="0.5353" mf_v="51.0875" mf_t="0.5481" />
+                        <p v="250" t="0.5833" mb_v="250" mb_t="0.5833" mf_v="250" mf_t="0.5833" />
+                        <p v="250" t="1" mb_v="250" mb_t="1" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0.2">
+                        <p v="1.5" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="0.3" t="0" mf_v="0.3" mf_t="0" />
+                        <p v="1.5" t="0.4583" mb_v="1.5" mb_t="0.4583" mf_v="1.5" mf_t="0.4583" />
+                        <p v="1.5" t="1" mb_v="1.5" mb_t="1" />
+                      </scale_y>
+                      <angle delta="0">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="0" mf_t="0" />
+                        <p v="1" t="0.1667" mb_v="1" mb_t="0.1667" mf_v="1" mf_t="0.1667" />
+                        <p v="1" t="1" mb_v="1" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0">
+                        <p v="1" />
+                      </color_r>
+                      <color_g delta="0">
+                        <p v="1" />
+                      </color_g>
+                      <color_b delta="0">
+                        <p v="1" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                  <emit name="emit5361" pos_mode="0" level="1" frame_index="0" res="fire_dots" lifetime="0.05" playing="1" loop="0" preprocess_time="0" blendmode="0" visible="1">
+                    <delta pos="0" scope="0" speed="50" acceleration="0" scale="0.3" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="0" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="0" />
+                    </scope_y>
+                    <direction delta="1.3963">
+                      <p v="1.5708" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="5" />
+                    </part_count>
+                    <part_lifetime delta="0.1">
+                      <p v="0.6" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="50">
+                        <p v="55" t="0" mf_v="55" mf_t="0" />
+                        <p v="33.8604" t="1" mb_v="35.4348" mb_t="0.3974" />
+                      </speed_x>
+                      <speed_y delta="100">
+                        <p v="55" t="0" mf_v="55" mf_t="0" />
+                        <p v="33.8604" t="1" mb_v="35.4348" mb_t="0.3974" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="200" />
+                      </gravity>
+                      <scale_x delta="0.3">
+                        <p v="2" t="0" mf_v="2" mf_t="0" />
+                        <p v="0.2" t="1" mb_v="0.2" mb_t="1" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="2" t="0" mf_v="2" mf_t="0" />
+                        <p v="0.2" t="1" mb_v="0.2" mb_t="1" />
+                      </scale_y>
+                      <angle delta="6.2657">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="0.0100" mf_t="0.0104" />
+                        <p v="1" t="0.25" mb_v="0.9974" mb_t="0.2377" mf_v="1.0026" mf_t="0.2623" />
+                        <p v="1" t="0.5" mb_v="1.01" mb_t="0.4839" mf_v="0.99" mf_t="0.5161" />
+                        <p v="0" t="1" mb_v="0" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0.0784">
+                        <p v="0.4745" />
+                      </color_r>
+                      <color_g delta="0">
+                        <p v="0.7882" />
+                      </color_g>
+                      <color_b delta="0">
+                        <p v="0.2" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                </ps>
+              </obj>
+              <anim_line name="obj_8392" max_time="0" part_sys_start_fr_index="0">
+                <anim_line_by_type type="pos_x" count="1">
+                  <fr index="1" t="0" v="0" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+            <object_animline>
+              <obj name="obj_5320" anim_tag="" original_name="obj_5320" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="" res_frame_index="0" pos_x="0" pos_y="0" pos_z="1" max_z="0" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="True" background_color_argb="-16777216" fictive_res="False" is_parent_function="1">
+                <depend_params pos_x="0" pos_y="0" scale_x="0" scale_y="0" angle="0" color_r="0" color_g="0" color_b="0" alpha="0" blend_mode="0" offset_x="0" offset_y="0" />
+                <ps path="D:/wizards/rep/src/tex/anim/fx/presets/drops" back="" type="rnd" name="rogue_card" ver="1.0" free="0">
+                  <emit name="rain_ring" pos_mode="0" level="0" frame_index="0" res="p_rain_ring" lifetime="1.8" playing="1" loop="1" preprocess_time="1" blendmode="2" visible="1">
+                    <delta pos="0" scope="0" speed="0" acceleration="0" scale="0" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="-120" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="60" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="50" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="5" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="1.4486" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0.3674" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="3" />
+                    </part_count>
+                    <part_lifetime delta="0">
+                      <p v="1.5" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="0">
+                        <p v="0" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="0" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0">
+                        <p v="1" t="0" mf_v="0.9518" mf_t="0.0132" />
+                        <p v="3" t="1" mb_v="3.0039" mb_t="0.9613" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="1.5" />
+                      </scale_y>
+                      <angle delta="0">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="0.0348" mf_t="0.0285" />
+                        <p v="1" t="0.4884" mb_v="1.0056" mb_t="0.4658" mf_v="0.9944" mf_t="0.5109" />
+                        <p v="0" t="1" mb_v="0" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0">
+                        <p v="0.102" />
+                      </color_r>
+                      <color_g delta="0">
+                        <p v="0.7333" />
+                      </color_g>
+                      <color_b delta="0">
+                        <p v="0" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                </ps>
+              </obj>
+              <anim_line name="obj_5320" max_time="1.9966" part_sys_start_fr_index="0">
+                <anim_line_by_type type="pos_x" count="2">
+                  <fr index="1" t="0" v="196.9458" i_type="Linear" />
+                  <fr index="2" t="1.9966" v="196.9458" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="pos_y" count="2">
+                  <fr index="1" t="0" v="129.1007" i_type="Linear" />
+                  <fr index="2" t="1.9966" v="129.1007" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_x" count="2">
+                  <fr index="1" t="0" v="1.5" i_type="Linear" />
+                  <fr index="2" t="1.9966" v="1.5" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_y" count="2">
+                  <fr index="1" t="0" v="1.5" i_type="Linear" />
+                  <fr index="2" t="1.9966" v="1.5" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+            <object_animline>
+              <obj name="obj_1048" anim_tag="" original_name="obj_1048" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="" res_frame_index="0" pos_x="0" pos_y="0" pos_z="0" max_z="0" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="True" background_color_argb="-16777216" fictive_res="False" is_parent_function="1">
+                <depend_params pos_x="0" pos_y="0" scale_x="0" scale_y="0" angle="0" color_r="0" color_g="0" color_b="0" alpha="0" blend_mode="0" offset_x="0" offset_y="0" />
+                <ps path="D:/wizards/rep/src/tex/anim/fx/presets/drops" back="" type="rnd" name="New1" ver="1.0" free="0">
+                  <emit name="emit6855" pos_mode="0" level="0" frame_index="0" res="p_water_2" lifetime="2" playing="1" loop="1" preprocess_time="1.9" blendmode="2" visible="1">
+                    <delta pos="0" scope="0" speed="30" acceleration="0" scale="0.3" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="50" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="5" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="0" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="3" />
+                    </part_count>
+                    <part_lifetime delta="0">
+                      <p v="5" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="0">
+                        <p v="0" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="0" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0">
+                        <p v="1" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="1" />
+                      </scale_y>
+                      <angle delta="6.2657">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0.5236">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="-0.0048" mf_t="0.0172" />
+                        <p v="0.25" t="0.5" mb_v="0.25" mb_t="0.5" mf_v="0.25" mf_t="0.5" />
+                        <p v="0" t="1" mb_v="0" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0.1176">
+                        <p v="0.3961" />
+                      </color_r>
+                      <color_g delta="0.1176">
+                        <p v="1" />
+                      </color_g>
+                      <color_b delta="0.1176">
+                        <p v="0.1961" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                  <emit name="emit6856" pos_mode="0" level="0" frame_index="0" res="p_water_2" lifetime="2" playing="1" loop="1" preprocess_time="1.9" blendmode="0" visible="1">
+                    <delta pos="0" scope="0" speed="30" acceleration="0" scale="0.3" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="50" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="5" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="0" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="3" />
+                    </part_count>
+                    <part_lifetime delta="0">
+                      <p v="5" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="0">
+                        <p v="0" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="0" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0">
+                        <p v="2" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="2" />
+                      </scale_y>
+                      <angle delta="6.2657">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0.5236">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="-0.0048" mf_t="0.0172" />
+                        <p v="0.5" t="0.5" mb_v="0.5" mb_t="0.5" mf_v="0.5" mf_t="0.5" />
+                        <p v="0" t="1" mb_v="0" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0.1176">
+                        <p v="0.3961" />
+                      </color_r>
+                      <color_g delta="0.1176">
+                        <p v="1" />
+                      </color_g>
+                      <color_b delta="0.1176">
+                        <p v="0.1961" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                </ps>
+              </obj>
+              <anim_line name="obj_1048" max_time="0" part_sys_start_fr_index="0">
+                <anim_line_by_type type="pos_x" count="1">
+                  <fr index="1" t="0" v="3.1819" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_y" count="1">
+                  <fr index="1" t="0" v="0.4" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="pos_y" count="1">
+                  <fr index="1" t="0" v="228.7285" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_x" count="1">
+                  <fr index="1" t="0" v="1" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="alpha" count="1">
+                  <fr index="1" t="0" v="0.75" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+          </object_animlines>
+        </func>
+      </funcs>
+    </anim_data>
+  </work_data>
+</elephant_games>

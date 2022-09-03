@@ -1,0 +1,67 @@
+{
+	"version": {
+		"currentVersion": "0.0.1"
+	},
+	"notEngine": {
+		"dev": {
+			"showMsgVideoError": false
+		},
+		"publisherName": "Elephant Games",
+		"gameName": "Horror Scente",
+		"strings": [
+			"assets/strings",
+			"assets/strings_ce"
+		]
+	},
+	"start_point": {
+		"module": "assets/shared/mod_common",
+		"func": "common.Start();"
+	},
+	"publisher_settings": {
+		"url": "http://bigfishgames.strange-investigations-two-for-solitaire.alchemer.com/s3/",
+		"guide_url": "http://www.bigfishgames.com"
+	},
+	"save_settings": {
+		"folder": "Horror Scente"
+	},
+	"default_settings": {
+		"performance": false,
+		"fullscreen": true,
+		"widescreen": true,
+		"syscursor": false,
+		"gamma": 1,
+		"sfx_volume": 0.7,
+		"env_volume": 0.7,
+		"soundtrack_volume": 0.7,
+		"voice_volume": 0.7
+	},
+	"interface_settings": {
+		"hint_time": {
+			"casual": 60,
+			"adv": 90
+		},
+		"skip_time": {
+			"casual": 60,
+			"adv": 90
+		},
+		"inventory_size": 6
+	},
+	"executable_settings": {
+		"name": "Horror_Scente"
+	},
+	"bot": {
+		"start": 0,
+		"speed": 5,
+		"step_wait": 1.0,
+		"hint_screenshot_time": 0.75,
+		"hint_on_step": "true",
+		"screenshot_steps_wait": 1,
+		"allow_skip": "false",
+		"use_place_clicks": 1,
+		"game_prg_repiats_count": 50,
+		"game_lock_check_max": 100,
+		"clicks_before_stop": 6,
+		"clicks_before_fake": 4
+	},
+	"protected": "lnMOoCL37i9KsAiAI74BZDaC5dnu1RJSe6PZXKeq6w4ATEIJDQx44kHTKT0QW4Jn"
+}

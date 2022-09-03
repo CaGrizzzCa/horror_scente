@@ -1,0 +1,6 @@
+--ng_global.progress["##prg##"]["get_##get##"].task="";
+ng_global.progress["##prg##"]["get_##get##"].func = function()
+  int.InventoryItemAdd("inv_##get##","spr_##zrm##_##get##");
+  ObjDelete("gfx_##zrm##_##get##");
+end;
+

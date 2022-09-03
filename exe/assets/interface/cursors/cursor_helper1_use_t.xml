@@ -1,0 +1,27 @@
+<frametexture>
+  <frame texture="cursor_helper1_use_t_00" top="222" left="402" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="222" left="335" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="222" left="268" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="333" left="201" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="222" left="201" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="402" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="335" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="268" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="201" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="333" left="134" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="222" left="134" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="134" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="333" left="67" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="222" left="67" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="67" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="402" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="335" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="268" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="201" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="134" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="67" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="333" left="0" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="222" left="0" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="111" left="0" widht="66" height="110" x="33" y="55" id="" />
+  <frame texture="cursor_helper1_use_t_00" top="0" left="0" widht="66" height="110" x="33" y="55" id="" />
+</frametexture>

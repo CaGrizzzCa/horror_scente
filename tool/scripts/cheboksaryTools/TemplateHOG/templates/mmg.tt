@@ -1,0 +1,509 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ include file="t4helper.tt"#>
+<#
+    rmname = deploy? "inv_complex_inv" : rmname;
+    zoom = deploy? false : zoom;
+    string prg_start = "";
+    for (int i = 0; i < prg_start_arr.Length; i++)
+    {
+        prg_start = "\""+String.Join("\",\"",prg_start_arr)+"\"";
+    }
+
+    string objzone = "gfx_"+zzname+"_win_"+mmgname+"_zone";
+    string objroot = "obj_"+zzname+"_win_"+mmgname+(zoom?"_zoom":"_nozoom");
+
+#>
+zzname = <#= zzname #>          | без zz_ |
+mmgname = <#= mmgname #>        | без win_ обычно равно имени зз |
+rmname = <#= rmname #>          | без rm_ |
+prg_start = <#= prg_start #>        | с use_ clk_ |
+deploy = <#= deploy #>          | in Inventory item |
+zoom = <#= zoom #>              | in zoomable additional back |
+swapper = <#= swapper #>        | puzzle with swapable mechanics(select, deselect, swap) |
+
+<#= objzone #>      | zone |
+<#= objroot #>      | root |
+============================================================================================================================================================================
+=======xml==========
+
+<# if (zoom) {#>
+                <obj __type="spr_gm" _name="<#= objroot #>" alp="0" input="0" pos_z="50">
+                    <obj __type="obj" _name="<#= objroot #>_block" inputrect_h="200" inputrect_init="1" inputrect_w="200" inputrect_x="-100" inputrect_y="-100" pos_z="60">
+<#}else{#>
+                <obj __type="spr_gm" _name="<#= objroot #>" input="0" pos_z="10">
+<#}#>
+<#    if (swapper) {#>
+                        <obj __type="obj" _name="obj_<#= zzname #>_field">
+                            <obj __type="obj" _name="obj_<#= zzname #>_piece_1">
+                                <obj __type="spr" _name="spr_<#= zzname #>_piece_1" res="assets/back">
+                                    <obj __type="spr" _name="spr_<#= zzname #>_piece_1_light" alp="0" ang="1.57" blendmode="2" input="0" res="assets/back"/>
+                                </obj>
+                            </obj>
+                            <obj __type="obj" _name="obj_<#= zzname #>_piece_2">
+                                <obj __type="spr" _name="spr_<#= zzname #>_piece_2" res="assets/back">
+                                    <obj __type="spr" _name="spr_<#= zzname #>_piece_2_light" alp="0" ang="1.57" blendmode="2" input="0" res="assets/back"/>
+                                </obj>
+                            </obj>
+                        </obj>
+<#}#>
+<# if (zoom) {#>
+                    </obj>
+                </obj>
+<#}else{#>
+                </obj>
+<#}#>
+
+=======lua==========
+
+==<#= prg_start #>
+<# foreach (var progress in prg_start_arr) {#>
+==<#= progress #>
+
+private.<#= progress #><# Selector(zoom,"_logic","_end");#> = function()
+  if ld.CheckRequirements( {<#= prg_start #>} ) then
+<# if (zoom) {#>
+    ObjSet( "<#= objzone #>", { visible = 1, input = 1, active = 1 } )
+    ld.mmgZoomInit("win_<#= mmgname #>");
+<#}else{#>
+    ObjSet( "<#= objroot #>", {input = 1} );
+<#}#>
+  end
+end;
+
+==
+
+  local func_end = function()
+<# if (prg_start_arr.Length > 1) {#>
+    if ld.CheckRequirements( {<#= prg_start #>} ) then
+<#} #>
+<# if (zoom) {#>
+    ld_impl.mmgZoomShow( "win_<#= mmgname #>" )
+<#}else{#>
+    private.win_<#= mmgname #>_init();
+<#}#>
+<# if (prg_start_arr.Length > 1) {#>
+    end
+<#} #>
+  end
+
+<# }//end foreach#>
+==========
+
+private.win_<#= mmgname #>_logic = function()
+  if ld.CheckRequirements( {"win_<#= mmgname #>"} ) then
+  end
+end;
+
+private.win_<#= mmgname #>_beg = function(force)
+  if ld.CheckRequirements( {"win_<#= mmgname #>"} ) or force then
+    ObjDelete( "<#= objzone #>" );
+<#    if (!zoom) {#>
+    ObjSet("obj_<#=            zzname #>_win_<#=            mmgname #>_nozoom",{input = 0});
+    --ObjDelete("obj_<#=            zzname #>_win_<#=            mmgname #>_nozoom");
+<#}#>
+  end
+end;
+
+private.win_<#= mmgname #>_end = function()
+  if ld.CheckRequirements( {"win_<#= mmgname #>"} ) then
+<#    if (!deploy) {#>
+    ld.SubRoom.Complete( "win_<#= mmgname #>" )
+<#}#>
+  end  
+end;
+
+=V=========
+function public.win_<#= mmgname #>()
+
+  private.win_<#= mmgname #>_beg(true)
+<#    if (zoom) {#>
+  ld_impl.mmgZoomShow( "win_<#= mmgname #>" )
+<#}else{#>
+  cmn.MiniGameHide( "<#= mmgname #>", true );
+<#}#>
+
+=V=========
+function private.win_<#= mmgname #>_init()
+
+<#    if (!zoom) {#>
+  if ld.CheckRequirements( { <#= prg_start #> } ) and not ld.CheckRequirements( { "win_<#= mmgname #>" } ) then
+    cmn.MiniGameShow( "<#= mmgname #>" );
+  end
+<#}#>  
+  if private.win_<#= mmgname #>_gm then return end
+  private.win_<#= mmgname #>_gm = {}
+  local gm = private.win_<#= mmgname #>_gm;
+
+--********************************************************************************************************************* 
+--function gm.model() end
+--*********************************************************************************************************************
+  
+  function gm.model_init()
+<#    if (swapper) {#>
+    gm.model_pieces = 2 --num of pieces
+<#}#>
+    gm.model_load()
+  end
+
+  function gm.model_load()
+    if gm.progress.state then
+      gm.state = ld.TableCopy( gm.progress.state )
+    else
+      gm.model_reset()
+    end
+  end
+
+  function gm.model_save()
+    gm.progress.state = ld.TableCopy( gm.state )
+  end
+
+  function gm.model_reset()
+    gm.model_prev_state = ld.Table.Copy(gm.state)
+    gm.state = gm.model_get_state_default()
+  end
+
+  function gm.model_is_fake_reset()
+    return (gm.model_prev_state and ld.Table.Equals(gm.model_prev_state,gm.state))
+  end
+
+  function gm.model_skip()
+    gm.state = gm.model_get_state_win()
+  end
+
+  function gm.model_win_check()
+<#    if (swapper) {#>
+    --change check if different conditions of win
+<#}#>  
+    return ld.Table.Equals( gm.state, gm.model_get_state_win() )
+  end
+
+  function gm.model_get_state_default()
+    if gm.state_default == nil then
+<#    if (swapper) {#>
+     gm.state_default = { 2, 1 }
+<#}else{#>
+     gm.state_default = { 0 }
+<#}#>
+    end
+    return ld.Table.Copy( gm.state_default )
+  end
+
+  function gm.model_get_state_win()
+    if gm.state_win == nil then
+<#    if (swapper) {#>
+     gm.state_win = { 1, 2 }
+<#}else{#>
+     gm.state_win = { 0 }
+<#}#>
+    end
+    return ld.Table.Copy( gm.state_win )
+  end
+
+<#    if (swapper) {#>
+  function gm.model_mdown(id1, id2)
+    gm.state[id1], gm.state[id2] = gm.state[id2], gm.state[id1]
+  end
+<#}else{#>
+  function gm.model_mdown(id)
+    gm.state[id] = gm.state[id] + 1
+  end     
+<#}#>
+
+<#    if (swapper) {#>
+  function gm.model_is_correct_to_select(id1, id2)
+    --replace with correct condition if select condition exist
+    return true
+  end
+     
+<#}#>
+--*********************************************************************************************************************
+--function gm.view() end
+--*********************************************************************************************************************
+
+  function gm.view_init()
+<#    if (swapper) {#>
+    gm.view_obj = function(n) return string.format("obj_<#= mmgname #>_piece_%d",n) end ;
+    gm.view_spr = function(n) return string.format("spr_<#= mmgname #>_piece_%d",n) end ;
+    gm.view_light = function(n) return string.format("spr_<#= mmgname #>_piece_%d_light",n) end ;
+<#}#>
+    gm.view_skip_reset_time = 0.5
+    gm.view_fake_reset_time = 1
+    gm.view_animtime = 0.5
+    gm.view_build()
+    gm.view_update_all()
+  end
+
+  function gm.view_build()
+<#    if (swapper) {#>
+    for i,o in ipairs(gm.state) do
+      ObjSet( gm.view_spr(i), {
+        event_mdown = function() gm.controller_event_mdown( i ) end;
+        event_menter = function() gm.controller_event_menter( i ) end;
+        event_mleave = function() gm.controller_event_mleave( i ) end;
+      } );
+    end
+<#}#>
+  end
+
+<#    if (swapper) {#>
+  function gm.view_set( id, time, func_end )
+    local val = gm.state[id]
+    ld.Anim.Set(gm.view_obj(id), {pos_x = val*100}, time)
+    if time then
+      local scale_percent_time = 0.1
+      local scale_max = 1.05 
+      ld.Anim.Set(gm.view_obj(id), {scale_x = scale_max, scale_y = scale_max}, time*scale_percent_time)
+      ld.StartTimer( time*(1-scale_percent_time), function()  
+        ld.Anim.Set(gm.view_obj(id), {scale_x = 1, scale_y = 1}, time*scale_percent_time)
+      end )
+    end
+    if func_end then
+      ld.StartTimer( time, func_end )
+    end
+  end 
+
+<#}#>
+  function gm.view_get_obj_menter_name( id )
+    return gm.view_light( id )
+  end
+
+  function gm.view_win( func_end )    
+    if func_end then
+      func_end()
+    else
+      
+    end
+  end
+
+  function gm.view_reset( func_end )
+    if gm.model_is_fake_reset() then  --fake reset(nothing changed from begining of game)
+<#    if (swapper) {#>
+      local atl = ld.Anim.Liquid( gm.view_fake_reset_time, gm.model_pieces, 0, 1   , 0.9 )
+      local ats = ld.Anim.Liquid( gm.view_fake_reset_time, gm.model_pieces, 1, 1.05, 0.9 )
+      for i,o in ipairs(gm.state) do
+        ObjAnimate( gm.view_light(i), 8, 0, 0, function() end, atl[ o ] );
+        ObjAnimate( gm.view_obj(i), "scale_x", 0, 0, function() end, ats[ o ] );
+        ObjAnimate( gm.view_obj(i), "scale_y", 0, 0, function() end, ats[ o ] );
+      end
+      ld.StartTimer( gm.view_fake_reset_time, func_end )
+<#}else{#>
+      --replace with custom fake reset
+      gm.view_update_all( func_end, gm.view_fake_reset_time )  
+<#}#>
+    else
+      gm.view_update_all( func_end, gm.view_skip_reset_time )
+    end
+  end
+
+  function gm.view_update_all( func_end, time )
+    for i,o in ipairs(gm.state) do
+<#    if (swapper) {#>
+      if gm.model_prev_state and gm.model_prev_state[i] == o then --already on that point
+      else
+        gm.view_set( i, time )
+      end     
+<#}#>
+    end
+    if func_end then 
+      ld.StartTimer( time, func_end )
+    end
+  end
+
+  function gm.view_menter( id )
+    local obj = gm.view_get_obj_menter_name( id )
+    ld.Anim.Light( obj, true )
+  end
+
+  function gm.view_mleave( id<#    if (swapper) {#>, force<#}#> )
+    local obj = gm.view_get_obj_menter_name( id )
+<#    if (swapper) {#>
+    if id ~= gm.controller_selected or force then
+      ld.Anim.Light( obj, false )
+    end
+<#}else{#>
+    ld.Anim.Light( obj, false )
+<#}#>
+  end
+
+<#    if (swapper) {#>
+  function gm.view_mdown( id1, id2, func_end )
+    --gm.view_select(id1, 1) --if needed
+    --gm.view_select(id2, 1) --if needed
+    gm.view_set(id1, gm.view_animtime, function()  
+      --gm.view_select(id1, 0) --if needed
+      --gm.view_select(id2, 0) --if needed
+      func_end()
+    end)
+    gm.view_set(id2, gm.view_animtime)
+  end
+
+  function gm.view_select(id, val)
+    --val == 1 make select, val == 0 deselect
+    ObjSet( gm.view_obj(id), {pos_z = val} );
+  end
+<#}else{#>
+  function gm.view_mdown( id, func_end )
+    ld.StartTimer( 0.5, function() func_end() end )
+  end     
+<#}#>
+
+--*********************************************************************************************************************
+--function gm.controller() end
+--*********************************************************************************************************************
+
+  function gm.controller_init()
+    if not gm.controller_initialized then
+      private.cur_prg = ng_global.currentprogress; 
+      gm.progress = ng_global.progress[ private.cur_prg ][ "win_<#= mmgname #>" ]
+      gm.model_init()
+      gm.view_init()
+      gm.controller_initialized = true;
+    end;
+  end
+
+  function gm.controller_save()
+    gm.model_save()
+  end
+
+  function gm.controller_skip()
+    if ld.Lock( 1 ) then
+<#    if (swapper) {#>
+      if gm.controller_selected then
+        gm.view_select( gm.controller_selected, 0 )
+        gm.view_mleave( gm.controller_selected, 1 )
+        gm.controller_selected = nil
+      end     
+<#}#>
+      gm.model_skip()
+      gm.view_reset( gm.controller_event_end )
+    end
+  end
+
+  function gm.controller_reset()
+    if ld.Lock( 1 ) then
+<#    if (swapper) {#>
+      if gm.controller_selected then
+        gm.view_select( gm.controller_selected, 0 )
+        gm.view_mleave( gm.controller_selected, 1 )
+        gm.controller_selected = nil
+      end     
+<#}#>
+      gm.model_reset()
+      gm.view_reset( gm.controller_event_end )
+    end
+  end
+
+  function gm.controller_win()
+    gm.view_win( public.win_<#= mmgname #> )
+  end
+
+  function gm.controller_event_end()
+    if gm.model_win_check() then
+      gm.controller_win()
+    else
+      gm.controller_save()
+      ld.Lock( 0 )
+    end
+  end
+
+  function gm.controller_event_menter( id )
+    ld.ShCur(CURSOR_HAND)
+    gm.view_menter( id )
+  end
+
+  function gm.controller_event_mleave( id )
+    ld.ShCur(CURSOR_DEFAULT)
+    gm.view_mleave( id )
+  end
+
+  function gm.controller_event_mdown( id )
+<#    if (swapper) {#>
+    if gm.controller_selected == nil then --new selection
+      gm.controller_selected = id
+      gm.view_select( id, 1 )
+    else
+      if gm.controller_selected == id then --deselect
+        gm.controller_selected = nil
+        gm.view_select( id, 0 )
+      else
+        if gm.model_is_correct_to_select( gm.controller_selected, id ) then --swap
+          if ld.Lock( 1 ) then
+            gm.model_mdown( gm.controller_selected, id )
+            gm.view_select( gm.controller_selected, 0 )
+            gm.view_mleave( gm.controller_selected, 1 )
+            gm.view_mdown( gm.controller_selected, id, gm.controller_event_end )
+            gm.controller_selected = nil
+          end
+        else --select new
+          gm.view_select( gm.controller_selected, 0 )
+          gm.view_mleave( gm.controller_selected, 1 )
+          gm.controller_selected = id
+          gm.view_select( id, 1 )
+        end
+      end
+    end     
+<#}else{#>
+    if ld.Lock( 1 ) then
+      gm.model_mdown( id )
+      gm.view_mdown( id, gm.controller_event_end )
+    end     
+<#}#>
+  end
+
+  function gm.controller_event_startdrag( id )
+
+  end
+
+  function gm.controller_event_drag( id )
+
+  end
+
+  function gm.controller_event_dragdrop( id )
+
+  end
+
+  gm.controller_init()    
+
+end
+
+
+=V========= 
+
+function private.ResetSkip(command)
+<#    if (deploy) {#>
+  local mg_name = interface.GetCurrentComplexInv()
+  local mg_name_formated = "win_"..ld.StringDivide(mg_name)[3].."_gm"
+<#}else{#>
+  local mg_name = common.GetCurrentSubRoom() or GetCurrentRoom();
+  local mg_name_formated = "win_"..ld.StringDivide(mg_name)[2].."_gm"
+<#}#>
+  local call = private[mg_name_formated] and private[mg_name_formated]["controller_"..command] 
+  if call and not ld.CheckRequirements( { "win_"..ld.StringDivide(mg_name)[2] } ) then
+    call()
+  end
+end
+
+function public.Reset()
+  private.ResetSkip("reset")
+end;
+function public.Skip()
+  private.ResetSkip("skip")
+end;
+
+=V=========
+
+<#    if (deploy) {#>
+public.<#= zzname #>_preopen = function()
+  private.win_<#= mmgname #>_init()
+end
+<#}else{#>
+  function zz_<#= zzname #>.PreOpen()
+    private.win_<#= mmgname #>_init()
+  end;
+<#}#>
+
+

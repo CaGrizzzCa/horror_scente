@@ -1,0 +1,8 @@
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\StarLogic.exe.config
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\StarLogic.exe
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\bin\Debug\StarLogic.pdb
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\StarLogic.editForm.resources
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\StarLogic.Properties.Resources.resources
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\StarLogic.csproj.GenerateResource.Cache
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\StarLogic.exe
+C:\Users\grigory.andrianov\YandexDisk\BlueLogic\BlueLogic\obj\Debug\StarLogic.pdb

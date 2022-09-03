@@ -1,0 +1,25 @@
+--------------------------------------------------------------------
+game.hint[ "##prg##" ] = { type = "get", get_obj = "spr_##zrm##_##name##", room = "rm_##zrm##" };
+
+local ##prg##_logic = function()
+ 
+end;
+
+local ##prg## = function()
+  int.InventoryItemAdd("inv_##name##","spr_##zrm##_##name##");
+end;
+
+local ##prg##_end = function()
+  ObjDelete("gfx_##zrm##_##name##");
+end;
+
+cmn.AddSubscriber( nil, "##prg##", ##prg## );
+cmn.AddSubscriber( nil, "##prg##", ##prg##_logic );
+cmn.AddSubscriber( room_objname, "##prg##", ##prg##_end );
+--------------------------------------------------------------------
+function game.##zrm##.##prg##()
+  cmn.SetEventDone( "##prg##" );
+  cmn.CallEventHandler( "##prg##" );
+  cmn.PlayGetSound();
+end
+--------------------------------------------------------------------

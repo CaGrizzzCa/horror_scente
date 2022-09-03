@@ -1,0 +1,8 @@
+<module name="level_inv" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__level_inv_rootobj">
+            <obj __type="obj" _name="obj_inventory_complex_hub"/>
+            <obj __type="obj" _name="level_inv_hub"/>
+        </obj>
+    </objs>
+</module>

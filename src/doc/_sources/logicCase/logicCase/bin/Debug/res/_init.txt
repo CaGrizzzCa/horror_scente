@@ -1,0 +1,12 @@
+<trig name="trg_##rm##_init">
+            <code>--trg_##rm##_init--
+ObjAttach( "zz_casket"    , "ng_rooms_hub" );
+ObjAttach( "zz_ship"      , "ng_rooms_hub" );
+ObjAttach( "zz_wicket"    , "ng_rooms_hub" );
+--------------------------------------------------------------------
+TrgExecute( "trg_##rm##_init_clk"  );
+TrgExecute( "trg_##rm##_init_get"  );
+TrgExecute( "trg_##rm##_init_use"  );
+TrgExecute( "trg_##rm##_init_misc" );
+</code>
+</trig>

@@ -1,0 +1,27 @@
+<frametexture>
+  <frame texture="cursor_helper2_drag_t_00" top="127" left="216" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="253" left="216" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="379" left="216" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="323" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="126" left="323" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="252" left="323" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="378" left="323" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="428" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="126" left="428" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="384" left="0" widht="106" height="126" x="53" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="109" widht="106" height="126" x="53" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="127" left="109" widht="106" height="126" x="53" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="0" widht="108" height="127" x="54" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="128" left="0" widht="108" height="127" x="54" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="256" left="0" widht="108" height="127" x="54" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="254" left="109" widht="106" height="126" x="53" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="381" left="109" widht="106" height="126" x="53" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="216" widht="106" height="126" x="53" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="252" left="428" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="378" left="428" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="533" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="638" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="743" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="0" left="848" widht="104" height="125" x="52" y="62" id="" />
+  <frame texture="cursor_helper2_drag_t_00" top="126" left="533" widht="104" height="125" x="52" y="62" id="" />
+</frametexture>

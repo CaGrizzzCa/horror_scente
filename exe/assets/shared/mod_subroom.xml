@@ -1,0 +1,9 @@
+<module name="subroom" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__subroom_rootobj">
+            <obj __type="obj" _name="subroom" active="0" input="0" pos_z="1" visible="0">
+                <obj __type="obj" _name="subroom_input" active="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" pos_x="-171" visible="0"/>
+            </obj>
+        </obj>
+    </objs>
+</module>

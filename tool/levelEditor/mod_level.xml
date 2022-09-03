@@ -1,0 +1,5 @@
+<module name="{{level_name}}" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__{{level_name}}_rootobj" pos_x="171" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="" />
+    </objs>
+</module>

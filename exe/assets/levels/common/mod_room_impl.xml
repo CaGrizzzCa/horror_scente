@@ -1,0 +1,10 @@
+<module name="room_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__room_impl_rootobj">
+            <obj __type="obj" _name="obj_room_impl_scale">
+                <obj __type="spr_gm" _name="obj_room_impl_bake"/>
+            </obj>
+            <obj __type="spr" _name="spr_room_black_screen" active="0" color_b="0" color_g="0" color_r="0" input="0" pos_x="512" pos_y="384" pos_z="999999" res="assets/back" scale_x="21.3438" scale_y="12" visible="0"/>
+        </obj>
+    </objs>
+</module>

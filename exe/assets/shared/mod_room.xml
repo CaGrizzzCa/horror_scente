@@ -1,0 +1,7 @@
+<module name="room" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__room_rootobj">
+            <obj __type="obj" _name="room_hub"/>
+        </obj>
+    </objs>
+</module>

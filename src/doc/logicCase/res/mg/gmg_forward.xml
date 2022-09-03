@@ -1,0 +1,2 @@
+<obj __type="partsys_gm" _name="gmg_##rmowner##_##rm##" event_mdown="common_impl.Gate_MDown( ne_params.sender )" event_menter="common_impl.Gate_MEnter( ne_params.sender )" event_mleave="common_impl.Gate_MLeave( ne_params.sender )" inputrect_h="204" inputrect_init="1" inputrect_w="200" inputrect_x="-106" inputrect_y="-107" pos_x="231" pos_y="135" pos_z="60" res="assets/levels/common/fx/sparkle_effect" />
+                

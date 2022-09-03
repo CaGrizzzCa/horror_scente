@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<help>
+	<tooltip name="plane_size">
+		<shortcut>Подогнать размер изображения под экран</shortcut>
+		<extended>
+Изменяет высоту и ширину рабочего полотна так, чтобы
+они соответствовали в пропорциональном соотношении
+экрану. При повторном нажатии кнопка возвращает полотно
+в исходное состояние.</extended>
+	</tooltip>
+	<tooltip name="plane_border">
+		<shortcut>Показать рамку по границе экрана</shortcut>
+		<extended>
+Этот элемент отвечает за отображение отступа, создаваемого
+между полотном и границами рабочего поля.</extended>
+	</tooltip>
+	<tooltip name="plane_settings">
+		<shortcut>Настройка экрана сцены</shortcut>
+		<extended>
+Открывает диалоговое окно, позволяющее задать свойства
+рабочего полотна.
+
+	-Высота
+	-Ширина
+	-Начальное положение
+	-Текстура фона
+	-Цвет заливки фона</extended>
+	</tooltip>
+	<tooltip name="oldSystemOfCoordinates">
+		<shortcut>Включить режим старой системы координат</shortcut>
+		<extended>
+Инициализирует старую систему координат. Нулевые
+координаты расположены в левом-верхнем углу экрана.</extended>
+	</tooltip>
+	<tooltip name="undo">
+		<shortcut>Отменить</shortcut>
+		<extended>
+Отменяет последнее действие над анимацией. Эквивалентно
+пункту меню "редактирование" - отменить.</extended>
+	</tooltip>
+	<tooltip name="redo">
+		<shortcut>Возвратить</shortcut>
+		<extended>
+Возвращает последнее действие над анимацией. Эквивалентно
+пункту меню "редактирование" - Возвратить.</extended>
+	</tooltip>
+	<tooltip name="show_parent">
+		<shortcut>Показать родительский объект</shortcut>
+		<extended>
+Если мы находимся внутри объекта-контейнера и мы 
+хотим увидеть сам объект-контейнер, не выходя из 
+контейнера, то достаточно нажать эту кнопку.</extended>
+	</tooltip>
+	<tooltip name="playAnimationOnlySelectedObject">
+		<shortcut>Проиграть анимацию выделенного объекта</shortcut>
+		<extended>
+Если функция имеет несколько объектов, то при 
+включенной кнопке будет отображаться и 
+проигрываться анимация только выделенного 
+объекта. По умолчанию выключен </extended>
+	</tooltip>
+	<tooltip name="play_animation">
+		<shortcut>Проиграть анимацию</shortcut>
+		<extended>
+Начать проигрывание анимации. 
+Горячая клавиша Space("Пробел")</extended>
+	</tooltip>
+	<tooltip name="pause_animation">
+		<shortcut>Остановить анимацию</shortcut>
+		<extended>
+Приостановить Воспроизведение анимации. Бегунок
+остановится в момент нажатия кнопки.</extended>
+	</tooltip>
+	<tooltip name="from_start_animation">
+		<shortcut>Перейти в начало анимации</shortcut>
+		<extended>
+Останавливает воспроизведение. Переводит
+бегунок в начальное положение.</extended>
+	</tooltip>
+	<tooltip name="to_end_animation">
+		<shortcut>Перейти в конец анимации</shortcut>
+		<extended>
+Останавливает воспроизведение. Переводит бегунок
+в конечное положение.</extended>
+	</tooltip>
+	<tooltip name="stop_aimation">
+		<shortcut>Остановить анимацию</shortcut>
+		<extended>
+Останавливает воспроизведение. Переводит бегунок
+в начальное состояние.</extended>
+	</tooltip>
+	<tooltip name="extended_help">
+		<shortcut>Показать расширенную помощь</shortcut>
+		<extended>
+Этот элемент управления расширяет подсказки.
+Тем самым, открывая более полные описания элементов
+в "выпадающих" подсказках. При повторном нажатии,
+подсказки возвращаются в прежнее состояние.</extended>
+	</tooltip>
+	<tooltip name="setPathForAllSprites">
+		<shortcut>Изменить пути к ресурсам у всех объектов функции.</shortcut>
+		<extended>
+Задает общие пути к ресурсам у всех объектов 
+выделенной функции, у которых есть текстура</extended>
+	</tooltip>
+	<tooltip name="loadTextureForAllSprites">
+		<shortcut>Изменить текстуру для всех объектов функции</shortcut>
+		<extended>
+Задает одинаковую текстуру для всех объектов 
+выделенной функции, у которых есть текстура.</extended>
+	</tooltip>
+	<tooltip name="particleEditor">
+		<shortcut>Открыть редактор частиц</shortcut>
+		<extended>
+Открывает редактор частиц в качестве подредактора (модального окна). 
+После закрытия подредактора (если применяются изменения), 
+автоматически создается функция, объект, два кадра. 
+Причем расстояние между кадрами равно длительности анимации 
+системы частиц</extended>
+	</tooltip>
+	<tooltip name="backButton">
+		<shortcut>Выйти из объекта-контейнера</shortcut>
+		<extended>
+Чтобы войти обратно в контейнер необходимо по 
+выделенному объекту сделать двойной щелчок 
+левой кнопкой мыши </extended>
+	</tooltip>
+	<tooltip name="LoopFromThisKey">
+		<shortcut>Зациклить с данного ключа</shortcut>
+		<extended>
+Работает для дочерних и вложенных объектов, анимация
+объекта будет возобновляться не с первого кадра, а с
+того на котором установлено данное свойство. То есть
+первая итерация (первый проход) будет полной, по всем
+кадрам, а последующие с того маркера которые был
+выделен этим свойством.</extended>
+	</tooltip>
+	<tooltip name="ResetLoopFromThisKey">
+		<shortcut>Отменить зацикливание ключа</shortcut>
+		<extended>
+Отменяет действие "Зациклить с данного ключа". 
+В случае зацикливания цикл будет проходить по 
+всем кадрам.</extended>
+	</tooltip>
+	<tooltip name="keyFrameCreate">
+		<shortcut>Создание ключевого кадра</shortcut>
+		<extended>
+Добавляет новый кадр, это действие эквивалентно 
+пункту выпадающего меню "Добавить ключ"</extended>
+	</tooltip>
+	<tooltip name="deleteKeyFrame">
+		<shortcut>Удалить кадры (ключевые)</shortcut>
+		<extended>
+Производит удаление выделенных ключевых кадров.</extended>
+	</tooltip>
+	<tooltip name="lockKeyFrame">
+		<shortcut>Блокировать ключевой кадр</shortcut>
+		<extended>
+Запрещает редактирование ключевого кадра</extended>
+	</tooltip>
+	<tooltip name="alignPosToKey">
+		<shortcut>Перейти к выделенному ключу</shortcut>
+		<extended>
+Переводит бегунок к выделенному, на данный момент, кадру.</extended>
+	</tooltip>
+	<tooltip name="displayMirrorX">
+		<shortcut>Отобразить зеркально по оси Х</shortcut>
+		<extended>
+Кнопка в данной версии программы недоступна.</extended>
+	</tooltip>
+	<tooltip name="displayMirrorY">
+		<shortcut>Отобразить зеркально по оси Y</shortcut>
+		<extended>
+Кнопка в данной версии программы недоступна.</extended>
+	</tooltip>
+	<tooltip name="zoomOut">
+		<shortcut>Увеличить</shortcut>
+		<extended>
+Увеличить масштаб по оси X (по горизонтали). 
+Изменять можно масштаб колесиком мыши при нажатой 
+клавиши Alt. Перемещать панель анимации можно 
+левой кнопкой мыши при нажатой клавиши Alt. </extended>
+	</tooltip>
+	<tooltip name="zoomIn">
+		<shortcut>Уменьшить</shortcut>
+		<extended>
+Уменьшить масштаб по оси X (по горизонтали). 
+Изменять можно масштаб колесиком мыши при нажатой 
+клавиши Alt. Перемещать панель анимации можно 
+левой кнопкой мыши при нажатой клавиши Alt. </extended>
+	</tooltip>
+	<tooltip name="restoreZoom">
+		<shortcut>Восстановить масштаб</shortcut>
+		<extended>
+Восстанавливает масштаб по оси X (по горизонтали).
+Масштаб установится в значение по умолчанию.</extended>
+	</tooltip>
+	<tooltip name="interpolationButton">
+		<shortcut>Интерполяция</shortcut>
+		<extended>
+Интерполирование линии по заданному градиенту кадров.
+Визуальная отображение изменения значения параметра 
+по времени отображаемое при помощи кривой Безье</extended>
+	</tooltip>
+	<tooltip name="allFramesEdit">
+		<shortcut>Редактировать всю анимацию объекта</shortcut>
+		<extended>
+Все последующие изменения будут применятся ко всем кадрам.</extended>
+	</tooltip>
+	<tooltip name="particleSystemEditor">
+		<shortcut>Открыть редактор частиц</shortcut>
+		<extended>
+Открыть редактор частиц качестве подредактора (модального окна).</extended>
+	</tooltip>
+	<tooltip name="isParticleSystemFree">
+		<shortcut>Свободные частицы</shortcut>
+		<extended>
+Определяет как статус частиц системы: свободные (движутся 
+независимо от движения объекта) или привязаны к объекту 
+(частицы движутся, поворачиваются и масштабируются в 
+соответствии с анимационным объектом) </extended>
+	</tooltip>
+	<tooltip name="isPsProcessLoop">
+		<shortcut>Циклически проигрывать систему частиц</shortcut>
+		<extended>
+Циклически проигрывать систему частиц. Кнопка работает 
+только для циклической системы частиц (то есть у одного 
+(или более) из эмиттеров системы установлено свойство 
+"Циклически" в значение true). </extended>
+	</tooltip>
+	<tooltip name="bezierCurveButton">
+		<shortcut>Кривая безье - путь движения объекта (частиц)</shortcut>
+		<extended>
+Отображение пути объекта. То есть отображение пунктирной линей пути движения обьекта</extended>
+	</tooltip>
+	<tooltip name="addQuickObject">
+		<shortcut>Быстро добавить объект (объект-контейнер)</shortcut>
+		<extended>
+Горячая клавиша Ctrl+N. Пояснения: Если до этого был 
+выделен объект (обозначим буквой O1), то новый объект 
+будет дочерним объектом объекта O1. Чтобы добавлять 
+объекты не как дочерние необходимо, чтобы не было 
+выделенного объекта. Если есть выделенные объект, 
+то можно снять выделение объекта, либо через контекстное 
+меню, либо через горячую клавишу Ctrl+A.</extended>
+	</tooltip>
+	<tooltip name="addObject">
+		<shortcut>Добавить объект</shortcut>
+		<extended>
+Горячая клавиша Ctrl+N. Пояснения: Если до этого был 
+выделен объект (обозначим буквой O1), то новый объект 
+будет дочерним объектом объекта O1. Чтобы добавлять 
+объекты не как дочерние необходимо, чтобы не было 
+выделенного объекта. Если есть выделенные объект, 
+то можно снять выделение объекта, либо через контекстное 
+меню, либо через горячую клавишу Ctrl+A.</extended>
+	</tooltip>
+	<tooltip name="propObject">
+		<shortcut>Свойства объекта</shortcut>
+		<extended>
+Отображение свойств выделенного объекта. 
+Горячая клавиша Ctrl+E.</extended>
+	</tooltip>
+	<tooltip name="moveObjectUp">
+		<shortcut>Переместить слой вверх</shortcut>
+		<extended>
+Перемешает слой (или объект) вверх в дереве объектов. 
+Чем выше объекты находится в дереве объектов, тем меньше 
+вероятность того, что его могут перекрыть другие объекты 
+в сцене.</extended>
+	</tooltip>
+	<tooltip name="moveObjectDown">
+		<shortcut>Переместить слой вниз</shortcut>
+		<extended>
+Перемешает слой (или объект) вниз в дереве объектов. 
+Чем выше объекты находится в дереве объектов, тем меньше 
+вероятность того, что его могут перекрыть другие объекты 
+в сцене.</extended>
+	</tooltip>
+	<tooltip name="removeObject">
+		<shortcut>Удалить объект</shortcut>
+		<extended>
+Удаляеn выделенный объект 
+Горячая клавиша Del</extended>
+	</tooltip>
+	<tooltip name="putObjectIntoObject">
+		<shortcut>Вложить объект в объект</shortcut>
+		<extended>
+Делает объект частью другого объкта. 
+Создает элементы комплексной анимации.</extended>
+	</tooltip>
+	<tooltip name="extractObjectFromObject">
+		<shortcut>Извлечь объект из объекта</shortcut>
+		<extended>
+Возвращает объект обратно в основное дерево объектов.</extended>
+	</tooltip>
+	<tooltip name="IsVisibleFunction">
+		<shortcut></shortcut>
+		<extended>Видимость объекта (по умолчанию объект видимый)</extended>
+	</tooltip>
+	<tooltip name="IsExportFunction">
+		<shortcut></shortcut>
+		<extended>Экспортируемая функции (по умолчанию функция будет экспортироваться)</extended>
+	</tooltip>
+	<tooltip name="IsLoopedFunction">
+		<shortcut></shortcut>
+		<extended>Зациклить анимацию объекта-контейнера (по умолчанию объект не зациклена). 
+Данная кнопка отображается только для объектов-контейнеров </extended>
+	</tooltip>
+	<tooltip name="IsVisibleObject">
+		<shortcut></shortcut>
+		<extended>Видимость объекта (по умолчанию объект видимый)</extended>
+	</tooltip>
+	<tooltip name="IsLockObject">
+		<shortcut></shortcut>
+		<extended>Блокировка объекта (по умолчанию объект не заблокирован)</extended>
+	</tooltip>
+	<tooltip name="IsLoopedObject">
+		<shortcut></shortcut>
+		<extended>Зациклить анимацию объекта-контейнера (по умолчанию объект не зациклена). 
+Данная кнопка отображается только для объектов-контейнеров.</extended>
+	</tooltip>
+</help>

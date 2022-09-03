@@ -1,0 +1,9 @@
+<module name="int_loading_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_loading_impl_rootobj">
+            <obj __type="obj" _name="int_loading_impl" pos_x="512" pos_y="384">
+                <obj __type="spr" _name="spr_int_loading" input="0" res="assets/interface/resources/back_loading"/>
+            </obj>
+        </obj>
+    </objs>
+</module>

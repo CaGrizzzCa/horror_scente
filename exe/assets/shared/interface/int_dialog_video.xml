@@ -1,0 +1,9 @@
+<module name="int_dialog_video" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_dialog_video_rootobj">
+            <obj __type="obj" _name="int_dialog_video" active="0" input="0" visible="0">
+                <obj __type="timer" _name="tmr_int_dialog_video_skip" input="0" visible="0"/>
+            </obj>
+        </obj>
+    </objs>
+</module>

@@ -1,0 +1,10 @@
+
+  subroom.Define( "zz_##zz##" ##<is_zz_owned>##, "zz_##zz_owner##"##<is_zz_owned>##);
+  function zz_##zz##.Open()
+  end;
+  function zz_##zz##.PreOpen()
+  end;
+  function zz_##zz##.PreClose()
+  end;
+  function zz_##zz##.Close()
+  end;

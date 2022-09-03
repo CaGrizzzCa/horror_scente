@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="ParticleSystemEditor" title="Редактор частиц" version="2.11.3.98" />
+    <project_data name="bubbles_1" ext=".plsm" project_path="D:/Work/MC/tool/AnimLineEditor/presets/bubbles_1/bubbles_1.plsm" content_format="Xml" date="2015-02-16 11:36:24" guid="dc319d8f-e321-4111-9417-42d0c4c1b9c2" />
+  </service_data>
+  <work_data>
+    <ps type="rnd" name="bubbles_1" ver="1.0" free="1" path="D:/Work/MC/tool/AnimLineEditor/presets/bubbles_1" back="">
+      <emit name="bubbles" pos_mode="0" level="0" frame_index="0" res="bubble" lifetime="2" playing="1" loop="1" exported="1" preprocess_time="4" blendmode="0" visible="1">
+        <delta pos="0" scope="0" speed="0" acceleration="0" scale="0" emitter_speed="0" emitter_acceleration="0" />
+        <pos_x delta="0">
+          <p v="0" />
+        </pos_x>
+        <pos_y delta="0">
+          <p v="0" />
+        </pos_y>
+        <emitter_speed_x delta="0">
+          <p v="0" />
+        </emitter_speed_x>
+        <emitter_speed_y delta="0">
+          <p v="0" />
+        </emitter_speed_y>
+        <emitter_acceleration_x delta="0">
+          <p v="0" />
+        </emitter_acceleration_x>
+        <emitter_acceleration_y delta="0">
+          <p v="0" />
+        </emitter_acceleration_y>
+        <emitter_direction delta="0">
+          <p v="0" />
+        </emitter_direction>
+        <emitter_torsion delta="0">
+          <p v="0" />
+        </emitter_torsion>
+        <scope_x delta="0">
+          <p v="33.8" />
+        </scope_x>
+        <scope_y delta="0">
+          <p v="19.9" />
+        </scope_y>
+        <direction delta="0">
+          <p v="1.5708" />
+        </direction>
+        <spread delta="0">
+          <p v="0.123" />
+        </spread>
+        <part_count delta="0">
+          <p v="40" />
+        </part_count>
+        <part_lifetime delta="0">
+          <p v="0.5" />
+        </part_lifetime>
+        <torsion delta="0">
+          <p v="0" />
+        </torsion>
+        <delay delta="0">
+          <p v="0" />
+        </delay>
+        <particles>
+          <speed_x delta="0">
+            <p v="0" />
+          </speed_x>
+          <speed_y delta="0">
+            <p v="0" />
+          </speed_y>
+          <acceleration_x delta="0">
+            <p v="0" />
+          </acceleration_x>
+          <acceleration_y delta="0">
+            <p v="0" />
+          </acceleration_y>
+          <gravity delta="0">
+            <p v="0" />
+          </gravity>
+          <scale_x delta="0">
+            <p v="0" t="0" mf_v="0" mf_t="0" />
+            <p v="1" t="1" mb_v="1" mb_t="1" />
+          </scale_x>
+          <scale_y delta="0">
+            <p v="0" t="0" mf_v="0" mf_t="0" />
+            <p v="1" t="1" mb_v="1" mb_t="1" />
+          </scale_y>
+          <angle delta="0">
+            <p v="0" />
+          </angle>
+          <rotate_speed delta="0">
+            <p v="0" />
+          </rotate_speed>
+          <alpha delta="0">
+            <p v="0.0039" t="0" mf_v="1.1874" mf_t="0.0389" />
+            <p v="1" t="1" mb_v="1.0293" mb_t="0.1166" />
+          </alpha>
+          <color_r delta="0">
+            <p v="1" />
+          </color_r>
+          <color_g delta="0">
+            <p v="1" />
+          </color_g>
+          <color_b delta="0">
+            <p v="1" />
+          </color_b>
+        </particles>
+      </emit>
+    </ps>
+  </work_data>
+</elephant_games>

@@ -1,0 +1,99 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ include file="t4helper.tt"#>
+<#
+int val = 3;
+if (count<2 || count >10) {
+	if (item == "")
+		count = 2;
+	else
+		count = 3;
+	}
+	prg = prg=="std"?"":prg;
+#>
+rmname = <#= rmname #>	        | без rm_ |
+dlgname = <#= dlgname #>	    | без dlg_ |
+
+item = <#= item==""?"-none-":item  #>		| подбираемый предмет |
+itemfuncget = <#= item==""?"-none-":itemfuncget #>	    | ф-я давания |
+itemfunchand = <#= item==""?"-none-":itemfunchand #>    | ф-я статики руки |
+count = <#= count #>		| счетчик диалогов |
+prg = <#= prg #>        | текущий прогресс |
+============================================================================================================================================================================
+=======xml==========вне комнаты!!! Уже должно быть из шаблона
+
+--            <obj __type="spr_gm" _name="dlg_<#= rmname #>_<#= dlgname #>" alp="0" pos_x="512" pos_y="384" pos_z="111">
+--                <obj __type="anim" _name="anm_<#= rmname #>_<#= dlgname #>" animfunc="static" playing="1" pos_x="-683" pos_y="-384" pos_z="999" res="<#= path #>">
+--                    <obj __type="obj" _name="dlg_<#= rmname #>_<#= dlgname #>_lipsing_root" anim_tag="head" input="0"/>
+--					  <obj __type="anim" _name="anm_<#= rmname #>_<#= dlgname #>_hand" anim_tag="hand" animfunc="<#= itemfuncget #>" endtrig="0" res="<#= path #>">
+--                      <obj __type="anim" _name="anm_<#= rmname #>_<#= dlgname #>_hand_static" anim_tag="hand_static" animfunc="<#= itemfunchand #>" endtrig="0" playing="1" res="<#= path #>"/>
+--                      <obj __type="obj" _name="obj_<#= rmname #>_<#= dlgname #>_item" anim_tag="item" input="0"/>
+--                      <obj __type="obj" _name="obj_<#= rmname #>_<#= dlgname #>_item_shadow" anim_tag="item_shadow" input="0"/>
+--                    </obj>
+--                </obj>
+--            </obj>
+            
+=======lua==========
+
+==========
+
+function public.SwitchFrase( dlg_name, count_txt )
+  if dlg_name == "<#= dlgname #>" then
+    if count_txt == 1 then
+      common_impl.continue_visible = true
+    elseif count_txt == 2 then
+      common_impl.continue_visible = true
+<# if (item != "" && item != null) {#>
+      public.get_<#= item #>_prepare()
+      ld.AnimPlay( "anm_<#= rmname #>_<#= dlgname #>_hand", "<#= itemfuncget #>", "" )
+    elseif count_txt == 3 then 
+      private.dlg_<#= dlgname #>_<#= item #>_collected = true
+      ld.Anim.Reverse("anm_<#= rmname #>_<#= dlgname #>_hand")
+      cmn.CallEventHandler( "get_<#= item #>" );
+<# val = 4;}#>
+<# for (int i = val; i <= count; i++)
+{#>
+	elseif count_txt == <#= i #> then
+<#} #>
+    end
+  end
+end
+
+
+=========================
+
+function public.dlg_<#= rmname #>_<#= dlgname #>( obj )
+  local func_end = function()
+<# if (item != "" && item != null) {#>
+    cmn.SetEventDone( "get_<#= item #>" );
+<#}#>
+    cmn.SetEventDone( "dlg_<#= rmname #>_<#= dlgname #>" );
+    cmn.CallEventHandler( "dlg_<#= rmname #>_<#= dlgname #>_end" );
+    common_impl.Lock(0);
+    ld.ShowBbtAfter( "dlg_<#= rmname #>_<#= dlgname #>" );
+  end;
+  function public.dlg_<#= rmname #>_<#= dlgname #>_func_end()
+    common_impl.Lock(1);
+<# if (item != "" && item != null) {#>
+    if not private.dlg_<#= dlgname #>_<#= item #>_collected then
+      public.get_<#= item #>_prepare()
+      cmn.CallEventHandler( "get_<#= item #>" );
+    end  
+<#} #>
+    func_end()
+  end
+  cmn.CallEventHandler( "dlg_<#= rmname #>_<#= dlgname #>_beg" );
+  common_impl.dialog_character_loc = "";
+  common_impl.Start( "<#= dlgname #>", <#= count#>, nil, nil, true, "dlg_<#= rmname #>_<#= dlgname #>_func_end", {  } );
+end;
+
+
+=============в секцию предмета============
+
+function public.get_<#= item #>_prepare()
+  ObjAttach("spr_<#= rmname #>_<#= item #>","obj_<#= rmname #>_<#= dlgname #>_item")
+  ObjSet( "spr_<#= rmname #>_<#= item #>", {visible = 1, pos_x = 0, pos_y = 0} );
+end

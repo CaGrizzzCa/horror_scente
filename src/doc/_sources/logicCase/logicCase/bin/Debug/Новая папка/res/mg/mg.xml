@@ -1,0 +1,78 @@
+<module name="mg_##mg##">
+    <objs>
+        <obj name="mg_##mg##_root" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="">
+            <room name="mg_##mg##" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="512" drawoff_y="384" tiling_x="1" tiling_y="1" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/mg_##mg##/back" trg_open="trg_##mg##_open" trg_close="trg_##mg##_close" trg_preopen="trg_##mg##_preopen" trg_preclose="trg_##mg##_preclose" />
+        </obj>
+    </objs>
+    <trigs>
+        <trig name="trg_##mg##_init">
+            <code>
+ObjAttach("mg_##mg##", "ng_rooms_hub");
+
+function ld.##mg##.Win()
+  cmn.MiniGameHide();
+  ng_global.progress["##prg##"]["win_##mg##"].done = 1;
+  ng_global.progress["##prg##"]["win_##mg##"].func();
+  --результат победы(если игра не закрывается после прохожденяи перенести след. строку в последнее действие)
+  ld.GotoRm( "##mg##" );
+end
+
+function ld.##mg##.Reset()
+--анимация сброса игры в начало, сброс массива состояния
+--ld.LogTrace("reset")
+end
+
+function ld.##mg##.Skip()
+--ld.LogTrace("skip");
+--анимация победы затем ld.##mg##.Win()
+  ld.##mg##.Win()
+end
+  
+  
+--ng_global.progress["##prg##"]["win_##mg##"].state = {}; -- массив состояния
+ng_global.progress["##prg##"]["win_##mg##"].hint = 1;
+ng_global.progress["##prg##"]["win_##mg##"].skiptimer = 1;
+ng_global.progress["##prg##"]["win_##mg##"].func = function()
+  if ng_global.progress["##prg##"]["win_##mg##"].done == 1 then
+  --результат победы(если игра не закрывается после прохожденяи перенести след. строку в последнее действие)
+    ObjDelete( "gmg_##mg##_##mg##" );
+  else
+    --восстановление игры из массива состояния
+  end;
+end;
+
+----------------------------JUMP----------------------
+--                                                  --
+------------------------------------------------------
+ld.jumper["mg_##mg##"] = {};
+ld.jumper["mg_##mg##"]["preopen"] = function()
+  ld.loadprg();
+end;
+ld.jumper["mg_##mg##"]["open"] = function()
+	--условие начала игры если надо добавить
+	if ng_global.progress["##prg##"]["win_##mg##"].done ~= 1 then
+	  cmn.MiniGameShow()
+	end;
+
+	EvnTrack(0)
+end;
+ld.jumper["mg_##mg##"]["preclose"] = function()
+	if ng_global.progress["##prg##"]["win_##mg##"].start == 1 then
+	  cmn.MiniGameHide();
+	end;
+end;
+
+
+----------------------------GET-----------------------
+--                                                  --
+------------------------------------------------------
+
+
+----------------------------USE-----------------------
+--                                                  --
+------------------------------------------------------
+
+</code>
+        </trig>
+    </trigs>
+</module>

@@ -1,0 +1,447 @@
+<module name="common_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__common_impl_rootobj">
+            <obj __type="anim" _name="anm_simplemorphcollect_1" animfunc="morph" endtrig="0" playing="1" pos_z="-1" res="assets/levels/common/morph_anm">
+                <obj __type="spr" _name="spr_simplemorphcollect_tr_1" anim_tag="morph_tr" input="0"/>
+                <obj __type="spr" _name="spr_simplemorphcollect_1" anim_tag="morph"/>
+            </obj>
+            <obj __type="obj" _name="dlg_windows_hub" pos_x="512" pos_y="384">
+                <obj __type="obj" _name="wnd_dialog_addprofile">
+                    <obj __type="spr" _name="spr_dialog_addprofile" pos_y="-107" pos_z="1" res="assets/levels/common/profile/profile_back">
+                        <obj __type="textedit" _name="ted_dialog_addprofile" allowed_characters="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" anim_tag="sys_int_11" clearonfirstinput="1" display_outline="1" disprawtext="1" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" maxchars="10" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_y="3" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" trg_enter="common.dialog.addprofile.Down()"/>
+                        <obj __type="obj" _name="dialog_addprofile_buttons" pos_y="108">
+                            <obj __type="obj" _name="dialog_addprofile_button_left" event_mdown="common.dialog.ButtonMouseDown( &quot;addprofile&quot;, &quot;left&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;addprofile&quot;, &quot;left&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;addprofile&quot;, &quot;left&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="-160" visible="0">
+                                <obj __type="spr" _name="spr_dialog_addprofile_button_left" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_addprofile_button_left_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_addprofile_button_left" color_b="0.635" color_g="0.862" color_r="0.925" display_outline="1" fontsize="22" input="0" maxwidth="0" outline_color_b="0.282" outline_color_g="0.117" outline_color_r="0.011" pos_y="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_common_ok"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_addprofile_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;addprofile&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;addprofile&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;addprofile&quot;, &quot;center&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" visible="0">
+                                <obj __type="spr" _name="spr_dialog_addprofile_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_addprofile_button_center_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_addprofile_button_center" color_b="0.635" color_g="0.862" color_r="0.925" display_outline="1" fontsize="22" input="0" maxwidth="0" outline_color_b="0.282" outline_color_g="0.117" outline_color_r="0.011" pos_y="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_common_ok"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_addprofile_button_right" event_mdown="common.dialog.ButtonMouseDown( &quot;addprofile&quot;, &quot;right&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;addprofile&quot;, &quot;right&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;addprofile&quot;, &quot;right&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="160" visible="0">
+                                <obj __type="spr" _name="spr_dialog_addprofile_button_right" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_addprofile_button_right_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_addprofile_button_right" color_b="0.635" color_g="0.862" color_r="0.925" display_outline="1" fontsize="22" input="0" maxwidth="0" outline_color_b="0.282" outline_color_g="0.117" outline_color_r="0.011" pos_y="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_common_close"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_addprofile" active="0" anim_tag="sys_int_01" display_outline="1" fontcolor_b="0.529" fontcolor_g="0.705" fontsize="28" input="0" maxwidth="0" outline_color_b="0.117" outline_size="2" pos_x="2" pos_y="-62" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_addprofile" visible="0"/>
+                        <obj __type="spr" _name="spr_dialog_addprofile_caption" input="0" pos_x="-1" pos_y="-18"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_common">
+                    <obj __type="spr" _name="spr_dialog_common" pos_y="-107" pos_z="1" res="assets/levels/common/dialog_back">
+                        <obj __type="grid" _name="grd_dialog_common" active="0" alp="0" input="0" res="assets/interface/resources/int_dialog/dialog" visible="0"/>
+                        <obj __type="obj" _name="dialog_common_buttons" pos_y="113">
+                            <obj __type="obj" _name="dialog_common_button_left" event_mdown="common.dialog.ButtonMouseDown( &quot;common&quot;, &quot;left&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;common&quot;, &quot;left&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;common&quot;, &quot;left&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="-162" visible="0">
+                                <obj __type="spr" _name="spr_dialog_common_button_left" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_common_button_left_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_common_button_left" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_common_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;common&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;common&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;common&quot;, &quot;center&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" visible="0">
+                                <obj __type="spr" _name="spr_dialog_common_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_common_button_center_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_common_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_common_button_right" event_mdown="common.dialog.ButtonMouseDown( &quot;common&quot;, &quot;right&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;common&quot;, &quot;right&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;common&quot;, &quot;right&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="162" visible="0">
+                                <obj __type="spr" _name="spr_dialog_common_button_right" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_common_button_right_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_common_button_right" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_common" active="0" anim_tag="sys_int_09" display_outline="1" fontcolor_b="0.823" fontcolor_g="0.96" fontsize="25" input="0" maxwidth="350" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.007" outline_size="2" res="assets/fonts/dejavuserif"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_togglescreen">
+                    <obj __type="spr" _name="spr_dialog_togglescreen" pos_y="-107" pos_z="1" res="assets/levels/common/dialog_back">
+                        <obj __type="grid" _name="grd_dialog_togglescreen" active="0" alp="0" input="0" pos_x="-210" pos_y="22" res="assets/interface/resources/int_dialog/dialog" visible="0"/>
+                        <obj __type="obj" _name="dialog_togglescreen_buttons" pos_y="113">
+                            <obj __type="obj" _name="dialog_togglescreen_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;togglescreen&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;togglescreen&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;togglescreen&quot;, &quot;center&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25">
+                                <obj __type="spr" _name="spr_dialog_togglescreen_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_togglescreen_button_center_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_togglescreen_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_common_ok"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_togglescreen" active="0" anim_tag="sys_int_09" display_outline="1" fontcolor_b="0.823" fontcolor_g="0.96" fontsize="25" input="0" maxwidth="350" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.007" outline_size="2" res="assets/fonts/dejavuserif" text="str_dialog_togglescreen"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_profile">
+                    <obj __type="spr" _name="spr_dialog_profile" pos_y="-87" pos_z="5" res="assets/levels/common/profile/back">
+                        <obj __type="obj" _name="dialog_profile_names" pos_y="93">
+                            <obj __type="obj" _name="obj_dialog_profile_names_1" pos_y="-218">
+                                <obj __type="text" _name="txt_dialog_profile_names_1" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 1 );" event_menter="common_impl.DialogProfileMouseEnter(1);" event_mleave="common_impl.DialogProfileMouseLeave(1);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="22" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="CHEATER"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_1_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_2" pos_y="-157">
+                                <obj __type="text" _name="txt_dialog_profile_names_2" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 2 );" event_menter="common_impl.DialogProfileMouseEnter(2);" event_mleave="common_impl.DialogProfileMouseLeave(2);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_2_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_3" pos_y="-96">
+                                <obj __type="text" _name="txt_dialog_profile_names_3" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 3 );" event_menter="common_impl.DialogProfileMouseEnter(3);" event_mleave="common_impl.DialogProfileMouseLeave(3);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_3_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_4" pos_y="-35">
+                                <obj __type="text" _name="txt_dialog_profile_names_4" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 4 );" event_menter="common_impl.DialogProfileMouseEnter(4);" event_mleave="common_impl.DialogProfileMouseLeave(4);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_4_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_5" pos_y="26">
+                                <obj __type="text" _name="txt_dialog_profile_names_5" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 5 );" event_menter="common_impl.DialogProfileMouseEnter(5);" event_mleave="common_impl.DialogProfileMouseLeave(5);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_5_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_6" pos_y="87">
+                                <obj __type="text" _name="txt_dialog_profile_names_6" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 6 );" event_menter="common_impl.DialogProfileMouseEnter(6);" event_mleave="common_impl.DialogProfileMouseLeave(6);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_6_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_7" active="0" input="0" pos_y="154" visible="0">
+                                <obj __type="text" _name="txt_dialog_profile_names_7" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 7 );" event_menter="common_impl.DialogProfileMouseEnter(7);" event_mleave="common_impl.DialogProfileMouseLeave(7);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_7_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="obj" _name="obj_dialog_profile_names_8" active="0" input="0" pos_y="216" visible="0">
+                                <obj __type="text" _name="txt_dialog_profile_names_8" anim_tag="sys_int_10" display_outline="1" disprawtext="1" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;name&quot;, 8 );" event_menter="common_impl.DialogProfileMouseEnter(8);" event_mleave="common_impl.DialogProfileMouseLeave(8);" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="28" inputrect_h="40" inputrect_init="1" inputrect_w="340" inputrect_x="-170" inputrect_y="-20" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="Name 1"/>
+                                <obj __type="spr" _name="spr_dialog_profile_names_8_focus" alp="0" blendmode="2" input="0" pos_y="-3" pos_z="2" res="assets/levels/common/profile/profile_focus"/>
+                            </obj>
+                            <obj __type="spr" _name="spr_dialog_profile_names_focus" alp="0.7" blendmode="2" drawoff_y="-3" input="0" res="assets/levels/common/profile/profile_focus"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_profile_buttons" pos_x="2" pos_y="248">
+                            <obj __type="obj" _name="dialog_profile_button_left" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;left&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;profile&quot;, &quot;left&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;profile&quot;, &quot;left&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="-160">
+                                <obj __type="spr" _name="spr_dialog_profile_button_left" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_profile_button_left_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_profile_button_left" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_common_ok"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_profile_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;profile&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;profile&quot;, &quot;center&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25">
+                                <obj __type="spr" _name="spr_dialog_profile_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_profile_button_center_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_profile_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_profile_new"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_profile_button_right" event_mdown="common.dialog.ButtonMouseDown( &quot;profile&quot;, &quot;right&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;profile&quot;, &quot;right&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;profile&quot;, &quot;right&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="160">
+                                <obj __type="spr" _name="spr_dialog_profile_button_right" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_profile_button_right_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_profile_button_right" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_profile_delete"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_profile" anim_tag="sys_int_01" display_outline="1" fontcolor_b="0.529" fontcolor_g="0.705" fontsize="28" input="0" maxwidth="350" outline_color_b="0.117" outline_size="2" pos_y="-185" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_profile"/>
+                        <obj __type="spr" _name="spr_dialog_profile_caption" input="0" pos_y="-156"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_playchoice" input="0">
+                    <obj __type="spr" _name="spr_dialog_playchoice_std" pos_x="-200" pos_y="-46">
+                        <obj __type="spr" _name="spr_dialog_playchoice_std_caption" input="0" pos_y="-157"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_std_miniback" active="0" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;play&quot;, &quot;std&quot; );" event_menter="SetCursor( CURSOR_HAND );" event_mleave="SetCursor( CURSOR_DEFAULT );" pos_x="-2" pos_y="-3" pos_z="1" res="assets/levels/common/playchoice/playchoice_std_miniback"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_std_frame" active="0" input="0" pos_z="1" res="assets/levels/common/playchoice/back"/>
+                        <obj __type="text" _name="txt_dialog_playchoice_std" anim_tag="sys_int_30" display_outline="1" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="40" input="0" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_y="-122" pos_z="1" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_playchoice_std"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_std_button_play" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;play&quot;, &quot;std&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;playchoice_std&quot;, &quot;play&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;playchoice_std&quot;, &quot;play&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="180" inputrect_x="-90" inputrect_y="-25" pos_x="-84" pos_y="109" pos_z="2" res="assets/levels/common/btn">
+                            <obj __type="spr" _name="spr_dialog_playchoice_std_button_play_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                            <obj __type="text" _name="txt_dialog_playchoice_std_button_play" color_b="0.282" color_g="0.635" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_playchoice_play"/>
+                        </obj>
+                        <obj __type="spr" _name="spr_dialog_playchoice_std_button_reset" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;reset&quot;, &quot;std&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;playchoice_std&quot;, &quot;reset&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;playchoice_std&quot;, &quot;reset&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="180" inputrect_x="-90" inputrect_y="-25" pos_x="85" pos_y="109" pos_z="2" res="assets/levels/common/btn">
+                            <obj __type="spr" _name="spr_dialog_playchoice_std_button_reset_off" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="180" inputrect_x="-90" inputrect_y="-25" pos_z="-99" res="assets/levels/common/btn_na"/>
+                            <obj __type="spr" _name="spr_dialog_playchoice_std_button_reset_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                            <obj __type="text" _name="txt_dialog_playchoice_std_button_reset" color_b="0.282" color_g="0.635" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_playchoice_reset"/>
+                        </obj>
+                    </obj>
+                    <obj __type="spr" _name="spr_dialog_playchoice_ext" pos_x="200" pos_y="-46">
+                        <obj __type="spr" _name="spr_dialog_playchoice_ext_caption" input="0" pos_y="-157"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_ext_miniback" active="0" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;play&quot;, &quot;ext&quot; );" event_menter="SetCursor( CURSOR_HAND );" event_mleave="SetCursor( CURSOR_DEFAULT );" pos_x="-2" pos_y="-3" pos_z="1" res="assets/levels/common/playchoice/playchoice_ext_miniback"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_ext_frame" input="0" pos_z="1" res="assets/levels/common/playchoice/back"/>
+                        <obj __type="text" _name="txt_dialog_playchoice_ext" anim_tag="sys_int_30" display_outline="1" fontcolor_b="0.627" fontcolor_g="0.745" fontsize="40" input="0" maxwidth="0" outline_alpha="0.8" outline_color_g="0.305" outline_color_r="1" outline_size="2" pos_y="-122" pos_z="1" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_playchoice_ext"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_ext_button_play" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;play&quot;, &quot;ext&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;playchoice_ext&quot;, &quot;play&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;playchoice_ext&quot;, &quot;play&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="180" inputrect_x="-90" inputrect_y="-25" pos_x="-84" pos_y="109" pos_z="2" res="assets/levels/common/btn">
+                            <obj __type="spr" _name="spr_dialog_playchoice_ext_button_play_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                            <obj __type="text" _name="txt_dialog_playchoice_ext_button_play" color_b="0.282" color_g="0.635" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_playchoice_play"/>
+                        </obj>
+                        <obj __type="spr" _name="spr_dialog_playchoice_ext_button_reset" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;reset&quot;, &quot;ext&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;playchoice_ext&quot;, &quot;reset&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;playchoice_ext&quot;, &quot;reset&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="180" inputrect_x="-90" inputrect_y="-25" pos_x="85" pos_y="109" pos_z="2" res="assets/levels/common/btn">
+                            <obj __type="spr" _name="spr_dialog_playchoice_ext_button_reset_off" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="180" inputrect_x="-90" inputrect_y="-25" pos_z="-99" res="assets/levels/common/btn_na"/>
+                            <obj __type="spr" _name="spr_dialog_playchoice_ext_button_reset_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                            <obj __type="text" _name="txt_dialog_playchoice_ext_button_reset" color_b="0.282" color_g="0.635" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_playchoice_reset"/>
+                        </obj>
+                    </obj>
+                    <obj __type="obj" _name="dialog_playchoice_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;playchoice&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;playchoice&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;playchoice&quot;, &quot;center&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_y="128" pos_z="3">
+                        <obj __type="spr" _name="spr_dialog_playchoice_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                        <obj __type="spr" _name="spr_dialog_playchoice_button_center_focus" alp="0" blendmode="2" input="0" pos_z="1" res="assets/levels/common/btn_focus"/>
+                        <obj __type="text" _name="txt_dialog_playchoice_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="2" res="assets/shared/cheater/arial" text="str_common_close"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_gamemode">
+                    <obj __type="spr" _name="spr_dialog_gamemode" pos_y="-89" res="assets/levels/common/gamemode/back">
+                        <obj __type="obj" _name="dialog_gamemode_casual" pos_x="149" pos_y="-132">
+                            <obj __type="text" _name="txt_dialog_gamemode_casual" active="0" align="0" anim_tag="sys_int_06" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-264" pos_y="-22" res="assets/fonts/dejavuserif" text="str_dialog_casual"/>
+                            <obj __type="spr" _name="spr_dialog_gamemode_casual_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;check&quot;, &quot;casual&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_casual&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_casual&quot; );" inputrect_h="122" inputrect_init="1" inputrect_w="396" inputrect_x="-373" inputrect_y="-70" pos_x="31" pos_y="12">
+                                <obj __type="spr" _name="spr_dialog_gamemode_casual_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_casual_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus">
+                                    <obj __type="spr" _name="spr_dialog_gamemode_casual_check_focus_2" blendmode="2" input="0" pos_x="-192" pos_y="-3" pos_z="2" res="assets/levels/common/gamemode/focus1"/>
+                                </obj>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_casual_desc" active="0" align="0" align_v="0" anim_tag="sys_int_07" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" fontsize="14" input="0" maxwidth="280" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-262" pos_y="-14" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_gamemode_casual_desc"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_advanced" pos_x="149" pos_y="-30">
+                            <obj __type="text" _name="txt_dialog_gamemode_advanced" active="0" align="0" anim_tag="sys_int_06" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-264" pos_y="-13" res="assets/fonts/dejavuserif" text="str_dialog_advanced"/>
+                            <obj __type="text" _name="txt_dialog_gamemode_advanced_desc" active="0" align="0" align_v="0" anim_tag="sys_int_07" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" fontsize="14" input="0" maxwidth="280" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-262" pos_y="-5" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_gamemode_advanced_desc"/>
+                            <obj __type="spr" _name="spr_dialog_gamemode_advanced_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;check&quot;, &quot;advanced&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_advanced&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_advanced&quot; );" inputrect_h="121" inputrect_init="1" inputrect_w="396" inputrect_x="-373" inputrect_y="-60" pos_x="31" pos_y="23">
+                                <obj __type="spr" _name="spr_dialog_gamemode_advanced_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_advanced_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus">
+                                    <obj __type="spr" _name="spr_dialog_gamemode_advanced_check_focus_2" blendmode="2" input="0" pos_x="-192" pos_y="-3" pos_z="2" res="assets/levels/common/gamemode/focus1"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_hardcore" pos_x="149" pos_y="77">
+                            <obj __type="text" _name="txt_dialog_gamemode_hardcore" active="0" align="0" anim_tag="sys_int_06" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-264" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_hardcore"/>
+                            <obj __type="text" _name="txt_dialog_gamemode_hardcore_desc" active="0" align="0" align_v="0" anim_tag="sys_int_07" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" fontsize="15" input="0" maxwidth="280" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-262" pos_y="5" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_gamemode_hardcore_desc"/>
+                            <obj __type="spr" _name="spr_dialog_gamemode_hardcore_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;check&quot;, &quot;hardcore&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_hardcore&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_hardcore&quot; );" inputrect_h="122" inputrect_init="1" inputrect_w="396" inputrect_x="-373" inputrect_y="-59" pos_x="31" pos_y="31">
+                                <obj __type="spr" _name="spr_dialog_gamemode_hardcore_check_light" active="0" input="0" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_hardcore_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus">
+                                    <obj __type="spr" _name="spr_dialog_gamemode_hardcore_check_focus_2" blendmode="2" input="0" pos_x="-192" pos_y="-3" pos_z="2" res="assets/levels/common/gamemode/focus1"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_button_custom" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;check&quot;, &quot;custom&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;gamemode&quot;, &quot;custom&quot; )" event_mleave="common_impl.DialogButtonMouseLeave( &quot;gamemode&quot;, &quot;custom&quot; )" inputrect_h="50" inputrect_init="1" inputrect_w="244" inputrect_x="-125" inputrect_y="-29" pos_x="8" pos_y="195">
+                            <obj __type="spr" _name="spr_dialog_gamemode_button_custom_focus" alp="0" blendmode="2" input="0" pos_x="-17" pos_y="-6" res="assets/levels/common/gamemode/focus2"/>
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;check&quot;, &quot;custom&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="50" inputrect_x="-25" inputrect_y="-25" pos_x="172" pos_y="-3">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_check_light" active="0" input="0" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_button_custom" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="-3" pos_y="-2" res="assets/fonts/dejavuserif" text="str_dialog_custom"/>
+                        </obj>
+                        <obj __type="spr" _name="spr_dialog_gamemode_caption" input="0" pos_y="-207"/>
+                        <obj __type="obj" _name="dialog_gamemode_buttons" pos_x="1" pos_y="247" pos_z="1">
+                            <obj __type="obj" _name="dialog_gamemode_button_left" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;left&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;gamemode&quot;, &quot;left&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;gamemode&quot;, &quot;left&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="-160" visible="0">
+                                <obj __type="spr" _name="spr_dialog_gamemode_button_left" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_button_left_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_gamemode_button_left" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_common_ok"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_gamemode_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;gamemode&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;gamemode&quot;, &quot;center&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" visible="0">
+                                <obj __type="spr" _name="spr_dialog_gamemode_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_button_center_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_gamemode_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_common_ok"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_gamemode_button_right" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode&quot;, &quot;right&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;gamemode&quot;, &quot;right&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;gamemode&quot;, &quot;right&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="160" visible="0">
+                                <obj __type="spr" _name="spr_dialog_gamemode_button_right" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_button_right_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_gamemode_button_right" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_common_close"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_gamemode" anim_tag="sys_int_01" display_outline="1" drawoff_y="-20" fontcolor_b="0.529" fontcolor_g="0.705" fontsize="28" input="0" maxwidth="330" outline_color_b="0.117" outline_size="2" pos_x="2" pos_y="-179" pos_z="5" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_gamemode"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_options">
+                    <obj __type="spr" _name="spr_dialog_options" pos_y="-90" pos_z="1" res="assets/levels/common/options/back">
+                        <obj __type="text" _name="txt_dialog_options_info" active="0" align="2" disprawtext="1" fontsize="14" input="0" maxwidth="0" pos_x="216" pos_y="-153" res="assets/fonts/dejavuserif" text="1.4 / 0.0.0" visible="0"/>
+                        <obj __type="obj" _name="dialog_options_sound" pos_y="-156">
+                            <obj __type="text" _name="txt_dialog_options_sound" active="0" anim_tag="sys_int_02" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="2" res="assets/fonts/dejavuserif" text="str_dialog_options_sound"/>
+                            <obj __type="obj" _name="dialog_options_mus" pos_x="-10" pos_y="33" pos_z="1">
+                                <obj __type="obj" _name="dialog_options_mus_header" active="0" input="0" pos_x="-47" pos_y="-4">
+                                    <obj __type="text" _name="txt_dialog_options_mus_header" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_mus"/>
+                                </obj>
+                                <obj __type="obj" _name="dialog_options_mus_scroll" event_mdown="common.dialog.options.ScrollDown( &apos;mus&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="30" inputrect_init="1" inputrect_w="234" inputrect_x="-25" inputrect_y="-18" pos_x="-36" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_mus_scroll_slider" drawoff_y="-3" input="0" res="assets/levels/common/slider">
+                                        <obj __type="spr" _name="spr_dialog_options_mus_scroll_slider_focus" alp="0" blendmode="2" input="0" pos_y="-3" res="assets/levels/common/slider_light"/>
+                                    </obj>
+                                    <obj __type="text" _name="txt_dialog_options_mus_percent" active="0" align="0" anim_tag="sys_int_04" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="193" pos_y="-1" res="assets/fonts/dejavuserif" shadow_pos_x="2" text="100%"/>
+                                    <obj __type="obj" _name="dialog_options_mus_scroll_slider" drag="1" event_drag="common.dialog.options.ScrollDrag(&quot;mus&quot;)" event_dragdrop="common.dialog.options.ScrollDrop(&quot;mus&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter(&quot;options&quot;,&quot;mus&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave(&quot;options&quot;,&quot;mus&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                                </obj>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_sfx" pos_x="-10" pos_y="55" pos_z="1">
+                                <obj __type="obj" _name="dialog_options_sfx_header" active="0" input="0" pos_x="-47" pos_y="-4">
+                                    <obj __type="text" _name="txt_dialog_options_sfx_header" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_sfx"/>
+                                </obj>
+                                <obj __type="obj" _name="dialog_options_sfx_scroll" event_mdown="common.dialog.options.ScrollDown( &apos;sfx&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="30" inputrect_init="1" inputrect_w="234" inputrect_x="-25" inputrect_y="-18" pos_x="-36" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_sfx_scroll_slider" drawoff_y="-3" input="0" res="assets/levels/common/slider">
+                                        <obj __type="spr" _name="spr_dialog_options_sfx_scroll_slider_focus" alp="0" blendmode="2" input="0" pos_y="-3" res="assets/levels/common/slider_light"/>
+                                    </obj>
+                                    <obj __type="text" _name="txt_dialog_options_sfx_percent" active="0" align="0" anim_tag="sys_int_04" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="193" pos_y="-1" res="assets/fonts/dejavuserif" text="100%"/>
+                                    <obj __type="obj" _name="dialog_options_sfx_scroll_slider" drag="1" event_drag="common.dialog.options.ScrollDrag(&quot;sfx&quot;)" event_dragdrop="common.dialog.options.ScrollDrop(&quot;sfx&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter(&quot;options&quot;,&quot;sfx&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave(&quot;options&quot;,&quot;sfx&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                                </obj>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_env" pos_x="-10" pos_y="77" pos_z="1">
+                                <obj __type="obj" _name="dialog_options_env_header" active="0" input="0" pos_x="-47" pos_y="-4">
+                                    <obj __type="text" _name="txt_dialog_options_env_header" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="15" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_env"/>
+                                </obj>
+                                <obj __type="obj" _name="dialog_options_env_scroll" event_mdown="common.dialog.options.ScrollDown( &apos;env&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="30" inputrect_init="1" inputrect_w="234" inputrect_x="-25" inputrect_y="-19" pos_x="-36" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_env_scroll_slider" drawoff_y="-3" input="0" res="assets/levels/common/slider">
+                                        <obj __type="spr" _name="spr_dialog_options_env_scroll_slider_focus" alp="0" blendmode="2" input="0" pos_y="-3" res="assets/levels/common/slider_light"/>
+                                    </obj>
+                                    <obj __type="text" _name="txt_dialog_options_env_percent" active="0" align="0" anim_tag="sys_int_04" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="193" pos_y="-1" res="assets/fonts/dejavuserif" text="100%"/>
+                                    <obj __type="obj" _name="dialog_options_env_scroll_slider" drag="1" event_drag="common.dialog.options.ScrollDrag(&quot;env&quot;)" event_dragdrop="common.dialog.options.ScrollDrop(&quot;env&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter(&quot;options&quot;,&quot;env&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave(&quot;options&quot;,&quot;env&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                                </obj>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_voc" pos_x="-10" pos_y="99" pos_z="1">
+                                <obj __type="obj" _name="dialog_options_voc_header" active="0" input="0" pos_x="-47" pos_y="-4">
+                                    <obj __type="text" _name="txt_dialog_options_voc_header" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_voc"/>
+                                </obj>
+                                <obj __type="obj" _name="dialog_options_voc_scroll" event_mdown="common.dialog.options.ScrollDown( &apos;voc&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="30" inputrect_init="1" inputrect_w="234" inputrect_x="-25" inputrect_y="-19" pos_x="-36" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_voc_scroll_slider" drawoff_y="-3" input="0" res="assets/levels/common/slider">
+                                        <obj __type="spr" _name="spr_dialog_options_voc_scroll_slider_focus" alp="0" blendmode="2" input="0" pos_y="-3" res="assets/levels/common/slider_light"/>
+                                    </obj>
+                                    <obj __type="text" _name="txt_dialog_options_voc_percent" active="0" align="0" anim_tag="sys_int_04" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="193" pos_y="-1" res="assets/fonts/dejavuserif" text="100%"/>
+                                    <obj __type="obj" _name="dialog_options_voc_scroll_slider" drag="1" event_drag="common.dialog.options.ScrollDrag(&quot;voc&quot;)" event_dragdrop="common.dialog.options.ScrollDrop(&quot;voc&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter(&quot;options&quot;,&quot;voc&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave(&quot;options&quot;,&quot;voc&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="dialog_options_graphics" pos_y="-17">
+                            <obj __type="text" _name="txt_dialog_options_graphics" active="0" anim_tag="sys_int_02" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="2" res="assets/fonts/dejavuserif" text="str_dialog_options_graphics"/>
+                            <obj __type="obj" _name="dialog_options_gamma" pos_x="-10" pos_y="32" pos_z="1">
+                                <obj __type="obj" _name="dialog_options_gamma_header" active="0" input="0" pos_x="-47" pos_y="-4">
+                                    <obj __type="text" _name="txt_dialog_options_gamma_header" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_gamma"/>
+                                </obj>
+                                <obj __type="obj" _name="dialog_options_gamma_scroll" event_mdown="common.dialog.options.ScrollDown( &apos;gamma&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="30" inputrect_init="1" inputrect_w="234" inputrect_x="-25" inputrect_y="-18" pos_x="-36" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_gamma_scroll_slider" drawoff_y="-3" input="0" res="assets/levels/common/slider">
+                                        <obj __type="spr" _name="spr_dialog_options_gamma_scroll_slider_focus" alp="0" blendmode="2" input="0" pos_y="-3" res="assets/levels/common/slider_light"/>
+                                    </obj>
+                                    <obj __type="text" _name="txt_dialog_options_gamma_percent" active="0" align="0" anim_tag="sys_int_04" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="193" pos_y="-1" res="assets/fonts/dejavuserif" text="100%"/>
+                                    <obj __type="obj" _name="dialog_options_gamma_scroll_slider" drag="1" event_drag="common.dialog.options.ScrollDrag(&quot;gamma&quot;)" event_dragdrop="common.dialog.options.ScrollDrop(&quot;gamma&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter(&quot;options&quot;,&quot;gamma&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave(&quot;options&quot;,&quot;gamma&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="dialog_options_other" pos_y="50">
+                            <obj __type="text" _name="txt_dialog_options_other" active="0" anim_tag="sys_int_02" display_outline="1" fontcolor_b="0.843" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.117" outline_color_g="0.027" outline_color_r="0.047" outline_size="2" pos_x="2" res="assets/fonts/dejavuserif" text="str_dialog_options_other"/>
+                            <obj __type="obj" _name="dialog_options_fullscreen" pos_x="-121" pos_y="40">
+                                <obj __type="text" _name="txt_dialog_options_fullscreen" active="0" align="0" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="26" pos_y="-1" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_fullscreen"/>
+                                <obj __type="spr" _name="spr_dialog_options_fullscreen_check" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;check&quot;, &quot;fullscreen&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;options_fullscreen&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;options_fullscreen&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_fullscreen_check_light" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                    <obj __type="spr" _name="spr_dialog_options_fullscreen_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                                </obj>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_widescreen" pos_x="48" pos_y="40">
+                                <obj __type="text" _name="txt_dialog_options_widescreen" active="0" align="0" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="26" pos_y="-1" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_widescreen"/>
+                                <obj __type="spr" _name="spr_dialog_options_widescreen_check" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;check&quot;, &quot;widescreen&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;options_widescreen&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;options_widescreen&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_widescreen_check_light" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                    <obj __type="spr" _name="spr_dialog_options_widescreen_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                                </obj>
+                                <obj __type="spr" _name="spr_dialog_options_widescreen_tr" input="0" pos_y="-1" pos_z="5" visible="0"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_cursor" pos_x="-121" pos_y="80">
+                                <obj __type="text" _name="txt_dialog_options_cursor" active="0" align="0" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="26" pos_y="-1" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_cursor"/>
+                                <obj __type="spr" _name="spr_dialog_options_cursor_check" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;check&quot;, &quot;cursor&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;options_cursor&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;options_cursor&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_cursor_check_light" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                    <obj __type="spr" _name="spr_dialog_options_cursor_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                                </obj>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_perfmode" pos_x="48" pos_y="80">
+                                <obj __type="text" _name="txt_dialog_options_perfmode" active="0" align="0" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="26" pos_y="-1" pos_z="1" res="assets/fonts/dejavuserif" text="str_dialog_options_perfmode"/>
+                                <obj __type="spr" _name="spr_dialog_options_perfmode_check" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;check&quot;, &quot;perfmode&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;options_perfmode&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;options_perfmode&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20" pos_z="2">
+                                    <obj __type="spr" _name="spr_dialog_options_perfmode_check_light" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                    <obj __type="spr" _name="spr_dialog_options_perfmode_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="dialog_options_button_gamemode" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;gamemode&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;options&quot;, &quot;gamemode&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;options&quot;, &quot;gamemode&quot; );" inputrect_h="46" inputrect_init="1" inputrect_w="172" inputrect_x="-87" inputrect_y="-19" pos_x="85" pos_y="193">
+                            <obj __type="spr" _name="spr_dialog_options_button_gamemode" input="0" res="assets/levels/common/btn"/>
+                            <obj __type="spr" _name="spr_dialog_options_button_gamemode_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                            <obj __type="text" _name="txt_dialog_options_button_gamemode" color_b="0.282" color_g="0.635" fontsize="16" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_options_gamemode"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_options_button_credits" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;credits&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;options&quot;, &quot;credits&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;options&quot;, &quot;credits&quot; );" inputrect_h="47" inputrect_init="1" inputrect_w="174" inputrect_x="-86" inputrect_y="-20" pos_x="-77" pos_y="193">
+                            <obj __type="spr" _name="spr_dialog_options_button_credits" input="0" res="assets/levels/common/btn"/>
+                            <obj __type="spr" _name="spr_dialog_options_button_credits_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                            <obj __type="text" _name="txt_dialog_options_button_credits" color_b="0.282" color_g="0.635" fontsize="22" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_options_credits"/>
+                        </obj>
+                        <obj __type="spr" _name="spr_dialog_options_caption" input="0" pos_y="-206"/>
+                        <obj __type="obj" _name="dialog_options_buttons" pos_x="4" pos_y="248" pos_z="1">
+                            <obj __type="obj" _name="dialog_options_button_left" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;left&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;options&quot;, &quot;left&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;options&quot;, &quot;left&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="-162" visible="0">
+                                <obj __type="spr" _name="spr_dialog_options_button_left" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_options_button_left_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_options_button_left" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_menu"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;options&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;options&quot;, &quot;center&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" visible="0">
+                                <obj __type="spr" _name="spr_dialog_options_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_options_button_center_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_options_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_common_ok"/>
+                            </obj>
+                            <obj __type="obj" _name="dialog_options_button_right" event_mdown="common.dialog.ButtonMouseDown( &quot;options&quot;, &quot;right&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;options&quot;, &quot;right&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;options&quot;, &quot;right&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="162" visible="0">
+                                <obj __type="spr" _name="spr_dialog_options_button_right" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_options_button_right_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_options_button_right" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="1" res="assets/shared/cheater/arial" text="str_dialog_game"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_options" anim_tag="sys_int_01" display_outline="1" fontcolor_b="0.529" fontcolor_g="0.705" fontsize="28" input="0" maxwidth="330" outline_color_b="0.117" outline_size="2" pos_y="-194" pos_z="5" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_options"/>
+                    </obj>
+                </obj>
+                <obj __type="obj" _name="wnd_dialog_gamemode_custom">
+                    <obj __type="spr" _name="spr_dialog_gamemode_custom" pos_y="-89" res="assets/levels/common/gamemode_custom/back">
+                        <obj __type="obj" _name="dialog_gamemode_custom_plus_inv" drawoff_x="-1" pos_x="171" pos_y="-141">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_plus_inv_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;plus_inv&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_plus_inv&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_plus_inv&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_plus_inv_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_plus_inv_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_plus_inv" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_plus_inv"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_sparkle_area" pos_x="171" pos_y="-99">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_sparkle_area_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;sparkle_area&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_sparkle_area&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_sparkle_area&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_sparkle_area_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_sparkle_area_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_sparkle_area" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_sparkle_area"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_cursor" pos_x="171" pos_y="-54">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_cursor_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;cursor&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_cursor&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_cursor&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_cursor_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_cursor_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_cursor" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_cursor"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_tasks" pos_x="-28" pos_y="19">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_tasks_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;tasks&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_tasks&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_tasks&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_tasks_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_tasks_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_tasks" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_tasks"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_text" pos_x="-28" pos_y="60">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_text_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;text&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_text&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_text&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_text_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_text_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_text" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_text"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_tutorial" pos_x="171" pos_y="19">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_tutorial_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;tutorial&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_tutorial&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_tutorial&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_tutorial_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_tutorial_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_tutorial" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_tutorial"/>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_hint" pos_x="171" pos_y="60">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_hint_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;hint&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_hint&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_hint&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_hint_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_hint_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_hint" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_hint"/>
+                            <obj __type="obj" _name="dialog_gamemode_custom_hint_scroll" event_mdown="common.dialog.gamemode_custom.ScrollDown( &apos;hint&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="30" inputrect_init="1" inputrect_w="228" inputrect_x="-24" inputrect_y="-16" pos_x="-213" pos_y="35" pos_z="2">
+                                <obj __type="text" _name="txt_dialog_gamemode_custom_hint_intervals" active="0" align="0" anim_tag="sys_int_08" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="14" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-9" pos_y="19" pos_z="-1" res="assets/fonts/dejavuserif" text="15     30     45     60     75     90"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_hint_scroll_slider" input="0" res="assets/levels/common/slider">
+                                    <obj __type="spr" _name="spr_dialog_gamemode_custom_hint_scroll_slider_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/slider_light"/>
+                                </obj>
+                                <obj __type="text" _name="txt_dialog_gamemode_custom_hint_scroll" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-12" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_hint_slider"/>
+                                <obj __type="obj" _name="dialog_gamemode_custom_hint_scroll_slider" drag="1" event_drag="common.dialog.gamemode_custom.ScrollDrag(&quot;hint&quot;)" event_dragdrop="common.dialog.gamemode_custom.ScrollDrop(&quot;hint&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter( &quot;gamemode_custom&quot;,&quot;hint&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave( &quot;gamemode_custom&quot;,&quot;hint&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="dialog_gamemode_custom_skip" pos_x="171" pos_y="152">
+                            <obj __type="spr" _name="spr_dialog_gamemode_custom_skip_check" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;check&quot;, &quot;skip&quot; );" event_menter="common_impl.DialogCheckMouseEnter( &quot;gamemode_custom_skip&quot; );" event_mleave="common_impl.DialogCheckMouseLeave( &quot;gamemode_custom_skip&quot; );" inputrect_h="40" inputrect_init="1" inputrect_w="40" inputrect_x="-20" inputrect_y="-20">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_skip_check_light" active="0" input="0" pos_z="1" res="assets/levels/common/check"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_skip_check_focus" alp="0" blendmode="2" input="0" pos_z="2" res="assets/levels/common/check_focus"/>
+                            </obj>
+                            <obj __type="text" _name="txt_dialog_gamemode_custom_skip" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-33" pos_y="-3" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_skip"/>
+                            <obj __type="obj" _name="dialog_gamemode_custom_skip_scroll" event_mdown="common.dialog.gamemode_custom.ScrollDown( &apos;skip&apos; )" event_menter="SetCursor(CURSOR_HAND)" event_mleave="SetCursor(CURSOR_DEFAULT)" inputrect_h="28" inputrect_init="1" inputrect_w="228" inputrect_x="-24" inputrect_y="-16" pos_x="-213" pos_y="23" pos_z="2">
+                                <obj __type="text" _name="txt_dialog_gamemode_custom_skip_intervals" active="0" align="0" anim_tag="sys_int_08" display_outline="1" disprawtext="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="14" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-9" pos_y="19" pos_z="-1" res="assets/fonts/dejavuserif" text="15     30     45     60     75     90"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_skip_scroll_slider" input="0" res="assets/levels/common/slider">
+                                    <obj __type="spr" _name="spr_dialog_gamemode_custom_skip_scroll_slider_focus" alp="0" blendmode="2" input="0" res="assets/levels/common/slider_light"/>
+                                </obj>
+                                <obj __type="text" _name="txt_dialog_gamemode_custom_skip_scroll" active="0" align="2" anim_tag="sys_int_03" display_outline="1" fontcolor_b="0.901" fontcolor_g="0.921" fontsize="18" input="0" maxwidth="0" outline_alpha="0.8" outline_color_b="0.027" outline_color_g="0.007" outline_color_r="0.003" outline_size="2" pos_x="-12" res="assets/fonts/dejavuserif" text="str_dialog_gamemode_custom_skip_slider"/>
+                                <obj __type="obj" _name="dialog_gamemode_custom_skip_scroll_slider" drag="1" event_drag="common.dialog.gamemode_custom.ScrollDrag(&quot;skip&quot;)" event_dragdrop="common.dialog.gamemode_custom.ScrollDrop(&quot;skip&quot;)" event_menter="common_impl.DialogOptionsScrollMouseEnter( &quot;gamemode_custom&quot;, &quot;skip&quot;)" event_mleave="common_impl.DialogOptionsScrollMouseLeave( &quot;gamemode_custom&quot;, &quot;skip&quot;)" inputrect_h="34" inputrect_init="1" inputrect_w="38" inputrect_x="-19" inputrect_y="-19" pos_z="1" realdrag="1"/>
+                            </obj>
+                        </obj>
+                        <obj __type="text" _name="txt_dialog_gamemode_custom_caption" anim_tag="sys_int_01" display_outline="1" fontcolor_b="0.529" fontcolor_g="0.705" fontsize="28" input="0" maxwidth="0" outline_color_b="0.117" outline_size="2" pos_x="4" pos_y="-195" res="assets/fonts/dejavuserif" shadow_pos_x="1" shadow_pos_y="1" text="str_dialog_gamemode_custom"/>
+                        <obj __type="spr" _name="spr_dialog_gamemode_custom_caption" input="0" pos_y="-207"/>
+                        <obj __type="obj" _name="dialog_gamemode_custom_buttons" pos_x="2" pos_y="248" pos_z="1">
+                            <obj __type="obj" _name="dialog_gamemode_custom_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;gamemode_custom&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;gamemode_custom&quot;,&quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;gamemode_custom&quot;,&quot;center&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" visible="0">
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_button_center" active="0" input="0" res="assets/levels/common/btn"/>
+                                <obj __type="spr" _name="spr_dialog_gamemode_custom_button_center_focus" alp="0" blendmode="2" input="0" pos_z="1" res="assets/levels/common/btn_focus"/>
+                                <obj __type="text" _name="txt_dialog_gamemode_custom_button_center" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" pos_z="2" res="assets/shared/cheater/arial" text="str_common_ok"/>
+                            </obj>
+                        </obj>
+                    </obj>
+                </obj>
+            </obj>
+            <obj __type="timer" _name="tmr_common_timer" input="0" visible="0"/>
+            <obj __type="spr" _name="spr_common_ghomask" alp="0" color_b="0" color_g="0" color_r="0" input="0" res="assets/back" visible="0"/>
+        </obj>
+    </objs>
+</module>

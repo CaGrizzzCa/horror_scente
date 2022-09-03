@@ -1,0 +1,3 @@
+                <obj _type="obj" _name="inv_##item##" event_dragdrop="common_impl.UseItem( &quot;inv_##item##&quot; )" event_mdown="common_impl.ShowBbt( &quot;notgetall&quot;, 3, 1 )" event_menter="interface.PopupShow( &apos;pop_inv_##item##&apos; )" event_mleave="interface.PopupHide()" inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_x="350" pos_y="348">
+					<obj __type="anim" _name="anm_##item##" input="0" pos_z="100" res="assets/levels/##lvl##/common/inv/inv_##item##"/>
+				</obj>

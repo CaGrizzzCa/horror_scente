@@ -1,0 +1,102 @@
+<module name="ho_##rm##">
+    <objs>
+        <obj name="ho_##rm##_root" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="">
+            <room name="ho_##rm##" pos_x="0" pos_y="0" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="512" drawoff_y="384" tiling_x="1" tiling_y="1" event_mdown="" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/back" trg_open="*ld.jumper.jump()" trg_close="*ld.jumper.jump()" trg_preopen="*ld.jumper.jump()" trg_preclose="*ld.jumper.jump()">
+                <spr name="spr_##rm##_aaa" pos_x="100" pos_y="100" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(aaa)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/aaa" />
+                <spr name="spr_##rm##_bbb" pos_x="200" pos_y="100" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(bbb)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/bbb" />
+                <spr name="spr_##rm##_ccc" pos_x="300" pos_y="100" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(ccc)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/ccc" />
+                <spr name="spr_##rm##_ddd" pos_x="400" pos_y="100" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(ddd)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/ddd" />
+				<spr name="spr_##rm##_eee" pos_x="100" pos_y="200" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(eee)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/eee" />
+                <spr name="spr_##rm##_fff" pos_x="200" pos_y="200" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(fff)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/fff" />
+                <spr name="spr_##rm##_ggg" pos_x="300" pos_y="200" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(ggg)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/ggg" />
+                <spr name="spr_##rm##_hhh" pos_x="400" pos_y="200" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(hhh)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/hhh" />
+                <spr name="spr_##rm##_iii" pos_x="100" pos_y="300" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(iii)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/iii" />
+                <spr name="spr_##rm##_jjj" pos_x="200" pos_y="300" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(jjj)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/jjj" />
+                <spr name="spr_##rm##_kkk" pos_x="300" pos_y="300" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(kkk)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/kkk" />
+                <spr name="spr_##rm##_lll" pos_x="400" pos_y="300" pos_z="0" ang="0" scale_x="1" scale_y="1" alp="1" color_r="1" color_g="1" color_b="1" blendmode="0" attachtype="0" active="1" input="1" visible="1" drag="0" realdrag="0" inputrect_init="0" croprect_init="0" drawoff_x="0" drawoff_y="0" tiling_x="1" tiling_y="1" event_mdown="trg_ho_task_find(lll)" event_mup="" event_menter="" event_mleave="" event_menter_drag="" event_mleave_drag="" event_dragdrop="" event_drag="" event_startdrag="" res="assets/levels/level/ho_##rm##/lll" />
+            </room>
+        </obj>
+    </objs>
+    <trigs>
+        <trig name="trg_##rm##_init">
+            <code>
+ObjAttach("ho_##rm##","ng_rooms_hub");
+-----------------------------------------------
+ng_global.progress[ "std" ][ "win_##rm##" ].found = {};
+ng_global.progress[ "std" ][ "win_##rm##" ].exitroom = "rm_##brm##";
+ng_global.progress[ "std" ][ "win_##rm##" ].hint = 1;
+ng_global.progress[ "std" ][ "win_##rm##" ].clk_hint = 0;
+ng_global.progress[ "std" ][ "win_##rm##" ].time_passing = 0;
+ng_global.progress[ "std" ][ "win_##rm##" ].func = function()
+  if ng_global.progress[ "std" ][ "win_##rm##" ].done == 1 then
+    if ld.obj["##inv##"] then
+      ld.obj["##inv##"]:getI()
+    else 
+      ld.prg("get_##inv##","done",1);
+    end;
+    ObjDelete( "gho_##brm##_##rm##" );
+  else
+--    if ng_global.progress[ "std" ][ "win_##rm##" ].unmark["aaa"].done == 1 then
+--      ng_global.progress[ "std" ][ "win_##rm##" ].unmark["aaa"].func();
+--    end;
+    cmn.ProcessHoStart( "##rm##" );
+  end;
+end;
+
+function ld.##rm##.HoComplete()
+  int.WidgetSetInput( InterfaceWidget_BtnMap, 0 );
+  int.WidgetSetInput( InterfaceWidget_Inventory, 0 );
+  int.WidgetSetInput( InterfaceWidget_BtnHint, 0 );
+  local ho_name = cmn.GetObjectName( GetCurrentRoom() );
+  ObjDelete("gho_##brm##_##rm##");
+  ObjDelete("grm_##rm##_##brm##");
+end;
+
+ng_global.progress[ "std" ][ "win_##rm##" ].unmark = {};
+
+--------------------------------------------------------------------------------------------------
+--ng_global.progress[ "std" ][ "win_##rm##" ].unmark["aaa"] = {};
+--ng_global.progress[ "std" ][ "win_##rm##" ].unmark["aaa"].done = 0;
+--ng_global.progress[ "std" ][ "win_##rm##" ].unmark["aaa"].func = function()
+--  ObjDelete("spr_##rm##_aaa_part_1");
+--  ObjDelete("spr_##rm##_aaa_part_2");
+--  ObjSet("spr_##rm##_aaa",{alp = 1, input = 1});
+--end;
+
+----------------------------JUMP----------------------
+--                                                  --
+------------------------------------------------------
+ld.jumper["ho_##rm##"] = {};
+
+ld.jumper["ho_##rm##"]["open"] = function()
+  local ho_tasks = {};
+
+  --int.TaskPanelTaskAdd( ho_tasks, "ddd",         1, 1, { { "spr_##rm##_ddd_drag", "spr_##rm##_ddd_goal" }}, { "spr_##rm##_ddd" } } );
+  --int.TaskPanelTaskAdd( ho_tasks, "kkk",         2, 0, { {"spr_##rm##_kkk_mul_2"},{ "spr_##rm##_kkk_mul_1"} } );
+
+  int.TaskPanelTaskAdd( ho_tasks, "aaa",         1, 0, { { "spr_##rm##_aaa" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "bbb",         1, 0, { { "spr_##rm##_bbb" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "ccc",         1, 0, { { "spr_##rm##_ccc" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "ddd",         1, 0, { { "spr_##rm##_ddd" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "eee",         1, 0, { { "spr_##rm##_eee" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "fff",         1, 0, { { "spr_##rm##_fff" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "ggg",         1, 0, { { "spr_##rm##_ggg" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "hhh",         1, 0, { { "spr_##rm##_hhh" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "iii",         1, 0, { { "spr_##rm##_iii" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "jjj",         1, 0, { { "spr_##rm##_jjj" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "kkk",         1, 0, { { "spr_##rm##_kkk" } } );
+  int.TaskPanelTaskAdd( ho_tasks, "lll",         1, 0, { { "spr_##rm##_lll" } } );
+
+  int.TaskPanelShow( ho_tasks );
+  EvnTrack(0)
+
+  ld.achiev.PassingHoStart();
+end;
+ld.jumper["ho_##rm##"]["preclose"] = function()
+	int.TaskPanelHide();
+end;
+
+</code>
+		</trig>
+    </trigs>
+</module>

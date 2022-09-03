@@ -1,0 +1,7 @@
+<module name="level" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__##lvlname##_rootobj">
+            <obj __type="obj" _name="##lvlname##_hub"/>
+        </obj>
+    </objs>
+</module>

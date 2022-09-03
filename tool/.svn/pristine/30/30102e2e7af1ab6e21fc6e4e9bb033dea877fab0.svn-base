@@ -1,0 +1,441 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ include file="t4helper.tt"#>
+<#
+    if (silhouetteSerial)
+        task = true;
+
+	string prg_start = "";
+	for (int i = 0; i < prg_start_arr.Length; i++)
+	{
+		prg_start = "\""+String.Join("\",\"",prg_start_arr)+"\"";
+	}
+
+    string path = "assets/levels/level"+(prg=="std"?"":prg)+"/rm_"+rmname+"/zz_"+zzname+"/";
+
+    string objzone = "gfx_"+zzname+"_win_"+mhoname+"_zone";
+    string objroot = "obj_"+zzname+"_win_"+mhoname+"_root";
+    string taskpanel = "spr_"+zzname+"_win_"+mhoname+"_taskpanel";
+	prg = prg == "std"?"":prg;
+    
+    //silhouetteSerialData
+    string silhouetteSerialInputOff = silhouetteSerial?" input=\"0\"":"";
+
+#>
+zzname = <#= zzname #>          | без zz_ |
+mhoname = <#= mhoname #>        | без win_ обычно равно имени зз |
+rmname = <#= rmname #>          | без rm_ |
+winitem = <#= winitem #>        | без get_ |
+prg_start = <#= prg_start #>        | с use_ clk_ |
+prg = <#= prg #>        | текущий прогресс |
+zoom = <#= zoom #>      | in zoomable additional back |
+task = <#= task #>      | task type else item |
+silhouetteSerial = <#= silhouetteSerial #>      | silhouette serial |
+
+<#= path #>         | текущий путь |
+<#= objzone #>      | zone |
+<#= objroot #>      | root |
+<#= taskpanel #>    | taskpanel |
+
+<#= silhouetteSerialInputOff #>
+============================================================================================================================================================================
+=======xml========== 
+ДЛЯ ТАСКОВОЙ ПАНЕЛИ, ЕСЛИ НУЖНО ПОСЛЕ ВСЕХ ТАСКОВ ПОКАЗАТЬ ФИНАЛЬНЫЙ
+в PreOpen 
+
+interface.TaskPanelTaskAdd( ho_items, "mmm",          1, 0, { { "spr_billetsext_picklockext" } } ); --добавили последний таск
+interface.TaskPanelShow( ho_items ); 
+interface.TaskPanelSetPosTaskByRule( N )  где N сколько тасков без последнего 
+
+в ф-ии проверки включения последнего таска(запускается в прохождении и загрузке), проверяет выполненность всех предыдущх тасков
+local task_params = {count = 1, marked=0, name=StringGet("tsk_billetsext_last")}
+interface.TaskPanelShowTaskLast( task_params )
+
+----
+переименовать предмет spr_<#= zzname #>_<#= winitem #> в spr_<#= mhoname #>_win
+закомментировать прогресс get_<#= winitem #>
+
+обязательно создать рут obj_<#= zzname #>_win_<#= mhoname #>_root, приатачить к нему мхо, анимировать его мгновенно если нужно в preopen, preclose
+включить инпут предметам без марка
+для анмарков создать пары gfx_firtree_click_aaa, anm_firtree_click_aaa(click_aaa) выключить инпуты
+для анмарков прописать в TaskPanelTaskAdd 1 в 4 параметре и доп зону в 5
+interface.TaskPanelTaskAdd( ho_items, "aaa",  1, 1, { {"spr_"..prg_cutname.."_aaa"}, {"gfx_"..prg_cutname.."_click_aaa"} } );
+
+[[into zz]]
+
+                <obj __type="obj" _name="<#= objroot #>" active="0" input="0" pos_z="100" visible="0">
+<# if (silhouetteSerial) {#>
+                    <obj __type="obj" _name="obj_<#= zzname #>_panel" croprect_h="135" croprect_init="1" croprect_w="131" croprect_x="-68" croprect_y="-67" input="0" pos_x="-319" pos_y="-176" pos_z="-1">
+                        <obj __type="spr" _name="spr_<#= zzname #>_panel" input="0" res="assets/interface/int_taskpanel/panel" scale_x="-1" visible="0">
+                            <obj __type="spr" _name="spr_<#= zzname #>_sh_aaa" attachtype="2" input="0" res="<#= path #>silhouette_aaa"/>
+                            <obj __type="spr" _name="spr_<#= zzname #>_sh_bbb" attachtype="2" input="0" res="<#= path #>silhouette_bbb"/>
+                            <obj __type="spr" _name="spr_<#= zzname #>_sh_ccc" attachtype="2" input="0" res="<#= path #>silhouette_ccc"/>
+                            <obj __type="spr" _name="spr_<#= zzname #>_sh_ddd" attachtype="2" input="0" res="<#= path #>silhouette_ddd"/>
+                            <obj __type="spr" _name="spr_<#= zzname #>_sh_eee" attachtype="2" input="0" res="<#= path #>silhouette_eee"/>
+                            <obj __type="spr" _name="spr_<#= zzname #>_sh_fff" attachtype="2" input="0" res="<#= path #>silhouette_fff"/>
+                        </obj>
+                    </obj>
+<#} #>
+<# if (zoom) {#>
+                    <obj __type="obj" _name="obj_<#= zzname #>_win_<#= mhoname #>_exit" pos_z="-10"/>
+                    <obj __type="obj" _name="obj_<#= zzname #>_win_<#= mhoname #>_exit_block" pos_z="-9"/>
+                    <obj __type="spr" _name="spr_<#= zzname #>_back_ho" input="0" pos_z="-8" res="<#= path #>back_ho"/>  
+<#} #>
+                    <obj __type="spr" _name="spr_<#= zzname #>_aaa" inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_x="-100" pos_y="-50" res="<#= path #>layers/aaa"/>
+                    <obj __type="spr" _name="spr_<#= zzname #>_bbb"<#= silhouetteSerialInputOff #> inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_y="-50" res="<#= path #>layers/bbb"/>
+                    <obj __type="spr" _name="spr_<#= zzname #>_ccc"<#= silhouetteSerialInputOff #> inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_x="100" pos_y="-50" res="<#= path #>layers/ccc"/>
+                    <obj __type="spr" _name="spr_<#= zzname #>_ddd"<#= silhouetteSerialInputOff #> inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_x="-100" pos_y="50" res="<#= path #>layers/ddd"/>
+                    <obj __type="spr" _name="spr_<#= zzname #>_eee"<#= silhouetteSerialInputOff #> inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_y="50" res="<#= path #>layers/eee"/>
+                    <obj __type="spr" _name="spr_<#= zzname #>_fff"<#= silhouetteSerialInputOff #> inputrect_h="100" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-50" pos_x="100" pos_y="50" res="<#= path #>layers/fff"/>
+                </obj>
+
+=======lua==========
+
+==<#= prg_start #>
+<# foreach (var progress in prg_start_arr) {#>
+==<#= progress #>
+
+private.<#= progress #>_end = function()
+<# if (prg_start_arr.Length > 1) {#>
+  if ld.CheckRequirements( {<#= prg_start #>} ) then
+<#} #>
+<# if (zoom) {#>
+  local zzRect = ld.Quick.GetInputRect(512,512)
+  local exitBorder = 50
+  ObjSet( "obj_<#= zzname #>_win_<#= mhoname #>_exit_block", ld.Quick.GetInputRect(zzRect.inputrect_w - 2*exitBorder, zzRect.inputrect_h - 2*exitBorder)  );
+  ObjSet( "obj_<#= zzname #>_win_<#= mhoname #>_exit", zzRect );
+  ObjSet( "obj_<#= zzname #>_win_<#= mhoname #>_exit", {
+    event_mdown = function() private.PreClose_<#= mhoname #>() end;
+    event_menter = function() ld.ShCur(CURSOR_DOWN) end;
+    event_mleave = function() ld.ShCur(CURSOR_DEFAULT) end;
+  } );
+  ObjSet( "gfx_<#= zzname #>_win_<#= mhoname #>_zone", {event_mdown = function() 
+    private.PreOpen_<#= mhoname #>() 
+  end} );
+<#} #>
+<# if (prg_start_arr.Length > 1) {#>
+  end
+<#} #>
+  ld.SubRoom.Complete( "<#= progress #>" )
+end;
+
+==func_end <#= progress #>
+
+  local func_end = function()
+<# if (prg_start_arr.Length > 1) {#>
+    if ld.CheckRequirements( {<#= prg_start #>} ) then
+<#} #>
+    private.PreOpen_<#= mhoname #>() 
+<# if (prg_start_arr.Length > 1) {#>
+    else
+      ld.Lock(0)    
+    end
+<#} #>
+  end
+
+<# }//end foreach#>
+
+==========miniHO 
+
+private.win_<#= mhoname #>_logic = function()
+  if ld.CheckRequirements( {"win_<#= mhoname #>"} ) then
+    interface.InventoryItemAdd("inv_<#= winitem #>","spr_<#= zzname #>_win");
+  end  
+end;
+cmn.AddSubscriber( "win_<#= mhoname #>", private.win_<#= mhoname #>_logic );
+
+private.win_<#= mhoname #>_load = function() 
+  local gm = private.mho[ "win_<#= mhoname #>" ];
+  gm.unmark_load()
+  if not ld.CheckRequirements( {"win_<#= mhoname #>"} ) then
+    common_impl.ProcessHoStart("<#= mhoname #>","delete_objects"
+<# if (silhouetteSerial) {#>
+    , function(key, obj) gm.complete_load(key) end --obj only for tasks
+<#} else {#>
+    --, function(key, obj) ld.LogTrace(key, obj) if key == "aaa" then ld.LogTrace( "WAY1" ); ObjDelete("anm_snowgirlzz_anm_aaa") end end --obj only for tasks
+<#} #>
+      )
+    --common_impl.ProcessHoStart("<#= mhoname #>","no_delete_objects"
+    --, function(key, obj) gm.complete_load(key) end --obj only for tasks
+    --  )
+  else
+    gm.complete_load()
+    ObjDelete("gfx_<#= zzname #>_win_<#= mhoname #>_zone")
+  end;
+  ld.SubRoom.Complete( "win_<#= mhoname #>" )
+end
+cmn.AddSubscriber( "win_<#= mhoname #>", private.win_<#= mhoname #>_load, private.room_objname ); 
+
+=V========= function public.win_<#= mhoname #>()
+
+local func_end = function()
+  cmn.SetEventDone( "win_<#= mhoname #>" );
+  cmn.CallEventHandler( "win_<#= mhoname #>" );
+  private.PreClose_<#= mhoname #>()
+  ld.Lock(0);
+  SoundHoTheme( false );
+end;
+
+==========
+function private.InitMHO_<#= mhoname #>()
+  local prg_name = "win_<#= mhoname #>"
+  local prg_cutname = prg_name:gsub("^win_", "")
+  local zz_name = common_impl.hint[ prg_name ].zz
+  local zz_cutname = zz_name:gsub("^zz_", "")
+  local rm_name = common_impl.hint[ prg_name ].room
+  local root = "obj_"..zz_cutname.."_"..prg_name.."_root"
+<# if (silhouetteSerial) {#>
+  local hided = ""
+  local panel = "spr_"..zz_cutname.."_panel"
+  local panel_root = "obj_"..zz_cutname.."_panel"
+<#} #>
+  local prg_req = {<#= prg_start #>}
+  if not private.mho then private.mho = {} end
+  if not private.mho[ prg_name ] then private.mho[ prg_name ] = {} end
+  local gm = private.mho[prg_name];
+  local marked = {} --{"eee", "fff"}
+  gm.abc = {"aaa", "bbb", "ccc", "ddd", "eee", "fff"}
+  gm.key2index = {aaa=1, bbb=2, ccc=3, ddd=4, eee=5, fff=6}
+  gm.N = #gm.abc;
+  gm.get_spr = function(n) return string.format("spr_%s_%s", zz_cutname, n) end ;
+  gm.get_sh = function(n) return string.format("spr_%s_%s_sh", zz_cutname, n) end ;
+<# if (silhouetteSerial) {#>
+  gm.get_sil = function(n) return string.format("spr_%s_sh_%s", zz_cutname, n) end ;
+<#} #>
+
+  gm.names = {}
+  for n=1,gm.N do
+    gm.names[ gm.abc[n] ] =  gm.get_spr( gm.abc[n] )
+<# if (silhouetteSerial) {#>
+    if n ~= 1 then
+      ObjSet( gm.get_spr( gm.abc[n] ), {input = 0} );
+      ObjSet( gm.get_sil( gm.abc[n] ), {visible = 0} );
+    end
+<#} #>
+  end;
+
+  function gm.unmark(o)
+    ObjDelete("gfx_"..zz_cutname.."_click_"..o) 
+    ObjSet( "anm_"..zz_cutname.."_click_"..o, {animfunc = "click_"..o, frame = 999 } );
+    if not ld.CheckRequirements({prg_name}) then
+      if not cmn.IsFoundTask(prg_cutname,o) then
+        ObjSet( "spr_"..zz_cutname.."_"..o, {active = 1, input = 1, visible = 1} );  
+      end
+    end
+  end
+
+  function gm.unmark_load()
+    for i,o in ipairs(marked) do
+      if ld.CheckRequirements({prg_name}) or cmn.IsUnmarkedTask(prg_cutname,o) then
+        gm.unmark(o)
+      end
+    end
+  end
+
+<# if (silhouetteSerial) {#>
+  function gm.update_task(key, time)
+    local nextKey = gm.abc[gm.key2index[key]+1]
+    ObjSet( gm.get_spr( nextKey ), {input = 1} );
+    ObjSet( gm.get_sil( nextKey ), {visible = 1, alp = 0} );
+    ld.Anim.Set( gm.get_sil( nextKey ), {alp = 1}, time)
+    if key == gm.abc[#gm.abc] then
+      ld.Anim.Set( panel, {alp = 0}, time)
+    end
+  end
+
+<#} #>
+  function gm.complete_load(oneKey)
+    if not gm.isInit then --проверка чтобы не сработало при нормальном выигрыше
+      for key,obj in pairs(gm.names) do
+        if not oneKey or key == oneKey then
+          ObjDelete( gm.get_spr( key ) )
+          ObjDelete( gm.get_sh( key ) )
+<# if (silhouetteSerial) {#>
+          ObjDelete( gm.get_sil( key ) )
+          gm.update_task( key )
+<#} #>
+          --ObjDelete("obj_<#= mhoname #>_win_<#= mhoname #>_"..key.."_zone")
+          --ObjSet( "anm_<#= mhoname #>_"..key, {animfunc = key, frame = 999 } );
+          --if key == "ccc" then
+          --  ObjSet( "anm_<#= mhoname #>_some_"..key, {visible = 1} );
+          --end
+        end
+      end;
+    end
+  end
+
+  function private.PreOpen_<#= mhoname #>()
+
+    if ld.CheckRequirements( {prg_name} ) or not ld.CheckRequirements(prg_req) then
+      return
+    end;
+
+    function gm.init()
+      if gm.isInit then return else gm.isInit = true; end;
+
+
+      for key,obj in pairs(gm.names) do
+        local options = { event_mdown = function() 
+          --если предметы в рутах с нулеывыми координатами(например анимтаги)
+          --ObjSet( obj, ld.Quick.GetPos( obj, zz_name, zz_name ) );
+          --ObjAttach( obj, zz_name )
+<# if (task) {#>
+          --cmn.HoTaskFind( obj, nil, true, 100 ) -- 2 param for mul objects(cuts name), 4 param set pos_z
+          cmn.HoTaskFind( obj, key, true ) 
+<#} else {#>
+          cmn.HoItemFind( obj, "itm_"..prg_cutname.."_"..key );
+<#} #>
+          ld.FxBlickAnmObj(obj,true)
+          ObjAnimate( obj, 8, 0, 0, function() end, {0,3,1, 0.3,3,0} );
+          ObjDelete( gm.get_sh( key ) )
+<# if (silhouetteSerial) {#>
+          ObjDelete( gm.get_sil( key ) )
+          gm.update_task(key, 0.5)
+<#} #>
+        end }
+        ObjSet( obj, options );
+      end;
+
+      for i,o in ipairs(marked) do
+        ObjSet( "gfx_"..zz_cutname.."_click_"..o, {
+          event_mdown = function()
+            ObjDelete("gfx_"..zz_cutname.."_click_"..o)
+            ld.AnimPlay( "anm_"..zz_cutname.."_click_"..o, "click_"..o, 
+            function()  
+              cmn.UnmarkTask( prg_cutname, o );
+              gm.unmark(o)
+            end ) 
+          end;
+          event_menter = function() ld.ShCur(CURSOR_HAND) end;
+          event_mleave = function() ld.ShCur(CURSOR_DEFAULT) end;
+        } );
+      end
+
+<# if (task) {
+} else {#>
+      local panel = "obj_"..prg_cutname.."_items"
+      ObjCreate(panel, "obj")
+      for n=1,#gm.abc do
+        local key = gm.abc[n]
+        local obj = "itm_"..prg_cutname.."_"..key
+        ObjCreate(obj,"spr")
+        ObjSet(obj, {input=0, res="assets/levels/level<#= prg #>/rm_<#= rmname #>/zz_<#= zzname #>/layers/"..key.."_cont"})
+        ObjAttach(obj,panel)
+      end;
+<#} #>
+    end;
+
+    gm.init();
+
+    public.mini_ho = prg_cutname
+<# if (task) {#>
+    common_impl.hint[ "win_<#= mhoname #>" ].customhint = interface.TaskPanelHoHintShow
+<#} else {#>
+    common_impl.hint[ "win_<#= mhoname #>" ].customhint = interface.ItemPanelHoHintShow
+<#} #>
+
+    if cmn.InitHo( prg_cutname ) then
+      for i,o in ipairs(marked) do
+        cmn.SetMarkedTask( prg_cutname, o );
+      end
+    end
+
+    local ho_items = {};
+<# if (task) {#>
+    interface.TaskPanelTaskAdd( ho_items, "aaa",  1, 0, { { "spr_"..prg_cutname.."_aaa"} } );
+    interface.TaskPanelTaskAdd( ho_items, "bbb",  1, 0, { { "spr_"..prg_cutname.."_bbb"} } );
+    interface.TaskPanelTaskAdd( ho_items, "ccc",  1, 0, { { "spr_"..prg_cutname.."_ccc"} } );
+    interface.TaskPanelTaskAdd( ho_items, "ddd",  1, 0, { { "spr_"..prg_cutname.."_ddd"} } );
+    interface.TaskPanelTaskAdd( ho_items, "eee",  1, 0, { { "spr_"..prg_cutname.."_eee"} } );
+    interface.TaskPanelTaskAdd( ho_items, "fff",  1, 0, { { "spr_"..prg_cutname.."_fff"} } );
+    interface.TaskPanelShow( ho_items,prg_cutname );
+<# if (silhouetteSerial) {#>
+    local task_params = {count = 1, marked=0, name=StringGet("tsk_"..prg_cutname.."_last")}
+    interface.TaskPanelShowTaskLast( task_params )
+<#} #>
+<#} else {#>
+    interface.ItemPanelItemAdd( ho_items, "aaa", { "spr_"..prg_cutname.."_aaa"}  );
+    interface.ItemPanelItemAdd( ho_items, "bbb", { "spr_"..prg_cutname.."_bbb"}  );
+    interface.ItemPanelItemAdd( ho_items, "ccc", { "spr_"..prg_cutname.."_ccc"}  );
+    interface.ItemPanelItemAdd( ho_items, "ddd", { "spr_"..prg_cutname.."_ddd"}  );
+    interface.ItemPanelItemAdd( ho_items, "eee", { "spr_"..prg_cutname.."_eee"}  );
+    interface.ItemPanelItemAdd( ho_items, "fff", { "spr_"..prg_cutname.."_fff"}  );
+    interface.ItemPanelShow( ho_items );
+<#} #>
+    SoundHoTheme( true );
+
+    gm.unmark_load()
+    ObjSet( root, {active = 1, input = 1, visible = 1} );
+
+    ld.Lock(1)
+    ObjAnimate( root, 8, 0, 0, function() ld.Lock(0) end, {0,0,0, 0.5,0,1} );
+<# if (silhouetteSerial) {#>
+    ObjSet( panel, {visible = 1} );
+    ObjAttach( panel_root, "obj_int_frame_subroom_grids" )
+    ObjAnimate( panel, 0, 0, 0, function() end, {0,0,126, 0.5,0,0} );
+    --ObjAnimate( hided, 8, 0, 0, function()  end, {0,0,1, 0.5,0,0} );
+<#} #>
+
+    --uncomment if needed custom win(without window)
+    --common_impl.DialogHo_Show_Custom = function()
+    --  public.win_<#= mhoname #>()
+    --end
+  end;
+
+  function private.PreClose_<#= mhoname #>(fast)
+    if ObjGet(root).input then
+      if fast then
+        ObjAnimate( "rm_<#= rmname #>", 7, 0, 0, function() 
+          ObjSet( root, {active = 0, input = 0, visible = 0} );
+<# if (silhouetteSerial) {#>
+          ObjSet( panel, { pos_x = 126 } );
+          ObjDetach( panel_root )
+          --ObjAnimate( hided, 8, 0, 0, function()  end, {0,0,1} );
+<#} #>
+        end, {0,0,0} );
+      else
+        ld.Lock(1)
+        ObjAnimate( root, 8, 0, 0, function() 
+          ObjSet( root, {active = 0, input = 0, visible = 0} );
+          ld.Lock(0)
+        end, {0,0,1, 0.5,0,0} );
+<# if (silhouetteSerial) {#>
+        --ObjAnimate( hided, 8, 0, 0, function()  end, {0,0,0, 0.5,0,1} );
+        ObjAnimate( panel, 0, 0, 0, function() ObjDetach( panel_root ) end, {0,0,0, 0.5,0,126} );
+<#} #>
+      end
+      if ld.CheckRequirements( prg_req ) and not ld.CheckRequirements( {prg_name} ) then
+        SoundHoTheme( false );
+<# if (task) {#>
+        interface.TaskPanelHide();
+<#} else {#>
+        interface.ItemPanelHide();
+<#} #>
+      end;
+      public.mini_ho = nil;
+      common_impl.hint[ prg_name ].customhint = nil;
+    end
+    common_impl.DialogHo_Show_Custom = nil
+  end;
+end
+private.InitMHO_<#= mhoname #>()
+
+=V=========
+
+  function zz_<#= zzname #>.Open()
+  end
+  function zz_<#= zzname #>.PreOpen()
+<# if (zoom) {#>
+    --private.PreOpen_<#= mhoname #>()
+<#} else {#>
+    private.PreOpen_<#= mhoname #>()
+<#} #>
+  end
+  function zz_<#= zzname #>.PreClose()
+    private.PreClose_<#= mhoname #>("fast")
+  end
+  function zz_<#= zzname #>.Close()
+  end;

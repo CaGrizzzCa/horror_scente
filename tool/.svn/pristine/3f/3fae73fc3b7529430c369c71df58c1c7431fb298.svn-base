@@ -1,0 +1,13 @@
+backcar.png
+p_old_car_add_flare4.set,p_old_car_add_flare4
+209.0,-62.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_old_car_flare.set,p_old_car
+71.0,-115.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_old_car_flare2.set,p_old_car_flare
+212.0,-67.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_old_car_flare3.set,p_old_car_flare2
+-387.0,-64.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_old_car_add_flare3.set,p_old_car_add_flare3
+72.0,-116.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0
+p_old_car_add_flare2.set,p_old_car_add_flare2
+-382.0,-63.0,0,0,1.0,255.0,255.0,255.0,1.0,1.0,0.0,1,0

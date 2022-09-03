@@ -1,0 +1,61 @@
+rm_entrypoint	Улица кэтстауна
+zz_faketoys	Фальшивые игрушки
+zz_gate	Калитка на площадь
+zz_kitchen	Уличная кухня
+zz_calendar	Сладкий календарь
+ho_toys	ХО_игрушки
+
+rm_square	Площадь кэтстауна
+zz_fountain	Фонтанчик молока
+zz_bag	Мешок Санты
+zz_postoffice	Почтовое отделение
+zz_toforest	Вход в лес
+zz_keeper	Кот хранитель
+mg_dialog	МГ_Диалог
+
+rm_forestedge	Опушка леса
+zz_witchhousedoor	Дверь в домик
+zz_christmasdeer	Загон оленя
+ho_animal	ХО_Животное
+zz_boxes	Ящики
+mg_box	МГ_В ящике
+
+rm_witchhouse	Домик волшебницы
+zz_sewing	Швейный станок
+mg_chest	МГ_Сундук
+zz_presents	Подарки от Грилы
+
+rm_mouseville	Мышиное поселение
+zz_scene	Сцена
+zz_cheeseshop	Сырная лавка
+zz_mousedoor	Дверь в мышиный дом
+zz_shipyard	Мышиная верфь
+
+rm_mousehouse	Мышиный домик
+zz_cache	Тайник
+ho_things	ХО_В вещах
+zz_musiccorner	Музыкальный уголок
+zz_mousewheel	Мышиный тренажер
+zz_table	Стол
+
+rm_nearriver	У реки
+zz_lift	Подъемник
+zz_raft	Плот
+ho_river	ХО_в реке
+zz_stone	Камень
+
+rm_riversource	Исток водопада
+mg_catfight	Кошачий бой
+zz_hut	Шалаш
+zz_hiddengifts	Спрятанные подарки
+zz_plan	Доска с планом
+
+inv_soldier	ИП_Ледяной солдатик
+inv_postbag	ИП_Почтовая сумка
+inv_santadiary	ИП_Дневник Санты
+inv_equipment	ИП_Снаряжение путника
+inv_grylalist	ИП_Список Грилы
+inv_cheesefigure	ИП_Сырная фигурка
+inv_bottle	ИП_Бутылка
+inv_shipparts	ИП_Части корабля
+inv_pillow	ИП_Подушка

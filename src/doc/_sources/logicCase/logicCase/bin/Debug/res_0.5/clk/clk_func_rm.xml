@@ -1,0 +1,34 @@
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+game.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_clk_##name##_zone", room = "rm_##rm##" };
+
+local ##prg##_logic = function()
+  
+end;
+local ##prg##_beg = function()
+  ObjDelete( "gfx_##zrm##_clk_##name##_zone" );
+end;
+local ##prg##_end = function()
+  
+end;
+--------------------------------------------------------------------
+cmn.AddSubscriber( nil, "##prg##", ##prg##_logic  );
+cmn.AddSubscriber( room_objname, "##prg##", ##prg##_beg  );
+cmn.AddSubscriber( room_objname, "##prg##", ##prg##_end  );
+cmn.AddSubscriber( room_objname, "##prg##_beg", ##prg##_beg  );
+cmn.AddSubscriber( room_objname, "##prg##_end", ##prg##_end  );
+cmn.AddSubscriber( room_objname, "##prg##_end", ##prg##_logic  );
+--------------------------------------------------------------------
+function game.##rm##.##prg##()
+  function game.##rm##._##prg##_end()
+    cmn.SetEventDone( "##prg##" );
+    cmn.CallEventHandler( "##prg##_end" );
+    ld.Lock(0);
+  end;
+  cmn.CallEventHandler( "##prg##_beg" );
+  ld.Lock(1);
+  
+  game.##rm##._##prg##_end()
+  
+  --SoundSfx(  )
+end;

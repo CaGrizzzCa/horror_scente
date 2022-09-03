@@ -1,0 +1,29 @@
+<animation type="frame" frame_texture="cursor_helper1_use_t">
+  <function name="DoAnim" frametime="42" loop="1" alpha="0">
+    <frame idx="0" />
+    <frame idx="1" />
+    <frame idx="2" />
+    <frame idx="3" />
+    <frame idx="4" />
+    <frame idx="5" />
+    <frame idx="6" />
+    <frame idx="7" />
+    <frame idx="8" />
+    <frame idx="9" />
+    <frame idx="10" />
+    <frame idx="11" />
+    <frame idx="12" />
+    <frame idx="13" />
+    <frame idx="14" />
+    <frame idx="15" />
+    <frame idx="16" />
+    <frame idx="17" />
+    <frame idx="18" />
+    <frame idx="19" />
+    <frame idx="20" />
+    <frame idx="21" />
+    <frame idx="22" />
+    <frame idx="23" />
+	<frame idx="24" />
+  </function>
+</animation>

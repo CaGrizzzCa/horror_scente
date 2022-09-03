@@ -1,0 +1,38 @@
+local clk_##name##_beg = function ()
+
+  --зоны клика и частицы
+
+end;
+local clk_##name##_end = function ()
+
+  --прогресс
+
+end;
+-----------------------------------------------------------------------------------
+cmn.AddSubscriber( room_objname, "clk_##name##", clk_##name##_beg );
+cmn.AddSubscriber( room_objname, "clk_##name##", clk_##name##_end );
+cmn.AddSubscriber( room_objname, "clk_##name##_beg", clk_##name##_beg );
+cmn.AddSubscriber( room_objname, "clk_##name##_end", clk_##name##_end );
+-----------------------------------------------------------------------------------
+function game.##rm##.clk_##name##()
+
+  --вызываемая функция
+  cmn.CallEventHandler( "clk_##name##_beg" );
+
+end;
+-----------------------------------------------------------------------------------
+function game.##rm##._clk_##name##_end()
+
+  --конечная функция
+  cmn.SetEventDone( "clk_##name##" );
+  cmn.CallEventHandler( "clk_##name##_end" );
+
+end;
+-----------------------------------------------------------------------------------
+game.hint[ "clk_##name##" ] = {
+
+
+
+};
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------

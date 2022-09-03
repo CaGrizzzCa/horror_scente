@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="LevelEditor" title="Редактор уровней" version="2.10.2.80" />
+    <project_data name="level_out" ext=".lev" project_path="level_out.lev" content_format="Xml" date="2015-07-03 12:28:31" guid="42240101-d610-4c0d-9f7c-3de642ef67db" />
+  </service_data>
+  <work_data>
+    <scheme>
+      <size width="1920" height="1080" />
+      <scale value="1" />
+      <links>
+        <link id="0" source_x="0" source_y="125" destination_x="375" destination_y="125" source_block="0" destination_block="1" type="0" />
+        <link id="1" source_x="0" source_y="125" destination_x="750" destination_y="125" source_block="0" destination_block="2" type="0" />
+        <link id="2" source_x="0" source_y="125" destination_x="1125" destination_y="125" source_block="0" destination_block="3" type="0" />
+        <link id="3" source_x="0" source_y="125" destination_x="1500" destination_y="125" source_block="0" destination_block="4" type="0" />
+        <link id="4" source_x="0" source_y="125" destination_x="1875" destination_y="125" source_block="0" destination_block="5" type="0" />
+        <link id="5" source_x="0" source_y="125" destination_x="0" destination_y="250" source_block="0" destination_block="6" type="0" />
+        <link id="6" source_x="0" source_y="250" destination_x="375" destination_y="250" source_block="6" destination_block="7" type="0" />
+        <link id="7" source_x="0" source_y="250" destination_x="750" destination_y="250" source_block="6" destination_block="8" type="0" />
+        <link id="8" source_x="0" source_y="250" destination_x="1125" destination_y="250" source_block="6" destination_block="9" type="0" />
+        <link id="9" source_x="0" source_y="250" destination_x="1500" destination_y="250" source_block="6" destination_block="10" type="0" />
+        <link id="10" source_x="0" source_y="250" destination_x="1875" destination_y="250" source_block="6" destination_block="11" type="0" />
+        <link id="11" source_x="0" source_y="250" destination_x="2250" destination_y="250" source_block="6" destination_block="12" type="0" />
+        <link id="12" source_x="0" source_y="250" destination_x="0" destination_y="375" source_block="6" destination_block="13" type="0" />
+        <link id="13" source_x="0" source_y="375" destination_x="375" destination_y="375" source_block="13" destination_block="14" type="0" />
+        <link id="14" source_x="0" source_y="375" destination_x="750" destination_y="375" source_block="13" destination_block="15" type="0" />
+        <link id="15" source_x="0" source_y="375" destination_x="1125" destination_y="375" source_block="13" destination_block="16" type="0" />
+        <link id="16" source_x="0" source_y="375" destination_x="1500" destination_y="375" source_block="13" destination_block="17" type="0" />
+        <link id="17" source_x="0" source_y="375" destination_x="1875" destination_y="375" source_block="13" destination_block="18" type="0" />
+        <link id="18" source_x="0" source_y="375" destination_x="0" destination_y="500" source_block="13" destination_block="19" type="0" />
+        <link id="19" source_x="0" source_y="500" destination_x="375" destination_y="500" source_block="19" destination_block="20" type="0" />
+        <link id="20" source_x="0" source_y="500" destination_x="750" destination_y="500" source_block="19" destination_block="21" type="0" />
+        <link id="21" source_x="0" source_y="500" destination_x="1125" destination_y="500" source_block="19" destination_block="22" type="0" />
+        <link id="22" source_x="0" source_y="500" destination_x="0" destination_y="625" source_block="19" destination_block="23" type="0" />
+        <link id="23" source_x="0" source_y="625" destination_x="375" destination_y="625" source_block="23" destination_block="24" type="0" />
+        <link id="24" source_x="0" source_y="625" destination_x="750" destination_y="625" source_block="23" destination_block="25" type="0" />
+        <link id="25" source_x="0" source_y="625" destination_x="1125" destination_y="625" source_block="23" destination_block="26" type="0" />
+        <link id="26" source_x="0" source_y="625" destination_x="1500" destination_y="625" source_block="23" destination_block="27" type="0" />
+        <link id="27" source_x="0" source_y="625" destination_x="0" destination_y="750" source_block="23" destination_block="28" type="0" />
+        <link id="28" source_x="0" source_y="750" destination_x="375" destination_y="750" source_block="28" destination_block="29" type="0" />
+        <link id="29" source_x="0" source_y="750" destination_x="750" destination_y="750" source_block="28" destination_block="30" type="0" />
+        <link id="30" source_x="0" source_y="750" destination_x="1125" destination_y="750" source_block="28" destination_block="31" type="0" />
+        <link id="31" source_x="0" source_y="750" destination_x="1500" destination_y="750" source_block="28" destination_block="32" type="0" />
+        <link id="32" source_x="0" source_y="750" destination_x="1875" destination_y="750" source_block="28" destination_block="33" type="0" />
+        <link id="33" source_x="0" source_y="750" destination_x="0" destination_y="875" source_block="28" destination_block="34" type="0" />
+        <link id="34" source_x="0" source_y="875" destination_x="375" destination_y="875" source_block="34" destination_block="35" type="0" />
+        <link id="35" source_x="0" source_y="875" destination_x="750" destination_y="875" source_block="34" destination_block="36" type="0" />
+        <link id="36" source_x="0" source_y="875" destination_x="1125" destination_y="875" source_block="34" destination_block="37" type="0" />
+        <link id="37" source_x="0" source_y="875" destination_x="1500" destination_y="875" source_block="34" destination_block="38" type="0" />
+        <link id="38" source_x="0" source_y="875" destination_x="0" destination_y="1000" source_block="34" destination_block="39" type="0" />
+        <link id="39" source_x="0" source_y="1000" destination_x="375" destination_y="1000" source_block="39" destination_block="40" type="0" />
+        <link id="40" source_x="0" source_y="1000" destination_x="750" destination_y="1000" source_block="39" destination_block="41" type="0" />
+        <link id="41" source_x="0" source_y="1000" destination_x="1125" destination_y="1000" source_block="39" destination_block="42" type="0" />
+        <link id="42" source_x="0" source_y="1000" destination_x="1500" destination_y="1000" source_block="39" destination_block="43" type="0" />
+      </links>
+      <blocks>
+        <block id="0" pos_x="0" pos_y="125" width="250" height="35" type="0" objname="entrypoint" header="Улица кэтстауна" text="entrypoint" >
+          <action id="10" id_local="!!!" type="2" text="ВИД_Интро" name="intro" />
+          <action id="20" id_local="!!!" type="2" text="ДГ_Мама Кошка1" name="dlg_mothercat1" />
+          <action id="30" id_local="!!!" type="1" text="Бумажный самолетик_1/2" name="airplane" />
+          <action id="320" id_local="!!!" type="0" text="Молоко" name="milk" />
+          <action id="330" id_local="!!!" type="2" text="ДГ_Мама кошка2" name="dlg_mothercat2" />
+          <action id="340" id_local="!!!" type="1" text="Игрушечная рельса" name="toyrail" />
+          <action id="350" id_local="!!!" type="1" text="Маленький кивер" name="shako" />
+          <action id="570" id_local="!!!" type="0" text="Оживший солдатик" name="alivesoldier" />
+          <action id="580" id_local="!!!" type="2" text="ДГ_Мама кошка3" name="dlg_mothercat3" />
+          <action id="590" id_local="!!!" type="1" text="Лекарство" name="cure" />
+        </block>
+        <block id="1" pos_x="375" pos_y="125" width="250" height="35" type="1" objname="faketoys" header="Фальшивые игрушки" text="faketoys" >
+          <action id="50" id_local="!!!" type="1" text="Бумажный самолетик_2/2" name="airplane" />
+          <action id="60" id_local="!!!" type="0" text="Кастрюлька" name="saucepan" />
+          <action id="70" id_local="!!!" type="1" text="Снег" name="snow" />
+        </block>
+        <block id="2" pos_x="750" pos_y="125" width="250" height="35" type="1" objname="gate" header="Калитка на площадь" text="gate" >
+          <action id="90" id_local="!!!" type="1" text="ИП_Почтовая сумка" name="postbag" />
+          <action id="170" id_local="!!!" type="0" text="Горячая вода" name="hotwater" />
+        </block>
+        <block id="3" pos_x="1125" pos_y="125" width="250" height="35" type="1" objname="kitchen" header="Уличная кухня" text="kitchen" >
+          <action id="40" id_local="!!!" type="1" text="Кастрюлька" name="saucepan" />
+          <action id="140" id_local="!!!" type="0" text="Кнопка" name="button" />
+          <action id="150" id_local="!!!" type="0" text="Снег" name="snow" />
+          <action id="160" id_local="!!!" type="1" text="Горячая вода" name="hotwater" />
+          <action id="210" id_local="!!!" type="0" text="Снежная ручка" name="winterhandle" />
+          <action id="220" id_local="!!!" type="1" text="Стакан" name="glass" />
+        </block>
+        <block id="4" pos_x="1500" pos_y="125" width="250" height="35" type="1" objname="calendar" header="Сладкий календарь" text="calendar" >
+          <action id="390" id_local="!!!" type="0" text="Цифра_9" name="nine" />
+          <action id="400" id_local="!!!" type="2" text="клик - поздравительная записка" name="calendarcard" />
+          <action id="410" id_local="!!!" type="1" text="Амулет клубок" name="clewamulet" />
+          <action id="420" id_local="!!!" type="1" text="Лапка_2" name="paw2" />
+          <action id="720" id_local="!!!" type="0" text="Фигурка Котосанта" name="santacat" />
+          <action id="730" id_local="!!!" type="1" text="Бант" name="bow" />
+        </block>
+        <block id="5" pos_x="1875" pos_y="125" width="250" height="35" type="3" objname="toys" header="ХО_игрушки" text="toys" >
+          <action id="80" id_local="!!!" type="1" text="ИП_Ледяной солдатик" name="soldier" />
+        </block>
+        <block id="6" pos_x="0" pos_y="250" width="250" height="35" type="0" objname="square" header="Площадь кэтстауна" text="square" >
+          <action id="180" id_local="!!!" type="2" text="ВИД_Санта убегает" name="santarun" />
+          <action id="500" id_local="!!!" type="2" text="ВИД_Спящий кот" name="catsleep" />
+        </block>
+        <block id="7" pos_x="375" pos_y="250" width="250" height="35" type="1" objname="fountain" header="Фонтанчик молока" text="fountain" >
+          <action id="190" id_local="!!!" type="1" text="Лапка_1" name="paw1" />
+          <action id="200" id_local="!!!" type="1" text="Снежная ручка" name="winterhandle" />
+          <action id="290" id_local="!!!" type="0" text="Вентиль" name="valve" />
+          <action id="300" id_local="!!!" type="0" text="Стакан" name="glass" />
+          <action id="310" id_local="!!!" type="1" text="Молоко" name="milk" />
+          <action id="670" id_local="!!!" type="0" text="Мраморное печенье" name="cookie" />
+          <action id="680" id_local="!!!" type="1" text="Половник" name="ladle" />
+        </block>
+        <block id="8" pos_x="750" pos_y="250" width="250" height="35" type="1" objname="bag" header="Мешок Санты" text="bag" >
+          <action id="230" id_local="!!!" type="1" text="ИП_Дневник Санты" name="santadiary" />
+          <action id="240" id_local="!!!" type="1" text="Флажок конверт" name="mailflag" />
+          <action id="630" id_local="!!!" type="0" text="Рука силача" name="strongmanhand" />
+          <action id="640" id_local="!!!" type="1" text="Звездочка_3/3" name="star" />
+          <action id="740" id_local="!!!" type="0" text="Бант" name="bow" />
+          <action id="750" id_local="!!!" type="1" text="Гоблин_2" name="goblin2" />
+          <action id="760" id_local="!!!" type="1" text="Фонарь" name="lantern" />
+        </block>
+        <block id="9" pos_x="1125" pos_y="250" width="250" height="35" type="1" objname="postoffice" header="Почтовое отделение" text="postoffice" >
+          <action id="250" id_local="!!!" type="0" text="Флажок конверт," name="mailflag" />
+          <action id="260" id_local="!!!" type="0" text="Марка" name="mark" />
+          <action id="270" id_local="!!!" type="1" text="Цифра_9" name="nine" />
+          <action id="280" id_local="!!!" type="1" text="Вентиль" name="valve" />
+          <action id="360" id_local="!!!" type="0" text="Игрушечная рельса" name="toyrail" />
+          <action id="370" id_local="!!!" type="2" text="миниХО_посылка" name="mmg_postoffice" />
+          <action id="380" id_local="!!!" type="1" text="Амулет кошка" name="catamulet" />
+        </block>
+        <block id="10" pos_x="1500" pos_y="250" width="250" height="35" type="1" objname="toforest" header="Вход в лес" text="toforest" >
+          <action id="480" id_local="!!!" type="0" text="Амулет клубок" name="clewamulet" />
+          <action id="490" id_local="!!!" type="0" text="Амулет кошка" name="catamulet" />
+        </block>
+        <block id="11" pos_x="1875" pos_y="250" width="250" height="35" type="1" objname="keeper" header="Кот хранитель" text="keeper" >
+          <action id="510" id_local="!!!" type="1" text="Маленький Орден" name="medal" />
+          <action id="520" id_local="!!!" type="1" text="Звездочка_2/3" name="star" />
+          <action id="600" id_local="!!!" type="0" text="Лекарство" name="cure" />
+        </block>
+        <block id="12" pos_x="2250" pos_y="250" width="250" height="35" type="2" objname="dialog" header="МГ_Диалог" text="dialog" >
+          <action id="610" id_local="!!!" type="1" text="Гоблин_1" name="goblin1" />
+        </block>
+        <block id="13" pos_x="0" pos_y="375" width="250" height="35" type="0" objname="forestedge" header="Опушка леса" text="forestedge" >
+          <action id="1030" id_local="!!!" type="2" text="АНИМ_Олень выходит из загона" name="deerout" />
+          <action id="1160" id_local="!!!" type="0" text="Комплект путника" name="travelerkit" />
+          <action id="1170" id_local="!!!" type="0" text="Подставка" name="stand" />
+          <action id="1180" id_local="!!!" type="2" text="ВИД_Скачем" name="vidgallop" />
+        </block>
+        <block id="14" pos_x="375" pos_y="375" width="250" height="35" type="1" objname="witchhousedoor" header="Дверь в домик" text="witchhousedoor" >
+          <action id="620" id_local="!!!" type="1" text="Рука силача" name="strongmanhand" />
+          <action id="770" id_local="!!!" type="0" text="Гоблин_1" name="goblin1" />
+          <action id="780" id_local="!!!" type="0" text="Гоблин_2" name="goblin2" />
+        </block>
+        <block id="15" pos_x="750" pos_y="375" width="250" height="35" type="1" objname="christmasdeer" header="Загон оленя" text="christmasdeer" >
+          <action id="650" id_local="!!!" type="0" text="Звездочка_3/3" name="star" />
+          <action id="660" id_local="!!!" type="1" text="Мраморное печенье" name="cookie" />
+          <action id="990" id_local="!!!" type="0" text="Очищенные орехи" name="peelednuts" />
+          <action id="1000" id_local="!!!" type="0" text="Детские ножницы" name="scissors" />
+          <action id="1010" id_local="!!!" type="1" text="Лента" name="ribbon" />
+        </block>
+        <block id="16" pos_x="1125" pos_y="375" width="250" height="35" type="3" objname="animal" header="ХО_Животное" text="animal" >
+          <action id="1020" id_local="!!!" type="2" text="Амулет снеговик_3/3" name="mmg_snowmanamulet" />
+        </block>
+        <block id="17" pos_x="1500" pos_y="375" width="250" height="35" type="1" objname="boxes" header="Ящики" text="boxes" >
+          <action id="690" id_local="!!!" type="1" text="ИП_Снаряжение путника" name="equipment" />
+          <action id="700" id_local="!!!" type="0" text="Половник" name="ladle" />
+          <action id="710" id_local="!!!" type="1" text="Фигурка Котосанта" name="santacat" />
+          <action id="1300" id_local="!!!" type="0" text="Конструктор" name="propeller" />
+        </block>
+        <block id="18" pos_x="1875" pos_y="375" width="250" height="35" type="2" objname="box" header="МГ_В ящике" text="box" >
+          <action id="1310" id_local="!!!" type="1" text="Паприка" name="paprika" />
+        </block>
+        <block id="19" pos_x="0" pos_y="500" width="250" height="35" type="0" objname="witchhouse" header="Домик волшебницы" text="witchhouse" >
+          <action id="790" id_local="!!!" type="2" text="ДГ_Грила1" name="dlg_gryla1" />
+          <action id="800" id_local="!!!" type="1" text="Рычаг" name="lever" />
+          <action id="810" id_local="!!!" type="1" text="Амулет снеговик_1/3" name="snowmanamulet" />
+          <action id="1070" id_local="!!!" type="0" text="Список обиженных Грилой" name="offendedlist" />
+          <action id="1080" id_local="!!!" type="2" text="ДГ_Грила2" name="dlg_gryla2" />
+          <action id="1090" id_local="!!!" type="1" text="Компас" name="compass" />
+          <action id="1100" id_local="!!!" type="1" text="Кошачий клык" name="fang" />
+        </block>
+        <block id="20" pos_x="375" pos_y="500" width="250" height="35" type="1" objname="sewing" header="Швейный станок" text="sewing" >
+          <action id="820" id_local="!!!" type="1" text="Детские ножницы" name="scissors" />
+          <action id="830" id_local="!!!" type="1" text="Ключик" name="key" />
+          <action id="940" id_local="!!!" type="0" text="Рычаг" name="lever" />
+          <action id="950" id_local="!!!" type="0" text="Нить" name="thread" />
+          <action id="960" id_local="!!!" type="1" text="Коврик" name="mat" />
+          <action id="1260" id_local="!!!" type="0" text="Ручка хвост" name="tailhandle" />
+          <action id="1270" id_local="!!!" type="1" text="Спица" name="spoke" />
+          <action id="1280" id_local="!!!" type="1" text="Галстук зелень" name="tiegreen" />
+        </block>
+        <block id="21" pos_x="750" pos_y="500" width="250" height="35" type="2" objname="chest" header="МГ_Сундук" text="chest" >
+          <action id="890" id_local="!!!" type="1" text="Нить" name="thread" />
+          <action id="900" id_local="!!!" type="0" text="Турмалин" name="tourmaline" />
+          <action id="910" id_local="!!!" type="2" text="клик - дневник" name="chestdiary" />
+          <action id="920" id_local="!!!" type="1" text="Горсть орехов" name="nuts" />
+          <action id="930" id_local="!!!" type="1" text="Амулет снеговик_2/3" name="snowmanamulet" />
+        </block>
+        <block id="22" pos_x="1125" pos_y="500" width="250" height="35" type="1" objname="presents" header="Подарки от Грилы" text="presents" >
+          <action id="840" id_local="!!!" type="1" text="Подставка" name="stand" />
+          <action id="850" id_local="!!!" type="1" text="ИП_Список Грилы" name="grylalist" />
+          <action id="860" id_local="!!!" type="0" text="Ключик" name="key" />
+          <action id="870" id_local="!!!" type="2" text="миниХО_в подарке" name="mmg_presents" />
+          <action id="880" id_local="!!!" type="1" text="Турмалин" name="tourmaline" />
+          <action id="970" id_local="!!!" type="0" text="Горсть орехов" name="nuts" />
+          <action id="980" id_local="!!!" type="1" text="Очищенные орехи" name="peelednuts" />
+        </block>
+        <block id="23" pos_x="0" pos_y="625" width="250" height="35" type="0" objname="mouseville" header="Мышиное поселение" text="mouseville" >
+          <action id="1190" id_local="!!!" type="2" text="системный зум на ЗЗ Дверь в мышиный дом" name="mousevillefirst" />
+          <action id="1780" id_local="!!!" type="2" text="ВИД_Плывем по реке" name="vidsail" />
+        </block>
+        <block id="24" pos_x="375" pos_y="625" width="250" height="35" type="1" objname="scene" header="Сцена" text="scene" >
+          <action id="1290" id_local="!!!" type="1" text="Конструктор" name="propeller" />
+          <action id="1360" id_local="!!!" type="0" text="Мышь певец" name="singer" />
+          <action id="1370" id_local="!!!" type="2" text="миниХО_певцы" name="mmg_scene" />
+          <action id="1380" id_local="!!!" type="1" text="Мышиный сапог_2" name="mouseboot2" />
+          <action id="1560" id_local="!!!" type="0" text="Мышиная голова" name="squirellcook" />
+          <action id="1570" id_local="!!!" type="1" text="Парус" name="sail" />
+          <action id="1580" id_local="!!!" type="1" text="Маска" name="mask" />
+        </block>
+        <block id="25" pos_x="750" pos_y="625" width="250" height="35" type="1" objname="cheeseshop" header="Сырная лавка" text="cheeseshop" >
+          <action id="1220" id_local="!!!" type="1" text="Ручка хвост" name="tailhandle" />
+          <action id="1230" id_local="!!!" type="0" text="Амулет колпак повара" name="cookhatamulet" />
+          <action id="1240" id_local="!!!" type="1" text="ИП_Бутылка" name="bottle" />
+          <action id="1250" id_local="!!!" type="1" text="Майонез" name="mayo" />
+          <action id="1460" id_local="!!!" type="0" text="Кусачки" name="nippers" />
+          <action id="1470" id_local="!!!" type="1" text="Веревка сыр" name="cheeserope" />
+        </block>
+        <block id="26" pos_x="1125" pos_y="625" width="250" height="35" type="1" objname="mousedoor" header="Дверь в мышиный дом" text="mousedoor" >
+          <action id="1390" id_local="!!!" type="0" text="Мышиный сапог_1" name="mouseboot1" />
+          <action id="1400" id_local="!!!" type="0" text="Мышиный сапог_2" name="mouseboot2" />
+        </block>
+        <block id="27" pos_x="1500" pos_y="625" width="250" height="35" type="1" objname="shipyard" header="Мышиная верфь" text="shipyard" >
+          <action id="1200" id_local="!!!" type="1" text="Амулет колпак повара" name="cookhatamulet" />
+          <action id="1210" id_local="!!!" type="1" text="ИП_Сырная фигурка" name="cheesefigure" />
+          <action id="1770" id_local="!!!" type="0" text="Улучшения корабля" name="improvements" />
+        </block>
+        <block id="28" pos_x="0" pos_y="750" width="250" height="35" type="0" objname="mousehouse" header="Мышиный домик" text="mousehouse" >
+          <action id="1410" id_local="!!!" type="2" text="АНИМ_Тряска" name="anmshake" />
+          <action id="1600" id_local="!!!" type="2" text="АНИМ_Вещи упали" name="thingsfall" />
+          <action id="1650" id_local="!!!" type="0" text="Спица" name="spoke" />
+        </block>
+        <block id="29" pos_x="375" pos_y="750" width="250" height="35" type="1" objname="cache" header="Тайник" text="cache" >
+          <action id="1590" id_local="!!!" type="0" text="Маска" name="mask" />
+          <action id="1610" id_local="!!!" type="0" text="Электросвеча" name="candle" />
+          <action id="1620" id_local="!!!" type="1" text="Шестеренка_2/3" name="gear" />
+          <action id="1630" id_local="!!!" type="1" text="Доска_2/2" name="plank" />
+          <action id="1640" id_local="!!!" type="1" text="Сдутый шарик" name="emptyballoon" />
+        </block>
+        <block id="30" pos_x="750" pos_y="750" width="250" height="35" type="3" objname="things" header="ХО_В вещах" text="things" >
+          <action id="1660" id_local="!!!" type="1" text="Руль" name="raftwheel" />
+        </block>
+        <block id="31" pos_x="1125" pos_y="750" width="250" height="35" type="1" objname="musiccorner" header="Музыкальный уголок" text="musiccorner" >
+          <action id="1440" id_local="!!!" type="1" text="Кнопка от трубы" name="pipebutton" />
+          <action id="1450" id_local="!!!" type="1" text="Доска_1/2" name="plank" />
+          <action id="1670" id_local="!!!" type="0" text="Сдутый шарик" name="emptyballoon" />
+          <action id="1680" id_local="!!!" type="2" text="активируется интерактив" name="mmg_musiccorner" />
+          <action id="1690" id_local="!!!" type="0" text="Веревка сыр" name="cheeserope" />
+          <action id="1700" id_local="!!!" type="1" text="Шарик" name="balloon" />
+        </block>
+        <block id="32" pos_x="1500" pos_y="750" width="250" height="35" type="1" objname="mousewheel" header="Мышиный тренажер" text="mousewheel" >
+          <action id="1420" id_local="!!!" type="1" text="ИП_Части корабля" name="shipparts" />
+          <action id="1430" id_local="!!!" type="1" text="Кусачки" name="nippers" />
+          <action id="1530" id_local="!!!" type="0" text="Медаль" name="medal" />
+          <action id="1540" id_local="!!!" type="1" text="Шестеренка_1/3" name="gear" />
+          <action id="1550" id_local="!!!" type="1" text="Флейта" name="flute" />
+        </block>
+        <block id="33" pos_x="1875" pos_y="750" width="250" height="35" type="1" objname="table" header="Стол" text="table" >
+          <action id="1480" id_local="!!!" type="1" text="Мышиная голова" name="squirellcook" />
+          <action id="1490" id_local="!!!" type="1" text="Электросвеча" name="candle" />
+          <action id="1500" id_local="!!!" type="0" text="Кнопка от трубы" name="pipebutton" />
+          <action id="1510" id_local="!!!" type="2" text="клик - записка" name="tablenote" />
+          <action id="1520" id_local="!!!" type="1" text="Медаль" name="medal" />
+        </block>
+        <block id="34" pos_x="0" pos_y="875" width="250" height="35" type="0" objname="nearriver" header="У реки" text="nearriver" >
+          <action id="1830" id_local="!!!" type="0" text="Ролик" name="roller" />
+          <action id="1840" id_local="!!!" type="1" text="Сеть" name="net" />
+          <action id="1890" id_local="!!!" type="2" text="ВИД_Поднимаемся" name="vidlift" />
+        </block>
+        <block id="35" pos_x="375" pos_y="875" width="250" height="35" type="1" objname="lift" header="Подъемник" text="lift" >
+          <action id="1790" id_local="!!!" type="1" text="Щетка" name="brush" />
+          <action id="1870" id_local="!!!" type="0" text="Шестеренка_3/3" name="gear" />
+          <action id="1880" id_local="!!!" type="0" text="Цепь" name="chain" />
+        </block>
+        <block id="36" pos_x="750" pos_y="875" width="250" height="35" type="1" objname="raft" header="Плот" text="raft" >
+          <action id="1850" id_local="!!!" type="0" text="Сеть" name="net" />
+        </block>
+        <block id="37" pos_x="1125" pos_y="875" width="250" height="35" type="3" objname="river" header="ХО_в реке" text="river" >
+          <action id="1860" id_local="!!!" type="1" text="Цепь" name="chain" />
+        </block>
+        <block id="38" pos_x="1500" pos_y="875" width="250" height="35" type="1" objname="stone" header="Камень" text="stone" >
+          <action id="1800" id_local="!!!" type="0" text="Щетка" name="brush" />
+          <action id="1810" id_local="!!!" type="1" text="Ролик" name="roller" />
+          <action id="1820" id_local="!!!" type="1" text="Шестеренка_3/3" name="gear" />
+        </block>
+        <block id="39" pos_x="0" pos_y="1000" width="250" height="35" type="0" objname="riversource" header="Исток водопада" text="riversource" >
+          <action id="1900" id_local="!!!" type="2" text="АНИМ_Празднуют" name="anmcelebrate" />
+          <action id="2050" id_local="!!!" type="0" text="Петарда" name="petard" />
+          <action id="2060" id_local="!!!" type="1" text="Ремень" name="belt" />
+          <action id="2100" id_local="!!!" type="0" text="Щит-подушка" name="pillowshield" />
+          <action id="2110" id_local="!!!" type="0" text="Распылитель" name="spray" />
+          <action id="2120" id_local="!!!" type="2" text="ДГ_Санта-Кот1" name="dlg_santacat1" />
+          <action id="2130" id_local="!!!" type="1" text="Фенечки из усиков" name="mustache" />
+          <action id="2140" id_local="!!!" type="0" text="Фенечки из усиков" name="mustache" />
+          <action id="2150" id_local="!!!" type="0" text="Кошачий клык" name="fang" />
+          <action id="2160" id_local="!!!" type="2" text="АУТРО_Бонус" name="outro" />
+        </block>
+        <block id="40" pos_x="375" pos_y="1000" width="250" height="35" type="2" objname="catfight" header="Кошачий бой" text="catfight" />
+        <block id="41" pos_x="750" pos_y="1000" width="250" height="35" type="1" objname="hut" header="Шалаш" text="hut" >
+          <action id="1950" id_local="!!!" type="1" text="ИП_Подушка" name="pillow" />
+          <action id="1960" id_local="!!!" type="1" text="Штопор" name="corkscrew" />
+          <action id="2000" id_local="!!!" type="0" text="Отмычка" name="lockpick" />
+          <action id="2010" id_local="!!!" type="1" text="Петарда" name="petard" />
+          <action id="2020" id_local="!!!" type="1" text="Медвежонок" name="bear" />
+        </block>
+        <block id="42" pos_x="1125" pos_y="1000" width="250" height="35" type="1" objname="hiddengifts" header="Спрятанные подарки" text="hiddengifts" >
+          <action id="1910" id_local="!!!" type="1" text="Игрушечная шпага" name="sword" />
+          <action id="2030" id_local="!!!" type="0" text="Медвежонок" name="bear" />
+          <action id="2040" id_local="!!!" type="1" text="Смола" name="tar" />
+        </block>
+        <block id="43" pos_x="1500" pos_y="1000" width="250" height="35" type="1" objname="plan" header="Доска с планом" text="plan" >
+          <action id="1920" id_local="!!!" type="1" text="Отмычка" name="lockpick" />
+          <action id="1930" id_local="!!!" type="0" text="Игрушечная шпага" name="sword" />
+          <action id="1940" id_local="!!!" type="1" text="Пульверизатор" name="nozzle" />
+        </block>
+        <block id="44" pos_x="0" pos_y="1125" width="250" height="35" type="4" objname="soldier" header="ИП_Ледяной солдатик" text="soldier" >
+          <action id="530" id_local="!!!" type="0" text="Маленький мушкет" name="musket" />
+          <action id="540" id_local="!!!" type="0" text="Маленький кивер" name="shako" />
+          <action id="550" id_local="!!!" type="0" text="Маленький орден" name="medal" />
+          <action id="560" id_local="!!!" type="1" text="Оживший солдатик" name="alivesoldier" />
+        </block>
+        <block id="45" pos_x="375" pos_y="1125" width="250" height="35" type="4" objname="postbag" header="ИП_Почтовая сумка" text="postbag" >
+          <action id="100" id_local="!!!" type="0" text="Бумажный самолетик_2/2" name="airplane" />
+          <action id="110" id_local="!!!" type="2" text="клик записка (документы кошки Джулс-почтальона)" name="postbagdoc" />
+          <action id="120" id_local="!!!" type="1" text="Марка" name="mark" />
+          <action id="130" id_local="!!!" type="1" text="Кнопка" name="button" />
+        </block>
+        <block id="46" pos_x="750" pos_y="1125" width="250" height="35" type="4" objname="santadiary" header="ИП_Дневник Санты" text="santadiary" >
+          <action id="430" id_local="!!!" type="0" text="Лапка_1" name="paw1" />
+          <action id="440" id_local="!!!" type="0" text="Лапка_2" name="paw2" />
+          <action id="450" id_local="!!!" type="2" text="ММГ_В дневнике" name="mmg_santadiary" />
+          <action id="460" id_local="!!!" type="1" text="Маленький мушкет" name="musket" />
+          <action id="470" id_local="!!!" type="1" text="Звездочка_1/3" name="star" />
+        </block>
+        <block id="47" pos_x="1125" pos_y="1125" width="250" height="35" type="4" objname="equipment" header="ИП_Снаряжение путника" text="equipment" >
+          <action id="1110" id_local="!!!" type="0" text="Коврик" name="mat" />
+          <action id="1120" id_local="!!!" type="0" text="Лента" name="ribbon" />
+          <action id="1130" id_local="!!!" type="0" text="Компас" name="compass" />
+          <action id="1140" id_local="!!!" type="0" text="Фонарь" name="lantern" />
+          <action id="1150" id_local="!!!" type="1" text="Комплект путника" name="travelerkit" />
+        </block>
+        <block id="48" pos_x="1500" pos_y="1125" width="250" height="35" type="4" objname="grylalist" header="ИП_Список Грилы" text="grylalist" >
+          <action id="1040" id_local="!!!" type="0" text="Амулет снеговик_3/3" name="snowmanamulet" />
+          <action id="1050" id_local="!!!" type="1" text="Список обиженных Грилой" name="offendedlist" />
+          <action id="1060" id_local="!!!" type="1" text="Мышиный сапог_1" name="mouseboot1" />
+        </block>
+        <block id="49" pos_x="1875" pos_y="1125" width="250" height="35" type="4" objname="cheesefigure" header="ИП_Сырная фигурка" text="cheesefigure" >
+          <action id="1320" id_local="!!!" type="0" text="Паприка" name="paprika" />
+          <action id="1330" id_local="!!!" type="0" text="Майонез" name="mayo" />
+          <action id="1340" id_local="!!!" type="0" text="Галстук зелень" name="tiegreen" />
+          <action id="1350" id_local="!!!" type="1" text="Мышь певец" name="singer" />
+        </block>
+        <block id="50" pos_x="2250" pos_y="1125" width="250" height="35" type="4" objname="bottle" header="ИП_Бутылка" text="bottle" >
+          <action id="1970" id_local="!!!" type="0" text="Штопор" name="corkscrew" />
+          <action id="1980" id_local="!!!" type="0" text="Пульверизатор" name="nozzle" />
+          <action id="1990" id_local="!!!" type="1" text="Распылитель" name="spray" />
+        </block>
+        <block id="51" pos_x="2625" pos_y="1125" width="250" height="35" type="4" objname="shipparts" header="ИП_Части корабля" text="shipparts" >
+          <action id="1710" id_local="!!!" type="0" text="Руль" name="raftwheel" />
+          <action id="1720" id_local="!!!" type="0" text="Флейта" name="flute" />
+          <action id="1730" id_local="!!!" type="0" text="Парус" name="sail" />
+          <action id="1740" id_local="!!!" type="0" text="Доска_2/2" name="plank" />
+          <action id="1750" id_local="!!!" type="0" text="Шарик" name="balloon" />
+          <action id="1760" id_local="!!!" type="1" text="Улучшения корабля" name="improvements" />
+        </block>
+        <block id="52" pos_x="3000" pos_y="1125" width="250" height="35" type="4" objname="pillow" header="ИП_Подушка" text="pillow" >
+          <action id="2070" id_local="!!!" type="0" text="Ремень" name="belt" />
+          <action id="2080" id_local="!!!" type="0" text="Смола" name="tar" />
+          <action id="2090" id_local="!!!" type="1" text="Щит-подушка" name="pillowshield" />
+        </block>
+      </blocks>
+	  <start_inventory />
+    </scheme>
+  </work_data>
+</elephant_games>

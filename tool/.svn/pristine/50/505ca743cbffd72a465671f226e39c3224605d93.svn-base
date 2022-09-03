@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassCase</name>
+    </assembly>
+    <members>
+        <member name="M:ClassCase.FileList.#ctor(System.String)">
+            <summary>
+            загружает файл, каждая строка помещается в отдельный элемент
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:ClassCase.FileList.Replace(System.String,System.String)">
+            <summary>
+            заменяет oldValue на newValue в каждом элементе коллекции
+            </summary>
+            <param name="oldValue">старое</param>
+            <param name="newValue">новое</param>
+        </member>
+        <member name="M:ClassCase.FileList.Find(System.String)">
+            <summary>
+            возвращяет ID елемента содержщей find
+            </summary>
+            <param name="find"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.FileList.Add(ClassCase.FileList,System.Int32)">
+            <summary>
+            добавлет FileList в коллекцию начиная с ID
+            </summary>
+            <param name="fileList"></param>
+            <param name="id"></param>
+        </member>
+        <member name="M:ClassCase.PropObj.PropObjCopy(ClassCase.PropObj)">
+            <summary>
+            копирует внутренности с созданием новых массивов детей и свойств
+            </summary>
+            <param name="po"></param>
+        </member>
+        <member name="M:ClassCase.PropObj.FirstObjInChildsByType(System.String)">
+            <summary>
+            возвращает первый найденный объект в детях указанного типа
+            </summary>
+            <param name="typeString">тип объекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.FirstObjInChildsByPropertieValue(System.String,System.String)">
+            <summary>
+            возвращает первый найденный объект в детях со свойством propertieName == popertieValue
+            </summary>
+            <param name="propertieName">имя свойства</param>
+            <param name="popertieValue">значение свойства</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.FirstObjInChildsByName(System.String)">
+            <summary>
+            возвращает первый найденный объект в детях со свойством name == namePropertieValue
+            </summary>
+            <param name="namePropertieValue">значение свойства name</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.ObjString">
+            <summary>
+            вернет текстовое представление объекта включая детей
+            </summary>
+            <param name="tabs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.ObjStringSelf">
+            <summary>
+            вернёт текстовое представление объекта без детей
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetPropertie(System.String,System.String)">
+            <summary>
+            получает значение свойства propertieName, вернёт defaultValue если свойство не найдено
+            </summary>
+            <param name="propertieName">имя свойства</param>
+            <param name="defaultValue">значение свойства по умолчанию</param>
+            <returns></returns>
+        </member>
+        <member name="P:ClassCase.PropObj.Item(System.String)">
+            <summary>
+            возвращает значение свойства (если нет такого свойства - вернёт пустую строку)
+            </summary>
+            <param name="propertieName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.RenameAllObjectsInChildsWithName(System.String,System.String)">
+            <summary>
+            переименовывает всех детей с именем currentName на имя newName
+            </summary>
+            <param name="currentName">текущее имя</param>
+            <param name="newName">новое имя</param>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChild(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            возвращает найденое дитя
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="propertyName">у дитя должно быть указанное свойство</param>
+            <param name="propertyValue">значения свойства дитя</param>
+            <param name="deep">если истинно и не найдено искомое детё, поиск будет производится в детях детей</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChild(System.String,System.String,System.Boolean)">
+            <summary>
+            возвращает найденое дитя
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="propertyName">у дитя должно быть указанное свойство</param>
+            <param name="deep">если истинно и не найдено искомое детё, поиск будет производится в детях детей</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChild(System.String,System.Boolean)">
+            <summary>
+            возвращает найденое дитя
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="deep">если истинно и не найдено искомое детё, поиск будет производится в детях детей</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.String)">
+            <summary>
+            возвращает найденых детей
+            </summary>
+            <param name="childType">тип дитя</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.String,System.Boolean)">
+            <summary>
+            возвращает найденых детей
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="deepSearth">будет ли производиться поиск в детях</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.String,System.String)">
+            <summary>
+            возвращает найденых детей
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="propertyName">у дитя должно быть указанное свойство</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.String,System.String,System.Boolean)">
+            <summary>
+            возвращает найденых детей
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="propertyName">у дитя должно быть указанное свойство</param>
+            <param name="deepSearth">будет ли производиться поиск в детях</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean)">
+            <summary>
+            возвращает список объектов, содержащие параметр objProperties.key со значением objProperties.value
+            </summary>
+            <param name="objProperties">objProperties.key = имя праметра; objProperties.value = значение параметра;</param>
+            <param name="deep">будет ли производится поиск в детях</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.AddChilds(System.Collections.Generic.List{ClassCase.PropObj},System.Collections.Generic.KeyValuePair{System.String,System.String}[],System.Boolean)">
+            <summary>
+            добавляет в список added объекты, содержащие параметр objProperties.key со значением objProperties.value
+            </summary>
+            <param name="added">списко, в который добавляются найденные объекты, удовлетворяющие условию</param>
+            <param name="objProperties">objProperties.key = имя праметра; objProperties.value = значение параметра;</param>
+            <param name="deep">будет ли производится поиск в детях</param>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.String,System.String,System.String)">
+            <summary>
+            возвращает найденых детей
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="propertyName">у дитя должно быть указанное свойство</param>
+            <param name="propertyValue">значения свойства дитя</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.PropObj.GetChilds(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            возвращает найденых детей
+            </summary>
+            <param name="childType">тип дитя</param>
+            <param name="propertyName">у дитя должно быть указанное свойство</param>
+            <param name="deepSearth">будет ли производиться поиск в детях</param>
+            <param name="propertyValue">значения свойства дитя</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassCase.StringsEG.StringsEGModel.Replace(System.String,System.String)">
+            <summary>
+            Заменяет все вхождения в textField
+            </summary>
+            <param name="oldString">старое значение</param>
+            <param name="newString">новое значение</param>
+        </member>
+        <member name="M:ClassCase.StringsEG.StringsEGTable.AddRow(System.String)">
+            <summary>
+            добавляет новую строку в конец таблицы
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:ClassCase.StringsEG.StringsEGTable.AddRow(System.String,System.String)">
+            <summary>
+            добавляет новую строку в конец таблицы
+            </summary>
+            <param name="id"></param>
+            <param name="text"></param>
+        </member>
+        <member name="M:ClassCase.StringsEG.StringsEGTable.AddRow(System.Int32)">
+            <summary>
+            добавляет в указанный номер строки новую пустую строку
+            </summary>
+            <param name="row"></param>
+        </member>
+        <member name="T:ClassCase.TableDictionary`2">
+            <summary>
+            автоматически добавляет ключи при обращении
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+        </member>
+    </members>
+</doc>

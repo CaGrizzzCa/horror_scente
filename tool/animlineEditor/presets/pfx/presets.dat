@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<presets>
+	<preset name="Basics" location="" isactive="True" isbasic="True">
+		<preset name="bubbles" location="" isactive="True" isbasic="False">
+			<preset name="bubbles_1" location="bubbles_1/bubbles_1.plsm" isactive="False" isbasic="False" />
+		</preset>
+		<preset name="fire" location="" isactive="True" isbasic="False">
+			<preset name="candle" location="" isactive="True" isbasic="False">
+				<preset name="candle_fire_1" location="candle_fire_1/candle_fire_1.plsm" isactive="False" isbasic="False" />
+			</preset>
+			<preset name="fire_2" location="fire_2/fire_2.plsm" isactive="False" isbasic="False" />
+			<preset name="fire_1" location="fire_1/fire_1.plsm" isactive="False" isbasic="False" />
+			<preset name="fire_3" location="fire_3/fire_3.plsm" isactive="False" isbasic="False" />
+			<preset name="fire_4" location="fire_4/fire_4.plsm" isactive="False" isbasic="False" />
+		</preset>
+		<preset name="Light" location="" isactive="True" isbasic="False">
+			<preset name="light_lamp" location="" isactive="True" isbasic="False">
+				<preset name="light_lamp_1" location="light_lamp_1/light_lamp_1.plsm" isactive="False" isbasic="False" />
+			</preset>
+		</preset>
+		<preset name="smoke" location="" isactive="True" isbasic="False">
+			<preset name="smoke" location="smoke/smoke.plsm" isactive="False" isbasic="False" />
+		</preset>
+		<preset name="sparks" location="" isactive="True" isbasic="False">
+			<preset name="spark_1" location="spark_1/spark_1.plsm" isactive="False" isbasic="False" />
+			<preset name="spark_2" location="spark_2/spark_2.plsm" isactive="False" isbasic="False" />
+			<preset name="spark_3" location="spark_3/spark_3.plsm" isactive="False" isbasic="False" />
+		</preset>
+		<preset name="torsion" location="" isactive="True" isbasic="False">
+			<preset name="torsion_1" location="torsion_1/torsion_1.plsm" isactive="False" isbasic="False" />
+		</preset>
+		<preset name="dust" location="" isactive="True" isbasic="False">
+			<preset name="dust_1" location="dust_1/dust_1.plsm" isactive="False" isbasic="False" />
+		</preset>
+		<preset name="water" location="" isactive="True" isbasic="False">
+			<preset name="water_1" location="water_1/water_1.plsm" isactive="False" isbasic="False" />
+		</preset>
+	</preset>
+	<preset name="User" location="" isactive="True" isbasic="False" />
+</presets>

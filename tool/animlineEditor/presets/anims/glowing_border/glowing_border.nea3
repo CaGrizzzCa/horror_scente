@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="AnimlineEditor" title="Редактор анимаций" version="2.11.2.97" />
+    <project_data name="glowing_border" ext=".nea3" project_path="D:/wizards/rep/src/tex/anim/fx/presets/glowing_border/glowing_border.nea3" content_format="Xml" date="2015-02-16 12:24:45" guid="b62f6443-3fa8-4b50-94f6-8f9f9f587791" />
+  </service_data>
+  <work_data>
+    <anim_data calc_type="1" ver="1.0" frame_tex_res_name="">
+      <anim_setting>
+        <settings>
+          <ScreenSettings>
+            <ProjectionPos x="-895.913" y="-558.8542" z="0" />
+            <ProjectionScale x="0.5187" y="0.5187" z="1" />
+            <WorldPos x="0" y="0" z="0" />
+            <WorldSize w="1366" h="768" />
+            <BackColor a="255" r="0" g="0" b="0" />
+            <BackFileName />
+          </ScreenSettings>
+          <FunctionViewSettings>
+            <SelectedFunctionName>anim</SelectedFunctionName>
+          </FunctionViewSettings>
+          <TimeLineViewSettings>
+            <SelectedObjectName>obj_9143</SelectedObjectName>
+          </TimeLineViewSettings>
+          <AnimGraphViewSettings>
+            <AxisMinScale xmin="-0.1" xmax="1.2" ymin="-3.8388" ymax="5.5" />
+          </AnimGraphViewSettings>
+          <AnimationSettings>
+            <CurrentPlayPosition>1.569</CurrentPlayPosition>
+          </AnimationSettings>
+        </settings>
+      </anim_setting>
+      <funcs>
+        <func name="anim" description="" is_export_allow="1" isLooped="1" visible="1" enable="1" duration="3" is_parent_object="0">
+          <object_animlines>
+            <object_animline>
+              <obj name="obj_9143" anim_tag="" original_name="obj_9143" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="" res_frame_index="0" pos_x="0" pos_y="0" pos_z="1" max_z="1" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="True" is_particle_process_loop="True" background_color_argb="-16777216" fictive_res="False" is_parent_function="1">
+                <depend_params pos_x="0" pos_y="0" scale_x="0" scale_y="0" angle="0" color_r="0" color_g="0" color_b="0" alpha="0" blend_mode="0" offset_x="0" offset_y="0" />
+                <ps path="D:/wizards/rep/src/tex/anim/fx/presets/glowing_border" back="" type="rnd" name="PartSystem" ver="1.1" free="0">
+                  <emit name="emit4372" pos_mode="0" level="0" frame_index="0" res="round_star_2" lifetime="2" playing="1" loop="1" preprocess_time="0" blendmode="2" visible="1">
+                    <delta pos="0" scope="0" speed="0" acceleration="0" scale="0" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="3" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="3" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="1.5708" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="20" />
+                    </part_count>
+                    <part_lifetime delta="0.3">
+                      <p v="1" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="0">
+                        <p v="0" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="0" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0">
+                        <p v="1.5" t="0" mf_v="0.7439" mf_t="0.1935" />
+                        <p v="0.7" t="1" mb_v="0.7" mb_t="1" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="1.5" t="0" mf_v="0.7439" mf_t="0.1935" />
+                        <p v="0.7" t="1" mb_v="0.7" mb_t="1" />
+                      </scale_y>
+                      <angle delta="0">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="1.1708" mf_t="0.0316" />
+                        <p v="1" t="0.3083" mb_v="1" mb_t="0.2898" mf_v="1" mf_t="0.3083" />
+                        <p v="0" t="1" mb_v="0" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0">
+                        <p v="1" />
+                      </color_r>
+                      <color_g delta="0">
+                        <p v="0.7882" />
+                      </color_g>
+                      <color_b delta="0">
+                        <p v="0.3961" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                </ps>
+              </obj>
+              <anim_line name="obj_9143" max_time="3" part_sys_start_fr_index="0">
+                <anim_line_by_type type="pos_x" count="5">
+                  <fr index="1" t="0" v="70.0049" i_type="Linear" />
+                  <fr index="2" t="0.8" v="71" i_type="Linear" />
+                  <fr index="3" t="1.5" v="-70" i_type="Linear" />
+                  <fr index="4" t="2.3" v="-69.5188" i_type="Linear" />
+                  <fr index="5" t="3" v="70.0049" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="pos_y" count="5">
+                  <fr index="1" t="0" v="-62.9920" i_type="Linear" />
+                  <fr index="2" t="0.8" v="76" i_type="Linear" />
+                  <fr index="3" t="1.5" v="76" i_type="Linear" />
+                  <fr index="4" t="2.3" v="-63.6821" i_type="Linear" />
+                  <fr index="5" t="3" v="-62.9920" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="color_g" count="5">
+                  <fr index="1" t="0" v="0.5882" i_type="Linear" />
+                  <fr index="2" t="0.8" v="0.5882" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.5882" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.5882" i_type="Linear" />
+                  <fr index="5" t="3" v="0.5882" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="color_b" count="5">
+                  <fr index="1" t="0" v="0.1961" i_type="Linear" />
+                  <fr index="2" t="0.8" v="0.1961" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.1961" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.1961" i_type="Linear" />
+                  <fr index="5" t="3" v="0.1961" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+            <object_animline>
+              <obj name="obj_9142" anim_tag="" original_name="obj_9142" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="" res_frame_index="0" pos_x="0" pos_y="0" pos_z="2" max_z="1" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="True" is_particle_process_loop="True" background_color_argb="-16777216" fictive_res="False" is_parent_function="1">
+                <depend_params pos_x="0" pos_y="0" scale_x="0" scale_y="0" angle="0" color_r="0" color_g="0" color_b="0" alpha="0" blend_mode="0" offset_x="0" offset_y="0" />
+                <ps path="D:/wizards/rep/src/tex/anim/fx/presets/glowing_border" back="" type="rnd" name="PartSystem" ver="1.1" free="0">
+                  <emit name="emit4372" pos_mode="0" level="0" frame_index="0" res="round_star_2" lifetime="2" playing="1" loop="1" preprocess_time="0" blendmode="2" visible="1">
+                    <delta pos="0" scope="0" speed="0" acceleration="0" scale="0" emitter_speed="0" emitter_acceleration="0" />
+                    <pos_x delta="0">
+                      <p v="0" />
+                    </pos_x>
+                    <pos_y delta="0">
+                      <p v="0" />
+                    </pos_y>
+                    <emitter_speed_x delta="0">
+                      <p v="0" />
+                    </emitter_speed_x>
+                    <emitter_speed_y delta="0">
+                      <p v="0" />
+                    </emitter_speed_y>
+                    <emitter_acceleration_x delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_x>
+                    <emitter_acceleration_y delta="0">
+                      <p v="0" />
+                    </emitter_acceleration_y>
+                    <emitter_direction delta="0">
+                      <p v="0" />
+                    </emitter_direction>
+                    <emitter_torsion delta="0">
+                      <p v="0" />
+                    </emitter_torsion>
+                    <scope_x delta="0">
+                      <p v="3" />
+                    </scope_x>
+                    <scope_y delta="0">
+                      <p v="3" />
+                    </scope_y>
+                    <direction delta="0">
+                      <p v="1.5708" />
+                    </direction>
+                    <spread delta="0">
+                      <p v="0" />
+                    </spread>
+                    <part_count delta="0">
+                      <p v="20" />
+                    </part_count>
+                    <part_lifetime delta="0.3">
+                      <p v="1" />
+                    </part_lifetime>
+                    <torsion delta="0">
+                      <p v="0" />
+                    </torsion>
+                    <delay delta="0">
+                      <p v="0" />
+                    </delay>
+                    <particles>
+                      <speed_x delta="0">
+                        <p v="0" />
+                      </speed_x>
+                      <speed_y delta="0">
+                        <p v="0" />
+                      </speed_y>
+                      <acceleration_x delta="0">
+                        <p v="0" />
+                      </acceleration_x>
+                      <acceleration_y delta="0">
+                        <p v="0" />
+                      </acceleration_y>
+                      <gravity delta="0">
+                        <p v="0" />
+                      </gravity>
+                      <scale_x delta="0">
+                        <p v="1.5" t="0" mf_v="0.7439" mf_t="0.1935" />
+                        <p v="0.7" t="1" mb_v="0.7" mb_t="1" />
+                      </scale_x>
+                      <scale_y delta="0">
+                        <p v="1.5" t="0" mf_v="0.7439" mf_t="0.1935" />
+                        <p v="0.7" t="1" mb_v="0.7" mb_t="1" />
+                      </scale_y>
+                      <angle delta="0">
+                        <p v="0" />
+                      </angle>
+                      <rotate_speed delta="0">
+                        <p v="0" />
+                      </rotate_speed>
+                      <alpha delta="0">
+                        <p v="0" t="0" mf_v="1.1708" mf_t="0.0316" />
+                        <p v="1" t="0.3083" mb_v="1" mb_t="0.2898" mf_v="1" mf_t="0.3083" />
+                        <p v="0" t="1" mb_v="0" mb_t="1" />
+                      </alpha>
+                      <color_r delta="0">
+                        <p v="1" />
+                      </color_r>
+                      <color_g delta="0">
+                        <p v="0.7882" />
+                      </color_g>
+                      <color_b delta="0">
+                        <p v="0.3961" />
+                      </color_b>
+                    </particles>
+                  </emit>
+                </ps>
+              </obj>
+              <anim_line name="obj_9142" max_time="3" part_sys_start_fr_index="0">
+                <anim_line_by_type type="pos_x" count="5">
+                  <fr index="1" t="0" v="-70" i_type="Bezier" bm_t="0" bm_v="-70" fm_t="0" fm_v="-70" />
+                  <fr index="2" t="0.8" v="-69.5188" i_type="Bezier" bm_t="0.8" bm_v="-70.5556" fm_t="0.8" fm_v="-68.482" />
+                  <fr index="3" t="1.5" v="70.0049" i_type="Bezier" bm_t="1.5" bm_v="70.0049" fm_t="1.5" fm_v="70.0049" />
+                  <fr index="4" t="2.3" v="71" i_type="Linear" />
+                  <fr index="5" t="3" v="-70" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="pos_y" count="5">
+                  <fr index="1" t="0" v="76" i_type="Linear" />
+                  <fr index="2" t="0.8" v="-63.6821" i_type="Linear" />
+                  <fr index="3" t="1.5" v="-62.9920" i_type="Linear" />
+                  <fr index="4" t="2.3" v="76" i_type="Linear" />
+                  <fr index="5" t="3" v="76" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="color_g" count="5">
+                  <fr index="1" t="0" v="0.5882" i_type="Linear" />
+                  <fr index="2" t="0.8" v="0.5882" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.5882" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.5882" i_type="Linear" />
+                  <fr index="5" t="3" v="0.5882" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="color_b" count="5">
+                  <fr index="1" t="0" v="0.1961" i_type="Linear" />
+                  <fr index="2" t="0.8" v="0.1961" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.1961" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.1961" i_type="Linear" />
+                  <fr index="5" t="3" v="0.1961" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+            <object_animline>
+              <obj name="frme_icon128x128_select" anim_tag="" original_name="frme_icon128x128_select" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="AdditiveAlpha" res_name="frme_icon128x128_select.png" res_frame_index="0" pos_x="0" pos_y="0" pos_z="3" max_z="2" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="False" background_color_argb="-16777216" fictive_res="False" is_parent_function="1" />
+              <anim_line name="frme_icon128x128_select" max_time="3" part_sys_start_fr_index="-1">
+                <anim_line_by_type type="pos_x" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="0" i_type="Linear" />
+                  <fr index="2" t="0.75" v="0" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0" i_type="Linear" />
+                  <fr index="5" t="3" v="0" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="color_g" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="0.7843" i_type="Linear" />
+                  <fr index="2" t="0.75" v="0.7843" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.7843" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.7843" i_type="Linear" />
+                  <fr index="5" t="3" v="0.7843" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="color_b" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="0.3922" i_type="Linear" />
+                  <fr index="2" t="0.75" v="0.3922" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.3922" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.3922" i_type="Linear" />
+                  <fr index="5" t="3" v="0.3922" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_x" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="1.6" i_type="Linear" />
+                  <fr index="2" t="0.75" v="1.6" i_type="Linear" />
+                  <fr index="3" t="1.5" v="1.6" i_type="Linear" />
+                  <fr index="4" t="2.3" v="1.6" i_type="Linear" />
+                  <fr index="5" t="3" v="1.6" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_y" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="1.6" i_type="Linear" />
+                  <fr index="2" t="0.75" v="1.6" i_type="Linear" />
+                  <fr index="3" t="1.5" v="1.6" i_type="Linear" />
+                  <fr index="4" t="2.3" v="1.6" i_type="Linear" />
+                  <fr index="5" t="3" v="1.6" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="pos_y" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="3.9221" i_type="Linear" />
+                  <fr index="2" t="0.75" v="3.9221" i_type="Linear" />
+                  <fr index="3" t="1.5" v="3.9221" i_type="Linear" />
+                  <fr index="4" t="2.3" v="3.9221" i_type="Linear" />
+                  <fr index="5" t="3" v="3.9221" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="alpha" count="5" looped="1" first_key_frame_number_of_loop="0">
+                  <fr index="1" t="0" v="0.5" i_type="Linear" />
+                  <fr index="2" t="0.75" v="0.7" i_type="Linear" />
+                  <fr index="3" t="1.5" v="0.5" i_type="Linear" />
+                  <fr index="4" t="2.3" v="0.7" i_type="Linear" />
+                  <fr index="5" t="3" v="0.5" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+            <object_animline>
+              <obj name="char_frame" anim_tag="" original_name="char_frame" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="Normal" res_name="char_frame.png" res_frame_index="0" pos_x="0" pos_y="0" pos_z="0" max_z="0" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="False" background_color_argb="-16777216" fictive_res="False" is_parent_function="1" />
+              <anim_line name="char_frame" max_time="0" part_sys_start_fr_index="-1">
+                <anim_line_by_type type="pos_x" count="1">
+                  <fr index="1" t="0" v="0" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+            <object_animline>
+              <obj name="part_of_name_fx" anim_tag="" original_name="part_of_name_fx" type="Sprite" visible="1" is_visible="1" locked="0" is_locked="0" blend_mode="AdditiveAlpha" res_name="part_of_name_fx.png" res_frame_index="0" pos_x="0" pos_y="0" pos_z="4" max_z="0" drawoffx="0" drawoffy="0" is_collapse="False" is_particle_free="False" is_particle_process_loop="False" background_color_argb="-16777216" fictive_res="False" is_parent_function="1" />
+              <anim_line name="part_of_name_fx" max_time="1" part_sys_start_fr_index="-1">
+                <anim_line_by_type type="pos_x" count="3">
+                  <fr index="1" t="0" v="-56.5831" i_type="Linear" />
+                  <fr index="2" t="0.5" v="2.3774" i_type="Linear" />
+                  <fr index="3" t="1" v="58.4851" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_x" count="3">
+                  <fr index="1" t="0" v="0.5" i_type="Bezier" bm_t="0" bm_v="0.5" fm_t="0" fm_v="0.5" />
+                  <fr index="2" t="0.5" v="3" i_type="Bezier" bm_t="0.3209" bm_v="3.0383" fm_t="0.6829" fm_v="2.9617" />
+                  <fr index="3" t="1" v="0.5" i_type="Bezier" bm_t="1.0038" bm_v="0.5" fm_t="1.0038" fm_v="0.5" />
+                </anim_line_by_type>
+                <anim_line_by_type type="scale_y" count="3">
+                  <fr index="1" t="0" v="0.3" i_type="Bezier" bm_t="0" bm_v="0.3" fm_t="0" fm_v="0.3" />
+                  <fr index="2" t="0.5" v="0.7" i_type="Bezier" bm_t="0.3238" bm_v="0.7061" fm_t="0.68" fm_v="0.6939" />
+                  <fr index="3" t="1" v="0.3" i_type="Bezier" bm_t="1.0038" bm_v="0.3" fm_t="1.0038" fm_v="0.3" />
+                </anim_line_by_type>
+                <anim_line_by_type type="pos_y" count="3">
+                  <fr index="1" t="0" v="64.1910" i_type="Linear" />
+                  <fr index="2" t="0.5" v="6.6568" i_type="Linear" />
+                  <fr index="3" t="1" v="-49.9263" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="angle" count="3">
+                  <fr index="1" t="0" v="-0.7854" i_type="Linear" />
+                  <fr index="2" t="0.5" v="-0.7854" i_type="Linear" />
+                  <fr index="3" t="1" v="-0.7854" i_type="Linear" />
+                </anim_line_by_type>
+                <anim_line_by_type type="alpha" count="3">
+                  <fr index="1" t="0" v="0" i_type="Linear" />
+                  <fr index="2" t="0.5" v="0.3" i_type="Linear" />
+                  <fr index="3" t="1" v="0" i_type="Linear" />
+                </anim_line_by_type>
+              </anim_line>
+            </object_animline>
+          </object_animlines>
+        </func>
+      </funcs>
+    </anim_data>
+  </work_data>
+</elephant_games>

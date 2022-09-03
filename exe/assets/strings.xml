@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <table name="common">
+    <row>
+      <id>window_title</id>
+      <text><![CDATA[Horror Scente]]></text>
+    </row>
+    <row>
+      <id>window_title_ce</id>
+      <text><![CDATA[Horror Scente: Template Collector's Edition]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>is_more_games_enabled</id>
+      <text><![CDATA[1]]></text>
+      <comment1>1 - Enable More Games Button, 0 - Disable More Games Button</comment1>
+    </row>
+  </table>
+  <table name="level_room">
+    <row>
+      <id color="#FF80FF">{pop room 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>pop_entrypoint</id>
+      <text><![CDATA[Start location]]></text>
+    </row>
+  </table>
+  <table name="level_pop_inv">
+    <row>
+      <id color="#FF80FF">{pop inv 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_bbt_need">
+    <row>
+      <id color="#FF80FF">{bbt need 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_bbt">
+    <row>
+      <id color="#FF80FF">{BBT other 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_tasks">
+    <row>
+      <id color="#FF80FF">{tasks 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_flashback">
+    <row>
+      <id color="#FF80FF">{flashback 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_character_dialogs">
+    <row>
+      <id color="#FF80FF">{character dialogs 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_ho_task">
+    <row>
+      <id color="#FF80FF">{ho tasks 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_info">
+    <row>
+      <id color="#FF80FF">{minigames info 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="tutorial">
+    <row>
+      <id color="#FF80FF">{tutorial}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_question</id>
+      <text><![CDATA[Would you like some interactive help?]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_dialog</id>
+      <text><![CDATA[Select a person to speak with them.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_zz</id>
+      <text><![CDATA[Examine the satchel. Press this area to have a closer look.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_get1</id>
+      <text><![CDATA[Select the item to add it to your inventory.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_use</id>
+      <text><![CDATA[You can take the item you've collected and use it on the lock to open it.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_deploy</id>
+      <text><![CDATA[Hover over the screen edge to open the inventory. Note the Taxi Shape. Complex items require special actions or applications before they can help you. Select the item to have a closer look.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_hint</id>
+      <text><![CDATA[If you have trouble finding the item or you need a hint, select the Hint button at the bottom.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_hosparkles</id>
+      <text><![CDATA[Select the sparkling area to examine it.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_navigation</id>
+      <text><![CDATA[Great! You opened navigation to another location. Press here to go there.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_map1</id>
+      <text><![CDATA[Find the map in the left bottom corner of the screen. Select to open it.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_map2</id>
+      <text><![CDATA[Select the open location on the map to move there.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_mg</id>
+      <text><![CDATA[The directions for playing the mini-game are in the Info section at the bottom of the screen. To skip the minigame, press the Skip button. Select Reset button to start over.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_puzzle2</id>
+      <text><![CDATA[Puzzle Pieces are hidden in most scenes. Find them to add to your collectibles. Select the pop-up window to view your collectibles.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_coll2</id>
+      <text><![CDATA[Collectibles are hidden on locations. When you find them, they are added to your collection. To view it, select the pop-up window.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_task</id>
+      <text><![CDATA[Press this button to see your current task.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_ho</id>
+      <text><![CDATA[Find all the items on the list.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_newho1</id>
+      <text><![CDATA[On the side of the interface, you see silhouette images of various items. Find all the items.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_newho2</id>
+      <text><![CDATA[In order to advance on the map, go to the places marked with a cross. Find the items per the list in each location.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_newho3</id>
+      <text><![CDATA[Find all the items.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_newho4</id>
+      <text><![CDATA[At the bottom of the interface, you see silhouette images of various items. Find all the items. Place the items on the shelf to clear the passage.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_ach</id>
+      <text><![CDATA[You will earn achievements during the gameplay. You can view them by selecting the Pop-Up Window or by pressing the button on the Achievement screen in the Bonus Content menu.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_newho5</id>
+      <text><![CDATA[At the bottom of the interface, you see images of different textures. Find all the items from the same materials as the samples show. ]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_newho6</id>
+      <text><![CDATA[Find all the pairs.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id color="#FF80FF">{tutorial sgm}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_opnsgm</id>
+      <text><![CDATA[You unlocked the Secret Room. Complete quests to earn achievements.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_countersgm</id>
+      <text><![CDATA[This panel shows you how many morphing objects you've found during the current quest.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_timersgm</id>
+      <text><![CDATA[This timer shows how much time has passed since you activated the Secret Room.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_achsgm</id>
+      <text><![CDATA[This is the achievements panel. You gain achievements when you meet certain conditions.]]></text>
+    </row>
+    <row>
+      <id>str_tutorial_prgbar</id>
+      <text><![CDATA[This is the progress bar. It shows your progress on the Secret Room quests.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="menu">
+    <row>
+      <id>str_menu_play</id>
+      <text><![CDATA[PLAY]]></text>
+    </row>
+    <row>
+      <id>str_menu_options</id>
+      <text><![CDATA[Options]]></text>
+    </row>
+    <row>
+      <id>str_menu_quit</id>
+      <text><![CDATA[Quit]]></text>
+    </row>
+    <row>
+      <id>str_menu_welcome</id>
+      <text><![CDATA[Welcome]]></text>
+    </row>
+    <row>
+      <id>str_menu_change_player</id>
+      <text><![CDATA[Change Player]]></text>
+    </row>
+    <row>
+      <id>str_menu_moregames</id>
+      <text><![CDATA[More Games]]></text>
+    </row>
+    <row>
+      <id>str_menu_extra</id>
+      <text><![CDATA[Bonus Content]]></text>
+    </row>
+    <row>
+      <id>str_menu_strguide</id>
+      <text><![CDATA[Strategy Guide]]></text>
+    </row>
+    <row>
+      <id>str_menu_back</id>
+      <text><![CDATA[Back]]></text>
+    </row>
+  </table>
+  <table name="achievements">
+    <row>
+      <id>str_achievement_test</id>
+      <text><![CDATA[text_test_%1%]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_morphing</id>
+      <text><![CDATA[Collectibles
+%1% of %2%]]></text>
+    </row>
+    <row>
+      <id>str_achievement_puzzle</id>
+      <text><![CDATA[Puzzle pieces
+%1% of %2%]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_1_description</id>
+      <text><![CDATA[Complete one HOP without any hints.]]></text>
+      <comment1>Прохождение 1 ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_3_description</id>
+      <text><![CDATA[Complete three HOPs without any hints.]]></text>
+      <comment1>Прохождение 3-и ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_5_description</id>
+      <text><![CDATA[Complete five HOPs without any hints.]]></text>
+      <comment1>Прохождение 5-и ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_10_description</id>
+      <text><![CDATA[Complete 10 HOPs without any hints.]]></text>
+      <comment1>Прохождение 10-и ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_all_description</id>
+      <text><![CDATA[Complete all HOPs without any hints.]]></text>
+      <comment1>Прохождение Всех ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_3min_3_description</id>
+      <text><![CDATA[Finish three HOPs in less than three minutes each.]]></text>
+      <comment1>Прохождение 3-х ХО подряд, меньше чем за 3 минуты каждое</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_3min_5_description</id>
+      <text><![CDATA[Finish five HOPs in less than three minutes each.]]></text>
+      <comment1>Прохождение 5-и ХО подряд, меньше чем за 3 минуты каждое</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_3min_10_description</id>
+      <text><![CDATA[Finish 10 HOPs in less than three minutes each.]]></text>
+      <comment1>Прохождение 10-и ХО подряд, меньше чем за 3 минуты каждое</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_complete_task_3_description</id>
+      <text><![CDATA[Find three items in a HOP in three seconds.]]></text>
+      <comment1>Подбор 3-х объектов ХО за 3 секунды</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_complete_task_5_description</id>
+      <text><![CDATA[Find five items in a HOP in five seconds.]]></text>
+      <comment1>Подбор 5-и объектов ХО за 5 секунд</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_complete_task_10_description</id>
+      <text><![CDATA[Find 10 items in a HOP in 10 seconds.]]></text>
+      <comment1>Подбор 10-и объектов ХО за 10 секунд</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_more_10min_description</id>
+      <text><![CDATA[Play one HOP more than 10 minutes.]]></text>
+      <comment1>Прохождение 1-го ХО больше чем за 10 минут</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_1min_description</id>
+      <text><![CDATA[Finish a HOP in less than a minute.]]></text>
+      <comment1>Прохождение 1-го ХО меньше чем за 1 минуту</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_1_description</id>
+      <text><![CDATA[Solve one mini-game without skipping.]]></text>
+      <comment1>Прохождение 1 МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_3_description</id>
+      <text><![CDATA[Solve three mini-games without skipping.]]></text>
+      <comment1>Прохождение 3-х МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_5_description</id>
+      <text><![CDATA[Solve five mini-games without skipping.]]></text>
+      <comment1>Прохождение 5-и МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_10_description</id>
+      <text><![CDATA[Solve 10 mini-games without skipping.]]></text>
+      <comment1>Прохождение 10-и МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_all_description</id>
+      <text><![CDATA[Solve all mini-games without skipping.]]></text>
+      <comment1>Прохождение Всех МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_mg_less_1min_description</id>
+      <text><![CDATA[Solve a mini-game in less than a minute.]]></text>
+      <comment1>Прохождение 1-ой МГ меньше чем за 1 минуту</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_puzz_all_description</id>
+      <text><![CDATA[Collect all Puzzle Pieces.]]></text>
+      <comment1>Собраны все кусочки пазлов</comment1>
+    </row>
+    <row>
+      <id>str_achievement_coll_all_description</id>
+      <text><![CDATA[Find all Collectibles.]]></text>
+      <comment1>Собраны все коллектиблз</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_sgm_wingame_description</id>
+      <text><![CDATA[Complete the Secret Room.]]></text>
+      <comment1>пройдена сикрет рум</comment1>
+    </row>
+    <row>
+      <id color="Yellow">
+      </id>
+      <text><![CDATA[]]></text>
+      <comment1 color="Yellow">
+      </comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_1</id>
+      <text><![CDATA[A Start Has Been Made]]></text>
+      <comment1>Прохождение 1 ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_3</id>
+      <text><![CDATA[Right Track]]></text>
+      <comment1>Прохождение 3-и ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_5</id>
+      <text><![CDATA[Self Confidence]]></text>
+      <comment1>Прохождение 5-и ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_10</id>
+      <text><![CDATA[Full Zen]]></text>
+      <comment1>Прохождение 10-и ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_without_hint_all</id>
+      <text><![CDATA[Inhuman Sight]]></text>
+      <comment1>Прохождение Всех ХО без подсказки</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_3min_3</id>
+      <text><![CDATA[Way to Go!]]></text>
+      <comment1>Прохождение 3-х ХО подряд, меньше чем за 3 минуты каждое</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_3min_5</id>
+      <text><![CDATA[Good Pace]]></text>
+      <comment1>Прохождение 5-и ХО подряд, меньше чем за 3 минуты каждое</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_3min_10</id>
+      <text><![CDATA[Fast As a Rabbit]]></text>
+      <comment1>Прохождение 10-и ХО подряд, меньше чем за 3 минуты каждое</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_complete_task_3</id>
+      <text><![CDATA[Sleight of Hand]]></text>
+      <comment1>Подбор 3-х объектов ХО за 3 секунды</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_complete_task_5</id>
+      <text><![CDATA[Conjurer's Assistant]]></text>
+      <comment1>Подбор 5-и объектов ХО за 5 секунд</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_complete_task_10</id>
+      <text><![CDATA[Star Turn]]></text>
+      <comment1>Подбор 10-и объектов ХО за 10 секунд</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_ho_more_10min</id>
+      <text><![CDATA[Thorough Analysis]]></text>
+      <comment1>Прохождение 1-го ХО больше чем за 10 минут</comment1>
+    </row>
+    <row>
+      <id>str_achievement_ho_less_1min</id>
+      <text><![CDATA[Lightninghands]]></text>
+      <comment1>Прохождение 1-го ХО меньше чем за 1 минуту</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_1</id>
+      <text><![CDATA[Love of Adventure]]></text>
+      <comment1>Прохождение 1 МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_3</id>
+      <text><![CDATA[Willpower]]></text>
+      <comment1>Прохождение 3-х МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_5</id>
+      <text><![CDATA[Overcoming Difficulties]]></text>
+      <comment1>Прохождение 5-и МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_10</id>
+      <text><![CDATA[Joy of Victory]]></text>
+      <comment1>Прохождение 10-и МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>str_achievement_mg_without_skip_all</id>
+      <text><![CDATA[King of the Hill]]></text>
+      <comment1>Прохождение Всех МГ без скипа</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_mg_less_1min</id>
+      <text><![CDATA[Real Racer]]></text>
+      <comment1>Прохождение 1-ой МГ меньше чем за 1 минуту</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_puzz_all</id>
+      <text><![CDATA[You Won't Be Fooled!]]></text>
+      <comment1>Собраны все кусочки пазлов</comment1>
+    </row>
+    <row>
+      <id>str_achievement_coll_all</id>
+      <text><![CDATA[Born Detective]]></text>
+      <comment1>Собраны все коллектиблз</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_achievement_sgm_wingame</id>
+      <text color="Yellow"><![CDATA[Full Immersion]]></text>
+      <comment1>пройдена сикрет рум</comment1>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="extra">
+    <row>
+      <id color="#FF80FF">{rm_extra}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_btn_gameplay</id>
+      <text><![CDATA[Gameplay]]></text>
+    </row>
+    <row>
+      <id>str_btn_screensaver</id>
+      <text><![CDATA[Screensaver]]></text>
+    </row>
+    <row>
+      <id>str_btn_wallpapers</id>
+      <text><![CDATA[Wallpapers]]></text>
+    </row>
+    <row>
+      <id>str_btn_art</id>
+      <text><![CDATA[Concept Art]]></text>
+    </row>
+    <row>
+      <id>str_btn_extragames</id>
+      <text><![CDATA[Extra Mini-games]]></text>
+    </row>
+    <row>
+      <id>str_btn_allgames</id>
+      <text><![CDATA[All Mini-games]]></text>
+    </row>
+    <row>
+      <id>str_btn_music</id>
+      <text><![CDATA[Music]]></text>
+    </row>
+    <row>
+      <id>str_btn_video</id>
+      <text><![CDATA[Bonus Video]]></text>
+    </row>
+    <row>
+      <id>str_btn_back</id>
+      <text><![CDATA[Back]]></text>
+    </row>
+    <row>
+      <id>str_btn_menu</id>
+      <text><![CDATA[Menu]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_gameplay</id>
+      <text><![CDATA[Play]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_screensaver</id>
+      <text><![CDATA[Set]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_wallpaper</id>
+      <text><![CDATA[Save]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_conceptart</id>
+      <text><![CDATA[Save]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_extragames</id>
+      <text><![CDATA[Play]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_allgames</id>
+      <text><![CDATA[Play]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_music</id>
+      <text><![CDATA[Save]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_video</id>
+      <text><![CDATA[Play]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_wallpaper_set</id>
+      <text><![CDATA[Set]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_conceptart_save</id>
+      <text><![CDATA[Save]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_close</id>
+      <text><![CDATA[Close]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_setscreensaver</id>
+      <text><![CDATA[Would you like to set the screensaver on your desktop?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_set_wallpaper</id>
+      <text><![CDATA[Would you like to save the wallpaper to your documents folder and set it to your desktop?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_save_conceptart</id>
+      <text><![CDATA[Would you like to download this picture into your documents folder?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_save_music</id>
+      <text><![CDATA[Would you like to download this soundtrack into your documents folder?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_unlockextra</id>
+      <text><![CDATA[Complete the game to unlock the bonus content.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_unlocksrm</id>
+      <text><![CDATA[Complete the Bonus Game to unlock the Secret Room.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_extminigame</id>
+      <text><![CDATA[Complete the standard version of the mini-game in the main menu play.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_setscreensaver_walp</id>
+      <text><![CDATA[Mac OS doesn't support screensavers. Would you like to use this image as a wallpaper?]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_not_in_demo</id>
+      <text><![CDATA[The bonus content isn't available in the demo version.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_emptyroom</id>
+      <text><![CDATA[You are about to enter the location with no collection items. Would you like to proceed?]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>pop_extra</id>
+      <text><![CDATA[Bonus Content]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_save</id>
+      <text><![CDATA[Save]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_set</id>
+      <text><![CDATA[Set]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_menu</id>
+      <text><![CDATA[Back to Menu]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_ho</id>
+      <text><![CDATA[Hidden-Object Puzzles]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_mg</id>
+      <text><![CDATA[Mini-Games]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_art</id>
+      <text><![CDATA[Concept Art]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_music</id>
+      <text><![CDATA[Music]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_wallpaper</id>
+      <text><![CDATA[Wallpapers]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_playextra</id>
+      <text><![CDATA[Bonus Game]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_screensaver</id>
+      <text><![CDATA[Puzzles]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_collectibles</id>
+      <text><![CDATA[Collectibles]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_achievments</id>
+      <text><![CDATA[Achievements]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_secretroom</id>
+      <text><![CDATA[Secret Room]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_exp</id>
+      <text><![CDATA[Expedition Room]]></text>
+    </row>
+    <row>
+      <id>str_extra_playextra</id>
+      <text><![CDATA[Extra Game Play]]></text>
+    </row>
+    <row>
+      <id>str_extra_wallpaper</id>
+      <text><![CDATA[Wallpaper]]></text>
+    </row>
+    <row>
+      <id>str_extra_art</id>
+      <text><![CDATA[Concept Art]]></text>
+    </row>
+    <row>
+      <id>str_extra_music</id>
+      <text><![CDATA[Music]]></text>
+    </row>
+    <row>
+      <id>str_extra_music_track1</id>
+      <text><![CDATA[1. Track 1]]></text>
+    </row>
+    <row>
+      <id>str_extra_music_track2</id>
+      <text><![CDATA[2. Track 2]]></text>
+    </row>
+    <row>
+      <id>str_extra_music_track3</id>
+      <text><![CDATA[3. Track 3]]></text>
+    </row>
+    <row>
+      <id>str_extra_music_track4</id>
+      <text><![CDATA[4. Track 4]]></text>
+    </row>
+    <row>
+      <id>str_extra_music_track5</id>
+      <text><![CDATA[5. Track 5]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_complete_std</id>
+      <text><![CDATA[Congratulations! You've completed the Main Game! Now you can go on to the Bonus Game. Find it in the Bonus Content section of the main menu.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_complete_std_se</id>
+      <text><![CDATA[Congratulations! You have completed the game!]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_common_strhelp</id>
+      <text><![CDATA[Help]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_minigames</id>
+      <text><![CDATA[Mini-games]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_hogames</id>
+      <text><![CDATA[HOPs]]></text>
+    </row>
+    <row>
+      <id>str_btnplay_secretgame</id>
+      <text><![CDATA[Secret Game]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_reset</id>
+      <text><![CDATA[Reset]]></text>
+    </row>
+    <row>
+      <id>str_btnscr_time</id>
+      <text><![CDATA[TIME]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_secretgame_minigames</id>
+      <text><![CDATA[Mini-games]]></text>
+    </row>
+    <row>
+      <id>str_secretgame_hogames</id>
+      <text><![CDATA[HOPs]]></text>
+    </row>
+    <row>
+      <id>str_secretgame_secretgame</id>
+      <text><![CDATA[Secret Game]]></text>
+    </row>
+    <row>
+      <id>pop_secretroomscr</id>
+      <text><![CDATA[Secret Room]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_finishsgm</id>
+      <text><![CDATA[You have completed the Secret Game! Are you sure you want to start over from the beginning?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_resetsgm</id>
+      <text><![CDATA[Are you sure you want to start over from the beginning?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_not_start_sgm</id>
+      <text><![CDATA[You haven't completed the Secret Game yet.]]></text>
+    </row>
+    <row>
+      <id>str_extra_new_time</id>
+      <text><![CDATA[You completed Secret Game in:
+%1%]]></text>
+    </row>
+    <row>
+      <id>str_extra_old_time</id>
+      <text><![CDATA[The best time was:
+%1%]]></text>
+    </row>
+    <row>
+      <id>str_extra_cur_time</id>
+      <text><![CDATA[Your best time is:
+%1%]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>pop_expeditionexp</id>
+      <text><![CDATA[Expedition Room]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_1</id>
+      <text><![CDATA[Kindness]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_2</id>
+      <text><![CDATA[Mercy]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_3</id>
+      <text><![CDATA[Hope]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_4</id>
+      <text><![CDATA[Luck]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_5</id>
+      <text><![CDATA[Joy]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_6</id>
+      <text><![CDATA[Happiness]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_7</id>
+      <text><![CDATA[Attention]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_8</id>
+      <text><![CDATA[Love]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_9</id>
+      <text><![CDATA[Support]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_10</id>
+      <text><![CDATA[Family Happiness]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_11</id>
+      <text><![CDATA[Warm Memories]]></text>
+    </row>
+    <row>
+      <id>str_collectibles_12</id>
+      <text><![CDATA[Faith in Miracle]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_1</id>
+      <text><![CDATA[How much kindness there is in a person, so much life is in him.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_2</id>
+      <text><![CDATA[Every act of mercy is a step on the ladder leading to heaven.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_3</id>
+      <text><![CDATA[There's something inside... that they can't get to, that they can't touch. That's yours. That's hope.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_4</id>
+      <text><![CDATA[The one who believes in his luck is lucky.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_5</id>
+      <text><![CDATA[Enjoying every day is very important, isn't it?]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_6</id>
+      <text><![CDATA[It is only their thoughts that make a person unhappy or happy, not external circumstances. By controlling their thoughts, they control their happiness.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_7</id>
+      <text><![CDATA[Sometimes you have to look hard at something to see its value.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_8</id>
+      <text><![CDATA[Love always promises the impossible and makes you believe in the impossible.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_9</id>
+      <text><![CDATA[People don’t always need advice. Sometimes all they really need is a hand to hold, an ear to listen, and a heart to understand them.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_10</id>
+      <text><![CDATA[The key to family happiness is in kindness, frankness, responsiveness.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_11</id>
+      <text><![CDATA[Memories are what can make us smile or make us sad. But without them, our life would have been lived in vain.]]></text>
+    </row>
+    <row>
+      <id>bbt_collectibles_12</id>
+      <text><![CDATA[It is not enough to believe in miracles. You need to do something to make them come.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_unlockscr</id>
+      <text><![CDATA[Complete the Bonus Game to unlock the Secret Room.]]></text>
+    </row>
+    <row>
+      <id>str_extra_button_card</id>
+      <text><![CDATA[Cards]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="dialog">
+    <row>
+      <id>str_dialog_common_helperoffer</id>
+      <text><![CDATA[Would you like some help?]]></text>
+    </row>
+    <row>
+      <id>str_common_ok</id>
+      <text><![CDATA[OK]]></text>
+    </row>
+    <row>
+      <id>str_common_close</id>
+      <text><![CDATA[CLOSE]]></text>
+    </row>
+    <row>
+      <id>str_common_yes</id>
+      <text><![CDATA[YES]]></text>
+    </row>
+    <row>
+      <id>str_common_no</id>
+      <text><![CDATA[NO]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_noaudio</id>
+      <text><![CDATA[No sound device was detected. The game will continue without audio.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_corrupt</id>
+      <text><![CDATA[Your profile was corrupted. All progress was lost. You must start a new game.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_quit</id>
+      <text><![CDATA[Are you sure you want to quit?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_optionsquit</id>
+      <text><![CDATA[Are you sure you want to return to the main menu?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_existprofile</id>
+      <text><![CDATA[That name is already in use. Please choose another one.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_delprofile</id>
+      <text><![CDATA[Are you sure you want to delete this profile?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_reset</id>
+      <text><![CDATA[Are you sure you want to start the game from the beginning?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_finishext</id>
+      <text><![CDATA[Are you sure you want to start the Bonus Game from the beginning?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_emptyfield</id>
+      <text><![CDATA[Please enter a name.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_thxplaying</id>
+      <text><![CDATA[Thank you for playing.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_common_fpscheck</id>
+      <text><![CDATA[You may encounter poor game performance. Do you want to disable special effects?]]></text>
+    </row>
+    <row>
+      <id>str_dialog_fullscreen</id>
+      <text><![CDATA[The current desktop display setting isn't large enough to show the game window.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_widescreen</id>
+      <text><![CDATA[The current desktop display setting isn't large enough to show the game window.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_profile_new</id>
+      <text><![CDATA[NEW]]></text>
+    </row>
+    <row>
+      <id>str_dialog_profile_delete</id>
+      <text><![CDATA[DELETE]]></text>
+    </row>
+    <row>
+      <id>str_dialog_playchoice_play</id>
+      <text><![CDATA[PLAY]]></text>
+    </row>
+    <row>
+      <id>str_dialog_playchoice_reset</id>
+      <text><![CDATA[RESET]]></text>
+    </row>
+    <row>
+      <id>str_dialog_playchoice_continue</id>
+      <text><![CDATA[CONTINUE]]></text>
+    </row>
+    <row>
+      <id>str_dialog_casual</id>
+      <text><![CDATA[CASUAL MODE]]></text>
+    </row>
+    <row>
+      <id>str_dialog_advanced</id>
+      <text><![CDATA[DETECTIVE MODE]]></text>
+    </row>
+    <row>
+      <id>str_dialog_hardcore</id>
+      <text><![CDATA[SUPER MODE]]></text>
+    </row>
+    <row>
+      <id>str_dialog_custom</id>
+      <text><![CDATA[CUSTOM MODE]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_casual_desc</id>
+      <text><![CDATA[For new or casual players who want a relaxed gameplay session. Hint and Skip recharge quickly. Significant game locations sparkle. Active tasks are shown on the map.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_advanced_desc</id>
+      <text><![CDATA[For advanced players who want to overcome obstacles without extra help. Hint and Skip take longer to recharge. Significant locations don't sparkle. Active tasks are shown on the map.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_hardcore_desc</id>
+      <text><![CDATA[For those who want to play the game without any help. No Hint or Skip feature. No sparkle indicator. Active tasks aren't shown on the map.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_togglescreen</id>
+      <text><![CDATA[The current desktop display setting isn't large enough to show the game window.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options</id>
+      <text><![CDATA[Options]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_sound</id>
+      <text><![CDATA[SOUND]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_mus</id>
+      <text><![CDATA[Music Volume]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_env</id>
+      <text><![CDATA[Environment Volume]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_sfx</id>
+      <text><![CDATA[Effects Volume]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_voc</id>
+      <text><![CDATA[Voice Volume]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_graphics</id>
+      <text><![CDATA[GRAPHICS]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_gamma</id>
+      <text><![CDATA[Brightness]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_other</id>
+      <text><![CDATA[OTHER]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_fullscreen</id>
+      <text><![CDATA[Full-screen]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_widescreen</id>
+      <text><![CDATA[Wide-screen]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_cursor</id>
+      <text><![CDATA[Custom Icon]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_perfmode</id>
+      <text><![CDATA[Special Effects]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_gamemode</id>
+      <text><![CDATA[GAME MODE]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_dialog_options_credits</id>
+      <text><![CDATA[CREDITS]]></text>
+    </row>
+    <row>
+      <id>str_dialog_game</id>
+      <text><![CDATA[GAME]]></text>
+    </row>
+    <row>
+      <id>str_dialog_menu</id>
+      <text><![CDATA[MENU]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_dialog_addprofile</id>
+      <text><![CDATA[Enter Name]]></text>
+    </row>
+    <row>
+      <id>str_dialog_profile</id>
+      <text><![CDATA[Profile]]></text>
+    </row>
+    <row>
+      <id>str_dialog_playchoice_std</id>
+      <text><![CDATA[Main Game]]></text>
+    </row>
+    <row>
+      <id>str_dialog_playchoice_ext</id>
+      <text><![CDATA[Bonus Game]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode</id>
+      <text><![CDATA[Select Mode]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom</id>
+      <text><![CDATA[Custom Mode]]></text>
+    </row>
+    <row>
+      <id>str_dialog_hnt_not_ready</id>
+      <text><![CDATA[Hint is recharging.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_skip_not_ready</id>
+      <text><![CDATA[Skip is recharging.]]></text>
+    </row>
+    <row>
+      <id>str_dialog_hnt_hardcore</id>
+      <text><![CDATA[Hints are disabled in this difficulty mode.]]></text>
+    </row>
+    <row>
+      <id>hnt_custommode</id>
+      <text><![CDATA[Hint is recharging.]]></text>
+    </row>
+    <row>
+      <id>str_skip_hardcore</id>
+      <text><![CDATA[There's no Skip option in this mode.]]></text>
+    </row>
+    <row>
+      <id>str_skip_custommode</id>
+      <text><![CDATA[Skip is recharging.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_sparkle_area</id>
+      <text><![CDATA[Sparkles on activated areas:]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_plus_inv</id>
+      <text><![CDATA[Plus-items are indicated:]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_tutorial</id>
+      <text><![CDATA[Tutorial]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_hint</id>
+      <text><![CDATA[Hints]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_text</id>
+      <text><![CDATA[Text clues]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_tasks</id>
+      <text><![CDATA[Map tasks]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_skip</id>
+      <text><![CDATA[Skip puzzles:]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_sparkle_ho</id>
+      <text><![CDATA[Sparkles on Hidden-Object Puzzles:]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_cursor</id>
+      <text><![CDATA[Icon changes on active areas:]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_hint_slider</id>
+      <text><![CDATA[Hint charge time:]]></text>
+    </row>
+    <row>
+      <id>str_dialog_gamemode_custom_skip_slider</id>
+      <text><![CDATA[Skip charge time:]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>txt_intro_logo_music</id>
+      <text><![CDATA[For the best experience, please play with sound.]]></text>
+    </row>
+    <row>
+      <id>{credits}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>credits_title_1</id>
+      <text><![CDATA[Big Fish Games]]></text>
+    </row>
+    <row>
+      <id>credits_title_2</id>
+      <text><![CDATA[Elephant Games]]></text>
+    </row>
+    <row>
+      <id>credits_text_1</id>
+      <text color="#AFFFFF"><![CDATA[<color r='0.407' g='0.129' b='0.031'>Production Group</color>
+
+[Senior Game Producer]
+
+[Production Manager]]]></text>
+    </row>
+    <row>
+      <id>credits_text_1_1</id>
+      <text><![CDATA[
+
+Lauren Horsley
+
+Christine Zeigler]]></text>
+    </row>
+    <row>
+      <id>credits_text_2</id>
+      <text color="#AFFFFF"><![CDATA[<color r='0.407' g='0.129' b='0.031'>Narrative Design</color>
+
+[Narrative Designers]
+
+
+[Beta Writer/Editor]
+
+[Strategy Guide Creator]]]></text>
+    </row>
+    <row>
+      <id>credits_text_2_1</id>
+      <text color="#007FFF"><![CDATA[
+
+Corinne Hutchinson
+Dan Lefever
+
+Kara Frazier
+
+Nina de Boo]]></text>
+    </row>
+    <row>
+      <id>credits_text_3</id>
+      <text color="#007FFF"><![CDATA[<color r='0.407' g='0.129' b='0.031'>QA</color>
+
+[Senior QA Manager]
+
+[QA Manager]
+
+[Project Leads]
+]]></text>
+    </row>
+    <row>
+      <id>credits_text_3_1</id>
+      <text><![CDATA[
+
+Wendy Scodeller
+
+Nathaniel Umipeg
+
+Joel Flamme]]></text>
+    </row>
+    <row>
+      <id>credits_text_4</id>
+      <text><![CDATA[[QA Testers]
+
+
+
+
+
+
+]]></text>
+    </row>
+    <row>
+      <id>credits_text_4_1</id>
+      <text><![CDATA[Josh Bugenig
+Ben Buchanan
+Emily Gray
+Vijay Sutari
+Nikhil Singh
+Abhishek Kumar
+Chrissi Ducotey
+Kristofer Ducotey
+Voddapalli Manoj Kumar
+Priyanka Yadav
+John Mentzer]]></text>
+    </row>
+    <row>
+      <id>credits_text_5</id>
+      <text color="#007FFF"><![CDATA[[Project Manager]
+
+[Producer]
+
+[Lead Game Designer]
+
+[Game Designers]
+
+[Programming]
+
+[Level Design Lead]
+
+[Level Design]
+]]></text>
+    </row>
+    <row>
+      <id>credits_text_5_1</id>
+      <text><![CDATA[Mikhail Ilyin
+
+Andrej Fedorov
+
+Valeriya Pavlova
+
+Mikhail Kapelkin
+
+Yuriy Sivushkin
+
+Marat Zakiev
+
+Aleksander Sergeev
+Anton Korobov]]></text>
+    </row>
+    <row>
+      <id>credits_text_6</id>
+      <text><![CDATA[[Lead Art]
+
+[Art]]]></text>
+    </row>
+    <row>
+      <id>credits_text_6_1</id>
+      <text color="#007FFF"><![CDATA[Kseniia Sekerina
+
+Anna Gologuzenko
+Anna Anfimova
+Maria Ivanova
+Alena Filimonova
+Alla Karpinova
+Kristina Barchenkova
+Alexey Anikin
+Anastasiya Andreeva
+Irina Goncharenko
+Anastasia Chabanenko]]></text>
+    </row>
+    <row>
+      <id>credits_text_7</id>
+      <text color="#007FFF"><![CDATA[[3D and Video]
+
+
+
+[Sound and Music]]]></text>
+    </row>
+    <row>
+      <id>credits_text_7_1</id>
+      <text color="#007FFF"><![CDATA[Irina Slutskaia
+Vladimir Vasilev
+Mihail Vvedensky
+
+Roman Trestcov]]></text>
+    </row>
+    <row>
+      <id>credits_text_8</id>
+      <text color="#007FFF"><![CDATA[[Writing]
+
+
+[Translation]
+
+
+[QA Lead]
+
+[QA Testers]
+
+
+
+[Technical support]]]></text>
+    </row>
+    <row>
+      <id>credits_text_8_1</id>
+      <text color="#007FFF"><![CDATA[Kseniia Bedareva
+Mikhail Kapelkin
+
+Andrej Fedorov
+Marina Tselischeva
+
+Maksim Osipov
+
+Nikolay Omelinskiy
+Alexey Gorinov
+Vitaliy Fedorov
+
+Alexander Osmanov]]></text>
+    </row>
+    <row>
+      <id>credits_text_9</id>
+      <text color="#AFFFFF"><![CDATA[<color r='0.407' g='0.129' b='0.031'>Voice Talents</color>
+
+Dana Strange
+Malcolm Nelson
+George Whitman
+Robert Hill
+Eve
+Freddie Blackbird
+Matthew Chan
+Jack Goldwin / Librarian
+Grandfather Goldwin]]></text>
+    </row>
+    <row>
+      <id>credits_text_9_1</id>
+      <text><![CDATA[
+
+Jaime Soria
+Aaron Sinn
+Alex Robertson
+Josh Jones
+Cristin Rivera
+Erich Schneider
+Eric Bannister
+Tim Simmons
+Scott Marovitz]]></text>
+    </row>
+    <row>
+      <id>credits_text_10</id>
+      <text><![CDATA[
+
+
+
+© 2022 Big Fish Games, Inc., All Rights Reserved.  Big Fish, the Big Fish logo and Christmas Stories are trademarks of Big Fish Games, Inc.]]></text>
+    </row>
+    <row>
+      <id>credits_text_10_1</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="interface">
+    <row>
+      <id>str_int_button_info</id>
+      <text><![CDATA[Info]]></text>
+    </row>
+    <row>
+      <id>str_int_button_reset</id>
+      <text><![CDATA[Reset]]></text>
+    </row>
+    <row>
+      <id>str_int_button_map_small</id>
+      <text><![CDATA[Map]]></text>
+    </row>
+    <row>
+      <id>str_int_button_hint_small</id>
+      <text><![CDATA[Hint]]></text>
+    </row>
+    <row>
+      <id>str_int_button_menu</id>
+      <text><![CDATA[Menu]]></text>
+    </row>
+    <row>
+      <id>str_int_button_map</id>
+      <text><![CDATA[Map]]></text>
+    </row>
+    <row>
+      <id>str_int_button_hint</id>
+      <text><![CDATA[Hint]]></text>
+    </row>
+    <row>
+      <id>str_int_button_skip</id>
+      <text><![CDATA[Skip]]></text>
+    </row>
+    <row>
+      <id>str_int_inventory</id>
+      <text><![CDATA[Inventory]]></text>
+    </row>
+    <row>
+      <id>str_int_taskpanel</id>
+      <text><![CDATA[Task List]]></text>
+    </row>
+    <row>
+      <id>str_int_itempanel</id>
+      <text><![CDATA[Item List]]></text>
+    </row>
+    <row>
+      <id>str_int_button_guide</id>
+      <text><![CDATA[Strategy Guide]]></text>
+    </row>
+    <row>
+      <id>str_int_loading</id>
+      <text><![CDATA[Loading...]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_video_skip</id>
+      <text><![CDATA[SKIP]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_story_continue</id>
+      <text><![CDATA[Click to Continue…]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_story_skip</id>
+      <text><![CDATA[SKIP]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_character_continue</id>
+      <text><![CDATA[Continue…]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_character_choise_question</id>
+      <text><![CDATA[]]></text>
+      <comment1>Select question...</comment1>
+    </row>
+    <row>
+      <id>str_int_dialog_character_skip</id>
+      <text><![CDATA[SKIP]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_ho_button</id>
+      <text><![CDATA[OK]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_ho_header</id>
+      <text><![CDATA[GREAT WORK!]]></text>
+    </row>
+    <row>
+      <id>str_int_dialog_ho</id>
+      <text><![CDATA[Perhaps this will come in handy.]]></text>
+    </row>
+    <row>
+      <id>str_int_strategy_guide_toc</id>
+      <text><![CDATA[TABLE OF CONTENTS]]></text>
+    </row>
+    <row>
+      <id>str_int_strategy_guide_gtips</id>
+      <text><![CDATA[GENERAL TIPS]]></text>
+    </row>
+    <row>
+      <id>str_int_strategy_guide_empty</id>
+      <text><![CDATA[Purchase the full version.]]></text>
+    </row>
+    <row>
+      <id>str_int_tutorial_yes</id>
+      <text><![CDATA[YES]]></text>
+    </row>
+    <row>
+      <id>str_int_tutorial_ok</id>
+      <text><![CDATA[OK]]></text>
+    </row>
+    <row>
+      <id>str_int_tutorial_no</id>
+      <text><![CDATA[SPECIAL FEATURES]]></text>
+    </row>
+    <row>
+      <id>str_int_tutorial_skip</id>
+      <text><![CDATA[SKIP]]></text>
+    </row>
+    <row>
+      <id>str_int_button_hint_gotoroom</id>
+      <text><![CDATA[There's something you can do here.]]></text>
+    </row>
+    <row>
+      <id>str_int_button_hint_teleport</id>
+      <text><![CDATA[GO NOW]]></text>
+    </row>
+    <row>
+      <id>str_int_button_invboard</id>
+      <text><![CDATA[PRESS]]></text>
+    </row>
+    <row>
+      <id>str_fplay_txt</id>
+      <text><![CDATA[This is unavailable in the current version.]]></text>
+    </row>
+    <row>
+      <id>str_notification_achievement_goto</id>
+      <text><![CDATA[Go to]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_int_panelhopair</id>
+      <text><![CDATA[Find the pairs (x%1%)]]></text>
+    </row>
+    <row>
+      <id>str_int_panelhopair_associations</id>
+      <text><![CDATA[Find the associations (x%1%)]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_int_map_legend</id>
+      <text><![CDATA[LEGEND]]></text>
+    </row>
+    <row>
+      <id>str_int_map_legend_1</id>
+      <text><![CDATA[Current location]]></text>
+    </row>
+    <row>
+      <id>str_int_map_legend_2</id>
+      <text><![CDATA[Available location]]></text>
+    </row>
+    <row>
+      <id>str_int_map_legend_3</id>
+      <text><![CDATA[Actions available]]></text>
+    </row>
+    <row>
+      <id>str_int_map_legend_4</id>
+      <text><![CDATA[Collectibles]]></text>
+    </row>
+    <row>
+      <id>str_int_map_legend_5</id>
+      <text><![CDATA[Locked location]]></text>
+    </row>
+    <row>
+      <id>str_map_button_puzzle</id>
+      <text><![CDATA[PUZZLES]]></text>
+    </row>
+    <row>
+      <id>str_map_button_collectibles</id>
+      <text><![CDATA[COLLECTIBLES]]></text>
+    </row>
+    <row>
+      <id>str_map_button_achievments</id>
+      <text><![CDATA[ACHIEVEMENTS]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id color="Magenta">{bbt}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>bbt_notgetall_1</id>
+      <text><![CDATA[First I have to find them all.]]></text>
+    </row>
+    <row>
+      <id>bbt_notgetall_2</id>
+      <text><![CDATA[I'll need the full set.]]></text>
+    </row>
+    <row>
+      <id>bbt_notgetall_3</id>
+      <text><![CDATA[I should locate all of them.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>bbt_wrongapply_1</id>
+      <text><![CDATA[I thought that would work.]]></text>
+    </row>
+    <row>
+      <id>bbt_wrongapply_2</id>
+      <text><![CDATA[That can't be right.]]></text>
+    </row>
+    <row>
+      <id>bbt_wrongapply_3</id>
+      <text><![CDATA[I'd better try something else.]]></text>
+    </row>
+    <row>
+      <id>bbt_wrongapply_4</id>
+      <text><![CDATA[There must be another way.]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id color="Magenta">{tasks}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_int_taskpanel_pattern</id>
+      <text><![CDATA[<color r="%1%" g="%2%" b="%3%">%4%</color>]]></text>
+    </row>
+    <row>
+      <id>str_int_taskpanel_pattern_multiple</id>
+      <text><![CDATA[<color r="%1%" g="%2%" b="%3%">%4% x %5%</color>]]></text>
+    </row>
+    <row>
+      <id>str_dialog_task_header_current_task</id>
+      <text><![CDATA[Current Task]]></text>
+    </row>
+    <row>
+      <id>str_dialog_task_header_new_task</id>
+      <text><![CDATA[New Task]]></text>
+    </row>
+    <row>
+      <id>str_dialog_task_header_done_task</id>
+      <text><![CDATA[Task Done]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+  <table name="level_SRT">
+    <row>
+      <id color="#FF80FF">{srt level 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>str_preintro_1</id>
+      <text><![CDATA[Test0]]></text>
+    </row>
+    <row>
+      <id>str_intro1_1</id>
+      <text><![CDATA[Test1]]></text>
+    </row>
+  </table>
+  <table name="note">
+    <row>
+      <id color="#FF80FF">{notes 1}</id>
+      <text><![CDATA[]]></text>
+    </row>
+  </table>
+</strings>

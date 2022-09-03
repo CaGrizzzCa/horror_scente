@@ -1,0 +1,10 @@
+            <obj __type="spr_gm" _name="dlg_##name##" alp="0" input="0" pos_x="512" pos_y="384" pos_z="100">
+                <obj __type="anim" _name="anm_##name##" animfunc="static" playing="1" pos_x="-683" pos_y="-384" res="">
+                    <obj __type="obj" _name="dlg_##name##_lipsing_root" anim_tag="head"/>
+                    <obj __type="anim" _name="anm_##name##_hand" anim_tag="hand" animfunc="hand_give" res="assets/levels/##level##/common/dialogs/##name_short##/anm">
+                        <obj __type="anim" _name="anm_##name##_hand_static" anim_tag="hand_static" animfunc="hand_static" playing="1" res="assets/levels/##level##/common/dialogs/##name_short##/anm"/>
+                        <obj __type="obj" _name="obj_##name##_item" anim_tag="item"/>
+                        <obj __type="obj" _name="obj_##name##_item_shadow" anim_tag="item_shadow"/>
+                    </obj>
+                </obj>
+            </obj>

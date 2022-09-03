@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------------------
+common_impl.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_clk_##name##_zone", room = "inv_complex_inv", zz = "inv_complex_##zrm##", zz_gate = "inv_##zrm##" };
+
+private.##prg##_logic = function()
+
+end;
+private.##prg##_beg = function()
+  ObjDelete( "gfx_##zrm##_clk_##name##_zone" );
+end;
+private.##prg##_end = function()
+
+end;
+--------------------------------------------------------------------------------------------
+cmn.AddSubscriber( "##prg##", private.##prg##_beg );
+cmn.AddSubscriber( "##prg##", private.##prg##_end );
+cmn.AddSubscriber( "##prg##", private.##prg##_logic );
+cmn.AddSubscriber( "##prg##_beg", private.##prg##_beg );
+cmn.AddSubscriber( "##prg##_end", private.##prg##_end );
+cmn.AddSubscriber( "##prg##_end", private.##prg##_logic );
+--------------------------------------------------------------------------------------------
+function public.##prg##()
+
+  local func_end = function()
+    cmn.SetEventDone( "##prg##" );
+    cmn.CallEventHandler( "##prg##_end" );
+    common_impl.Lock(0);
+  end;
+
+  cmn.CallEventHandler( "##prg##_beg" );
+  common_impl.Lock(1);
+
+  ld.AnimPlay( "", "", func_end, "##sfx##" );
+
+end;
+--------------------------------------------------------------------------------------------

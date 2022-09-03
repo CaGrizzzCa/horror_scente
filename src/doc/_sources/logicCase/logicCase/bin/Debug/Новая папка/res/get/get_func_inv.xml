@@ -1,0 +1,27 @@
+--------------------------------------------------------------------
+game.hint[ "##prg##" ] = { type = "get", get_obj = "spr_##zrm##_##name##", room = "int_deploy_inv", zz = "deploy_inv_##zrm##", zz_gate = "inv_##zrm##" };
+
+local ##prg##_logic = function()
+ 
+end;
+
+local ##prg## = function()
+  int.InventoryItemAdd("inv_##name##","spr_##zrm##_##name##");
+  if ld.ZzCompleteCheck("##prg##") then int.InventoryItemRemove("inv_##zrm##") end;
+end;
+
+local ##prg##_end = function()
+  ObjDelete("gfx_##zrm##_##name##");
+end;
+
+cmn.AddSubscriber( nil, "##prg##", ##prg## );
+cmn.AddSubscriber( nil, "##prg##", ##prg##_logic );
+cmn.AddSubscriber( nil, "##prg##", ##prg##_end );
+--------------------------------------------------------------------
+function game.int_deploy_inv.##prg##()
+  cmn.SetEventDone( "##prg##" );
+  cmn.CallEventHandler( "##prg##", "empty" );
+  cmn.PlayGetSound();
+  if ld.ZzCompleteCheck("##prg##") then int.DeployInvHide() end;
+end
+--------------------------------------------------------------------

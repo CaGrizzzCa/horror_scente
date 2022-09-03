@@ -1,0 +1,27 @@
+--------------------------------------------------------------------
+common_impl.hint[ "##prg##" ] = { type = "get", get_obj = "spr_##zrm##_##name##", room = "inv_complex_inv", zz = "inv_complex_##zrm##", zz_gate = "inv_##zrm##" };
+
+private.##prg##_logic = function()
+ 
+end;
+private.##prg##_inv = function()
+  interface.InventoryItemAdd("inv_##item##","spr_##zrm##_##name##"##process##);
+  ld.SubRoom.Complete( "##prg##" )##complex##
+end;
+private.##prg##_beg = function()
+  ObjDelete("gfx_##zrm##_##name##");
+end;
+private.##prg##_end = function()
+  
+end;
+
+cmn.AddSubscriber( "##prg##", private.##prg##_inv );
+cmn.AddSubscriber( "##prg##", private.##prg##_beg );
+cmn.AddSubscriber( "##prg##", private.##prg##_end );
+cmn.AddSubscriber( "##prg##", private.##prg##_logic );
+--------------------------------------------------------------------
+function public.##prg##()
+  cmn.SetEventDone( "##prg##" );
+  cmn.CallEventHandler( "##prg##" );
+end
+--------------------------------------------------------------------

@@ -1,0 +1,7 @@
+<module name="int_pause" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_pause_rootobj">
+            <obj __type="obj" _name="int_pause"/>
+        </obj>
+    </objs>
+</module>

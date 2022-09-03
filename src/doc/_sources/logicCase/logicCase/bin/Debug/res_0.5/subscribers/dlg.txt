@@ -1,0 +1,38 @@
+local dlg_##name##_beg = function ()
+
+  --зоны клика и частицы
+
+end;
+local dlg_##name##_end = function ()
+
+  --прогресс
+
+end;
+-----------------------------------------------------------------------------------
+cmn.AddSubscriber( room_objname, "dlg_##name##", dlg_##name##_beg );
+cmn.AddSubscriber( room_objname, "dlg_##name##", dlg_##name##_end );
+cmn.AddSubscriber( room_objname, "dlg_##name##_beg", dlg_##name##_beg );
+cmn.AddSubscriber( room_objname, "dlg_##name##_end", dlg_##name##_end );
+-----------------------------------------------------------------------------------
+function game.##rm##.dlg_##name##()
+
+  --вызываемая функция
+  cmn.CallEventHandler( "dlg_##name##_beg" );
+
+end;
+-----------------------------------------------------------------------------------
+function game.##rm##._dlg_##name##_end()
+
+  --конечная функция
+  cmn.SetEventDone( "dlg_##name##" );
+  cmn.CallEventHandler( "dlg_##name##_end" );
+
+end;
+-----------------------------------------------------------------------------------
+game.hint[ "dlg_##name##" ] = {
+
+
+
+};
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------

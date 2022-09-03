@@ -1,0 +1,291 @@
+<module name="cheater" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__cheater_rootobj">
+            <obj __type="obj" _name="hub_cheater_default" active="0" input="0" pos_x="512" pos_y="384" visible="0">
+                <obj __type="grid" _name="grd_cheater_default_review_field_link" color_b="0" color_g="0" input="0" res="assets/shared/cheater/grd_review_link"/>
+                <obj __type="spr" _name="spr_cheater_default_review_field_back" alp="0.9" color_b="0" color_g="0" color_r="0" drag="1" input="0" pos_z="1" res="assets/back" scale_x="4.6875"/>
+                <obj __type="textedit" _name="ted_cheater_default_review_field_text" disprawtext="1" fontsize="22" maxchars="255" maxwidth="300" pos_z="2" res="assets/shared/cheater/arial"/>
+                <obj __type="spr" _name="spr_cheater_default_review_field_mark" color_b="0" color_g="0" drag="1" input="0" inputrect_h="64" inputrect_init="1" inputrect_w="64" inputrect_x="-32" inputrect_y="-32" pos_z="3" res="assets/shared/cheater/review_mark"/>
+                <obj __type="obj" _name="obj_cheater_default_review_field" inputrect_h="2048" inputrect_init="1" inputrect_w="2048" pos_z="113"/>
+            </obj>
+            <obj __type="obj" _name="cheater" pos_z="13">
+                <obj __type="obj" _name="cheater_close" active="0" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366"/>
+                <obj __type="obj" _name="cheater_timers" input="0" visible="0">
+                    <obj __type="timer" _name="tmr_cheater_fps" input="0" visible="0"/>
+                    <obj __type="timer" _name="tmr_cheater_subroom" input="0" visible="0"/>
+                </obj>
+                <obj __type="obj" _name="cheater_content">
+                    <obj __type="obj" _name="cheater_current" active="0" input="0" pos_x="368">
+                        <obj __type="spr" _name="spr_cheater_current" active="0" color_b="0" input="0" pos_x="328" res="assets/shared/cheater/editor_back" scale_x="328" scale_y="20">
+                            <obj __type="spr" _name="spr_cheater_current_lock" active="0" attachtype="3" color_b="0" color_r="0" input="0" pos_x="330" res="assets/shared/cheater/editor_back" scale_x="10" scale_y="20"/>
+                            <obj __type="spr" _name="spr_cheater_current_rmlock" active="0" ang="0.78" attachtype="3" color_b="0" color_r="0" input="0" pos_x="355" res="assets/shared/cheater/editor_back" scale_x="10" scale_y="10"/>
+                        </obj>
+                        <obj __type="text" _name="txt_cheater_current_room" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="219" pos_y="10" res="assets/shared/cheater/courier_new" shadow_aplha="0"/>
+                        <obj __type="text" _name="txt_cheater_current_subroom" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="430" pos_y="10" res="assets/shared/cheater/courier_new" shadow_aplha="0"/>
+                        <obj __type="text" _name="txt_cheater_current_fps" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_y="10" res="assets/shared/cheater/courier_new" shadow_aplha="0"/>
+                        <obj __type="text" _name="txt_cheater_current_version" active="0" align="0" display_outline="1" disprawtext="1" fontcolor_b="0" fontcolor_g="0" fontcolor_r="0" fontsize="15" input="0" maxwidth="0" outline_color_b="1" outline_color_g="1" outline_color_r="1" outline_size="3" pos_x="100" pos_y="30" res="assets/shared/cheater/courier_new" shadow_aplha="0"/>
+                    </obj>
+                    <obj __type="obj" _name="cheater_buttons">
+                        <obj __type="obj" _name="cheater_helper" active="0" pos_x="263" pos_y="10" pos_z="-1">
+                            <obj __type="spr" _name="spr_cheater_helper_plus_back" active="0" color_r="0.5" pos_x="25" res="assets/shared/cheater/editor_back" scale_x="24" scale_y="10"/>
+                            <obj __type="spr" _name="spr_cheater_helper_minus_back" active="0" color_g="0.5" pos_x="73" res="assets/shared/cheater/editor_back" scale_x="24" scale_y="10"/>
+                            <obj __type="text" _name="txt_cheater_helper_but" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_z="1" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="HLPR+HLPR-"/>
+                        </obj>
+                        <obj __type="obj" _name="cheater_room" active="0" pos_x="70" pos_y="10">
+                            <obj __type="spr" _name="spr_cheater_room_back" pos_x="20" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="10"/>
+                            <obj __type="text" _name="txt_cheater_room_but" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" res="assets/shared/cheater/courier_new" text="ROOM"/>
+                            <obj __type="obj" _name="cheater_room_list" active="0" input="0" pos_x="122" pos_y="40" visible="0">
+                                <obj __type="obj" _name="cheater_room_names">
+                                    <obj __type="obj" _name="cheater_room_column_0"/>
+                                </obj>
+                                <obj __type="obj" _name="obj_cheater_room_arrow_right" active="0" input="0" inputrect_h="112" inputrect_init="1" inputrect_w="112" inputrect_x="-82" inputrect_y="-30" pos_x="802" pos_y="20" visible="0">
+                                    <obj __type="spr" _name="spr_cheater_room_arrow_right" active="0" input="0" pos_x="-26" pos_y="26" res="assets/shared/cheater/editor_back" scale_x="56" scale_y="56"/>
+                                    <obj __type="text" _name="txt_cheater_room_arrow_right" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="25" input="0" maxwidth="60" outline_alpha="0" outline_size="0" pos_x="-25" pos_y="25" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="NEXT"/>
+                                </obj>
+                                <obj __type="obj" _name="obj_cheater_room_arrow_left" active="0" input="0" inputrect_h="112" inputrect_init="1" inputrect_w="112" inputrect_x="-30" inputrect_y="-30" pos_x="-162" pos_y="20" visible="0">
+                                    <obj __type="spr" _name="spr_cheater_room_arrow_left" active="0" input="0" pos_x="26" pos_y="26" res="assets/shared/cheater/editor_back" scale_x="56" scale_y="56"/>
+                                    <obj __type="text" _name="txt_cheater_room_arrow_left" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="24" input="0" maxwidth="60" outline_alpha="0" outline_size="0" pos_x="25" pos_y="25" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="PREVIOUS"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="cheater_progress" active="0" pos_x="136" pos_y="10">
+                            <obj __type="spr" _name="spr_cheater_progress_back" active="0" pos_x="24" res="assets/shared/cheater/editor_back" scale_x="40" scale_y="10"/>
+                            <obj __type="text" _name="txt_cheater_progress_but" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="-16" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="PROGRESS"/>
+                            <obj __type="obj" _name="cheater_progress_step" active="0" alp="0" input="0" pos_x="180" visible="0">
+                                <obj __type="spr" _name="spr_cheater_progress_step" active="0" color_b="0.9" color_g="0.9" color_r="0.9" res="assets/shared/cheater/editor_back" scale_x="52" scale_y="30"/>
+                                <obj __type="text" _name="txt_cheater_progress_step" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="60" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="step"/>
+                            </obj>
+                            <obj __type="obj" _name="cheater_progress_list" active="0" input="0" pos_x="56" pos_y="40" visible="0">
+                                <obj __type="obj" _name="cheater_progress_names" active="0"/>
+                                <obj __type="obj" _name="cheater_progress_check" active="0" pos_x="124" pos_y="-40">
+                                    <obj __type="spr" _name="spr_cheater_progress_check_back" active="0" color_b="0.9" color_g="0.9" color_r="0.9" res="assets/shared/cheater/editor_back" scale_x="52" scale_y="10"/>
+                                    <obj __type="text" _name="txt_cheater_progress_check" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="show done"/>
+                                </obj>
+                                <obj __type="obj" _name="obj_cheater_progress_arrow_right" active="0" input="0" inputrect_h="112" inputrect_init="1" inputrect_w="112" inputrect_x="-82" inputrect_y="-30" pos_x="802" pos_y="20" visible="0">
+                                    <obj __type="spr" _name="spr_cheater_progress_arrow_right" active="0" input="0" pos_x="-26" pos_y="26" res="assets/shared/cheater/editor_back" scale_x="56" scale_y="56"/>
+                                    <obj __type="text" _name="txt_cheater_progress_arrow_right" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="25" input="0" maxwidth="60" outline_alpha="0" outline_size="0" pos_x="-25" pos_y="25" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="NEXT"/>
+                                </obj>
+                                <obj __type="obj" _name="obj_cheater_progress_arrow_left" active="0" input="0" inputrect_h="112" inputrect_init="1" inputrect_w="112" inputrect_x="-30" inputrect_y="-30" pos_x="-162" pos_y="20" visible="0">
+                                    <obj __type="spr" _name="spr_cheater_progress_arrow_left" active="0" input="0" pos_x="26" pos_y="26" res="assets/shared/cheater/editor_back" scale_x="56" scale_y="56"/>
+                                    <obj __type="text" _name="txt_cheater_progress_arrow_left" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="24" input="0" maxwidth="60" outline_alpha="0" outline_size="0" pos_x="25" pos_y="25" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="PREVIOUS"/>
+                                </obj>
+                            </obj>
+                        </obj>
+                        <obj __type="obj" _name="cheater_execute" pos_x="214" pos_y="10">
+                            <obj __type="spr" _name="spr_cheater_execute_back" active="0" pos_x="18" res="assets/shared/cheater/editor_back" scale_x="34" scale_y="10"/>
+                            <obj __type="text" _name="txt_cheater_execute_but" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="-18" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="CONSOLE"/>
+                            <obj __type="obj" _name="cheater_execute_list" input="0" pos_x="-215" pos_y="40" visible="0">
+                                <obj __type="obj" _name="cheater_execute_field">
+                                    <obj __type="spr" _name="spr_cheater_execute_field_back" active="0" color_b="0.2" color_g="0.2" color_r="0.2" input="0" pos_x="512" res="assets/shared/cheater/editor_back" scale_x="512" scale_y="10"/>
+                                    <obj __type="textedit" _name="ted_cheater_execute" align="0" disprawtext="1" fontsize="18" maxchars="255" maxwidth="1024" pos_z="2" res="assets/shared/cheater/arial"/>
+                                </obj>
+                                <obj __type="obj" _name="cheater_console_clear" active="0" pos_x="343" pos_y="-40">
+                                    <obj __type="spr" _name="spr_cheater_console_clear" active="0" color_b="0.9" color_g="0.9" color_r="0.9" res="assets/shared/cheater/editor_back" scale_x="26" scale_y="10"/>
+                                    <obj __type="text" _name="txt_cheater_console_clear" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="clear"/>
+                                </obj>
+                                <obj __type="obj" _name="cheater_console_keyboard" active="0" pos_x="291" pos_y="-40">
+                                    <obj __type="spr" _name="spr_cheater_console_keyboard" active="0" color_b="0.9" color_g="0.9" color_r="0.9" res="assets/shared/cheater/editor_back" scale_x="26" scale_y="10"/>
+                                    <obj __type="text" _name="txt_cheater_console_keyboard" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text=" key "/>
+                                </obj>
+                                <obj __type="obj" _name="cheater_console_keyboard_keys" active="0" input="0" pos_x="50" pos_y="40" visible="0">
+                                    <obj __type="obj" _name="cheater_console_keyboard_keys_1" active="0" pos_z="1">
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_1" active="0">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_1" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_1" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_2" active="0" pos_x="60">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_2" active="0" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_2" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="W"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_3" active="0" pos_x="120">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_3" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_3" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_4" active="0" pos_x="180">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_4" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_4" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_5" active="0" pos_x="240">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_5" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_5" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_6" active="0" pos_x="300">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_6" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_6" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_7" active="0" pos_x="360">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_7" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_7" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_8" active="0" pos_x="420">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_8" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_8" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_9" active="0" pos_x="480">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_9" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_9" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_10" active="0" pos_x="540">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_10" active="0" event_mdown=");" event_menter=")" event_mleave=")" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_10" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_1_11" active="0" pos_x="600">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_1_11" active="0" pos_x="30" res="assets/shared/cheater/editor_back" scale_x="60" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_1_11" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="12" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="20" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="backspace"/>
+                                        </obj>
+                                    </obj>
+                                    <obj __type="obj" _name="cheater_console_keyboard_keys_3" active="0" pos_x="20" pos_y="120" pos_z="2">
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_1" active="0">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_1" active="0" res="assets/shared/cheater/editor_back" scale_x="60" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_1" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_2" active="0" pos_x="90">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_2" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_2" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_3" active="0" pos_x="150">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_3" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_3" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_4" active="0" pos_x="210">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_4" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_4" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_5" active="0" pos_x="270">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_5" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_5" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_6" active="0" pos_x="330">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_6" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_6" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_7" active="0" pos_x="390">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_7" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_7" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_8" active="0" pos_x="450">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_8" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_8" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_3_9" active="0" pos_x="540" pos_y="-30">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_3_9" active="0" res="assets/shared/cheater/editor_back" scale_x="60" scale_y="60"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_3_9" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="-5" pos_y="20" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Enter"/>
+                                        </obj>
+                                    </obj>
+                                    <obj __type="obj" _name="cheater_console_keyboard_keys_2" active="0" pos_x="30" pos_y="60" pos_z="3">
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_1" active="0">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_1" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_1" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_2" active="0" pos_x="60">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_2" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_2" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_3" active="0" pos_x="120">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_3" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_3" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_4" active="0" pos_x="180">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_4" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_4" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_5" active="0" pos_x="240">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_5" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_5" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_6" active="0" pos_x="300">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_6" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_6" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_7" active="0" pos_x="360">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_7" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_7" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_8" active="0" pos_x="420">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_8" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_8" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_2_9" active="0" pos_x="480">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_2_9" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_2_9" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                    </obj>
+                                    <obj __type="obj" _name="cheater_console_keyboard_keys_4" active="0" pos_x="90" pos_y="180" pos_z="4">
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_4_1" active="0">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_4_1" active="0" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_4_1" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="123"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_4_2" active="0" pos_x="60">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_4_2" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_4_2" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_4_3" active="0" pos_x="180">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_4_3" active="0" res="assets/shared/cheater/editor_back" scale_x="90" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_4_3" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Space"/>
+                                        </obj>
+                                        <obj __type="obj" _name="cheater_console_keyboard_keys_4_4" active="0" pos_x="300">
+                                            <obj __type="spr" _name="spr_cheater_console_keyboard_keys_4_4" active="0" event_mdown=";" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="30"/>
+                                            <obj __type="text" _name="txt_cheater_console_keyboard_keys_4_4" active="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="Q"/>
+                                        </obj>
+                                    </obj>
+                                </obj>
+                            </obj>
+                        </obj>
+                    </obj>
+                    <obj __type="obj" _name="cheater_mode" active="0" pos_x="1014" pos_y="10">
+                        <obj __type="spr" _name="spr_cheater_mode_back" active="0" res="assets/shared/cheater/editor_back" scale_x="10" scale_y="10"/>
+                        <obj __type="text" _name="txt_cheater_mode" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="-5" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="W"/>
+                    </obj>
+                    <obj __type="obj" _name="cheater_skip" active="0" pos_x="996" pos_y="10">
+                        <obj __type="spr" _name="spr_cheater_skip_back" active="0" res="assets/shared/cheater/editor_back" scale_x="10" scale_y="10"/>
+                        <obj __type="text" _name="txt_cheater_skip" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="-5" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="S"/>
+                    </obj>
+                    <obj __type="obj" _name="cheater_sound" active="0" pos_x="976" pos_y="10">
+                        <obj __type="spr" _name="spr_cheater_sound_back" active="0" res="assets/shared/cheater/editor_back" scale_x="10" scale_y="10"/>
+                        <obj __type="text" _name="txt_cheater_sound" active="0" align="0" color_b="0" color_g="0" color_r="0" disprawtext="1" fontsize="15" input="0" maxwidth="0" outline_alpha="0" outline_size="0" pos_x="-5" res="assets/shared/cheater/courier_new" shadow_aplha="0" text="M"/>
+                    </obj>
+                </obj>
+                <obj __type="spr" _name="editor_super_cheater" input="0" pos_x="1084" pos_y="10" res="assets/shared/cheater/editor_super_cheater"/>
+                <obj __type="text" _name="txt_cheater_text_for_copy" display_outline="1" disprawtext="1" fontsize="100" input="0" outline_size="3" pos_x="683" pos_y="384" res="assets/shared/cheater/arial" text="1111" visible="0"/>
+                <obj __type="obj" _name="obj_cheater_soundhelper" input="0" pos_y="20">
+                    <obj __type="obj" _name="obj_cheater_soundhelper_actions" input="0"/>
+                </obj>
+                <obj __type="obj" _name="spr_cheater_but" color_b="0.8" color_r="0.8" pos_x="30" pos_y="10">
+                    <obj __type="spr" _name="spr_cheater_but_back" active="0" color_b="0.8" color_r="0.8" input="0" res="assets/shared/cheater/editor_back" scale_x="30" scale_y="10"/>
+                    <obj __type="text" _name="txt_cheater_but_funcs" disprawtext="1" fontcolor_b="0" fontcolor_g="0" fontcolor_r="0" fontsize="15" input="0" pos_z="1" res="assets/shared/cheater/arial" text="FUNCS"/>
+                </obj>
+            </obj>
+            <obj __type="obj" _name="cheater_fasttravel" pos_z="14">
+                <obj __type="spr" _name="cheater_fasttravel_back" alp="0.6" color_b="0" color_g="0" color_r="0" pos_x="512" pos_y="384" pos_z="-100" res="assets/interface/resources/editor_back" scale_x="700" scale_y="400"/>
+                <obj __type="spr" _name="cheater_fasttravel_example" input="0" res="assets/levels/level/rm_entrypoint/miniback" visible="0"/>
+                <obj __type="obj" _name="cheater_fasttravel_content" pos_z="1"/>
+                <obj __type="text" _name="cheater_fasttravel_txt" display_outline="1" display_shadow="1" disprawtext="1" input="0" pos_x="283" pos_y="192" pos_z="10" res="assets/shared/cheater/arial" shadow_pos_x="1" shadow_pos_y="1" text="rm_aaa"/>
+            </obj>
+            <obj __type="obj" _name="cheater_inventory" pos_x="-171" pos_z="15">
+                <obj __type="spr" _name="cheater_inventory_example" input="0" pos_z="-100" res="assets/interface/resources/int_inventory/item_back" visible="0"/>
+                <obj __type="obj" _name="cheater_inventory_content" pos_z="1">
+                    <obj __type="spr" _name="cheater_inventory_back" alp="0.95" color_b="0" color_g="0" color_r="0" pos_x="512" pos_y="384" pos_z="-100" res="assets/interface/resources/editor_back" scale_x="700" scale_y="400"/>
+                    <obj __type="obj" _name="cheater_inventory_content_moved"/>
+                    <obj __type="obj" _name="cheater_inventory_content_up" color_b="0.5" color_g="0.5" color_r="0.5" pos_x="1165" pos_y="172">
+                        <obj __type="spr" _name="spr_cheater_inventory_content_up" res="assets/interface/resources/back" scale_x="0.8" scale_y="5.27"/>
+                        <obj __type="text" _name="txt_cheater_inventory_content_up_text" color_b="0" color_g="0" color_r="0" input="0" pos_z="1" res="assets/shared/cheater/arial" text="up"/>
+                    </obj>
+                    <obj __type="obj" _name="cheater_inventory_content_down" color_b="0.5" color_g="0.5" color_r="0.5" pos_x="1165" pos_y="513">
+                        <obj __type="spr" _name="spr_cheater_inventory_content_down" res="assets/interface/resources/back" scale_x="0.8" scale_y="5.27"/>
+                        <obj __type="text" _name="txt_cheater_inventory_content_down_text" color_b="0" color_g="0" color_r="0" input="0" pos_z="1" res="assets/shared/cheater/arial" text="dn"/>
+                    </obj>
+                    <obj __type="obj" _name="cheater_inventory_content_back" color_b="0.5" color_g="0.5" color_r="0.5" pos_x="1165" pos_y="746">
+                        <obj __type="spr" _name="spr_cheater_inventory_content_back" res="assets/interface/resources/back" scale_x="0.8" scale_y="0.58"/>
+                        <obj __type="text" _name="txt_cheater_inventory_content_back_text" color_b="0" color_g="0" color_r="0" input="0" pos_z="1" res="assets/shared/cheater/arial" text="backs"/>
+                    </obj>
+                    <obj __type="obj" _name="cheater_inventory_content_smooth" color_b="0.5" color_g="0.5" color_r="0.5" pos_x="1165" pos_y="705">
+                        <obj __type="spr" _name="spr_cheater_inventory_content_smooth" res="assets/interface/resources/back" scale_x="0.8" scale_y="0.58"/>
+                        <obj __type="text" _name="txt_cheater_inventory_content_smooth_text" color_b="0" color_g="0" color_r="0" fontsize="16" input="0" pos_z="1" res="assets/shared/cheater/arial" text="smooth"/>
+                    </obj>
+                </obj>
+                <obj __type="text" _name="cheater_inventory_example_text" align_v="0" alp="0" attachtype="2" display_outline="1" disprawtext="1" fontsize="25" input="0" outline_size="2" pos_y="50" pos_z="999" res="assets/shared/cheater/arial"/>
+            </obj>
+            <obj __type="text" _name="txt_cheater_review_field" display_outline="1" disprawtext="1" fontcolor_b="0" fontcolor_g="0" fontsize="30" input="0" outline_color_b="1" outline_color_g="1" outline_color_r="1" pos_x="512" pos_y="25" pos_z="999" res="assets/shared/cheater/courier_new" text="REVIEW MODE"/>
+        </obj>
+    </objs>
+</module>

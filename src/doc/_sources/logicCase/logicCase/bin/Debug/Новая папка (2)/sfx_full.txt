@@ -1,0 +1,84 @@
+	opn_nearcityhall	aud_nearcityhall_env	нет		
+	/*/ MMG clk_mmggatehouse		нет	rm_nearcityhall	zz_gatehouse
+	* клик по зоне gfx_repairbox_repairboxkey_zone (use_repairboxkey)	aud_use_repairboxkey_zone_click	нет	rm_square	zz_repairbox
+	применение use_repairboxkey	aud_use_repairboxkey	нет	rm_square	zz_repairbox
+	* клик по зоне gfx_cityhalldoor_hammerchisel_zone (use_hammerchisel)	aud_use_hammerchisel_zone_click	нет	rm_nearcityhall	zz_cityhalldoor
+	применение use_hammerchisel	aud_use_hammerchisel	нет	rm_nearcityhall	zz_cityhalldoor
+	применение use_thirdlvlitem	aud_use_thirdlvlitem	нет	int_deploy_inv	
+	/*/ MMG clk_mmghallpiece		нет	int_deploy_inv	
+	* клик по зоне gfx_cityhalldoor_hallamulet_zone (use_hallamulet)	aud_use_hallamulet_zone_click	нет	rm_nearcityhall	zz_cityhalldoor
+	применение use_hallamulet	aud_use_hallamulet	нет	rm_nearcityhall	zz_cityhalldoor
+	клик clk_cityhalldorrot	aud_clk_cityhalldorrot	нет	rm_nearcityhall	zz_cityhalldoor
+	opn_cityhall	aud_cityhall_env	нет		
+	применение use_pepperbox	aud_use_pepperbox	нет	rm_cityhall	
+	применение use_dice	aud_use_dice	нет	int_deploy_inv	
+	/*/ MMG clk_mmgdicebox		нет	int_deploy_inv	
+	* клик по зоне gfx_cityhall_dicecube_zone (use_dicecube)	aud_use_dicecube_zone_click	нет	rm_cityhall	
+	применение use_dicecube	aud_use_dicecube	нет	rm_cityhall	
+	/*/ MMG clk_mmgdicecube		нет	rm_cityhall	
+	* клик по зоне gfx_gatehouse_lanchamulet_zone (use_lanchamulet)	aud_use_lanchamulet_zone_click	нет	rm_nearcityhall	zz_gatehouse
+	применение use_lanchamulet	aud_use_lanchamulet	нет	rm_nearcityhall	zz_gatehouse
+	применение use_cakepiece	aud_use_cakepiece	нет	rm_cityhall	
+	/*/ HO win_instal		нет	ho_instal	
+	* клик по зоне gfx_machine_machinepart1_zone (use_machinepart1)	aud_use_machinepart1_zone_click	нет	mg_machine	
+	применение use_machinepart1	aud_use_machinepart1	нет	mg_machine	
+	клик clk_machine11	aud_clk_machine11	нет	mg_machine	
+	* клик по зоне gfx_machine_machinepart2_zone (use_machinepart2)	aud_use_machinepart2_zone_click	нет	mg_machine	
+	применение use_machinepart2	aud_use_machinepart2	нет	mg_machine	
+	клик clk_machine21	aud_clk_machine21	нет	mg_machine	
+	клик clk_machine22	aud_clk_machine22	нет	mg_machine	
+	клик clk_machine23	aud_clk_machine23	нет	mg_machine	
+	/*/ MG win_machine		нет	mg_machine	
+	клик clk_nearcityhallsoldier	aud_clk_nearcityhallsoldier	нет	rm_nearcityhall	
+	клик clk_dlgollehall1	aud_clk_dlgollehall1	нет	rm_cityhall	
+	opn_clocktower	aud_clocktower_env	нет		
+	применение use_soldier_threadedneedle	aud_use_soldier_threadedneedle	нет	int_deploy_inv	
+	клик clk_doorinhall	aud_clk_doorinhall	нет	rm_cityhall	zz_doorinhall
+	применение use_weaponedsoldier	aud_use_weaponedsoldier	нет	rm_cityhall	zz_doorinhall
+	применение use_snowflake1	aud_use_snowflake1	нет	mg_doorinhallmg	
+	применение use_snowflake2	aud_use_snowflake2	нет	mg_doorinhallmg	
+	/*/ MG win_doorinhallmg		нет	mg_doorinhallmg	
+	opn_street	aud_street_env	нет		
+	применение use_mailmanpass	aud_use_mailmanpass	нет	rm_nearcityhall	zz_gatehouse
+	применение use_mailboxkeys	aud_use_mailboxkeys	нет	rm_street	zz_mailbox
+	клик clk_mailboxkeys_1	aud_clk_mailboxkeys_1	нет	rm_street	zz_mailbox
+	клик clk_mailboxkeys_2	aud_clk_mailboxkeys_2	нет	rm_street	zz_mailbox
+	клик clk_mailboxkeys_3	aud_clk_mailboxkeys_3	нет	rm_street	zz_mailbox
+	применение use_baspiece1	aud_use_baspiece1	нет	rm_street	zz_kingmonument
+	применение use_baspiece2	aud_use_baspiece2	нет	rm_street	zz_kingmonument
+	клик clk_flagstick1	aud_clk_flagstick1	нет	int_deploy_inv	
+	клик clk_flagstick2	aud_clk_flagstick2	нет	int_deploy_inv	
+	* клик по зоне gfx_dicefall_stick_zone (use_stick)	aud_use_stick_zone_click	нет	rm_cityhall	zz_dicefall
+	применение use_stick	aud_use_stick	нет	rm_cityhall	zz_dicefall
+	применение use_statuet	aud_use_statuet	нет	rm_cityhall	zz_engravingwall
+	/*/ HO win_lostthings		нет	ho_lostthings	
+	применение use_umbrellagood	aud_use_umbrellagood	нет	rm_cityhall	
+	применение use_scoop	aud_use_scoop	нет	rm_street	zz_boat
+	применение use_gaff	aud_use_gaff	нет	rm_street	
+	применение use_clothpiece	aud_use_clothpiece	нет	rm_street	zz_barrel
+	* клик по зоне gfx_barrel_corkscrew_zone (use_corkscrew)	aud_use_corkscrew_zone_click	нет	rm_street	zz_barrel
+	применение use_corkscrew	aud_use_corkscrew	нет	rm_street	zz_barrel
+	применение use_tarredcloth	aud_use_tarredcloth	нет	rm_street	zz_boat
+	клик clk_boat	aud_clk_boat	нет	rm_street	zz_boat
+	opn_deck	aud_deck_env	нет		
+	применение use_nailpuller	aud_use_nailpuller	нет	rm_street	zz_boxes
+	клик clk_anchor	aud_clk_anchor	нет	rm_deck	zz_overboard
+	клик clk_clkkite	aud_clk_clkkite	нет	rm_deck	zz_chest
+	применение use_rope	aud_use_rope	нет	int_deploy_inv	
+	применение use_magnetrope	aud_use_magnetrope	нет	rm_deck	zz_overboard
+	* клик по зоне gfx_chest_chestamulet_zone (use_chestamulet)	aud_use_chestamulet_zone_click	нет	rm_deck	zz_chest
+	применение use_chestamulet	aud_use_chestamulet	нет	rm_deck	zz_chest
+	клик clk_chestdeck	aud_clk_chestdeck	нет	rm_deck	zz_chest
+	применение use_deckmgpart	aud_use_deckmgpart	нет	rm_deck	zz_doorondeck
+	/*/ MMG clk_mmgdoorondeck		нет	rm_deck	zz_doorondeck
+	/*/ HO win_cabin		нет	ho_cabin	
+	применение use_umbrellabad	aud_use_umbrellabad	нет	rm_cityhall	
+	клик clk_dlgollehall3	aud_clk_dlgollehall3	нет	rm_cityhall	
+	применение use_olle	aud_use_olle	нет	rm_cityhall	
+	применение use_soldier_clocktower	aud_use_soldier_clocktower	нет	rm_clocktower	
+	* клик по зоне gfx_heartbox_hearthkey_zone (use_hearthkey)	aud_use_hearthkey_zone_click	нет	int_deploy_inv	
+	применение use_hearthkey	aud_use_hearthkey	нет	int_deploy_inv	
+	клик clk_hearthkey	aud_clk_hearthkey	нет	int_deploy_inv	
+	применение use_photocharly	aud_use_photocharly	нет	rm_clocktower	
+	/*/ MG win_ritual		нет	mg_ritual	
+	/*/ MMG clk_finalmmg		нет	rm_clocktower	

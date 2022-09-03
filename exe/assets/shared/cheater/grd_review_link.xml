@@ -1,0 +1,14 @@
+<grid texture="review_link" fps="0" loop="0">
+	<frames>
+		<frame interp="0">
+			<vertex id="0" pos_x="0" pos_y="-9" tu="0" tv="0" />
+			<vertex id="1" pos_x="84" pos_y="-9" tu="1" tv="0" />
+			<vertex id="2" pos_x="0" pos_y="9" tu="0" tv="1" />
+			<vertex id="3" pos_x="84" pos_y="9" tu="1" tv="1" />
+		</frame>
+	</frames>
+	<triangles>
+		<triangle vertex_0="0" vertex_1="1" vertex_2="2" />
+		<triangle vertex_0="1" vertex_1="2" vertex_2="3" />
+	</triangles>
+</grid>

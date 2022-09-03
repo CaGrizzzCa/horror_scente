@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------------------
+common_impl.hint[ "##prg##" ] = { type = "click", use_place = "gfx_##zrm##_dlg_##name##_zone", room = "rm_##rm##" };
+
+private.##prg##_logic = function()
+
+end;
+private.##prg##_beg = function()
+  ObjDelete( "gfx_##zrm##_dlg_##name##_zone" );
+end;
+private.##prg##_end = function()
+  
+end;
+--------------------------------------------------------------------------------------------
+cmn.AddSubscriber( "##prg##", private.##prg##_beg, private.room_objname );
+cmn.AddSubscriber( "##prg##", private.##prg##_end, private.room_objname );
+cmn.AddSubscriber( "##prg##", private.##prg##_logic );
+cmn.AddSubscriber( "##prg##_beg", private.##prg##_beg, private.room_objname );
+cmn.AddSubscriber( "##prg##_end", private.##prg##_end, private.room_objname );
+cmn.AddSubscriber( "##prg##_end", private.##prg##_logic );
+--------------------------------------------------------------------------------------------
+function public.##prg##( obj )
+
+  local func_end = function()
+    cmn.SetEventDone( "##prg##" );
+    cmn.CallEventHandler( "##prg##_end" );
+    common_impl.Lock(0);
+    ld.ShowBbtAfter( "##prg##" );
+  end;
+
+  function public.##prg##_func_end()
+    func_end();
+  end
+  
+  cmn.CallEventHandler( "##prg##_beg" );
+  
+  --common_impl.dialog_character_loc = ""
+  common_impl.Start( "##name_post##", 3, nil, nil, true, "##prg##_func_end", {});
+
+end;
+--------------------------------------------------------------------------------------------

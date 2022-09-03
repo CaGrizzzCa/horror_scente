@@ -1,0 +1,17 @@
+<animation type="frame" frame_texture="##ft_name##">
+  <function name="inv0" frametime="60" loop="0" alpha="0">
+    <frame idx="0" />
+  </function>
+  <function name="inv4_1" frametime="60" loop="0" alpha="0">
+    <frame idx="1" />
+  </function>
+  <function name="inv4_2" frametime="60" loop="0" alpha="0">
+    <frame idx="2" />
+  </function>
+  <function name="inv4_3" frametime="60" loop="0" alpha="0">
+    <frame idx="3" />
+  </function>
+  <function name="inv4_4" frametime="60" loop="0" alpha="0">
+    <frame idx="4" />
+  </function>
+</animation>

@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------------
+common_impl.hint[ "##prg##" ] = { type = "use", inv_obj = "inv_##item##", use_place = "gfx_##zrm##_##name##_zone", room = "inv_complex_inv", zz = "inv_complex_##zrm##", zz_gate = "inv_##zrm##" };
+
+private.##prg##_logic = function()
+
+end;
+private.##prg##_inv = function()
+  common_impl.ProcessMultiUseAll("##item##", "##name##")
+end;
+private.##prg##_beg = function()
+  ObjDelete( "gfx_##zrm##_##name##_zone" );
+end;
+private.##prg##_end = function()
+
+end;
+--------------------------------------------------------------------------------------------
+cmn.AddSubscriber( "##prg##", private.##prg##_inv );
+cmn.AddSubscriber( "##prg##", private.##prg##_beg );
+cmn.AddSubscriber( "##prg##", private.##prg##_end );
+cmn.AddSubscriber( "##prg##", private.##prg##_logic );
+cmn.AddSubscriber( "##prg##_inv", private.##prg##_inv );
+cmn.AddSubscriber( "##prg##_beg", private.##prg##_beg );
+cmn.AddSubscriber( "##prg##_end", private.##prg##_end );
+cmn.AddSubscriber( "##prg##_end", private.##prg##_logic );
+--------------------------------------------------------------------------------------------
+function public.##prg##( obj )
+
+  local func_end = function()
+    ObjSet(obj,{visible = 1});
+    cmn.SetEventDone( "##prg##" );
+    cmn.CallEventHandler( "##prg##_end" );
+    common_impl.Lock(0);
+  end;
+
+  ObjSet(obj,{visible = 0});
+  cmn.CallEventHandler( "##prg##_inv" );
+  cmn.CallEventHandler( "##prg##_beg" );
+  common_impl.Lock(1);
+
+  ld.AnimPlay( "", "", func_end, "##sfx##" );
+
+end;
+  function public.need_##name##( obj )
+    ld.Anim.Need( "", "", "need_##name##", "##sfx_xx##" );
+  end
+--------------------------------------------------------------------------------------------

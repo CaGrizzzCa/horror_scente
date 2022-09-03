@@ -1,0 +1,23 @@
+<module name="ho_##rm##" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__ho_##rm##_rootobj">
+            <obj __type="obj" _name="ho_##rm##">
+                <obj __type="spr" _name="spr_##rm##_back" drawoff_x="512" drawoff_y="384" input="0" pos_z="-999" res="assets/levels/##lvl##/ho_##rm##/back"/>
+                <obj __type="spr" _name="spr_##rm##_aaa" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;aaa&apos; );" pos_x="150" pos_y="150" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/aaa"/>
+                <obj __type="spr" _name="spr_##rm##_bbb" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;bbb&apos; );" pos_x="265" pos_y="153" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/bbb"/>
+                <obj __type="spr" _name="spr_##rm##_ccc" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;ccc&apos; );" pos_x="406" pos_y="151" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/ccc"/>
+                <obj __type="spr" _name="spr_##rm##_ddd" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;ddd&apos; );" pos_x="566" pos_y="152" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/ddd"/>
+                <obj __type="spr" _name="spr_##rm##_eee" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;eee&apos; );" pos_x="725" pos_y="154" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/eee"/>
+                <obj __type="spr" _name="spr_##rm##_fff" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;fff&apos; );" pos_x="881" pos_y="167" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/fff"/>
+                <obj __type="spr" _name="spr_##rm##_ggg" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;ggg&apos; );" pos_x="157" pos_y="294" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/ggg"/>
+                <obj __type="spr" _name="spr_##rm##_hhh" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;hhh&apos; );" pos_x="307" pos_y="295" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/hhh"/>
+                <obj __type="spr" _name="spr_##rm##_iii" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;iii&apos; );" pos_x="454" pos_y="316" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/iii"/>
+                <obj __type="spr" _name="spr_##rm##_jjj" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;jjj&apos; );" pos_x="594" pos_y="318" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/jjj"/>
+                <obj __type="spr" _name="spr_##rm##_kkk" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;kkk&apos; );" pos_x="752" pos_y="322" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/kkk"/>
+                <obj __type="spr" _name="spr_##rm##_lll" event_mdown="ObjSet( ne_params.sender, { pos_z = 1 } );cmn.HoTaskFind( ne_params.sender, &apos;lll&apos; );" pos_x="907" pos_y="343" pos_z="31" res="assets/levels/##lvl##/ho_##rm##/layers/lll"/>
+                <obj __type="partsys_pm" _name="pfx_##rm##_dust" input="0" playing="1" pos_z="99" res="assets/levels/common/fx/stock/rm_dust"/>			
+            </obj>
+            <obj __type="spr" _name="spr_##rm##_win" res="assets/levels/##lvl##/ho_##rm##/layers/##inv##"/>
+        </obj>
+    </objs>
+</module>

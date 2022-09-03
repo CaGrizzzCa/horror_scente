@@ -1,0 +1,2 @@
+elseif (room == "##rm_rm##" or room == "##zrm_zrm##") and ng_global.progress["std"]["use_##inv##_##zrm##"].done ~= 1 then
+  TrgExecute("prg_use_##inv##_##zrm##("..obj..")")

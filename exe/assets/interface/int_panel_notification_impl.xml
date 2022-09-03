@@ -1,0 +1,34 @@
+<module name="int_panel_notification_impl" version="1.0">
+    <objs>
+        <obj __type="obj" _name="__int_panel_notification_impl_rootobj">
+            <obj __type="obj" _name="int_panel_notification_impl">
+                <obj __type="obj" _name="int_panel_notification_impl_root" pos_x="215" pos_y="155">
+                    <obj __type="obj" _name="obj_int_panel_notification_achievement">
+                        <obj __type="spr" _name="spr_int_panel_notification_achievement_back" res="assets/interface/resources/int_achievements/back"/>
+                        <obj __type="text" _name="txt_int_panel_notification_achievement" anim_tag="sys_int_16" display_outline="1" fontcolor_b="0.588" fontcolor_g="0.784" fontsize="32" input="0" max_fontsize="32" maxheight="120" maxwidth="230" min_scale_x="1" min_scale_y="1" outline_alpha="0.8" outline_color_b="0.007" outline_color_g="0.011" outline_color_r="0.027" outline_size="2" pos_x="-71" pos_y="2" res="assets/fonts/dejavuserif" scale_x="0.945946" shorttext_type="2" text="Skip puzzles"/>
+                        <obj __type="spr" _name="spr_int_panel_notification_achievement_icon" pos_x="122" pos_y="2" res="assets/levels/menu/rm_achievements/preview/puzzle"/>
+                        <obj __type="obj" _name="btn_int_panel_notification_achievement_goto" inputrect_h="36" inputrect_init="1" inputrect_w="153" inputrect_x="-78" inputrect_y="-18" pos_x="-59" pos_y="91">
+                            <obj __type="spr" _name="spr_int_panel_notification_achievement_goto_back" input="0" res="assets/levels/common/btn"/>
+                            <obj __type="text" _name="txt_int_panel_notification_achievement_goto" color_b="0.282" color_g="0.635" fontsize="24" input="0" maxwidth="0" outline_size="2" pos_y="2" res="assets/shared/cheater/arial" text="str_notification_achievement_goto"/>
+                            <obj __type="spr" _name="spr_int_panel_notification_achievement_goto_back_add" input="0" pos_x="-9" pos_y="-19" pos_z="0.1"/>
+                            <obj __type="spr" _name="spr_int_panel_notification_achievement_goto_focus" alp="0" blendmode="2" input="0" pos_z="1" res="assets/levels/common/btn_focus"/>
+                        </obj>
+                    </obj>
+                </obj>
+            </obj>
+            <obj __type="obj" _name="int_panel_notification_storage_impl" active="0" input="0" pos_y="66" visible="0">
+                <obj __type="obj" _name="obj_int_panel_notification_coin">
+                    <obj __type="obj" _name="obj_int_panel_notification_coin_in">
+                        <obj __type="spr" _name="spr_int_panel_notification_coin_back" color_b="0" res="assets/interface/resources/back" scale_x="4" scale_y="1.5"/>
+                        <obj __type="text" _name="txt_int_panel_notification_coin" disprawtext="1" fontcolor_b="0" fontcolor_g="0" fontcolor_r="0" fontsize="25" input="0" maxwidth="256" res="assets/fonts/dejavuserif" text="666"/>
+                    </obj>
+                    <obj __type="obj" _name="btn_int_panel_notification_coin_goto" inputrect_h="50" inputrect_init="1" inputrect_w="100" inputrect_x="-50" inputrect_y="-25" pos_y="64">
+                        <obj __type="spr" _name="spr_int_panel_notification_coin_goto_back" color_b="0" color_g="0.5" color_r="0.5" input="0" res="assets/back" scale_x="1.5" scale_y="0.5"/>
+                        <obj __type="spr" _name="spr_int_panel_notification_coin_goto_focus" alp="0" input="0" res="assets/back" scale_x="1.5" scale_y="0.5"/>
+                        <obj __type="text" _name="txt_int_panel_notification_coin_goto" disprawtext="1" fontcolor_b="0" fontcolor_g="0" fontcolor_r="0" fontsize="40" input="0" res="assets/fonts/dejavuserif" text="Goto"/>
+                    </obj>
+                </obj>
+            </obj>
+        </obj>
+    </objs>
+</module>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elephant_games>
+  <service_data>
+    <app_data name="LevelEditor" title="Редактор уровней" />
+    <project_data name="lev" ext=".lev" project_path="D:\Work\c#\LC\logicCase\logicCase\bin\Debug\lev.lev" content_format="Xml" date="2013-10-28 16:35:22" guid="f8e830af-dad7-452c-ad83-609ab261d626" />
+  </service_data>
+  <work_data>
+    <scheme>
+      <size width="2752" height="1498" />
+      <startroom id="0" />
+      <scale value="1" />
+      <links>
+        <link id="0" source_x="517" source_y="317" destination_x="726" destination_y="268" source_block="1" destination_block="0" type="0" />
+        <link id="1" source_x="417" source_y="358" destination_x="366" destination_y="374" source_block="1" destination_block="2" type="0" />
+        <link id="2" source_x="467" source_y="358" destination_x="415" destination_y="452" source_block="1" destination_block="3" type="0" />
+        <link id="3" source_x="517" source_y="358" destination_x="557" destination_y="434" source_block="1" destination_block="4" type="0" />
+      </links>
+      <blocks>
+        <block id="0" pos_x="726" pos_y="227" width="94" height="41" type="0" objname="tower" header="Башня" text="tower" />
+        <block id="1" pos_x="417" pos_y="317" width="100" height="41" type="0" objname="myroom" header="myroom" text="myroom">
+          <action id="1" id_local="A" type="1" text="first" name="first" />
+        </block>
+        <block id="2" pos_x="269" pos_y="374" width="97" height="41" type="1" objname="myzoom" header="myzoom" text="myzoom">
+          <action id="4" id_local="A" type="0" text="second" name="second" />
+        </block>
+        <block id="3" pos_x="369" pos_y="452" width="92" height="41" type="3" objname="myho" header="myho" text="myho">
+          <action id="3" id_local="A" type="1" text="second" name="second" />
+        </block>
+        <block id="4" pos_x="503" pos_y="434" width="107" height="41" type="2" objname="mygame" header="mygame" text="mygame">
+          <action id="2" id_local="A" type="0" text="first" name="first" />
+        </block>
+      </blocks>
+      <start_inventory />
+    </scheme>
+  </work_data>
+</elephant_games>

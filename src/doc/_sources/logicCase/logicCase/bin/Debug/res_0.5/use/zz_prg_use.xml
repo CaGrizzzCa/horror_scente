@@ -1,0 +1,26 @@
+		<trig name="prg_use_##use##">
+			<code>
+function prg_use_##use##_end()
+  ld.Block("zz_##zz##",0);
+  --CloseSubRoom();
+  ng_global.progress["##prg##"]["use_##use##"].done = 1;
+  ng_global.progress["##prg##"]["use_##use##"].func();
+  
+end;
+
+local obj = ne_params.param_0 or ne_params.sender;
+if ApplyCheck(obj, "gzz_##rm##_##zz##") then
+  ld.GotoZz( "##zz##" );
+  ObjDoNotDrop(obj);
+elseif ApplyCheck(obj, "gfx_##zz##_##use##_zone") then
+  int.InventoryItemRemove(obj);
+  ObjDelete( "gfx_##zz##_##use##_zone" );
+  ld.Block("zz_##zz##",1);
+  prg_use_##use##_end()
+  --ObjAnimate("spr_##zz##_##use##", 8, 0, 0, "*prg_use_##use##_end();", {0,0,0,0.5,0,1});
+  --SoundSfx(  )
+else
+  ld.WrongApply();
+end;
+</code>
+		</trig>
