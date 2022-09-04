@@ -2,16 +2,11 @@
  --*********************************************************************************************************************
 function public.Start( param )
 
-  interface.WidgetAdd( InterfaceWidget_Window );
-  interface.WidgetAdd( InterfaceWidget_Pause, 2000 );
-  interface.WidgetAdd( InterfaceWidget_DialogVideo );
-  --interface.WidgetAdd( InterfaceWidget_Effects );
-  --interface.WidgetAdd( InterfaceWidget_Popup );
-
-  interface.LockAdd();
-  --interface.WidgetAdd( InterfaceWidget_StrategyGuide );
-
-  interface.PanelNotificationAdd(10);
+  --interface.WidgetAdd( InterfaceWidget_Window, 0, "assets/shared/interface/int_window" );
+  --interface.WidgetAdd( InterfaceWidget_Pause, 2000, "assets/shared/interface/int_pause" );
+  interface.WidgetAdd( InterfaceWidget_DialogVideo, 0, "assets/interface/int_dialog_video" )
+  
+  interface.LockAdd()
 
   local modules = 
   {

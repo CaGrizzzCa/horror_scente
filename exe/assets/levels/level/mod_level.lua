@@ -4,49 +4,49 @@ function public.Start ( param )
 
 
   interface.WidgetAdd( InterfaceWidget_Pause, 1800 );
-  interface.WidgetAdd( InterfaceWidget_BtnMenu, 8 );
-  interface.WidgetAdd( InterfaceWidget_BtnHint, 11  );
-  interface.WidgetAdd( InterfaceWidget_BtnSkip, 11 );
-  interface.WidgetAdd( InterfaceWidget_BtnInfo, 9 );
-  interface.WidgetAdd( InterfaceWidget_BtnReset, 10 );
-  interface.WidgetAdd( InterfaceWidget_Inventory, 9 );
-  interface.WidgetAdd( InterfaceWidget_TaskPanel, 9 );
-  interface.WidgetAdd( InterfaceWidget_Effects );
-  interface.WidgetAdd( InterfaceWidget_DialogHo,30 );
+  --interface.WidgetAdd( InterfaceWidget_BtnMenu, 8 );
+  --interface.WidgetAdd( InterfaceWidget_BtnHint, 11  );
+  --interface.WidgetAdd( InterfaceWidget_BtnSkip, 11 );
+  --interface.WidgetAdd( InterfaceWidget_BtnInfo, 9 );
+  --interface.WidgetAdd( InterfaceWidget_BtnReset, 10 );
+  --interface.WidgetAdd( InterfaceWidget_Inventory, 9 );
+  --interface.WidgetAdd( InterfaceWidget_TaskPanel, 9 );
+  --interface.WidgetAdd( InterfaceWidget_Effects );
+  --interface.WidgetAdd( InterfaceWidget_DialogHo,30 );
 
-  interface.ButtonLockAdd();
-  interface.LockAdd();
+  --interface.ButtonLockAdd();
+  --interface.LockAdd();
 
-  interface.WidgetAdd( InterfaceWidget_FrameSubroom, 8 );
-  interface.WidgetAdd( InterfaceWidget_ItemPanel,9 );
-  interface.WidgetAdd( InterfaceWidget_Popup,17 );
-  interface.WidgetAdd( InterfaceWidget_BlackBarText, 1500 );
-  interface.WidgetAdd( InterfaceWidget_Dialog,30 );
-  interface.WidgetAdd( InterfaceWidget_DialogVideo,30 );
-  interface.WidgetAdd( InterfaceWidget_DialogStory,30 );
-  interface.WidgetAdd( InterfaceWidget_DialogCharacter, 30 );
+  --interface.WidgetAdd( InterfaceWidget_FrameSubroom, 8 );
+  --interface.WidgetAdd( InterfaceWidget_ItemPanel,9 );
+  --interface.WidgetAdd( InterfaceWidget_Popup,17 );
+  --interface.WidgetAdd( InterfaceWidget_BlackBarText, 1500 );
+  --interface.WidgetAdd( InterfaceWidget_Dialog,30 );
+  interface.WidgetAdd( InterfaceWidget_DialogVideo, 30, "assets/interface/int_dialog_video" );
+  --interface.WidgetAdd( InterfaceWidget_DialogStory,30 );
+  --interface.WidgetAdd( InterfaceWidget_DialogCharacter, 30 );
   interface.WidgetAdd( InterfaceWidget_Window );
-  interface.WidgetAdd( InterfaceWidget_Tutorial,30 );
-  interface.WidgetAdd( InterfaceWidget_Map, 16  );
-  ObjSet( "obj_map_arrows", {input = 0, visible = 0} );
-  interface.WidgetAdd( InterfaceWidget_BtnMap, 13 );
+  --interface.WidgetAdd( InterfaceWidget_Tutorial,30 );
+  --interface.WidgetAdd( InterfaceWidget_Map, 16  );
+  --ObjSet( "obj_map_arrows", {input = 0, visible = 0} );
+  --interface.WidgetAdd( InterfaceWidget_BtnMap, 13 );
 
-  interface.PanelNotificationAdd(10);
+  --interface.PanelNotificationAdd(10);
 
   if IsCollectorsEdition() then
     if false then -- temp for version (false for off guide)
-      interface.WidgetAdd( InterfaceWidget_StrategyGuide,30 );
-      interface.WidgetAdd( InterfaceWidget_BtnGuide, 12 );
+      --interface.WidgetAdd( InterfaceWidget_StrategyGuide,30 );
+      --interface.WidgetAdd( InterfaceWidget_BtnGuide, 12 );
     end
   end  
 
-  interface.ComplexInvAdd( 8 )
-  interface.DialogHintAdd(20);
+  --interface.ComplexInvAdd( 8 )
+  --interface.DialogHintAdd(20);
 
-  interface.PanelhopairAdd(9)
+  --interface.PanelhopairAdd(9)
 
-  interface.ButtonTaskAdd(20)
-  interface.DialogTaskAdd(10)
+  --interface.ButtonTaskAdd(20)
+  --interface.DialogTaskAdd(10)
 
   private.Init( param );
 

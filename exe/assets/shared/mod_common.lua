@@ -120,7 +120,7 @@ function private.Init()
   ModLoad( "assets/shared/mod_subroom" );
   subroom.Init();
 
-  ModLoad( "assets/shared/interface/mod_interface" );
+  ModLoad( "assets/interface/mod_interface" );
   interface.Init();
 
   ModLoad( "assets/levels/common/mod_common_impl" );
@@ -1408,7 +1408,7 @@ end;
 
       public.LevelSwitch( level );
     end
-    rm_menu.DynamicStart( func_end )
+    func_end()
 
   end;
   --------------------------------------------------------------------
@@ -2490,41 +2490,41 @@ end;
 --*********************************************************************************************************************
   function private.InitEvents()
 
-    Event_ButtonGuide_Click       = "Event_ButtonGuide_Click";
-    Event_ButtonHint_Click        = "Event_ButtonHint_Click";
-    Event_ButtonInfo_Click        = "Event_ButtonInfo_Click";
-    Event_ButtonReset_Click       = "Event_ButtonReset_Click";
-    Event_ButtonSkip_Click        = "Event_ButtonSkip_Click";
-    Event_ButtonLock_Click        = "Event_ButtonLock_Click";
-    Event_ButtonMap_Click         = "Event_ButtonMap_Click";
-    Event_ButtonMenu_Click        = "Event_ButtonMenu_Click";
-    Event_FrameSubroom_Click      = "Event_FrameSubroom_Click";
-    Event_Tutorial_Click          = "Event_Tutorial_Click";
-    Event_HoHint_NoObjects        = "Event_HoHint_NoObjects";
-    Event_DialogHo_Show           = "Event_DialogHo_Show";
-    Event_DialogHo_Hide           = "Event_DialogHo_Hide";
-    Event_PanelNotification_Click = "Event_PanelNotification_Click";
+    --Event_ButtonGuide_Click       = "Event_ButtonGuide_Click";
+    --Event_ButtonHint_Click        = "Event_ButtonHint_Click";
+    --Event_ButtonInfo_Click        = "Event_ButtonInfo_Click";
+    --Event_ButtonReset_Click       = "Event_ButtonReset_Click";
+    --Event_ButtonSkip_Click        = "Event_ButtonSkip_Click";
+    --Event_ButtonLock_Click        = "Event_ButtonLock_Click";
+    --Event_ButtonMap_Click         = "Event_ButtonMap_Click";
+    --Event_ButtonMenu_Click        = "Event_ButtonMenu_Click";
+    --Event_FrameSubroom_Click      = "Event_FrameSubroom_Click";
+    --Event_Tutorial_Click          = "Event_Tutorial_Click";
+    --Event_HoHint_NoObjects        = "Event_HoHint_NoObjects";
+    --Event_DialogHo_Show           = "Event_DialogHo_Show";
+    --Event_DialogHo_Hide           = "Event_DialogHo_Hide";
+    --Event_PanelNotification_Click = "Event_PanelNotification_Click";
 
-    Command_Effect_ShowHoHint     = "Command_Effect_ShowHoHint"
+    --Command_Effect_ShowHoHint     = "Command_Effect_ShowHoHint"
 
   end;
   -----------------------------------------------------------------------------
   function private.SubscribeEvents()
 
-    MsgSubscribe( Event_ButtonGuide_Click, private.Handle_Event_ButtonGuide_Click );
-    MsgSubscribe( Event_ButtonHint_Click, private.Handle_Event_ButtonHint_Click );
-    MsgSubscribe( Event_ButtonInfo_Click, private.Handle_Event_ButtonInfo_Click );
-    MsgSubscribe( Event_ButtonReset_Click, private.Handle_Event_ButtonReset_Click );
-    MsgSubscribe( Event_ButtonSkip_Click, private.Handle_Event_ButtonSkip_Click );
-    MsgSubscribe( Event_ButtonLock_Click, private.Handle_Event_ButtonLock_Click );
-    MsgSubscribe( Event_ButtonMap_Click, private.Handle_Event_ButtonMap_Click );
-    MsgSubscribe( Event_ButtonMenu_Click, private.Handle_Event_ButtonMenu_Click );
-    MsgSubscribe( Event_FrameSubroom_Click, private.Handle_Event_FrameSubroom_Click );
-    MsgSubscribe( Event_Tutorial_Click, private.Handle_Event_Tutorial_Click );
-    MsgSubscribe( Event_HoHint_NoObjects, private.Handle_Event_HoHint_NoObjects );
-    MsgSubscribe( Event_DialogHo_Show, private.Handle_Event_DialogHo_Show );
-    MsgSubscribe( Event_DialogHo_Hide, private.Handle_Event_DialogHo_Hide );
-    MsgSubscribe( Event_PanelNotification_Click, private.Handle_Event_PanelNotification_Click );
+    --MsgSubscribe( Event_ButtonGuide_Click, private.Handle_Event_ButtonGuide_Click );
+    --MsgSubscribe( Event_ButtonHint_Click, private.Handle_Event_ButtonHint_Click );
+    --MsgSubscribe( Event_ButtonInfo_Click, private.Handle_Event_ButtonInfo_Click );
+    --MsgSubscribe( Event_ButtonReset_Click, private.Handle_Event_ButtonReset_Click );
+    --MsgSubscribe( Event_ButtonSkip_Click, private.Handle_Event_ButtonSkip_Click );
+    --MsgSubscribe( Event_ButtonLock_Click, private.Handle_Event_ButtonLock_Click );
+    --MsgSubscribe( Event_ButtonMap_Click, private.Handle_Event_ButtonMap_Click );
+    --MsgSubscribe( Event_ButtonMenu_Click, private.Handle_Event_ButtonMenu_Click );
+    --MsgSubscribe( Event_FrameSubroom_Click, private.Handle_Event_FrameSubroom_Click );
+    --MsgSubscribe( Event_Tutorial_Click, private.Handle_Event_Tutorial_Click );
+    --MsgSubscribe( Event_HoHint_NoObjects, private.Handle_Event_HoHint_NoObjects );
+    --MsgSubscribe( Event_DialogHo_Show, private.Handle_Event_DialogHo_Show );
+    --MsgSubscribe( Event_DialogHo_Hide, private.Handle_Event_DialogHo_Hide );
+    --MsgSubscribe( Event_PanelNotification_Click, private.Handle_Event_PanelNotification_Click );
 
     MsgSubscribe( Event_Level_CheatKeyPressed,        private.Handle_Event_Level_CheatKeyPressed );
     MsgSubscribe( Event_Application_ToggleFullScreen, private.Handle_Event_Application_ToggleFullScreen );
@@ -2544,20 +2544,20 @@ end;
   -----------------------------------------------------------------------------
   function private.UnubscribeEvents()
 
-    MsgUnsubscribe( Event_ButtonGuide_Click, private.Handle_Event_ButtonGuide_Click );
-    MsgUnsubscribe( Event_ButtonHint_Click, private.Handle_Event_ButtonHint_Click );
-    MsgUnsubscribe( Event_ButtonInfo_Click, private.Handle_Event_ButtonInfo_Click );
-    MsgUnsubscribe( Event_ButtonReset_Click, private.Handle_Event_ButtonReset_Click );
-    MsgUnsubscribe( Event_ButtonSkip_Click, private.Handle_Event_ButtonSkip_Click );
-    MsgUnsubscribe( Event_ButtonLock_Click, private.Handle_Event_ButtonLock_Click );
-    MsgUnsubscribe( Event_ButtonMap_Click, private.Handle_Event_ButtonMap_Click );
-    MsgUnsubscribe( Event_ButtonMenu_Click, private.Handle_Event_ButtonMenu_Click );
-    MsgUnsubscribe( Event_FrameSubroom_Click, private.Handle_Event_FrameSubroom_Click );
-    MsgUnsubscribe( Event_Tutorial_Click, private.Handle_Event_Tutorial_Click );
-    MsgUnsubscribe( Event_HoHint_NoObjects, private.Handle_Event_HoHint_NoObjects );
-    MsgUnsubscribe( Event_DialogHo_Show, private.Handle_Event_DialogHo_Show );
-    MsgUnsubscribe( Event_DialogHo_Hide, private.Handle_Event_DialogHo_Hide );
-    MsgUnsubscribe( Event_PanelNotification_Click, private.Handle_Event_PanelNotification_Click );
+    --MsgUnsubscribe( Event_ButtonGuide_Click, private.Handle_Event_ButtonGuide_Click );
+    --MsgUnsubscribe( Event_ButtonHint_Click, private.Handle_Event_ButtonHint_Click );
+    --MsgUnsubscribe( Event_ButtonInfo_Click, private.Handle_Event_ButtonInfo_Click );
+    --MsgUnsubscribe( Event_ButtonReset_Click, private.Handle_Event_ButtonReset_Click );
+    --MsgUnsubscribe( Event_ButtonSkip_Click, private.Handle_Event_ButtonSkip_Click );
+    --MsgUnsubscribe( Event_ButtonLock_Click, private.Handle_Event_ButtonLock_Click );
+    --MsgUnsubscribe( Event_ButtonMap_Click, private.Handle_Event_ButtonMap_Click );
+    --MsgUnsubscribe( Event_ButtonMenu_Click, private.Handle_Event_ButtonMenu_Click );
+    --MsgUnsubscribe( Event_FrameSubroom_Click, private.Handle_Event_FrameSubroom_Click );
+    --MsgUnsubscribe( Event_Tutorial_Click, private.Handle_Event_Tutorial_Click );
+    --MsgUnsubscribe( Event_HoHint_NoObjects, private.Handle_Event_HoHint_NoObjects );
+    --MsgUnsubscribe( Event_DialogHo_Show, private.Handle_Event_DialogHo_Show );
+    --MsgUnsubscribe( Event_DialogHo_Hide, private.Handle_Event_DialogHo_Hide );
+    --MsgUnsubscribe( Event_PanelNotification_Click, private.Handle_Event_PanelNotification_Click );
 
     MsgUnsubscribe( Event_Level_CheatKeyPressed,        private.Handle_Event_Level_CheatKeyPressed );
     MsgUnsubscribe( Event_Application_ToggleFullScreen, private.Handle_Event_Application_ToggleFullScreen );
@@ -2682,11 +2682,11 @@ end;
 
   end;
   -----------------------------------------------------------------------------
-  function private.Handle_Event_PanelNotification_Click( msg, params )
-
-    common_impl.PanelNotification_Click( params.notification_type );
-
-  end;
+--  function private.Handle_Event_PanelNotification_Click( msg, params )
+--
+--    common_impl.PanelNotification_Click( params.notification_type );
+--
+--  end;
   -----------------------------------------------------------------------------
   function private.Handle_Event_Level_CheatKeyPressed( msg, params )
 

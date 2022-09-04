@@ -19,19 +19,18 @@
     <mod path="assets/levels/level/rm_entrypoint/mod_entrypoint" />
     <mod path="assets/levels/level/rm_outro/mod_outro" />
   </group>
-  <group name="interface" >
-    <mod path="assets/shared/interface/mod_interface" />
-    <mod path="assets/shared/interface/int_dialog_video" />
+  <group name="shared" >
+    <mod path="assets/shared/interface/int_lock" />
     <mod path="assets/shared/interface/int_loading" />
-    <mod path="assets/shared/interface/int_panel_notification" />
+    <mod path="assets/shared/interface/int_loading_impl" />
     <mod path="assets/shared/interface/int_pause" />
+    <mod path="assets/shared/interface/int_pause_impl" />
     <mod path="assets/shared/interface/int_window" />
   </group>
   <group name="interface_impl" >
+    <mod path="assets/interface/mod_interface" />
+    <mod path="assets/interface/mod_interface_impl" />
+    <mod path="assets/interface/int_dialog_video" />
     <mod path="assets/interface/int_dialog_video_impl" />
-    <mod path="assets/interface/int_loading_impl" />
-    <mod path="assets/interface/int_lock" />
-    <mod path="assets/interface/int_panel_notification_impl" />
-    <mod path="assets/interface/int_pause_impl" />
   </group>
 </project>

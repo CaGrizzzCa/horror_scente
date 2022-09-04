@@ -9,8 +9,7 @@
 		"publisherName": "Elephant Games",
 		"gameName": "Horror Scente",
 		"strings": [
-			"assets/strings",
-			"assets/strings_ce"
+			"assets/strings"
 		]
 	},
 	"start_point": {

@@ -17,7 +17,7 @@ end;
 --******************************************************************************************
 function public.Init()
 
-  ModLoad( "assets/interface/int_loading_impl" );
+  ModLoad( "assets/shared/interface/int_loading_impl" );
   int_loading_impl.Init();
 
   ObjAttach( "int_loading_impl", "int_loading" );

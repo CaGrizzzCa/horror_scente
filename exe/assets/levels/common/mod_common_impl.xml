@@ -1,10 +1,6 @@
 <module name="common_impl" version="1.0">
     <objs>
         <obj __type="obj" _name="__common_impl_rootobj">
-            <obj __type="anim" _name="anm_simplemorphcollect_1" animfunc="morph" endtrig="0" playing="1" pos_z="-1" res="assets/levels/common/morph_anm">
-                <obj __type="spr" _name="spr_simplemorphcollect_tr_1" anim_tag="morph_tr" input="0"/>
-                <obj __type="spr" _name="spr_simplemorphcollect_1" anim_tag="morph"/>
-            </obj>
             <obj __type="obj" _name="dlg_windows_hub" pos_x="512" pos_y="384">
                 <obj __type="obj" _name="wnd_dialog_addprofile">
                     <obj __type="spr" _name="spr_dialog_addprofile" pos_y="-107" pos_z="1" res="assets/levels/common/profile/profile_back">
@@ -32,7 +28,7 @@
                 </obj>
                 <obj __type="obj" _name="wnd_dialog_common">
                     <obj __type="spr" _name="spr_dialog_common" pos_y="-107" pos_z="1" res="assets/levels/common/dialog_back">
-                        <obj __type="grid" _name="grd_dialog_common" active="0" alp="0" input="0" res="assets/interface/resources/int_dialog/dialog" visible="0"/>
+                        <obj __type="grid" _name="grd_dialog_common" active="0" alp="0" input="0" visible="0"/>
                         <obj __type="obj" _name="dialog_common_buttons" pos_y="113">
                             <obj __type="obj" _name="dialog_common_button_left" event_mdown="common.dialog.ButtonMouseDown( &quot;common&quot;, &quot;left&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;common&quot;, &quot;left&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;common&quot;, &quot;left&quot; );" input="0" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25" pos_x="-162" visible="0">
                                 <obj __type="spr" _name="spr_dialog_common_button_left" active="0" input="0" res="assets/levels/common/btn"/>
@@ -55,7 +51,7 @@
                 </obj>
                 <obj __type="obj" _name="wnd_dialog_togglescreen">
                     <obj __type="spr" _name="spr_dialog_togglescreen" pos_y="-107" pos_z="1" res="assets/levels/common/dialog_back">
-                        <obj __type="grid" _name="grd_dialog_togglescreen" active="0" alp="0" input="0" pos_x="-210" pos_y="22" res="assets/interface/resources/int_dialog/dialog" visible="0"/>
+                        <obj __type="grid" _name="grd_dialog_togglescreen" active="0" alp="0" input="0" pos_x="-210" pos_y="22" visible="0"/>
                         <obj __type="obj" _name="dialog_togglescreen_buttons" pos_y="113">
                             <obj __type="obj" _name="dialog_togglescreen_button_center" event_mdown="common.dialog.ButtonMouseDown( &quot;togglescreen&quot;, &quot;center&quot; );" event_menter="common_impl.DialogButtonMouseEnter( &quot;togglescreen&quot;, &quot;center&quot; );" event_mleave="common_impl.DialogButtonMouseLeave( &quot;togglescreen&quot;, &quot;center&quot; );" inputrect_h="50" inputrect_init="1" inputrect_w="120" inputrect_x="-60" inputrect_y="-25">
                                 <obj __type="spr" _name="spr_dialog_togglescreen_button_center" active="0" input="0" res="assets/levels/common/btn"/>
@@ -441,7 +437,6 @@
                 </obj>
             </obj>
             <obj __type="timer" _name="tmr_common_timer" input="0" visible="0"/>
-            <obj __type="spr" _name="spr_common_ghomask" alp="0" color_b="0" color_g="0" color_r="0" input="0" res="assets/back" visible="0"/>
         </obj>
     </objs>
 </module>

@@ -3,9 +3,7 @@
         <obj __type="obj" _name="__rm_entrypoint_rootobj">
             <obj __type="obj" _name="rm_entrypoint">
                 <obj __type="spr" _name="spr_entrypoint_back" input="0" pos_x="512" pos_y="384" pos_z="-999" res="assets/levels/level/rm_entrypoint/back"/>
-                <obj __type="partsys_pm" _name="pfx_entrypoint_dust" input="0" playing="1" pos_z="99" res="assets/levels/common/fx/stock/rm_dust"/>
             </obj>
-            <obj __type="video" _name="vid_entrypoint_vid_intro" input="0" pos_x="512" pos_y="384" pos_z="100" res="assets/levels/level/rm_entrypoint/anims/vid_intro"/>
         </obj>
     </objs>
 </module>

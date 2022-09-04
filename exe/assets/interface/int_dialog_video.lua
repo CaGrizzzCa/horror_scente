@@ -1,7 +1,7 @@
 -- name=int_dialog_video
 --******************************************************************************************
 function public.Init( pos_z )
-
+  
   interface.LoadImplementation( "dialog_video" );
   private.object_current = nil;
   private.skip_func = nil;
@@ -142,12 +142,6 @@ function private.SkipShow()
   local event_id = "skip_show";
   private.event_anim_end[ event_id ] = message_params;
   int_dialog_video_impl.SkipShowAnim( event_id );
-
-end;
---******************************************************************************************
-function private.WideScreenUpdate()
-
-  interface.WideScreenUpdate( "dialog_video" );
 
 end;
 --******************************************************************************************

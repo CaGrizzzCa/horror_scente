@@ -2513,62 +2513,62 @@ end;
     end;
   end;
   --------------------------------------------------------------------------------------
-  function public.PanelNotification_Click( notification_type )
-
-   -- DbgTrace( "Notification Panel Clicked. Notification type: "..notification_type );
-    if notification_type == "achievement" then
-
-
-        if not (public.achievement_loaded) then
-          local module = "rm_achievements";
-
-          ModLoad("assets/levels/menu/rm_achievements/mod_achievements" );
-          ObjAttach( module, room.hub );
-
-          _G[ module ].Init();
-          public.achievement_loaded = true
-        end
-        if common.GetCurrentSubRoom() then 
-          ld.CloseSubRoom()
-        end
-        interface.ComplexInvHide()
-        common.GotoRoom( "rm_achievements",0,true );
-    elseif notification_type == "puzzle" then
-
-        if not (public.screensaver_loaded) then
-          local module = "rm_screensaver";
-
-          ModLoad("assets/levels/menu/rm_screensaver/mod_screensaver" );
-          ObjAttach( module, room.hub );
-
-          _G[ module ].Init();
-          public.screensaver_loaded = true
-        end
-        if common.GetCurrentSubRoom() then 
-          ld.CloseSubRoom()
-        end
-        interface.ComplexInvHide()
-        common.GotoRoom( "rm_screensaver",0,true );
-    elseif notification_type == "morphing" then
-
-        if not (public.collectibles_loaded) then
-          local module = "rm_collectibles";
-
-          ModLoad("assets/levels/menu/rm_collectibles/mod_collectibles" );
-          ObjAttach( module, room.hub );
-
-          _G[ module ].Init();
-          public.collectibles_loaded = true
-        end
-        if common.GetCurrentSubRoom() then 
-          ld.CloseSubRoom()
-        end
-        interface.ComplexInvHide()
-        common.GotoRoom( "rm_collectibles",0,true );
-    elseif notification_type == "simplemorphing" then
-        
-    end
-  end;
+--  function public.PanelNotification_Click( notification_type )
+--
+--   -- DbgTrace( "Notification Panel Clicked. Notification type: "..notification_type );
+--    if notification_type == "achievement" then
+--
+--
+--        if not (public.achievement_loaded) then
+--          local module = "rm_achievements";
+--
+--          ModLoad("assets/levels/menu/rm_achievements/mod_achievements" );
+--          ObjAttach( module, room.hub );
+--
+--          _G[ module ].Init();
+--          public.achievement_loaded = true
+--        end
+--        if common.GetCurrentSubRoom() then 
+--          ld.CloseSubRoom()
+--        end
+--        interface.ComplexInvHide()
+--        common.GotoRoom( "rm_achievements",0,true );
+--    elseif notification_type == "puzzle" then
+--
+--        if not (public.screensaver_loaded) then
+--          local module = "rm_screensaver";
+--
+--          ModLoad("assets/levels/menu/rm_screensaver/mod_screensaver" );
+--          ObjAttach( module, room.hub );
+--
+--          _G[ module ].Init();
+--          public.screensaver_loaded = true
+--        end
+--        if common.GetCurrentSubRoom() then 
+--          ld.CloseSubRoom()
+--        end
+--        interface.ComplexInvHide()
+--        common.GotoRoom( "rm_screensaver",0,true );
+--    elseif notification_type == "morphing" then
+--
+--        if not (public.collectibles_loaded) then
+--          local module = "rm_collectibles";
+--
+--          ModLoad("assets/levels/menu/rm_collectibles/mod_collectibles" );
+--          ObjAttach( module, room.hub );
+--
+--          _G[ module ].Init();
+--          public.collectibles_loaded = true
+--        end
+--        if common.GetCurrentSubRoom() then 
+--          ld.CloseSubRoom()
+--        end
+--        interface.ComplexInvHide()
+--        common.GotoRoom( "rm_collectibles",0,true );
+--    elseif notification_type == "simplemorphing" then
+--        
+--    end
+--  end;
   --------------------------------------------------------------------------------------
   function public.ButtonGuide_Click()
 

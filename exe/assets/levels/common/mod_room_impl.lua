@@ -168,11 +168,11 @@ function public.HideBlack( event_id )
       end
     end
     --<<
-    common_impl.LockRm( 0 );
+    --common_impl.LockRm( 0 );
     room.EventAnimEnd( event_id ); 
   end;
   ObjAnimate( public.BLACK_NAME, "alp", 0, 0, trg, {0,0,1, public.FADE_TIME/2,0,0} );
-  common_impl.LockRm( 1 )
+  --common_impl.LockRm( 1 )
 
 end;
 --********************************************************************************************************************
