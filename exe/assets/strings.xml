@@ -217,16 +217,50 @@
   </table>
   <table name="menu">
     <row>
-      <id>str_menu_play</id>
-      <text><![CDATA[PLAY]]></text>
+      <id>str_menu_new</id>
+      <text><![CDATA[New]]></text>
+    </row>
+    <row>
+      <id>str_menu_continue</id>
+      <text><![CDATA[Continue]]></text>
     </row>
     <row>
       <id>str_menu_options</id>
       <text><![CDATA[Options]]></text>
     </row>
     <row>
-      <id>str_menu_quit</id>
-      <text><![CDATA[Quit]]></text>
+      <id>str_menu_exit</id>
+      <text><![CDATA[Exit Game]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
+    </row>
+    <row>
+      <id>
+      </id>
+      <text><![CDATA[]]></text>
     </row>
     <row>
       <id>str_menu_welcome</id>

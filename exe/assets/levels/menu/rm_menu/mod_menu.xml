@@ -1,7 +1,24 @@
 <module name="rm_menu" version="1.0">
     <objs>
         <obj __type="obj" _name="__rm_menu_rootobj">
-            <obj __type="spr" _name="rm_menu" drawoff_x="512" drawoff_y="384" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-171" pos_z="10" res="assets/levels/menu/rm_menu/back"/>
+            <obj __type="spr" _name="rm_menu" drawoff_x="512" drawoff_y="384" input="0" inputrect_h="768" inputrect_init="1" inputrect_w="1366" inputrect_x="-171" pos_z="10" res="assets/levels/menu/rm_menu/back">
+                <obj __type="spr" _name="spr_menu_but_new" pos_x="502" pos_y="200" res="assets/levels/menu/rm_menu/buttons/but_default">
+                    <obj __type="text" _name="txt_menu_but_new" fontcolor_b="0.2" fontcolor_g="0.2" fontcolor_r="0.2" input="0" res="assets/fonts/share-regular" text="str_menu_new"/>
+                    <obj __type="spr" _name="spr_menu_but_new_add" alp="0" blendmode="2" input="0" res="assets/levels/menu/rm_menu/buttons/but_default_add"/>
+                </obj>
+                <obj __type="spr" _name="spr_menu_but_continue" active="0" input="0" pos_x="502" pos_y="121" res="assets/levels/menu/rm_menu/buttons/but_default" visible="0">
+                    <obj __type="text" _name="txt_menu_but_continue" fontcolor_b="0.2" fontcolor_g="0.2" fontcolor_r="0.2" input="0" res="assets/fonts/share-regular" text="str_menu_continue"/>
+                    <obj __type="spr" _name="spr_menu_but_continue_add" alp="0" blendmode="2" input="0" res="assets/levels/menu/rm_menu/buttons/but_default_add"/>
+                </obj>
+                <obj __type="spr" _name="spr_menu_but_options" pos_x="502" pos_y="279" res="assets/levels/menu/rm_menu/buttons/but_default">
+                    <obj __type="text" _name="txt_menu_but_options" fontcolor_b="0.2" fontcolor_g="0.2" fontcolor_r="0.2" input="0" res="assets/fonts/share-regular" text="str_menu_options"/>
+                    <obj __type="spr" _name="spr_menu_but_options_add" alp="0" blendmode="2" input="0" res="assets/levels/menu/rm_menu/buttons/but_default_add"/>
+                </obj>
+                <obj __type="spr" _name="spr_menu_but_exit" pos_x="502" pos_y="360" res="assets/levels/menu/rm_menu/buttons/but_default">
+                    <obj __type="text" _name="txt_menu_but_exit" fontcolor_b="0.2" fontcolor_g="0.2" fontcolor_r="0.2" input="0" res="assets/fonts/share-regular" text="str_menu_exit"/>
+                    <obj __type="spr" _name="spr_menu_but_exit_add" alp="0" blendmode="2" input="0" res="assets/levels/menu/rm_menu/buttons/but_default_add"/>
+                </obj>
+            </obj>
             <obj __type="video" _name="vid_menu_open" input="0" pos_x="512" pos_y="384" pos_z="100" res="assets/levels/menu/rm_menu/vid_open"/>
         </obj>
     </objs>
